@@ -35,7 +35,7 @@
 }
 /*============ Estilos generales*/
 body, html{
-	/*background-color: #fff;*/
+	/*background-color: rgb(231, 39, 39);*/
 	background-image: url('../assets/img/logo_l.png');
 	width: 100%;
 	height: 100%;
@@ -210,6 +210,7 @@ body, html{
 }
 /*contentPage*/
 .dashboard-contentPage{
+	color: #000000;
 	right: 0;
 	z-index: 1;
 	padding-left: 270px;
@@ -225,7 +226,7 @@ body, html{
 	outline: none;
 }
 .dashboard-Navbar{
-	background-color: #000;
+	background-color: rgba(0, 0, 0, 0.63);
 	overflow: hidden;
 }
 .dashboard-Navbar > ul >li,
