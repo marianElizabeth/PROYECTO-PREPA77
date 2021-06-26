@@ -38,68 +38,55 @@
 			<ul class="list-unstyled full-box dashboard-sideBar-Menu">
 				<li>
 					<a href="home.html">
-						<i class="zmdi zmdi-view-dashboard zmdi-hc-fw"></i> Dashboard
+						<i class="zmdi zmdi-view-dashboard zmdi-hc-fw"></i> Menú principal
 					</a>
 				</li>
 				<li>
 					<a href="#!" class="btn-sideBar-SubMenu">
-						<i class="zmdi zmdi-case zmdi-hc-fw"></i> Administration <i class="zmdi zmdi-caret-down pull-right"></i>
+						<i class="nav-icon fas fa-tachometer-alt"></i>
+						<i class="zmdi zmdi-card zmdi-hc-fw"></i>Datos del Alumno<i class="zmdi zmdi-caret-down pull-right"></i>
 					</a>
 					<ul class="list-unstyled full-box">
 						<li>
-							<a href="period.html"><i class="zmdi zmdi-timer zmdi-hc-fw"></i> Period</a>
+							<a href="period.html"><i class="zmdi zmdi-face zmdi-hc-fw"></i>Datos Generales</a>
 						</li>
 						<li>
-							<a href="subject.html"><i class="zmdi zmdi-book zmdi-hc-fw"></i> Subject</a>
+							<a href="subject.html"><i class="zmdi zmdi-balance  zmdi-hc-fw"></i>Procedencia</a>
 						</li>
 						<li>
-							<a href="section.html"><i class="zmdi zmdi-graduation-cap zmdi-hc-fw"></i> Section</a>
+							<a href="section.html"><i class="zmdi zmdi-pin zmdi-hc-fw"></i>Dirección</a>
 						</li>
 						<li>
-							<a href="salon.html"><i class="zmdi zmdi-font zmdi-hc-fw"></i> Salon</a>
+							<a href="admin.html"><i class="zmdi zmdi-male-female zmdi-hc-fw"></i>Padres</a>
+						</li>
+						<li>
+							<a href="student.html"><i class="zmdi zmdi-eye zmdi-hc-fw"></i>Ver información</a>
 						</li>
 					</ul>
 				</li>
 				<li>
 					<a href="#!" class="btn-sideBar-SubMenu">
-						<i class="zmdi zmdi-account-add zmdi-hc-fw"></i> Users <i class="zmdi zmdi-caret-down pull-right"></i>
+						<i class="zmdi zmdi-account zmdi-hc-fw"></i>Datos del Docente<i class="zmdi zmdi-caret-down pull-right"></i>
 					</a>
 					<ul class="list-unstyled full-box">
 						<li>
-							<a href="admin.html"><i class="zmdi zmdi-account zmdi-hc-fw"></i> Admin</a>
+							<a href="teacher.html"><i class="zmdi zmdi-male-alt zmdi-hc-fw"></i>Datos Personales</a>
 						</li>
 						<li>
-							<a href="teacher.html"><i class="zmdi zmdi-male-alt zmdi-hc-fw"></i> Teacher</a>
+							<a href="salon.html"><i class="zmdi zmdi-home zmdi-hc-fw"></i>Datos del Centro de Trabajo</a>
 						</li>
 						<li>
-							<a href="student.html"><i class="zmdi zmdi-face zmdi-hc-fw"></i> Student</a>
+							<a href="payments.html"><i class="zmdi zmdi-graduation-cap zmdi-hc-fw"></i>Preparación Profesional</a>
 						</li>
 						<li>
-							<a href="representative.html"><i class="zmdi zmdi-male-female zmdi-hc-fw"></i> Representative</a>
-						</li>
-					</ul>
-				</li>
-				<li>
-					<a href="#!" class="btn-sideBar-SubMenu">
-						<i class="zmdi zmdi-card zmdi-hc-fw"></i> Payments <i class="zmdi zmdi-caret-down pull-right"></i>
-					</a>
-					<ul class="list-unstyled full-box">
-						<li>
-							<a href="registration.html"><i class="zmdi zmdi-money-box zmdi-hc-fw"></i> Registration</a>
+							<a href="registration.html"><i class="zmdi zmdi-case zmdi-hc-fw"></i>Datos Laborales</a>
 						</li>
 						<li>
-							<a href="payments.html"><i class="zmdi zmdi-money zmdi-hc-fw"></i> Payments</a>
+							<a href="representative.html"><i class="zmdi zmdi-city zmdi-hc-fw"></i>Escuelas Donde Labora</a>
 						</li>
-					</ul>
-				</li>
-				<li>
-					<a href="#!" class="btn-sideBar-SubMenu">
-						<i class="zmdi zmdi-shield-security zmdi-hc-fw"></i> Settings School <i class="zmdi zmdi-caret-down pull-right"></i>
-					</a>
-					<ul class="list-unstyled full-box">
 						<li>
-							<a href="school.html"><i class="zmdi zmdi-balance zmdi-hc-fw"></i> School Data</a>
-						</li>
+							<a href="school.html"><i class="zmdi zmdi-eye zmdi-hc-fw"></i>Ver información</a>
+						</li>						
 					</ul>
 				</li>
 			</ul>
@@ -143,89 +130,9 @@
 			<div class="row">
 				<div class="col-xs-12">
 					<ul class="nav nav-tabs" style="margin-bottom: 15px;">
-					  	<li class="active"><a href="#new" data-toggle="tab">New</a></li>
-					  	<li><a href="#list" data-toggle="tab">List</a></li>
+					  	<li><a href="#list" data-toggle="tab">Mostrar</a></li>
 					</ul>
 					<div id="myTabContent" class="tab-content">
-						<div class="tab-pane fade active in" id="new">
-							<div class="container-fluid">
-								<div class="row">
-									<div class="col-xs-12 col-md-10 col-md-offset-1">
-									    <form action="">
-									    	<fieldset>Student Data</fieldset>
-									    	<div class="form-group label-floating">
-											  <label class="control-label">Name</label>
-											  <input class="form-control" type="text">
-											</div>
-											<div class="form-group label-floating">
-											  <label class="control-label">Last Name</label>
-											  <input class="form-control" type="text">
-											</div>
-											<div class="form-group label-floating">
-											  <label class="control-label">Address</label>
-											  <textarea class="form-control"></textarea>
-											</div>
-											<div class="form-group label-floating">
-											  <label class="control-label">Email</label>
-											  <input class="form-control" type="text">
-											</div>
-											<div class="form-group label-floating">
-											  <label class="control-label">Phone</label>
-											  <input class="form-control" type="text">
-											</div>
-											<div class="form-group">
-											  <label class="control-label">Birthday</label>
-											  <input class="form-control" type="date">
-											</div>
-											<div class="form-group">
-										        <label class="control-label">Gender</label>
-										        <select class="form-control">
-										          <option>Male</option>
-										          <option>Female</option>
-										        </select>
-										    </div>
-											<div class="form-group">
-										      <label class="control-label">Photo</label>
-										      <div>
-										        <input type="text" readonly="" class="form-control" placeholder="Browse...">
-										        <input type="file" >
-										      </div>
-										    </div>
-										    <div class="form-group">
-										        <label class="control-label">Student Type</label>
-										        <select class="form-control">
-										          <option>Old</option>
-										          <option>New</option>
-										        </select>
-										    </div>
-										    <div class="form-group">
-										        <label class="control-label">Section</label>
-										        <select class="form-control">
-										          <option>1 grade</option>
-										          <option>2 grade</option>
-										          <option>3 grade</option>
-										          <option>4 grade</option>
-										          <option>5 grade</option>
-										        </select>
-										    </div>
-										    <br><br>
-										    <fieldset>Representative Data</fieldset>
-										    <div class="form-group label-floating">
-											  <label class="control-label">Representative DNI</label>
-											  <input class="form-control" type="text">
-											</div>
-											<div class="form-group label-floating">
-											  <label class="control-label">Representative Relationship</label>
-											  <input class="form-control" type="text">
-											</div>
-										    <p class="text-center">
-										    	<button href="#!" class="btn btn-info btn-raised btn-sm"><i class="zmdi zmdi-floppy"></i> Save</button>
-										    </p>
-									    </form>
-									</div>
-								</div>
-							</div>
-						</div>
 					  	<div class="tab-pane fade" id="list">
 							<div class="table-responsive">
 								<table class="table table-hover text-center">
