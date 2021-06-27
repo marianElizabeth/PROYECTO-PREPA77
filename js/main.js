@@ -12,16 +12,16 @@ $(document).ready(function(){
 	});
 	$('.btn-exit-system').on('click', function(){
 		swal({
-		  	title: 'Are you sure?',
-		  	text: "The current session will be closed",
+		  	title: '¿Cerrar Sesión?',
+		  	text: "Desea Salir de la Página",
 		  	type: 'warning',
 		  	showCancelButton: true,
 		  	confirmButtonColor: '#03A9F4',
 		  	cancelButtonColor: '#F44336',
-		  	confirmButtonText: '<i class="zmdi zmdi-run"></i> Yes, Exit!',
-		  	cancelButtonText: '<i class="zmdi zmdi-close-circle"></i> No, Cancel!'
+		  	confirmButtonText: '<i class="zmdi zmdi-run"></i> Salir!',
+		  	cancelButtonText: '<i class="zmdi zmdi-close-circle"></i> Cancelar!'
 		}).then(function () {
-			window.location.href="index.html";
+			window.location.href="InicioDeSesion.html";
 		});
 	});
 	$('.btn-menu-dashboard').on('click', function(){
@@ -45,14 +45,14 @@ $(document).ready(function(){
 	});
 	$('.btn-search').on('click', function(){
 		swal({
-		  title: 'What are you looking for?',
-		  confirmButtonText: '<i class="zmdi zmdi-search"></i>  Search',
+		  title: '¿Qué está Buscando?',
+		  confirmButtonText: '<i class="zmdi zmdi-search"></i>  Buscar',
 		  confirmButtonColor: '#03A9F4',
 		  showCancelButton: true,
 		  cancelButtonColor: '#F44336',
-		  cancelButtonText: '<i class="zmdi zmdi-close-circle"></i> Cancel',
+		  cancelButtonText: '<i class="zmdi zmdi-close-circle"></i> Cancelar',
 		  html: '<div class="form-group label-floating">'+
-			  		'<label class="control-label" for="InputSearch">write here</label>'+
+			  		'<label class="control-label" for="InputSearch">Escriba aquí</label>'+
 			  		'<input class="form-control" id="InputSearch" type="text">'+
 				'</div>'
 		}).then(function () {
