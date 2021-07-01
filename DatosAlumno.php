@@ -114,9 +114,9 @@
 		<!-- Content page -->
 		<div class="container-fluid">
 			<div class="page-header">
-			  <h1 class="text-titles"><i class="zmdi zmdi-face zmdi-hc-fw"></i>Datos Generales<small> Alumno</small></h1>
+			  <h1 class="text-titles"><i class="zmdi zmdi-face zmdi-hc-fw"></i>Datos<small> Alumno</small></h1>
 			</div>
-			<p class="lead">En esta sección puedes ingresar tu información</p>
+			<p class="lead">En esta sección puedes ingresar toda tú información</p>
 		</div>
 		<div class="container-fluid" >
 			<div class="row" >
@@ -132,8 +132,9 @@
 									<div class="col-xs-12 col-md-10 col-md-offset-1" >
 									    <form action="" >
 											<ul class="nav nav-tabs" style="margin-bottom: 15px;">
-												<li class="active"><a href="" data-toggle="tab" ><i class="zmdi zmdi-face zmdi-hc-fw"></i>Información Personal</a></li>
+												<li><a href="" data-toggle="tab" ><i class="zmdi zmdi-face zmdi-hc-fw"></i>Información Personal</a></li>
 										    </ul>
+							
 									    	<div class="form-group label-floating">
 											  <label class="control-label" style="color: rgb(0, 0, 0); font-size: 120%;">Matrícula</label>
 											  <input class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;" type="text" name="txtMatriculaAlum">
@@ -305,9 +306,12 @@
 												<label class="control-label" style="color: rgb(0, 0, 0); font-size: 120%;">Fecha de Baja</label>
 												<input class="form-control" type="date" style="color: rgba(0, 0, 0, 0.671); font-size: 100%;" name="fechaBajaAlum">
 											  </div>
-											  <ul class="nav nav-tabs" style="margin-bottom: 15px;">
-												<li class="active"><a href="" data-toggle="tab" ><i class="zmdi zmdi-balance  zmdi-hc-fw"></i>Procedencia</a></li>
+										    
+
+											<ul class="nav nav-tabs" style="margin-bottom: 15px;">
+												<li class= "disable"><a href="#Procedencia" data-toggle="tab" ><i class="zmdi zmdi-balance  zmdi-hc-fw"></i>Procedencia</a></li>
 										    </ul>
+										    
 											<div class="form-group label-floating">
 												<label class="control-label" style="color: rgb(0, 0, 0); font-size: 120%;">Aciertos de Examen de Ingreso</label>
 												<input class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;"type="text" name="txtAciertosExamenIngresoAlum">
@@ -322,6 +326,7 @@
 												  <label class="control-label" style="color: rgb(0, 0, 0); font-size: 120%;">Promedio Egreso(Secundaria)</label>
 												  <input class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;"type="text" name="txtPromedioEgresoSecundariaAlum">
 												</div>
+										 
 												<ul class="nav nav-tabs" style="margin-bottom: 15px;">
 													<li class="active"><a href="" data-toggle="tab"> <i class="zmdi zmdi-pin zmdi-hc-fw"></i>Dirección</a></li>
 												</ul>

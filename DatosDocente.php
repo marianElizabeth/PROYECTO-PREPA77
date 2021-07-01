@@ -114,9 +114,9 @@
 		<!-- Content page -->
 		<div class="container-fluid">
 			<div class="page-header">
-			  <h1 class="text-titles"><i class="zmdi zmdi-male-alt zmdi-hc-fw"></i> Datos personales <small>Docente</small></h1>
+			  <h1 class="text-titles"><i class="zmdi zmdi-male-alt zmdi-hc-fw"></i> Datos<small> Docente</small></h1>
 			</div>
-			<p class="lead">Aquí podrá actualizar e insertar información del docente </p>
+			<p class="lead">En esta sección puedes ingresar toda tú información</p>
 		</div>
 		<div class="container-fluid">
 			<div class="row">
