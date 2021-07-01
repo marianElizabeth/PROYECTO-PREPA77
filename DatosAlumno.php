@@ -18,7 +18,7 @@
 			<!-- SideBar User info -->
 			<div class="full-box dashboard-sideBar-UserInfo">
 				<figure class="full-box">
-				    <img src="./assets/img/usuario.jpg" alt="UserIcon">
+				   <img src="./assets/img/usuario.jpg" alt="UserIcon">
 					<figcaption class="text-center text-titles">User Name</figcaption>
 				</figure>
 				<ul class="full-box list-unstyled text-center">
@@ -213,7 +213,7 @@
 
 											  <div class="form-group">
 												<label class="control-label" style="color: rgb(0, 0, 0); font-size: 120%;">Fecha de Nacimiento</label>
-												<input class="form-control" type="date" name="dateNacimiento" name="fechaNacimientoAlum">
+												<input class="form-control" type="date" name="fechaNacimientoAlum">
 											  </div>
 											  <div class="form-group label-floating">
 												<label class="control-label" style="color: rgb(0, 0, 0); font-size: 120%;">Estado de Nacimiento</label>
