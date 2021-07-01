@@ -79,12 +79,24 @@
 		<nav class="full-box dashboard-Navbar">
 			<ul class="full-box list-unstyled text-right">
 				<li class="pull-left">
+					
 					<a href="#!" class="btn-menu-dashboard"><i class="zmdi zmdi-more-vert"></i></a>
+				</li>
+				<li class="pull-left">
+					<a href="PaginaPrincipal.html" class="btn-menu-dashboard">Principal</a>
+				</li>
+				<li class="pull-left">     </li>
+				<li class="pull-left">
+					<a href="DatosAlumno.php" class="btn-menu-dashboard">Alumno</a>
+				</li>
+				<li class="pull-left">     </li>
+				<li class="pull-left">
+					<a href="DatosDocente.php" class="btn-menu-dashboard">Docente</a>
 				</li>
 				<li>
 					<a href="#!" class="btn-Notifications-area">
 						<i class="zmdi zmdi-notifications-none"></i>
-						<span class="badge">1</span>
+						<span class="badge">7</span>
 					</a>
 				</li>
 				<li>
