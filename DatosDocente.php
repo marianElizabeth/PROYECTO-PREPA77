@@ -291,7 +291,7 @@
 												</div>
 												<div class="form-group label-floating">
 												  <label class="control-label" style="color: rgb(0, 0, 0); font-size: 120%;">No. Cédula Profesional</label>
-												  <input class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;"type="text" name="txtNo.CedulaProfDocente">
+												  <input class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;"type="text" name="txtNoCedulaProfDocente">
 												</div>
 												<div class="form-group label-floating">
 												  <label class="control-label" style="color: rgb(0, 0, 0); font-size: 120%;">Escuela de Egresión:</label>
@@ -346,7 +346,7 @@
 												</div>
 												<div class="form-group label-floating">
 													<label class="control-label" style="color: rgb(0, 0, 0); font-size: 120%;">No. Cédula Profesional</label>
-													<input class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;"type="text" name="txtNo.CedulaMaestria">
+													<input class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;"type="text" name="txtNoCedulaMaestria">
 												  </div>
 												  <div class="form-group">
 													<label class="control-label" style="color: rgb(0, 0, 0); font-size: 120%;">Doctorado en:</label>
@@ -367,7 +367,7 @@
 												</div>
 												<div class="form-group label-floating">
 													<label class="control-label" style="color: rgb(0, 0, 0); font-size: 120%;">No. Cédula Profesional</label>
-													<input class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;"type="text" name="txtN.CedulaDoctorado">
+													<input class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;"type="text" name="txtNCedulaDoctorado">
 												  </div>
 												<ul class="nav nav-tabs" style="margin-bottom: 15px;">
 													<li class="active"><a href="" data-toggle="tab" ><i class="zmdi zmdi-case zmdi-hc-fw"></i>Datos Laborales</a></li>
@@ -452,7 +452,7 @@
 														  </table>
 														  <div class="form-group label-floating">
 															<label class="control-label" style="color: rgb(0, 0, 0); font-size: 120%;">Número de Plaza</label>
-															<input class="form-control"style="color: rgb(0, 0, 0); font-size: 100%;" type="text" name="txtNo.Plaza">
+															<input class="form-control"style="color: rgb(0, 0, 0); font-size: 100%;" type="text" name="txtNoPlaza">
 														</div>	
 														<div class="form-group label-floating">
 															<label class="control-label" style="color: rgb(0, 0, 0); font-size: 120%;">Número de Prelación</label>
