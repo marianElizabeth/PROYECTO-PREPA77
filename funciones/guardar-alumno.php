@@ -104,7 +104,7 @@
     );";
 
     if(mysqli_query($conexion,$sentencia)){
-        echo("Alumno Almacenado Correctamene");
+        echo "Alumno Almacenado Correctamene";
     }
     else{
         echo "Error";

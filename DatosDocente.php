@@ -414,42 +414,46 @@
 												<ul class="nav nav-tabs" style="margin-bottom: 15px;">
 													<li class="active"><a href="" data-toggle="tab" ><i class="zmdi zmdi-city zmdi-hc-fw"></i>Escuela donde Labora</a></li>
 												</ul>
-												<div class="col-xs-12 col-md-10 col-md-offset-1">
-													<form action="">
-														<table class="table table-bordered">
-															<thead>
-																<tr>
-																	<th scope="col">Escuela</th>
-																	<th scope="col">Puesto o Asignatura que atiende</th>
-																	<th scope="col">No. de Horas</th>
-																</tr>
-															</thead>
-															<tbody>
-																<tr>
-																	<th scope="row">																												
-																		  <select class="form-control">
-																			<option>--Seleccione--</option>
-																			<option>México</option>
-																			<option>Hidaldo</option>
-																			<option>Quéretaro</option>
-																			<option>Michoacan</option>
-																		  </select>												  
-																	</th>
-																	<td>
-																		<select class="form-control">
-																			<option>--Seleccione--</option>
-																			<option>México</option>
-																			<option>Hidaldo</option>
-																			<option>Quéretaro</option>
-																			<option>Michoacan</option>
-																		  </select>
-																	</td>
-																	<td>
-																		<input class="table form-control" type="text">
-																	</td>
-																</tr>
-															</tbody>
-														  </table>
+													<div id="myTabContent" class="tab-content">
+														<div class="table-responsive">
+															<table class="table table-hover text-center">
+								                                <thead>
+									                            <tr>
+										                        <th class="text-center">Nombre de la escuela</th>
+										                        <th class="text-center">Puesto o Asignatura que atiende</th>
+										                        <th class="text-center">No. Horas</th>
+									                            </tr>
+								                                </thead>
+								                             <tbody>
+									                            <tr>
+										                        <td>
+																<select class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;" name="cmbNombreEscuela">
+														            <option>--Seleccione--</option>
+														            <option>A</option>
+														            <option>B</option>
+														            <option>C</option>
+														            <option>D</option>
+														            <option>E</option>
+														        </select>
+																</td>
+										                        <td>
+																<select class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;" name="cmbPuesto">
+														            <option>--Seleccione--</option>
+														            <option>A</option>
+														            <option>B</option>
+														            <option>C</option>
+														            <option>D</option>
+														            <option>E</option>
+														        </select>
+																</td>
+										                        <td>
+																    <input class="form-control"style="color: rgb(0, 0, 0); font-size: 100%;" type="text" name="txtNoHoras">
+																</td>
+									                            </tr>
+								                            </tbody>
+							                                </table>
+						                                </div>
+				                                    </div>  
 														  <div class="form-group label-floating">
 															<label class="control-label" style="color: rgb(0, 0, 0); font-size: 120%;">Número de Plaza</label>
 															<input class="form-control"style="color: rgb(0, 0, 0); font-size: 100%;" type="text" name="txtNoPlaza">
