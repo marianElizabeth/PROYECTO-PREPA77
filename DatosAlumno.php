@@ -150,10 +150,10 @@
 											  <div class="form-group">
 												<label class="control-label" style="color: rgb(0, 0, 0); font-size: 120%;">Inscrito</label>
 												  <select class="form-control"style="color: rgb(0, 0, 0); font-size: 100%;" name="cmbInscritoAlum">
-													<<option>--Seleccione--</option>
+													<option>--Seleccione--</option>
 													<?php
 														include("funciones/conexion.php");
-														$sentencia="SELECT * FROM inscritoalumno";
+														$sentencia="SELECT * FROM inscritoAlumno";
 														$resultado=mysqli_query($conexion,$sentencia);
 														while($regInscrito=mysqli_fetch_assoc($resultado)){
 														echo "
@@ -376,11 +376,11 @@
 													<option>--Seleccione--</option>
 													<?php
 														include("funciones/conexion.php");
-														$sentencia="SELECT * FROM ocupacionPadreMadre";
+														$sentencia="SELECT * FROM ocupacion";
 														$resultado=mysqli_query($conexion,$sentencia);
 														while($regOcupacionDepende=mysqli_fetch_assoc($resultado)){
 														echo "
-														<option value='".$regOcupacionDepende['idOcupacionPadreMadre']."'>".$regOcupacionDepende["descripcionOcupacionPadreMadre"]."</option>
+														<option value='".$regOcupacionDepende['idOcupacion']."'>".$regOcupacionDepende["descripcionOcupacion"]."</option>
 														";
 														}
 													?>
@@ -527,11 +527,11 @@
 															<option>--Seleccione--</option>
 															<?php
 																include("funciones/conexion.php");
-																$sentencia="SELECT * FROM ocupacionPadreMadre";
+																$sentencia="SELECT * FROM ocupacion";
 																$resultado=mysqli_query($conexion,$sentencia);
 																while($regOcupacion=mysqli_fetch_assoc($resultado)){
 																echo "
-																<option value='".$regOcupacion['idOcupacionPadreMadre']."'>".$regOcupacion["descripcionOcupacionPadreMadre"]."</option>
+																<option value='".$regOcupacion['idOcupacion']."'>".$regOcupacion["descripcionOcupacion"]."</option>
 																";
 																}
 															?>
@@ -602,11 +602,11 @@
 															<option>--Seleccione--</option>
 															<?php
 																include("funciones/conexion.php");
-																$sentencia="SELECT * FROM ocupacionPadreMadre";
+																$sentencia="SELECT * FROM ocupacion";
 																$resultado=mysqli_query($conexion,$sentencia);
 																while($regOcupacion=mysqli_fetch_assoc($resultado)){
 																echo "
-																<option value='".$regOcupacion['idOcupacionPadreMadre']."'>".$regOcupacion["descripcionOcupacionPadreMadre"]."</option>
+																<option value='".$regOcupacion['idOcupacion']."'>".$regOcupacion["descripcionOcupacion"]."</option>
 																";
 																}
 															?>
@@ -640,7 +640,7 @@
 															?>
 														  </select>
 													  </div>
-
+													  
 										    <p class="text-center">
 										    	<button href="#!" class="btn btn-info btn-raised btn-sm" style="color: rgb(0, 0, 0); font-size: 100%;"><i class="zmdi zmdi-floppy zmdi-hc-fw"></i>GUARDAR CAMBIOS</button>
 										    </p>
