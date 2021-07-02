@@ -13,7 +13,7 @@
     );";
 
     if(mysqli_query($conexion,$sentencia)){
-        echo("Escuela agregada correctamente");
+        echo("Doctorado agregada correctamente");
     }
     else{
         echo "Error";
