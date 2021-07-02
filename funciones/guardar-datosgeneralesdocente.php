@@ -1,19 +1,19 @@
 <?php
     include("funciones/conexion.php");
 
-    $CURPDocente= $_POST[''];// 1 en la BD(datosDocente)
-    $nombreDocente = $_POST[''];// 2 en la BD(datosAlumono)
-    $ape1Docente = $_POST[''];// 3 en la BD(datosAlumono)
-    $ape2Docente = $_POST[''];// 4 en la BD(datosAlumono)
-    $fechaNacimientoDocente = $_POST[''];// 5 en la BD(datosAlumono)
-    $RFCDocente = $_POST[''];//6  en la BD(datosAlumono)
-    $claveISSEMYM= $_POST[''];//7 en la BD(datosAlumono)
-    $telefonoCelular= $_POST[''];//8 en la BD(datosAlumono)
-    $telefonoFijo= $_POST[''];//9 en la BD(datosAlumono)
+    $CURPDocente= $_POST['txtCURPDocente'];// 1 en la BD(datosDocente)
+    $nombreDocente = $_POST['txtNombreDocente'];// 2 en la BD(datosAlumono)
+    $ape1Docente = $_POST['txtApePDocente'];// 3 en la BD(datosAlumono)
+    $ape2Docente = $_POST['txtApeMDocente'];// 4 en la BD(datosAlumono)
+    $fechaNacimientoDocente = $_POST['fechaNacimientoDocente'];// 5 en la BD(datosAlumono)
+    $RFCDocente = $_POST['txtRFCDocente'];//6  en la BD(datosAlumono)
+    $claveISSEMYM= $_POST['txtClaveISSEMYM'];//7 en la BD(datosAlumono)
+    $telefonoCelular= $_POST['txtTelefonoCelularDocente'];//8 en la BD(datosAlumono)
+    $telefonoFijo= $_POST['txtTelefonoFijoDocente'];//9 en la BD(datosAlumono)
     
 
-    $noCedulaProfesional= $_POST[''];// 10 en la BD(datosAlumono)
-    $fechaEscuelaEgresion= $_POST[''];//11 en la BD(datosAlumono)
+    $noCedulaProfesional= $_POST['txtNoCedulaProfDocente'];// 10 en la BD(datosAlumono)
+    $fechaEscuelaEgresion= $_POST['fechaEgresion'];//11 en la BD(datosAlumono)
     $fechaEgresoEspecializacion= $_POST[''];//12  en la BD(datosAlumono)
     $fechaEgresoDiplomado= $_POST[''];// 13 en la BD(datosAlumono)
     $noCedulaProfesionalMaestria= $_POST[''];// 14 en la BD(datosAlumono)
@@ -31,11 +31,11 @@
     $CCTEscuela= $_POST[''];//25  en la BD(datosAlumono)
     $idNivelLaboral= $_POST[''];// 26  en la BD(datosAlumono)
     $idPuestoInstitucional= $_POST[''];//27  en la BD(datosAlumono)
-    $idLocalidad= $_POST[''];// 28 en la BD(datosAlumono)
-    $calleDocente= $_POST[''];//29  en la BD(datosAlumono)    
-    $numeroDomicilio= $_POST[''];//30  en la BD(datosAlumono)
-    $colonia= $_POST[''];//31  en la BD(datosAlumono)
-    $CP= $_POST[''];//32  en la BD(datosAlumono)    
+    $idLocalidad= $_POST['txtLocalidadDocente'];// 28 en la BD(datosAlumono)
+    $calleDocente= $_POST['txtCalleDocente'];//29  en la BD(datosAlumono)    
+    $numeroDomicilio= $_POST['txtNumDocente'];//30  en la BD(datosAlumono)
+    $colonia= $_POST['txtColoniaDocente'];//31  en la BD(datosAlumono)
+    $CP= $_POST['txtCPDocente'];//32  en la BD(datosAlumono)    
     
     $sentencia=" INSERT INTO datosDocente (CURPDocente,nombreDocente,ape1Docente,ape2Docente,fechaNacimientoDocente,RFCDocente,claveISSEMYM,telefonoCelular,telefonoFijo) VALUES(        
         '$CURPDocente',
