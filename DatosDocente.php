@@ -64,6 +64,7 @@
 						<li>
 							<a href="DatosDocente.php"><i class="zmdi zmdi-male-alt zmdi-hc-fw"></i>Datos Docente</a>
 						</li>
+						
 						<li>
 							<a href="VerInformacionDocente.html"><i class="zmdi zmdi-eye zmdi-hc-fw"></i>Ver información</a>
 						</li>						
@@ -411,65 +412,11 @@
 														  <option>E</option>
 														</select>
 													</div>
-												<ul class="nav nav-tabs" style="margin-bottom: 15px;">
-													<li class="active"><a href="" data-toggle="tab" ><i class="zmdi zmdi-city zmdi-hc-fw"></i>Escuela donde Labora</a></li>
-												</ul>
-													<div id="myTabContent" class="tab-content">
-														<div class="table-responsive">
-															<table class="table table-hover text-center">
-								                                <thead>
-									                            <tr>
-										                        <th class="text-center">Nombre de la escuela</th>
-										                        <th class="text-center">Puesto o Asignatura que atiende</th>
-										                        <th class="text-center">No. Horas</th>
-									                            </tr>
-								                                </thead>
-								                             <tbody>
-									                            <tr>
-										                        <td>
-																<select class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;" name="cmbNombreEscuela">
-														            <option>--Seleccione--</option>
-														            <option>A</option>
-														            <option>B</option>
-														            <option>C</option>
-														            <option>D</option>
-														            <option>E</option>
-														        </select>
-																</td>
-										                        <td>
-																<select class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;" name="cmbPuesto">
-														            <option>--Seleccione--</option>
-														            <option>A</option>
-														            <option>B</option>
-														            <option>C</option>
-														            <option>D</option>
-														            <option>E</option>
-														        </select>
-																</td>
-										                        <td>
-																    <input class="form-control"style="color: rgb(0, 0, 0); font-size: 100%;" type="text" name="txtNoHoras">
-																</td>
-									                            </tr>
-								                            </tbody>
-							                                </table>
-						                                </div>
-				                                    </div>  
-														  <div class="form-group label-floating">
-															<label class="control-label" style="color: rgb(0, 0, 0); font-size: 120%;">Número de Plaza</label>
-															<input class="form-control"style="color: rgb(0, 0, 0); font-size: 100%;" type="text" name="txtNoPlaza">
-														</div>	
-														<div class="form-group label-floating">
-															<label class="control-label" style="color: rgb(0, 0, 0); font-size: 120%;">Número de Prelación</label>
-															<input class="form-control"style="color: rgb(0, 0, 0); font-size: 100%;" type="text" name="txtNumPrelacion">
-														</div>	
-														<div class="form-group label-floating">
-															<label class="control-label" style="color: rgb(0, 0, 0); font-size: 120%;">Escuela de Asignación</label>
-															<input class="form-control"style="color: rgb(0, 0, 0); font-size: 100%;" type="text" name="txtEscuelaAsignacion">
-														</div>	
-														<div class="form-group label-floating">
-															<label class="control-label" style="color: rgb(0, 0, 0); font-size: 120%;">Número de Horas</label>
-															<input class="form-control"style="color: rgb(0, 0, 0); font-size: 100%;" type="text" name="txtNumHoras">
-														</div>
+													<ul class="nav nav-tabs" style="margin-bottom: 15px;">
+													<li class="active"><a href="" data-toggle="tab" ><i class="zmdi zmdi-graduation-cap zmdi-hc-fw"></i>Escuelas Donde Labora</a></li>
+												    </ul>
+
+
 										    <p class="text-center">
 										    	<button href="#!" class="btn btn-info btn-raised btn-sm" style="color: rgb(0, 0, 0); font-size: 100%;"><i class="zmdi zmdi-floppy"></i> GUARDAR CAMBIOS</button>
 										    </p>
