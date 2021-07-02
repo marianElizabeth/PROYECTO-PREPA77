@@ -130,12 +130,13 @@
 			<div class="row">
 				<div class="col-xs-12">
 					<ul class="nav nav-tabs" style="margin-bottom: 15px;">
-					  	<li class="active"><a href="" data-toggle="tab"></a></li>
+					  	<li class="active"><a href="" data-toggle="tab">Nuevo</a></li>
 					  	<li><a href="" data-toggle="tab"></a></li>
 					</ul>
+
 					<div class="position-relative">
   <div class="position-absolute top-50 start-0 translate-middle-x">
-  <form action="DatosLaboral.php" method="POST" class="row row-cols-lg-auto g-3 align-items-center">
+  <form action="EscuelaDondeLabora.php" method="POST" class="row row-cols-lg-auto g-3 align-items-center">
     <div class="form-group label-floating">
 			<label class="control-label" style="color: rgb(0, 0, 0); font-size: 120%;">Numero de Escuelas donde labora</label>
 			<input class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;"  type="text" name="txtNumEscuelasLabora">
@@ -156,7 +157,7 @@
   }
   function crearEcuelas($nE){
     for ($i = 0 ; $i<$nE ; $i++){
-      echo "<form action='DatosLaboral.php' method='POST' class='row row-cols-lg-auto g-3 align-items-center'>";
+      echo "<form action='EscuelaDondeLabora.php' method='POST' class='row row-cols-lg-auto g-3 align-items-center'>";
       echo "<div id='myTabContent'class='tab-content'>";
 			echo "<div class='table-responsive'>";
 			echo "<table class='table table-hover text-center'>";
@@ -201,29 +202,24 @@
     }
   }
 ?>
-					<div id="myTabContent" class="tab-content">
-						<div class="tab-pane fade active in" id="">
-							<div class="container-fluid">
-								<div class="row">
-									<div class="col-xs-12 col-md-10 col-md-offset-1">
-									    <form action="EscuelaDondeLabora.php">
-											  <div class="form-group label-floating">
-												<label class="control-label" style="color: rgb(0, 0, 0); font-size: 120%;">Número de Plaza</label>
-												<input class="form-control"style="color: rgb(0, 0, 0); font-size: 100%;" type="text">
-											</div>	
-											<div class="form-group label-floating">
-												<label class="control-label" style="color: rgb(0, 0, 0); font-size: 120%;">Número de Prelación</label>
-												<input class="form-control"style="color: rgb(0, 0, 0); font-size: 100%;" type="text">
-											</div>	
-											<div class="form-group label-floating">
-												<label class="control-label" style="color: rgb(0, 0, 0); font-size: 120%;">Escuela de Asignación</label>
-												<input class="form-control"style="color: rgb(0, 0, 0); font-size: 100%;" type="text">
-											</div>	
-											<div class="form-group label-floating">
-												<label class="control-label" style="color: rgb(0, 0, 0); font-size: 120%;">Número de Horas</label>
-												<input class="form-control"style="color: rgb(0, 0, 0); font-size: 100%;" type="text">
-											</div>	
-									    	
+<div class="form-group label-floating">
+															<label class="control-label" style="color: rgb(0, 0, 0); font-size: 120%;">Número de Plaza</label>
+															<input class="form-control"style="color: rgb(0, 0, 0); font-size: 100%;" type="text" name="txtNoPlaza">
+														</div>	
+														<div class="form-group label-floating">
+															<label class="control-label" style="color: rgb(0, 0, 0); font-size: 120%;">Número de Prelación</label>
+															<input class="form-control"style="color: rgb(0, 0, 0); font-size: 100%;" type="text" name="txtNumPrelacion">
+														</div>	
+														<div class="form-group label-floating">
+															<label class="control-label" style="color: rgb(0, 0, 0); font-size: 120%;">Escuela de Asignación</label>
+															<input class="form-control"style="color: rgb(0, 0, 0); font-size: 100%;" type="text" name="txtEscuelaAsignacion">
+														</div>	
+														<div class="form-group label-floating">
+															<label class="control-label" style="color: rgb(0, 0, 0); font-size: 120%;">Número de Horas</label>
+															<input class="form-control"style="color: rgb(0, 0, 0); font-size: 100%;" type="text" name="txtNumHoras">
+														</div>
+
+					
 										    <p class="text-center">
 										    	<button href="#!" class="btn btn-info btn-raised btn-sm" style="color: rgb(0, 0, 0); font-size: 100%;"><i class="zmdi zmdi-floppy" ></i> GUARDAR CAMBIOS</button>
 										    </p>
