@@ -256,7 +256,7 @@
 
 											  <div class="form-group">
 												<label class="control-label" style="color: rgb(0, 0, 0); font-size: 120%;">Fecha de Nacimiento</label>
-												<input class="form-control" type="date" name="dateNacimiento" name="fechaNacimientoAlum">
+												<input class="form-control" type="date" name="fechaNacimientoAlum">
 											  </div>
 											  <div class="form-group label-floating">
 												<label class="control-label" style="color: rgb(0, 0, 0); font-size: 120%;">Municipio de Nacimiento</label>
