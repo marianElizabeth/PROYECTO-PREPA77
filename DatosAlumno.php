@@ -524,7 +524,7 @@
 													  </div>
 													  <div class="form-group">
 														<label class="control-label" style="color: rgb(0, 0, 0); font-size: 120%;">Parentesco</label>
-														  <select class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;" name="cmbParentesco">
+														  <select class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;" name="cmbParentescoPadre">
 															<option>--Seleccione--</option>
 															<?php
 																include("funciones/conexion.php");
@@ -568,7 +568,7 @@
 													  </div>
 													  <div class="form-group">
 														<label class="control-label" style="color: rgb(0, 0, 0); font-size: 120%;">Ultimo Grado de Estudios</label>
-														  <select class="form-control" style="color: rgba(0, 0, 0, 0.664); font-size: 100%;" name="cmbUltimoGrado">
+														  <select class="form-control" style="color: rgba(0, 0, 0, 0.664); font-size: 100%;" name="cmbUltimoGradoPadre">
 														  <option>--Seleccione--</option>
 														  <?php
 																include("funciones/conexion.php");
@@ -599,7 +599,7 @@
 													  </div>
 													  <div class="form-group">
 														<label class="control-label" style="color: rgb(0, 0, 0); font-size: 120%;">Parentesco</label>
-														  <select class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;" name="cmbParentesco">
+														  <select class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;" name="cmbParentescoMadre">
 															<option>--Seleccione--</option>
 															<?php
 																include("funciones/conexion.php");
@@ -643,7 +643,7 @@
 													  </div>
 													  <div class="form-group">
 														<label class="control-label" style="color: rgb(0, 0, 0); font-size: 120%;">Ultimo Grado de Estudios</label>
-														  <select class="form-control" style="color: rgba(0, 0, 0, 0); font-size: 100%;" name="cmbUltimoGrado">
+														  <select class="form-control" style="color: rgba(0, 0, 0, 0); font-size: 100%;" name="cmbUltimoGradoMadre">
 															<option>--Seleccione--</option>
 															<?php
 																include("funciones/conexion.php");
