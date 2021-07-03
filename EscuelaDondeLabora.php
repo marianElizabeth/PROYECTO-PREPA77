@@ -133,105 +133,109 @@
 					  	<li class="active"><a href="" data-toggle="tab">Nuevo</a></li>
 					  	<li><a href="" data-toggle="tab"></a></li>
 					</ul>
-
-					<div class="position-relative">
-  <div class="position-absolute top-50 start-0 translate-middle-x">
-  <form action="EscuelaDondeLabora.php" method="POST" class="row row-cols-lg-auto g-3 align-items-center">
-    <div class="form-group label-floating">
-			<label class="control-label" style="color: rgb(0, 0, 0); font-size: 120%;">Numero de Escuelas donde labora</label>
-			<input class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;"  type="text" name="txtNumEscuelasLabora">
-		 </div>
-  <div class="col-12">
-  <input type="submit" value="Enviar" class="btn btn-primary" name = "btn1">
-  </div>
-  </form>
-  </div>
-  </div>
-<br>
-<br>
-<?php
-  if (isset($_POST['btn1']))
-  {
-    $numEscuelas=$_POST['txtNumEscuelasLabora'];
-    crearEcuelas($numEscuelas);
-  }
-  function crearEcuelas($nE){
-    for ($i = 0 ; $i<$nE ; $i++){
-      echo "<form action='EscuelaDondeLabora.php' method='POST' class='row row-cols-lg-auto g-3 align-items-center'>";
-      echo "<div id='myTabContent'class='tab-content'>";
-			echo "<div class='table-responsive'>";
-			echo "<table class='table table-hover text-center'>";
-			echo "<thead>";
-	    echo "<tr>";
-			echo "<th class='text-center'>Nombre de la escuela</th>";
-			echo "<th class='text-center'>Puesto o Asignatura que atiende</th>";
-			echo "<th class='text-center'>No. Horas</th>";
-			echo "</tr";
-			echo "</thead>";
-			echo "<tbody>";
-			echo "<tr>";
-			echo "<td>";
-			echo "<select class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;' name='cmbNombreEscuela'>";
-			echo "<option>--Seleccione--</option>";
-			echo "<option>A</option>";
-			echo "<option>B</option>";
-			echo "<option>C</option>";
-			echo "<option>D</option>";
-			echo "<option>E</option>";
-			echo "</select>";
-		  echo "</td>";
-			echo "<td>";
-			echo "<select class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;' name='cmbPuesto'>";
-			echo "<option>--Seleccione--</option>";
-			echo "<option>A</option>";
-			echo "<option>B</option>";
-			echo "<option>C</option>";
-			echo "<option>D</option>";
-			echo "<option>E</option>";
-			echo "</select>";
-			echo "</td>";
-			echo "<td>";
-			echo "<input class='form-control'style='color: rgb(0, 0, 0); font-size: 100%;' type='text' name='txtNoHoras'>";
-			echo "</td>";
-			echo "</tr>";
-			echo "</tbody>";
-			echo "</table>";
-			echo "</div>";
-			echo "</div>";
-      echo "</form>";
-    }
-  }
-?>
-<div class="form-group label-floating">
-															<label class="control-label" style="color: rgb(0, 0, 0); font-size: 120%;">Número de Plaza</label>
-															<input class="form-control"style="color: rgb(0, 0, 0); font-size: 100%;" type="text" name="txtNoPlaza">
-														</div>	
+                    <div id="myTabContent" class="tab-content">
+						<div class="tab-pane fade active in" id="Nuevo">
+							<div class="container-fluid">
+								<div class="row">
+									<div class="col-xs-12 col-md-10 col-md-offset-1">
+										
+											<div class="position-relative">
+												<div class="position-absolute top-50 start-0 translate-middle-x">
+													<form action="EscuelaDondeLabora.php" method="POST" class="row row-cols-lg-auto g-3 align-items-center">
 														<div class="form-group label-floating">
-															<label class="control-label" style="color: rgb(0, 0, 0); font-size: 120%;">Número de Prelación</label>
-															<input class="form-control"style="color: rgb(0, 0, 0); font-size: 100%;" type="text" name="txtNumPrelacion">
-														</div>	
-														<div class="form-group label-floating">
-															<label class="control-label" style="color: rgb(0, 0, 0); font-size: 120%;">Escuela de Asignación</label>
-															<input class="form-control"style="color: rgb(0, 0, 0); font-size: 100%;" type="text" name="txtEscuelaAsignacion">
-														</div>	
-														<div class="form-group label-floating">
-															<label class="control-label" style="color: rgb(0, 0, 0); font-size: 120%;">Número de Horas</label>
-															<input class="form-control"style="color: rgb(0, 0, 0); font-size: 100%;" type="text" name="txtNumHoras">
+															<label class="control-label" style="color: rgb(0, 0, 0); font-size: 120%;">Numero de Escuelas donde labora</label>
+															<input class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;"  type="text" name="txtNumEscuelasLabora">
 														</div>
+														<div class="col-12">
+															<input type="submit" value="Enviar" class="btn btn-primary" name = "btn1">
+														</div>
+													</form>
+												</div>
+											</div>
+											<br>
+                    <?php
+						if (isset($_POST['btn1']))
+						{
+							$numEscuelas=$_POST['txtNumEscuelasLabora'];
+							crearEcuelas($numEscuelas);
+						}
+						function crearEcuelas($nE){
+							echo "<form action='' method='POST' class='row row-cols-lg-auto g-3 align-items-center'>";
 
-					
-										    <p class="text-center">
-										    	<button href="#!" class="btn btn-info btn-raised btn-sm" style="color: rgb(0, 0, 0); font-size: 100%;"><i class="zmdi zmdi-floppy" ></i> GUARDAR CAMBIOS</button>
-										    </p>
-									    </form>
+							for ($i = 0 ; $i<$nE ; $i++){
+								echo "<form action='EscuelaDondeLabora.php' method='POST' class='row row-cols-lg-auto g-3 align-items-center'>";
+							    echo "<div id='myTabContent'class='tab-content'>";
+								echo "<div class='table-responsive'>";
+								echo "<table class='table table-hover text-center'>";
+								echo "<thead>";
+								echo "<tr>";
+								echo "<th class='text-center'>Nombre de la escuela</th>";
+								echo "<th class='text-center'>Puesto o Asignatura que atiende</th>";
+								echo "<th class='text-center'>No. Horas</th>";
+							    echo "</tr";
+								echo "</thead>";
+								echo "<tbody>";
+								echo "<tr>";
+								echo "<td>";
+								echo "<select class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;' name='cmbNombreEscuela'>";
+								echo "<option>--Seleccione--</option>";
+								echo "<option>A</option>";
+								echo "<option>B</option>";
+								echo "<option>C</option>";
+								echo "<option>D</option>";
+								echo "<option>E</option>";
+								echo "</select>";
+								echo "</td>";
+								echo "<td>";
+								echo "<select class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;' name='cmbPuesto'>";
+								echo "<option>--Seleccione--</option>";
+								echo "<option>A</option>";
+								echo "<option>B</option>";
+								echo "<option>C</option>";
+								echo "<option>D</option>";
+								echo "<option>E</option>";
+								echo "</select>";
+								echo "</td>";
+								echo "<td>";
+								echo "<input class='form-control'style='color: rgb(0, 0, 0); font-size: 100%;' type='text' name='txtNoHoras'>";
+								echo "</td>";
+								echo "</tr>";
+								echo "</tbody>";
+								echo "</table>";
+								echo "</div>";
+								echo "</div>";
+								echo "</form>";
+							}
+						    
+							echo "<div class='form-group label-floating'>";
+							echo "<label class='control-label' style='color: rgb(0, 0, 0); font-size: 120%;'>Número de Plaza</label>";
+							echo "<input class='form-control'style='color: rgb(0, 0, 0); font-size: 100%;' type='text' name='txtNoPlaza'>";
+							echo "</div>";
+							echo "<div class='form-group label-floating'>";
+							echo "<label class='control-label' style='color: rgb(0, 0, 0); font-size: 120%;'>Número de Prelación</label>";
+							echo "<input class='form-control'style='color: rgb(0, 0, 0); font-size: 100%;' type='text' name='txtNumPrelacion'>";
+							echo "</div>";	
+							echo "<div class='form-group label-floating'>";
+							echo "<label class='control-label' style='color: rgb(0, 0, 0); font-size: 120%;'>Escuela de Asignación</label>";
+							echo "<input class='form-control'style='color: rgb(0, 0, 0); font-size: 100%;' type='text' name='txtEscuelaAsignacion'>";
+							echo "</div>";
+							echo "<div class='form-group label-floating'>";
+							echo "<label class='control-label' style='color: rgb(0, 0, 0); font-size: 120%;'>Número de Horas</label>";
+							echo "<input class='form-control'style='color: rgb(0, 0, 0); font-size: 100%;' type='text' name='txtNumHoras'>";
+							echo "</div>";	
+							echo "<p class='text-center'>";
+							echo "<button href='' class='btn btn-info btn-raised btn-sm' style='color: rgb(0, 0, 0); font-size: 100%;'><i class='zmdi zmdi-floppy '></i> GUARDAR CAMBIOS</button>";
+							echo"</p>";
+							echo "</form>";
 
+						}
+					?>
 									</div>
 								</div>
 							</div>
-						</div>
-					  	
+						</div>	
 					</div>
-				</div>
+			    </div>
 			</div>
 		</div>
 	</section>
