@@ -1,16 +1,16 @@
 <?php
-    include("funciones/conexion.php")
+    include("funciones/conexion.php");
 
-    $nombrePadre= $_POST[];
-    $ape1Padre= $_POST[];
-    $ape2Padre= $_POST[];
-    $telefonoCelularPadre= $_POST[];
-    $CURPPadre= $_POST[];
-    $claveElectorPadre= $_POST[];
-    $idOcupacion= $_POST[];
-    $idNivelEscolar= $_POST[];
-    $idParentesco= $_POST[];
-    $matricula= $_POST[];
+    $nombrePadre= $_POST[''];
+    $ape1Padre= $_POST[''];
+    $ape2Padre= $_POST[''];
+    $telefonoCelularPadre= $_POST[''];
+    $CURPPadre= $_POST[''];
+    $claveElectorPadre= $_POST[''];
+    $idOcupacion= $_POST[''];
+    $idNivelEscolar= $_POST[''];
+    $idParentesco= $_POST[''];
+    $matricula= $_POST[''];
 
     $sentencia=" INSERT INTO padre VALUES(
         '$nombrePadre',
