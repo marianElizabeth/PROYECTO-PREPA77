@@ -18,8 +18,8 @@
 			<!-- SideBar User info -->
 			<div class="full-box dashboard-sideBar-UserInfo">
 				<figure class="full-box">
-					<img src="./assets/img/avatar.jpg" alt="UserIcon">
-					<figcaption class="text-center text-titles">User Name</figcaption>
+					<img src="./assets/img/usuario.jpg" alt="UserIcon">
+					<figcaption class="text-center text-titles">Administrador</figcaption>
 				</figure>
 				<ul class="full-box list-unstyled text-center">
 					<li>
@@ -99,7 +99,19 @@
 		<nav class="full-box dashboard-Navbar">
 			<ul class="full-box list-unstyled text-right">
 				<li class="pull-left">
+					
 					<a href="#!" class="btn-menu-dashboard"><i class="zmdi zmdi-more-vert"></i></a>
+				</li>
+				<li class="pull-left">
+					<a href="PaginaPrincipal.html" class="btn-menu-dashboard">Principal</a>
+				</li>
+				<li class="pull-left">     </li>
+				<li class="pull-left">
+					<a href="DatosAlumno.php" class="btn-menu-dashboard">Alumno</a>
+				</li>
+				<li class="pull-left">     </li>
+				<li class="pull-left">
+					<a href="DatosDocente.php" class="btn-menu-dashboard">Docente</a>
 				</li>
 				<li>
 					<a href="#!" class="btn-Notifications-area">
@@ -138,86 +150,67 @@
 							<div class="container-fluid">
 								<div class="row">
 									<div class="col-xs-12 col-md-10 col-md-offset-1">
-										
-											<div class="position-relative">
-												<div class="position-absolute top-50 start-0 translate-middle-x">
-													<form action="EscuelaDondeLabora.php" method="POST" class="row row-cols-lg-auto g-3 align-items-center">
-														<div class="form-group label-floating">
-															<label class="control-label" style="color: rgb(0, 0, 0); font-size: 120%;">Numero de Escuelas donde labora</label>
-															<input class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;"  type="text" name="txtNumEscuelasLabora">
-														</div>
-														<div class="col-12">
-															<input type="submit" value="Enviar" class="btn btn-primary" name = "btn1">
-														</div>
-													</form>
+										<form action="">
+											<div id="myTabContent"class="tab-content">
+												<div class="table-responsive">
+													<table class="table table-hover text-center">
+														<thead>
+															<tr>
+																<th class="text-center">Nombre de la escuela</th>
+																<th class="text-center">Puesto o Asignatura que atiende</th>
+																<th class="text-center">No. Horas</th>
+															</tr>
+														</thead>
+														<tbody>
+															<tr>
+																<td>
+																<select class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;" name="cmbNombreEscuela">
+																	<option>--Seleccione--</option>
+																	<option>A</option>
+																	<option>B</option>
+																	<option>C</option>
+																	<option>D</option>
+																	<option>E</option>
+																</select>
+																</td>
+																<td>
+																<select class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;" name="cmbPuesto">
+																	<option>--Seleccione--</option>
+																	<option>A</option>
+																	<option>B</option>
+																	<option>C</option>
+																	<option>D</option>
+																	<option>E</option>
+																</select>
+																</td>
+																<td>
+																<input class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;" type="text" name="txtNoHoras">
+																</td>
+															</tr>
+														</tbody>
+													</table>
 												</div>
 											</div>
-							    <div id="myTabContent"class="tab-content">
-								<div class="table-responsive">
-								<table class="table table-hover text-center">
-								<thead>
-								<tr>
-								<th class="text-center">Nombre de la escuela</th>
-								<th class="text-center">Puesto o Asignatura que atiende</th>
-							    <th class="text-center">No. Horas</th>
-							    </tr
-								</thead>
-								<tbody>
-								<tr>
-								<td>
-								<select class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;" name="cmbNombreEscuela">
-								<option>--Seleccione--</option>
-								<option>A</option>
-								<option>B</option>
-								<option>C</option>
-								<option>D</option>
-								<option>E</option>
-								</select>
-								</td>
-								<td>
-								<select class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;" name="cmbPuesto">
-								<option>--Seleccione--</option>
-								<option>A</option>
-								<option>B</option>
-								<option>C</option>
-								<option>D</option>
-								<option>E</option>
-								</select>
-								</td>
-								<td>
-								<input class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;" type="text" name="txtNoHoras">
-								</td>
-								</tr>
-								</tbody>
-								</table>
-								</div>
-								</div>
-								</form>
-							}
-						    
-							<div class="form-group label-floating">
-							<label class="control-label" style="color: rgb(0, 0, 0); font-size: 120%;">Número de Plaza</label>
-							<input class="form-control"style="color: rgb(0, 0, 0); font-size: 100%;" type="text" name="txtNoPlaza">
-							</div>
-							<div class="form-group label-floating">
-							<label class="control-label" style="color: rgb(0, 0, 0); font-size: 120%;">Número de Prelación</label>
-							<input class="form-control"style="color: rgb(0, 0, 0); font-size: 100%;" type="text" name="txtNumPrelacion">
-							</div>
-							<div class="form-group label-floating">
-							<label class="control-label" style="color: rgb(0, 0, 0); font-size: 120%;">Escuela de Asignación</label>
-							<input class="form-control"style="color: rgb(0, 0, 0); font-size: 100%;" type="text" name="txtEscuelaAsignacion">
-							</div>
-							<div class="form-group label-floating">
-							<label class="control-label" style="color: rgb(0, 0, 0); font-size: 120%;">Número de Horas</label>
-							<input class="form-control"style="color: rgb(0, 0, 0); font-size: 100%;" type="text" name="txtNumHoras">
-							</div>
-							<p class="text-center">
-							<button href="" class="btn btn-info btn-raised btn-sm" style="color: rgb(0, 0, 0); font-size: 100%;"><i class="zmdi zmdi-floppy "></i> GUARDAR CAMBIOS</button>
-							</p>
-							</form>
-
-						}
-					?>
+											<div class="form-group label-floating">
+											<label class="control-label" style="color: rgb(0, 0, 0); font-size: 120%;">Número de Plaza</label>
+											<input class="form-control"style="color: rgb(0, 0, 0); font-size: 100%;" type="text" name="txtNoPlaza">
+											</div>
+											<div class="form-group label-floating">
+											<label class="control-label" style="color: rgb(0, 0, 0); font-size: 120%;">Número de Prelación</label>
+											<input class="form-control"style="color: rgb(0, 0, 0); font-size: 100%;" type="text" name="txtNumPrelacion">
+											</div>
+											<div class="form-group label-floating">
+											<label class="control-label" style="color: rgb(0, 0, 0); font-size: 120%;">Escuela de Asignación</label>
+											<input class="form-control"style="color: rgb(0, 0, 0); font-size: 100%;" type="text" name="txtEscuelaAsignacion">
+											</div>
+											<div class="form-group label-floating">
+											<label class="control-label" style="color: rgb(0, 0, 0); font-size: 120%;">Número de Horas</label>
+											<input class="form-control"style="color: rgb(0, 0, 0); font-size: 100%;" type="text" name="txtNumHoras">
+											</div>
+											<p class="text-center">
+											<button href="" class="btn btn-info btn-raised btn-sm" style="color: rgb(0, 0, 0); font-size: 100%;"><i class="zmdi zmdi-floppy "></i> GUARDAR CAMBIOS</button>
+											</p>
+										</form>
 									</div>
 								</div>
 							</div>
