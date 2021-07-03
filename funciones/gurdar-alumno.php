@@ -71,7 +71,7 @@
         '$numExpediente',
         '$folioAlumno',
         '$CURPAlumno',
-         $fechaNacimientoAlumno,
+        '$fechaNacimientoAlumno',
         '$correoPersonalAlumno',
         '$correoInstitucionalAlumno',
         '$referenciaDomicilio',
