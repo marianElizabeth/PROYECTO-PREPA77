@@ -192,65 +192,29 @@
 										</tr>
 									</thead>
 									<tbody>
+
+										<?php
+										include("funciones/conexion.php");
+									  
+										$sentencia = "SELECT * FROM dinero";
+										$resultado = mysqli_query($conexion, $sentencia);
+				  
+										while ($registro = mysqli_fetch_assoc($resultado) ){
+										  echo "
 										<tr>
-											<td></td>
-											<td></td>
-											<td></td>
-											<td></td>
-											<td></td>
-											<td></td>
-											<td></td>
-											<td></td>
-											<td></td>
-											<td></td>
-											<td></td>
-											<td></td>
-											<td></td>
-											<td></td>
-											<td></td>
-											<td></td>
-											<td></td>
-											<td></td>
-											<td></td>
-											<td></td>
-											<td></td>
-											<td></td>
-											<td></td>
-											<td></td>
-											<td></td>
-											<td></td>
-											<td></td>
-											<td></td>
-											<td></td>
-											<td></td>
-											<td></td>
-											<td></td>
-											<td></td>
-											<td></td>
-											<td></td>
-											<td></td>
-											<td></td>
-											<td></td>
-											<td></td>
-											<td></td>
-											<td></td>
-											<td></td>
-											<td></td>
-											<td></td>
-											<td></td>
-											<td></td>
-											<td></td>
-											<td></td>
-											<td></td>
-											<td></td>
-											<td></td>
-											<td></td>
-											<td></td>
-											<td></td>
-							
+										  <td>".$registro["clvUsuario"]."</td>
+										  <td>".$registro["Nombre"]."</td>
+										  <td>".$registro["saldoActual"]."</td>
+										</tr>
+										  ";
+				  
+										}
+				  
+										mysqli_close($conexion);
+									  ?>
 											<td><a href="#!" class="btn btn-success btn-raised btn-xs"><i class="zmdi zmdi-refresh"></i></a></td>
 											<td><a href="#!" class="btn btn-danger btn-raised btn-xs"><i class="zmdi zmdi-delete"></i></a></td>
-										</tr>
+										
 									
 									</tbody>
 								</table>
