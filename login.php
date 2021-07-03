@@ -17,7 +17,7 @@
     
    }
    else if ($nr == 0){
-         echo "No se puede ingresar";
+      header("Location: InicioDeSesion.html");
 
    }
 
