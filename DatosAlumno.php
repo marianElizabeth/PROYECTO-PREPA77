@@ -131,7 +131,7 @@
 							<div class="container-fluid">
 								<div class="row">
 									<div class="col-xs-12 col-md-10 col-md-offset-1" >
-									    <form action="" >
+									    <form action="">
 											<ul class="nav nav-tabs" style="margin-bottom: 15px;">
 												<li><a href="" data-toggle="tab" ><i class="zmdi zmdi-face zmdi-hc-fw"></i>Información Personal</a></li>
 										    </ul>
@@ -182,7 +182,7 @@
 											  </div>
 											  <div class="form-group">
 												<label class="control-label" style="color: rgb(0, 0, 0); font-size: 120%;">Grupo</label>
-												  <select class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;" name="txtGrupoAlum">
+												  <select class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;" name="cmbGrupoAlum">
 													<option>--Seleccione--</option>
 													<?php
 														include("funciones/conexion.php");
@@ -239,7 +239,7 @@
 											  </div>
 											  <div class="form-group label-floating">
 												<label class="control-label" style="color: rgb(0, 0, 0); font-size: 120%;">Edad</label>
-												<select class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;" name="txtEdadAlum">
+												<select class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;" name="cmbEdadAlum">
 													<option>--Seleccione--</option>
 													<?php
 														include("funciones/conexion.php");
@@ -259,8 +259,24 @@
 												<input class="form-control" type="date" name="dateNacimiento" name="fechaNacimientoAlum">
 											  </div>
 											  <div class="form-group label-floating">
-												<label class="control-label" style="color: rgb(0, 0, 0); font-size: 120%;">Estado de Nacimiento</label>
-												<input class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;" type="text" name="txtEstadoNacimientoAlum">
+												<label class="control-label" style="color: rgb(0, 0, 0); font-size: 120%;">Municipio de Nacimiento</label>
+												<input class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;" type="text" name="txtMunicipioNacimientoAlum">
+											  </div>
+											  <div class="form-group label-floating">
+												<label class="control-label" style="color: rgb(0, 0, 0); font-size: 120%;">Etidad Federativa</label>
+												<select class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;" name="cmbEntidadFederativaAlum">
+													<option>--Seleccione--</option>
+													<?php
+														include("funciones/conexion.php");
+														$sentencia="SELECT * FROM entidadfederativa";
+														$resultado=mysqli_query($conexion,$sentencia);
+														while($regEntidadFederativa=mysqli_fetch_assoc($resultado)){
+														echo "
+														<option value='".$regEntidadFederativa['idEntidadFederativa']."'>".$regEntidadFederativa["descripcionEntidad"]."</option>
+														";
+														}
+													?>
+												  </select>
 											  </div>
 											  <div class="form-group label-floating">
 												<label class="control-label" style="color: rgb(0, 0, 0); font-size: 120%;">Teléfono Celular(10 digitos)</label>
@@ -404,7 +420,7 @@
 
 												<div class="form-group label-floating">
 												  <label class="control-label" style="color: rgb(0, 0, 0); font-size: 120%;">Secundaria de Procendecia</label>
-												  <select class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;" name="txtSecundariaProcedenciaAlum">
+												  <select class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;" name="cmbSecundariaProcedenciaAlum">
 													<option>--Seleccione--</option>
 													<?php
 														include("funciones/conexion.php");
@@ -447,7 +463,7 @@
 													  </div>
 													  <div class="form-group label-floating">
 														<label class="control-label" style="color: rgb(0, 0, 0); font-size: 120%;">Localidad</label>
-														<select class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;"type="text" name="txtLocalidadAlum">
+														<select class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;"type="text" name="cmbLocalidadAlum">
 															<option>--Seleccione--</option>
 															<?php
 																include("funciones/conexion.php");
@@ -524,7 +540,7 @@
 													  </div>
 													  <div class="form-group label-floating">
 														<label class="control-label" style="color: rgb(0, 0, 0); font-size: 120%;">Ocupacion</label>
-														<select class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;" name="txtOcupacionPadre">
+														<select class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;" name="cmbOcupacionPadre">
 															<option>--Seleccione--</option>
 															<?php
 																include("funciones/conexion.php");
@@ -599,7 +615,7 @@
 													  </div>
 													  <div class="form-group label-floating">
 														<label class="control-label" style="color: rgb(0, 0, 0); font-size: 120%;">Ocupacion</label>
-														<select class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;" name="txtOcupacionMadre">
+														<select class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;" name="cmbOcupacionMadre">
 															<option>--Seleccione--</option>
 															<?php
 																include("funciones/conexion.php");
