@@ -1,8 +1,8 @@
 <?php
     $servidor = "localhost";
     $usuario = "root";
-    $contra= "";
-    $baseDatos="bdPrepaOficial77";
+    $contra= "lamp1999";
+    $baseDatos="pre77";
 
     $conexion = mysqli_connect(
         $servidor,
