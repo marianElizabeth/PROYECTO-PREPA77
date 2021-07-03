@@ -476,7 +476,7 @@
 																}
 															?>
 														  </select>
-													  </div>
+													  
 													<div class="form-group"><!--POR QUE ESTA ESTADO
 														<label class="control-label" style="color: rgb(0, 0, 0); font-size: 120%;">Estado</label>
 														  <select class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;" name="cmbEstado">
