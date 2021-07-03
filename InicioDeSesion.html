@@ -22,15 +22,29 @@
 		<p class="text-center text-muted"><i class="zmdi zmdi-account-circle zmdi-hc-5x"></i></p>
 		<p class="text-center text-muted text-uppercase">Inicia sesión con tu cuenta</p>
 		<div class="form-group label-floating">
-		  <label class="control-label" for="lblMatricula">Matricula</label>
-		  <input class="form-control" id="lblMatricula" type="text" name="txtMatricula">
-		  <p class="help-block">Ingrese tú matricula</p>
-		</div>
-		<div class="form-group label-floating">
-		  <label class="control-label" for="lblPassword">Contraseña</label>
-		  <input class="form-control" id="lblPassword" type="text" name="txtPassword">
-		  <p class="help-block">Escribe tú contraseña</p>
-		</div>
+			<label class="control-label" for="lblMatricula">Matricula</label>
+			<input class="form-control" style="color: rgb(250, 250, 250); font-size: 100%;" id="lblMatricula" type="text" name="txtMatricula">
+			<p class="help-block">Ingrese tú matricula</p>
+		  </div>
+		  <div class="form-group label-floating">
+			<label class="control-label" for="lblPassword">Contraseña</label>
+			<input class="form-control" style="color: rgb(250, 250, 250); font-size: 100%;" id="password" type="password" name="txtPassword">
+			<p class="help-block">Escribe tú contraseña</p>
+			
+			<br>
+				<button class="btn btn-primary" type="button" onclick="mostrarContrasena()">Mostrar/Ocultar Contraseña</button>
+		  </div>
+	  
+		  <script>
+			  function mostrarContrasena(){
+				  var tipo = document.getElementById("password");
+				  if(tipo.type == "password"){
+					  tipo.type = "text";
+				  }else{
+					  tipo.type = "password";
+				  }
+			  }
+		  </script>
 		<div class="form-group text-center">
 			<input type="submit" value="Iniciar sesión" class="btn btn-raised btn-danger">
 		</div>
