@@ -55,17 +55,15 @@
     $folioCURPAlumno= $_POST['txtFolioCurpAlum'];//37  en la BD(datosAlumono) -- en PHP(linea 206 )
     $RFCAlumno= $_POST['txtRFCAlum'];//38  en la BD(datosAlumono) -- en PHP(linea  210)
 
-    $municipioNacimientoAlumno= $_POST['txtMunicipioNacimientoAlum'];//39  en la BD(datosAlumono) -- en PHP(linea 263)
-    
+    $municipioNacimientoAlumno= $_POST['txtMunicipioNacimientoAlum'];//39  en la BD(datosAlumono) -- en PHP(linea 263)    
     /**SOLO SE AGEGARON HASTA LA LINEA  508 DEL PHP(DATOS ALUMNO)*/
-
     //$= $_POST['PROCEDENDCIA LINEA 317 -- DATOS GENERALES ALUMNO'];    
     //DATOS DE LA DIRECCIÓN    
     //$= $_POST['txtColoniaAlum'];//  en la BD(datosAlumono)
     //$= $_POST['cmbEstado'];//  en la BD(datosAlumono)
     //$= $_POST['cmbMunicipio'];//  en la BD(datosAlumono)
     //$= $_POST[''];
-    
+
     $sentencia = " INSERT INTO datosAlumno VALUES(
         '$matricula',
         '$nombreAlumno',
@@ -115,5 +113,74 @@
         echo "Error";
     }
 
+    //mysqli_close($conexion);
+
+    // DATOS PARA INSERTAR PADRE
+    $nombrePadre= $_POST['txtNombrePadre']; //  en la BD() -- en PHP DatosAlumno(linea  515)
+    $ape1Padre= $_POST['txtApePPadre']; //  en la BD() -- en PHP DatosAlumno(linea 519)
+    $ape2Padre= $_POST['txtApeMPadre']; //  en la BD() -- en PHP DatosAlumno(linea 523 )
+    $telefonoCelularPadre= $_POST['txtTelefonoCelPadre']; //  en la BD() -- en PHP DatosAlumno(linea  559)
+    $CURPPadre= $_POST['txtxCurpPadre']; //  en la BD() -- en PHP DatosAlumno(linea  567)
+    $claveElectorPadre= $_POST['txtClaveElectorPadre']; //  en la BD() -- en PHP DatosAlumno(linea  563)
+    $idOcupacionPadre= $_POST['cmbOcupacionPadre']; //  en la BD() -- en PHP DatosAlumno(linea 543 )
+    $idNivelEscolarPadre= $_POST['cmbUltimoGradoPadre']; //  en la BD() -- en PHP DatosAlumno(linea  571)
+    $idParentescoPadre= $_POST['cmbParentescoPadre']; //  en la BD() -- en PHP DatosAlumno(linea 527)
+    //$matricula= $_POST['']; //  en la BD() -- en PHP DatosAlumno(linea  )
+
+    $sentenciaPadre=" INSERT INTO padre VALUES(
+        '$nombrePadre',
+        '$ape1Padre',
+        '$ape2Padre',
+        '$telefonoCelularPadre',
+        '$CURPPadre',
+        '$claveElectorPadre',
+        $idOcupacionPadre,
+        $idNivelEscolarPadre,
+        $idParentescoPadre,
+        '$matricula'
+    );";
+
+    if(mysqli_query($conexion,$sentenciaPadre)){
+        echo "Padre Almacenado Correctamente";
+    }
+    else{
+        echo "Error";
+    }
+
+    //mysqli_close($conexion);
+
+
+    // DATOS PARA INSERTAR MADRE
+    $nombreMadre= $_POST['txtNombreMadre']; //  en la BD() -- en PHP DatosAlumno(linea 590 )    
+    $ape1Madre= $_POST['txtApePMadre'];  //  en la BD() -- en PHP DatosAlumno(linea 594)
+    $ape2Madre= $_POST['txtApeMMadre']; //  en la BD() -- en PHP DatosAlumno(linea 598)
+    $telefonoCelularMadre= $_POST['txtTelefonoCelMadre'];  //  en la BD() -- en PHP DatosAlumno(linea 634 )
+    $CURPMadre= $_POST['txtxCurpMadre']; //  en la BD() -- en PHP DatosAlumno(linea 642)
+    $claveElectroMadre= $_POST['txtClaveElectorMadre']; //  en la BD() -- en PHP DatosAlumno(linea 638 )
+    $idOcupacionMadre= $_POST['cmbOcupacionMadre']; //  en la BD() -- en PHP DatosAlumno(linea 618)
+    $idNivelEscolarMadre= $_POST['cmbUltimoGradoMadre']; //  en la BD() -- en PHP DatosAlumno(linea 646 )
+    $idParentescoMadre= $_POST['cmbParentescoMadre']; //  en la BD() -- en PHP DatosAlumno(linea  602)
+    //$matricula= $_POST['']; //  en la BD() -- en PHP DatosAlumno(linea )
+
+    $sentenciaMadre= "INSERT INTO madre VALUES (
+        '$nombreMadre',
+        '$ape1Madre',
+        '$ape2Madre',
+        '$telefonoCelularMadre',
+        '$CURPMadre',
+        '$claveElectroMadre',
+        $idOcupacionMadre,
+        $idNivelEscolarMadre,
+        $idParentescoMadre,
+        '$matricula'
+    );";
+    if(mysqli_query($conexion,$sentenciaMadre)){
+        echo "Madre Almacenado correctamente";
+    }
+    else{
+        echo "Error";
+    }
     mysqli_close($conexion);
+    
+    
 ?>
