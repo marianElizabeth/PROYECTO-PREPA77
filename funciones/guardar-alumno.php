@@ -128,6 +128,7 @@
     //$matricula= $_POST['']; //  en la BD() -- en PHP DatosAlumno(linea  )
 
     $sentenciaPadre=" INSERT INTO padre VALUES(
+        DEFAULT,
         '$nombrePadre',
         '$ape1Padre',
         '$ape2Padre',
@@ -163,6 +164,7 @@
     //$matricula= $_POST['']; //  en la BD() -- en PHP DatosAlumno(linea )
 
     $sentenciaMadre= "INSERT INTO madre VALUES (
+        DEFAULT,
         '$nombreMadre',
         '$ape1Madre',
         '$ape2Madre',
