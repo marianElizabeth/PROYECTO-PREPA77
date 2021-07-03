@@ -29,7 +29,7 @@
 
     $idGrado= $_POST['cmbGradoAlum'];//23 en la BD(datosAlumono)
 
-    $idLocalidad= $_POST['txtLocalidadAlum'];// 24 en la BD(datosAlumono)
+    $idLocalidad= $_POST['cmbLocalidadAlum'];// 24 en la BD(datosAlumono)
 
     $idAlumnoTrabaja= $_POST['cmbTrabajaAlum'];// 25  en la BD(datosAlumono)
 
@@ -41,7 +41,7 @@
     
     $idBeca= $_POST['cmbBecaAlum'];//29  en la BD(datosAlumono)
 
-    $idMunicipio= $_POST['txtEstadoNacimientoAlum'];// 30 en la BD(datosAlumono)
+    $idEntidadFederativa= $_POST['cmbEstadoNacimientoAlum'];// 30 en la BD(datosAlumono)
 
     $CCTEscuela= $_POST['txtSecundariaProcedenciaAlum'];//31  en la BD(datosAlumono)
 
@@ -54,6 +54,8 @@
 
     $folioCURPAlumno= $_POST['txtFolioCurpAlum'];//37  en la BD(datosAlumono)
     $RFCAlumno= $_POST['txtRFCAlum'];//38  en la BD(datosAlumono)
+
+    $municipioNacimientoAlumno= $_POST['txtMunicipioNacimientoAlumno'];//38  en la BD(datosAlumono)
     
     //$= $_POST['PROCEDENDCIA LINEA 317 -- DATOS GENERALES ALUMNO'];    
     //DATOS DE LA DIRECCIÓN    
