@@ -503,7 +503,42 @@
 															?>
 														</select>
 													</div>
-												
+													<div class="form-group label-floating">
+														<label class="control-label" style="color: rgb(0, 0, 0); font-size: 120%;">Puntaje Escalafonario</label>
+														<input class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;"type="text" name="txtPuntajeEscalafonario">
+													</div>
+													
+													<ul class="nav nav-tabs" style="margin-bottom: 15px;">
+														<li class="active"><a href="" data-toggle="tab" ><i class="zmdi zmdi-case zmdi-hc-fw"></i>Escuela de Asignación</a></li>
+													</ul>
+														<div class="form-group label-floating">
+													<label class="control-label" style="color: rgb(0, 0, 0); font-size: 120%;">Número de Plaza</label>
+													<input class="form-control"style="color: rgb(0, 0, 0); font-size: 100%;" type="text" name="txtNoPlaza">
+													</div>
+													<div class="form-group label-floating">
+													<label class="control-label" style="color: rgb(0, 0, 0); font-size: 120%;">Número de Prelación</label>
+													<input class="form-control"style="color: rgb(0, 0, 0); font-size: 100%;" type="text" name="txtNumPrelacion">
+													</div>
+													<div class="form-group label-floating">
+													<label class="control-label" style="color: rgb(0, 0, 0); font-size: 120%;">Escuela de Asignación</label>
+													<select class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;" name="txtEscuelaAsignacion">
+																	<option>--Seleccione--</option>
+																	<?php
+																		include("funciones/conexion.php");
+																		$sentencia="SELECT * FROM escuela";
+																		$resultado=mysqli_query($conexion,$sentencia);
+																		while($regEscAsig=mysqli_fetch_assoc($resultado)){
+																		echo "
+																		<option value='".$regEscAsig['CCTEscuela']."'>".$regEscAsig["nombreEscuela"]."</option>
+																		";
+																		}
+																	?>
+																</select>
+													</div>
+													<div class="form-group label-floating">
+													<label class="control-label" style="color: rgb(0, 0, 0); font-size: 120%;">Número de Horas</label>
+													<input class="form-control"style="color: rgb(0, 0, 0); font-size: 100%;" type="text" name="txtNumHoras">
+													</div>
 												
 												
 										    <p class="text-center">
