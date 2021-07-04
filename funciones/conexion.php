@@ -7,7 +7,7 @@
     $conexion = mysqli_connect(
         $servidor,
         $usuario,
-        $contra,
-        $baseDatos) OR DIE
+        $password,
+        $bD) OR DIE
         ("no se puede conectar".mysqli_connect_error());
 ?>

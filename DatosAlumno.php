@@ -151,6 +151,10 @@
 												<input class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;" type="text" name="txtFolioAlum">
 											  </div>
 											  <div class="form-group">
+												<label class="control-label" style="color: rgb(0, 0, 0); font-size: 120%;">Fecha de Inscripción</label>
+												<input class="form-control" type="date" name="fechaInscripcionAlum">
+											  </div>
+											  <div class="form-group">
 												<label class="control-label" style="color: rgb(0, 0, 0); font-size: 120%;">Inscrito</label>
 												  <select class="form-control"style="color: rgb(0, 0, 0); font-size: 100%;" name="cmbInscritoAlum">
 													<option>--Seleccione--</option>
