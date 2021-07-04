@@ -1,16 +1,17 @@
 <?php
-    include("funciones/conexion.php");
+    include("conexion.php");
 
-    $CURPDocente= $_POST[''];// 1 en la BD(datosDocente)
+    $CURPDocente= $_POST['txtCurpDocente'];// 1 en la BD(datosDocente)
     $CCTEscuela= $_POST['cmbNombreEscuela'];//25  en la BD(datosAlumono)
     $idPuestoInstitucional = $_POST['cmbPuesto'];// 2 en la BD(datosAlumono)
-    $numeroHoras = $_POST[''];// 3 en la BD(datosAlumono)
+    $numeroHoras = $_POST['txtNoHoras'];// 3 en la BD(datosAlumono)
  
     
-    $sentencia=" INSERT INTO escuelasLabora VALUES(        
+    $sentencia=" INSERT INTO escuelasLabora VALUES(    
+        DEFAULT,    
         '$CURPDocente',
         '$CCTEscuela',
-        '$idPuestoInstitucional',
+        $idPuestoInstitucional,
         '$numeroHoras'
     );";
 
