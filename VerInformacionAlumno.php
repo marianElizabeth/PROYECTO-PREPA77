@@ -162,7 +162,7 @@
 											<th class="text-center">CURP</th>
 											<th class="text-center">Folio CURP</th>
 											<th class="text-center">RFC</th>
-											<th class="text-center">Sexo</th>
+											<th class="text-center">Sexo</th>											
 											<th class="text-center">Lugar de Nacimiento</th>
 											<th class="text-center">Entidad Federativa</th>
 											<th class="text-center">Fecha de Nacimiento</th>
@@ -175,6 +175,7 @@
 											<th class="text-center">Número</th>
 											<th class="text-center">Localidad</th>
 											<th class="text-center">Municipio</th>
+											<th class="text-center">Colonia</th>
 											<th class="text-center">Código Postal</th>
 											<th class="text-center">Referencia de Domicilio</th>
 											<th class="text-center">Teléfono Celular</th>
@@ -216,7 +217,7 @@
 										<?php
 										include("funciones/conexion.php");
 									  
-										$sentencia = " SELECT
+										$sentencia = "SELECT
 										datosalumno.matricula, 
 										datosalumno.fechaInscripcionAlumno, 
 										datosalumno.fechaBaja, 
@@ -232,16 +233,16 @@
 										datosalumno.municipioNacimientoAlumno, 
 										entidadfederativa.descripcionEntidad, 
 										datosalumno.fechaNacimientoAlumno, 
-										(YEAR(CURRENT_DATE)- YEAR(fechaNacimientoAlumno)) - (RIGHT(CURRENT_DATE,5)< RIGHT(fechaNacimientoAlumno,5)) AS 'edad Actual',
+										(YEAR(CURRENT_DATE)- YEAR(fechaNacimientoAlumno)) - (RIGHT(CURRENT_DATE,5)< RIGHT(fechaNacimientoAlumno,5)) AS 'edad actual',
 										datosalumno.correoPersonalAlumno, 
 										datosalumno.correoInstitucionalAlumno, 
 										grado.grado, 
 										grupo.grupo, 
 										datosalumno.calleDomicilio, 
 										datosalumno.numDomicilio, 
-										datosalumno.colonia, 
 										localidad.localidad, 
 										municipio.descripcionMunicipio, 
+										datosalumno.colonia,
 										datosalumno.CP, 
 										datosalumno.referenciaDomicilio, 
 										datosalumno.telefonoCelularAlumno, 
@@ -251,7 +252,8 @@
 										datosalumno.numSeguroSocial, 
 										inscritoalumno.descripcionInscrito, 
 										beca.tipoBeca, 
-										datosalumno.folioBeca
+										datosalumno.folioBeca, 
+										datosalumno.aciertosExamenIngresoAlumno
 									FROM
 										datosalumno
 										INNER JOIN
@@ -277,7 +279,6 @@
 										INNER JOIN
 										municipio
 										ON 
-											entidadfederativa.idEntidadFederativa = municipio.idEntidadFederativa AND
 											localidad.idMunicipio = municipio.idMunicipio
 										INNER JOIN
 										alumnotrabaja
@@ -295,10 +296,13 @@
 										beca
 										ON 
 											datosalumno.idBeca = beca.idBeca
+
+										;										
+										";			
 										
-										";
-										$resultado = mysqli_query($conexion, $sentencia);
-				  
+										//$sentencia2 = "";
+										$resultado = mysqli_query($conexion, $sentencia);				  
+										//$resultado2 = mysqli_query($conexion, $sentencia2);	
 										while ($registro = mysqli_fetch_assoc($resultado) ){
 										  echo "
 										<tr>
@@ -324,8 +328,9 @@
 										  <td>".$registro["grupo"]."</td>
 										  <td>".$registro["calleDomicilio"]."</td>
 										  <td>".$registro["numDomicilio"]."</td>
-										  <td>".$registro["colonia"]."</td>
+										  <td>".$registro["localidad"]."</td>
 										  <td>".$registro["descripcionMunicipio"]."</td>
+										  <td>".$registro["colonia"]."</td>										  
 										  <td>".$registro["CP"]."</td>
 										  <td>".$registro["referenciaDomicilio"]."</td>
 										  <td>".$registro["telefonoCelularAlumno"]."</td>
@@ -336,14 +341,18 @@
 										  <td>".$registro["descripcionInscrito"]."</td>
 										  <td>".$registro["tipoBeca"]."</td>
 										  <td>".$registro["folioBeca"]."</td>
+										  <td>".$registro["aciertosExamenIngresoAlumno"]."</td>
+										  
+										  
 										  <td><a href='#!' class='btn btn-success btn-raised btn-xs'><i class='zmdi zmdi-refresh'></i></a></td>
 										  <td><a href='#!' class='btn btn-danger btn-raised btn-xs'><i class='zmdi zmdi-delete'></i></a></td>
 										
 										 
 										</tr>
-										  ";
-				  
+										  ";				  																							  
 										}
+										 
+										 
 				  
 										mysqli_close($conexion);
 									  ?>
