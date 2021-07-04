@@ -65,7 +65,25 @@
 							<a href="DatosDocente.php"><i class="zmdi zmdi-male-alt zmdi-hc-fw"></i>Datos Docente</a>
 						</li>
 						<li>
+							<a href="LicenciaturaDocente.php"><i class="zmdi zmdi-graduation-cap zmdi-hc-fw"></i>Licenciatura</a>
+						</li>
+						<li>
+							<a href="EspecializacionDocente.php"><i class="zmdi zmdi-graduation-cap zmdi-hc-fw"></i>Especialización</a>
+						</li>
+						<li>
+							<a href="DiplomadoDocente.php"><i class="zmdi zmdi-graduation-cap zmdi-hc-fw"></i>Diplomado</a>
+						</li>
+						<li>
+							<a href="MaestriaDocente.php"><i class="zmdi zmdi-graduation-cap zmdi-hc-fw"></i>Maestria</a>
+						</li>
+						<li>
+							<a href="DoctoradoDocente.php"><i class="zmdi zmdi-graduation-cap zmdi-hc-fw"></i>Doctorado</a>
+						</li>
+						<li>
 							<a href="EscuelaDondeLabora.php"><i class="zmdi zmdi-city zmdi-hc-fw"></i>Escuelas Donde Labora</a>
+						</li>
+						<li>
+							<a href="EscuelaAsignacionDocente.php"><i class="zmdi zmdi-city zmdi-hc-fw"></i>Escuela de Asignacion</a>
 						</li>
 						<li>
 							<a href="VerInformacionDocente.php"><i class="zmdi zmdi-eye zmdi-hc-fw"></i>Ver información</a>
@@ -310,141 +328,6 @@
 															  <option>Michoacan</option>
 															</select>-->
 												<ul class="nav nav-tabs" style="margin-bottom: 15px;">
-													<li class="active"><a href="" data-toggle="tab" ><i class="zmdi zmdi-graduation-cap zmdi-hc-fw"></i>Preparación Profesional</a></li>
-												</ul>
-												<div class="form-group label-floating">
-													<label class="control-label" style="color: rgb(0, 0, 0); font-size: 120%;">Licenciatura en:</label>
-													<select class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;"type="text" name="txtLicDocente">
-														<option>--Seleccione--</option>
-														<?php
-																include("funciones/conexion.php");
-																$sentencia="SELECT * FROM licenciatura";
-																$resultado=mysqli_query($conexion,$sentencia);
-																while($regLic=mysqli_fetch_assoc($resultado)){
-																echo "
-																<option value='".$regLic['idLicenciatura']."'>".$regLic["descripcionLicenciatura"]."</option>
-																";
-																}
-															?>
-													  </select>
-												  </div>
-												<div class="form-group label-floating">
-													<label class="control-label" style="color: rgb(0, 0, 0); font-size: 120%;">Estatus</label>
-													<select class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;" name="cmbEstatusDocente">
-													  <option>--Seleccione--</option>
-													  <option>Titulado</option>
-													  <option>Pasante</option>
-													</select>
-												</div>
-												<div class="form-group label-floating">
-												  <label class="control-label" style="color: rgb(0, 0, 0); font-size: 120%;">No. Cédula Profesional</label>
-												  <input class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;"type="text" name="txtNoCedulaProfDocente">
-												</div>
-												<div class="form-group label-floating">
-												  <label class="control-label" style="color: rgb(0, 0, 0); font-size: 120%;">Escuela de Egresión:</label>
-												  <input class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;" type="text" name="txtEscEgresion">
-												</div>
-												<div class="form-group">
-												  <label class="control-label" style="color: rgb(0, 0, 0); font-size: 120%;">Fecha</label>
-												  <input class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;" type="date" name="fechaEgresion">
-												</div>
-												<div class="form-group label-floating">
-													<label class="control-label" style="color: rgb(0, 0, 0); font-size: 120%;">Especialización en:</label>
-													  <select class="form-control" style="color: rgba(0, 0, 0); font-size: 100%;" type="text"name="cmbEspecializacion">
-														<option>--Seleccione--</option>
-														<?php
-																include("funciones/conexion.php");
-																$sentencia="SELECT * FROM especializacion";
-																$resultado=mysqli_query($conexion,$sentencia);
-																while($regEspecializacion=mysqli_fetch_assoc($resultado)){
-																echo "
-																<option value='".$regEspecializacion['idEspecializacion']."'>".$regEspecializacion["descripcionEspecializacion"]."</option>
-																";
-																}
-															?>
-													  </select>
-												  </div>
-												  <div class="form-group">
-													<label class="control-label" style="color: rgb(0, 0, 0); font-size: 120%;">Fecha de Egreso</label>
-													<input class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;" type="date" name="fechaEgresoEspecializacion">
-												  </div>
-												  <div class="form-group label-floating">
-													<label class="control-label" style="color: rgb(0, 0, 0); font-size: 120%;">Diplomado en:</label>
-													  <select class="form-control" style="color: rgba(0, 0, 0); font-size: 100%;" name="cmbDiplomado">
-														<option>--Seleccione--</option>
-														<?php
-																include("funciones/conexion.php");
-																$sentencia="SELECT * FROM diplomado";
-																$resultado=mysqli_query($conexion,$sentencia);
-																while($regDiplomado=mysqli_fetch_assoc($resultado)){
-																echo "
-																<option value='".$regDiplomado['idDiplomado']."'>".$regDiplomado["descripcionDiplomado"]."</option>
-																";
-																}
-															?>
-													  </select>
-												  </div>
-												<div class="form-group">
-												  <label class="control-label" style="color: rgb(0, 0, 0); font-size: 120%;">Fecha de Egreso</label>
-												  <input class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;" type="date" name="fechaEgresoDiplomado">
-												</div>
-												<div class="form-group label-floating">
-													<label class="control-label" style="color: rgb(0, 0, 0); font-size: 120%;">Maestria en:</label>
-													  <select class="form-control" style="color: rgba(0, 0, 0); font-size: 100%;" name="cmbMaestria">
-														<option>--Seleccione--</option>
-														<?php
-																include("funciones/conexion.php");
-																$sentencia="SELECT * FROM maestria";
-																$resultado=mysqli_query($conexion,$sentencia);
-																while($regMaestria=mysqli_fetch_assoc($resultado)){
-																echo "
-																<option value='".$regMaestria['idMaestria']."'>".$regMaestria["descripcionMaestria"]."</option>
-																";
-																}
-															?>
-													  </select>
-												  </div>
-												<div class="form-group label-floating">
-													<label class="control-label" style="color: rgb(0, 0, 0); font-size: 120%;">Estatus</label>
-													<select class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;" name="cmbEstatusMaestria">
-													  <option>--Seleccione--</option>
-													  <option>Titulado</option>
-													  <option>Pasante</option>
-													</select>
-												</div>
-												<div class="form-group label-floating">
-													<label class="control-label" style="color: rgb(0, 0, 0); font-size: 120%;">No. Cédula Profesional</label>
-													<input class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;"type="text" name="txtNoCedulaMaestria">
-												  </div>
-												  <div class="form-group label-floating">
-													<label class="control-label" style="color: rgb(0, 0, 0); font-size: 120%;">Doctorado en:</label>
-													  <select class="form-control" style="color: rgba(0, 0, 0); font-size: 100%;" name="cmbDoctorado">
-														<option>--Seleccione--</option>
-														<?php
-																include("funciones/conexion.php");
-																$sentencia="SELECT * FROM doctorado";
-																$resultado=mysqli_query($conexion,$sentencia);
-																while($regDoctorado=mysqli_fetch_assoc($resultado)){
-																echo "
-																<option value='".$regDoctorado['idDoctorado']."'>".$regDoctorado["descripcionDoctorado"]."</option>
-																";
-																}
-															?>
-													  </select>
-												  </div>
-												<div class="form-group label-floating">
-													<label class="control-label" style="color: rgb(0, 0, 0); font-size: 120%;">Estatus</label>
-													<select class="form-control" style="color: rgba(0, 0, 0); font-size: 100%;" name="cmbEstatusDoctorado">
-													  <option>--Seleccione--</option>
-													  <option>Titulado</option>
-													  <option>Pasante</option>
-													</select>
-												</div>
-												<div class="form-group label-floating">
-													<label class="control-label" style="color: rgb(0, 0, 0); font-size: 120%;">No. Cédula Profesional</label>
-													<input class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;"type="text" name="txtNCedulaDoctorado">
-												  </div>
-												<ul class="nav nav-tabs" style="margin-bottom: 15px;">
 													<li class="active"><a href="" data-toggle="tab" ><i class="zmdi zmdi-case zmdi-hc-fw"></i>Datos Laborales</a></li>
 												</ul>
 												<div class="form-group">
@@ -507,39 +390,6 @@
 														<label class="control-label" style="color: rgb(0, 0, 0); font-size: 120%;">Puntaje Escalafonario</label>
 														<input class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;"type="text" name="txtPuntajeEscalafonario">
 													</div>
-													
-													<ul class="nav nav-tabs" style="margin-bottom: 15px;">
-														<li class="active"><a href="" data-toggle="tab" ><i class="zmdi zmdi-case zmdi-hc-fw"></i>Escuela de Asignación</a></li>
-													</ul>
-														<div class="form-group label-floating">
-													<label class="control-label" style="color: rgb(0, 0, 0); font-size: 120%;">Número de Plaza</label>
-													<input class="form-control"style="color: rgb(0, 0, 0); font-size: 100%;" type="text" name="txtNoPlaza">
-													</div>
-													<div class="form-group label-floating">
-													<label class="control-label" style="color: rgb(0, 0, 0); font-size: 120%;">Número de Prelación</label>
-													<input class="form-control"style="color: rgb(0, 0, 0); font-size: 100%;" type="text" name="txtNumPrelacion">
-													</div>
-													<div class="form-group label-floating">
-													<label class="control-label" style="color: rgb(0, 0, 0); font-size: 120%;">Escuela de Asignación</label>
-													<select class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;" name="txtEscuelaAsignacion">
-																	<option>--Seleccione--</option>
-																	<?php
-																		include("funciones/conexion.php");
-																		$sentencia="SELECT * FROM escuela";
-																		$resultado=mysqli_query($conexion,$sentencia);
-																		while($regEscAsig=mysqli_fetch_assoc($resultado)){
-																		echo "
-																		<option value='".$regEscAsig['CCTEscuela']."'>".$regEscAsig["nombreEscuela"]."</option>
-																		";
-																		}
-																	?>
-																</select>
-													</div>
-													<div class="form-group label-floating">
-													<label class="control-label" style="color: rgb(0, 0, 0); font-size: 120%;">Número de Horas</label>
-													<input class="form-control"style="color: rgb(0, 0, 0); font-size: 100%;" type="text" name="txtNumHoras">
-													</div>
-												
 												
 										    <p class="text-center">
 										    	<button href="#!" class="btn btn-info btn-raised btn-sm" style="color: rgb(0, 0, 0); font-size: 100%;"><i class="zmdi zmdi-floppy"></i> GUARDAR CAMBIOS</button>
