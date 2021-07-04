@@ -52,7 +52,7 @@
 						</li>
 						
 						<li>
-							<a href="VerInformacionAlumno.html"><i class="zmdi zmdi-eye zmdi-hc-fw"></i>Ver información</a>
+							<a href="VerInformacionAlumno.php"><i class="zmdi zmdi-eye zmdi-hc-fw"></i>Ver información</a>
 						</li>
 					</ul>
 				</li>
@@ -65,7 +65,10 @@
 							<a href="DatosDocente.php"><i class="zmdi zmdi-male-alt zmdi-hc-fw"></i>Datos Docente</a>
 						</li>
 						<li>
-							<a href="VerInformacionDocente.html"><i class="zmdi zmdi-eye zmdi-hc-fw"></i>Ver información</a>
+							<a href="EscuelaDondeLabora.php"><i class="zmdi zmdi-city zmdi-hc-fw"></i>Escuelas Donde Labora</a>
+						</li>
+						<li>
+							<a href="VerInformacionDocente.php"><i class="zmdi zmdi-eye zmdi-hc-fw"></i>Ver información</a>
 						</li>						
 					</ul>
 				</li>
