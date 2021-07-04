@@ -104,7 +104,6 @@
     '$CURPDocente',
     $idLicenciatura,
     '$escuelaEgresionLicenciatura'
-
     );";
 
     if(mysqli_query($conexion,$sentenciaLicenciature)){
