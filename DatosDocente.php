@@ -132,7 +132,7 @@
                     <div class="container-fluid">
 								<div class="row">
 									<div class="col-xs-12 col-md-10 col-md-offset-1">
-										<form action="">
+										<form action="funciones/guardar-datosgeneralesdocente.php" method="POST">
 										<ul class="nav nav-tabs" style="margin-bottom: 15px;">
 												<li class="active"><a href="" data-toggle="tab" ><i class="zmdi zmdi-face zmdi-hc-fw"></i>Información Personal</a></li>
 										    </ul>
