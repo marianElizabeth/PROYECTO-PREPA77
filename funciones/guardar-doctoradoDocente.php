@@ -1,5 +1,5 @@
 <?php
-    include("funciones/conexion.php");
+    include("conexion.php");
 
     $descripcionTituladoPasante= $_POST['cmbEstatusDoctorado'];// 2 en la BD( docente-doctorado)
     $CURPDatosDocentes= $_POST['txtCURPDocente'];//3  en la BD(docente-doctorado)
@@ -9,7 +9,7 @@
     
     $sentenciaDoctorado=" INSERT INTO datosdocente_doctorado VALUES(        
         DEFAULT,
-        '$descripcionTituladoPasanteDoctorado',
+        '$descripcionTituladoPasante',
         '$CURPDatosDocentes',
         $idDoctorado,
         '$noCedulaProfesionalDoctorado'
