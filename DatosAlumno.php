@@ -649,7 +649,7 @@
 													  </div>
 													  <div class="form-group">
 														<label class="control-label" style="color: rgb(0, 0, 0); font-size: 120%;">Ultimo Grado de Estudios</label>
-														  <select class="form-control" style="color: rgba(0, 0, 0, 0); font-size: 100%;" name="cmbUltimoGradoMadre">
+														  <select class="form-control" style="color: rgba(0, 0, 0); font-size: 100%;" name="cmbUltimoGradoMadre">
 															<option>--Seleccione--</option>
 															<?php
 																include("funciones/conexion.php");
