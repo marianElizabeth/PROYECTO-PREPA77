@@ -106,8 +106,7 @@
         '$folioCURPAlumno',
         '$RFCAlumno',
         '$municipioNacimientoAlumno',
-        '$fechaInscripcionAlumno'
-    );";
+        '$fechaInscripcionAlumno');";
 
     if(mysqli_query($conexion,$sentencia)){
         echo "Alumno Almacenado Correctamene";
@@ -185,7 +184,5 @@
     else{
         echo "Error";
     }
-    mysqli_close($conexion);
-    
-    
+    mysqli_close($conexion);        
 ?>
