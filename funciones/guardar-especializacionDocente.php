@@ -1,5 +1,5 @@
 <?php
-    include("funciones/conexion.php");
+    include("conexion.php");
 
     //INSERTAR DATOS EN ESPECIALIZACION
     //$descripcionTituladoPasanteEspecializacion= $_POST[''];// 2 en la BD( docente-Especializacion) ---PHP LINEA
