@@ -33,7 +33,7 @@
     $fechaDeIngresoAlCargo= $_POST['fechaIngresoCargo'];//19 en la BD(datosDocente)  -- en PHP guardar-datosgeneralesdocente(linea  )
     $fechaDeIngresoInstitucion= $_POST['fechaIngresoInstitucional']; //20 en la BD(datosDocente) -- en PHP guardar-datosgeneralesdocente(linea  )
     $fechaDeIngresoCarreraDocente= $_POST['fechaCarreraDocente']; //21 en la BD(datosDocente) -- en PHP guardar-datosgeneralesdocente(linea  )
-    $puntajeEscalafonario= "2000";//$_POST[''];//22 en la BD(datosDocente) -- en PHP guardar-datosgeneralesdocente(linea  )
+    $puntajeEscalafonario= $_POST['txtPuntajeEscalafonario'];//$_POST[''];//22 en la BD(datosDocente) -- en PHP guardar-datosgeneralesdocente(linea  )
     //$numPlaza= $_POST['txtNoPlaza'];//23 en la BD(datosDocente)
     //$numPrelacion= $_POST['txtNumPrelacion'];// 24  en la BD(datosDocente)
     
