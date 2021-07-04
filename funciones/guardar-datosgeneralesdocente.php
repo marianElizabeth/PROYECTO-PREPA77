@@ -1,5 +1,5 @@
 <?php
-    include("funciones/conexion.php");
+    include("conexion.php");
     //ES DE DATOS PERSONALES
     $CURPDocente= $_POST['txtCURPDocente'];// 1 en la BD(datosDocente) -- en PHP guardar-datosgeneralesdocente(linea  161)
     $nombreDocente = $_POST['txtNombreDocente'];// 2 en la BD(datosDocente) -- en PHP guardar-datosgeneralesdocente(linea  141)
@@ -51,7 +51,7 @@
     $colonia= $_POST['txtColoniaDocente'];//31  en la BD(datosDocente) -- en PHP guardar-datosgeneralesdocente(linea  )
     $CP= $_POST['txtCPDocente'];//32  en la BD(datosDocente)  -- en PHP guardar-datosgeneralesdocente(linea  )  
     
-    $sentencia=" INSERT INTO datosDocente (CURPDocente,nombreDocente,ape1Docente,ape2Docente,fechaNacimientoDocente,RFCDocente,claveISSEMYM,telefonoCelular,telefonoFijo) VALUES(        
+    $sentencia=" INSERT INTO datosDocente VALUES(        
         '$CURPDocente',
         '$nombreDocente',
         '$ape1Docente',
@@ -140,7 +140,7 @@
 
     $sentenciaDiplomado=" INSERT INTO datosdocente_Diplomado VALUES(        
     DEFAULT,
-    '$CURPDocentes',
+    '$CURPDocente',
     $idDiplomado
     );";
 
