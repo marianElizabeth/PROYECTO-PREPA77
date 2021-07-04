@@ -142,6 +142,8 @@
 																<th class="text-center">Nombre de la escuela</th>
 																<th class="text-center">Puesto o Asignatura que atiende</th>
 																<th class="text-center">No. Horas</th>
+																<th class="text-center">CURP Docente</th>
+
 															</tr>
 														</thead>
 														<tbody>
@@ -178,6 +180,9 @@
 																</td>
 																<td>
 																<input class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;" type="text" name="txtNoHoras">
+																</td>
+																<td>
+																<input class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;" type="text" name="txtCurpDocente">
 																</td>
 															</tr>
 														</tbody>
