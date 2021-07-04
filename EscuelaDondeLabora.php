@@ -149,21 +149,31 @@
 																<td>
 																<select class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;" name="cmbNombreEscuela">
 																	<option>--Seleccione--</option>
-																	<option>A</option>
-																	<option>B</option>
-																	<option>C</option>
-																	<option>D</option>
-																	<option>E</option>
+																	<?php
+																		include("funciones/conexion.php");
+																		$sentencia="SELECT * FROM escuela";
+																		$resultado=mysqli_query($conexion,$sentencia);
+																		while($regEscLaboral=mysqli_fetch_assoc($resultado)){
+																		echo "
+																		<option value='".$regEscLaboral['CCTEscuela']."'>".$regEscLaboral["nombreEscuela"]."</option>
+																		";
+																		}
+																	?>
 																</select>
 																</td>
 																<td>
 																<select class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;" name="cmbPuesto">
 																	<option>--Seleccione--</option>
-																	<option>A</option>
-																	<option>B</option>
-																	<option>C</option>
-																	<option>D</option>
-																	<option>E</option>
+																	<?php
+																		include("funciones/conexion.php");
+																		$sentencia="SELECT * FROM puestoInstitucional";
+																		$resultado=mysqli_query($conexion,$sentencia);
+																		while($regEscLaboral=mysqli_fetch_assoc($resultado)){
+																		echo "
+																		<option value='".$regEscLaboral['idPuestoInstitucional']."'>".$regEscLaboral["descripcionInstitucional"]."</option>
+																		";
+																		}
+																	?>
 																</select>
 																</td>
 																<td>
@@ -174,22 +184,7 @@
 													</table>
 												</div>
 											</div>
-											<div class="form-group label-floating">
-											<label class="control-label" style="color: rgb(0, 0, 0); font-size: 120%;">Número de Plaza</label>
-											<input class="form-control"style="color: rgb(0, 0, 0); font-size: 100%;" type="text" name="txtNoPlaza">
-											</div>
-											<div class="form-group label-floating">
-											<label class="control-label" style="color: rgb(0, 0, 0); font-size: 120%;">Número de Prelación</label>
-											<input class="form-control"style="color: rgb(0, 0, 0); font-size: 100%;" type="text" name="txtNumPrelacion">
-											</div>
-											<div class="form-group label-floating">
-											<label class="control-label" style="color: rgb(0, 0, 0); font-size: 120%;">Escuela de Asignación</label>
-											<input class="form-control"style="color: rgb(0, 0, 0); font-size: 100%;" type="text" name="txtEscuelaAsignacion">
-											</div>
-											<div class="form-group label-floating">
-											<label class="control-label" style="color: rgb(0, 0, 0); font-size: 120%;">Número de Horas</label>
-											<input class="form-control"style="color: rgb(0, 0, 0); font-size: 100%;" type="text" name="txtNumHoras">
-											</div>
+											
 											<p class="text-center">
 											<button href="" class="btn btn-info btn-raised btn-sm" style="color: rgb(0, 0, 0); font-size: 100%;"><i class="zmdi zmdi-floppy "></i> GUARDAR CAMBIOS</button>
 											</p>
