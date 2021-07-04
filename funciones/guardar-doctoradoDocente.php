@@ -1,23 +1,26 @@
 <?php
     include("funciones/conexion.php");
 
-    $descripcionTituladoPasante= $_POST[''];// 2 en la BD( docente-doctorado)
-    $CURPDatosDocentes= $_POST[''];//3  en la BD(docente-doctorado)
-    $idDoctorado = $_POST[''];// 4 en la BD(docente-doctorado)
+    $descripcionTituladoPasante= $_POST['cmbEstatusDoctorado'];// 2 en la BD( docente-doctorado)
+    $CURPDatosDocentes= $_POST['txtCURPDocente'];//3  en la BD(docente-doctorado)
+    $idDoctorado = $_POST['cmbDoctorado'];// 4 en la BD(docente-doctorado)
+    $noCedulaProfesionalDoctorado= $_POST['txtNCedulaDoctorado'];//15 en la BD(datosDocente) -- en PHP guardar-datosgeneralesdocente(linea  )
  
     
-    $sentencia=" INSERT INTO datosdocente_doctorado VALUES(        
-    '$descripcionTituladoPasante',
-    '$CURPDatosDocentes',
-    '$idDoctorado'
-    );";
-
-    if(mysqli_query($conexion,$sentencia)){
-        echo("Doctorado agregada correctamente");
-    }
-    else{
-        echo "Error";
-    }
+    $sentenciaDoctorado=" INSERT INTO datosdocente_doctorado VALUES(        
+        DEFAULT,
+        '$descripcionTituladoPasanteDoctorado',
+        '$CURPDatosDocentes',
+        $idDoctorado,
+        '$noCedulaProfesionalDoctorado'
+        );";
+    
+        if(mysqli_query($conexion,$sentenciaDoctorado)){
+            echo("Doctorado agregada correctamente");
+        }
+        else{
+            echo "Error";
+        }
 
     mysqli_close($conexion);
 ?>
