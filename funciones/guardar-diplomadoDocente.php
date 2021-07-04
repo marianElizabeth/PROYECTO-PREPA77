@@ -1,5 +1,5 @@
 <?php
-    include("funciones/conexion.php");
+    include("conexion.php");
 
     //DIPLOMADO 
     //$descripcionTituladoPasante= $_POST[''];// 2 en la BD( docente-diplomado)
@@ -10,7 +10,7 @@
 
     $sentenciaDiplomado=" INSERT INTO datosdocentes_diplomado VALUES(        
     DEFAULT,
-    '$CURPDocente',
+    '$CURPDatosDocentes',
     $idDiplomado,
     '$fechaEgresoDiplomado'
     );";
