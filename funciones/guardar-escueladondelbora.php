@@ -2,8 +2,8 @@
     include("funciones/conexion.php");
 
     $CURPDocente= $_POST[''];// 1 en la BD(datosDocente)
-    $CCTEscuela= $_POST[''];//25  en la BD(datosAlumono)
-    $idPuestoInstitucional = $_POST[''];// 2 en la BD(datosAlumono)
+    $CCTEscuela= $_POST['cmbNombreEscuela'];//25  en la BD(datosAlumono)
+    $idPuestoInstitucional = $_POST['cmbPuesto'];// 2 en la BD(datosAlumono)
     $numeroHoras = $_POST[''];// 3 en la BD(datosAlumono)
  
     
