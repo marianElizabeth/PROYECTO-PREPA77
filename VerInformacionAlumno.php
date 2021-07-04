@@ -133,11 +133,11 @@
 								<table class="table table-hover text-center">
 									<thead>
 										<tr>
+											<th class="text-center">Matricula</th>
 											<th class="text-center">Fecha Inscripción</th>
 											<th class="text-center">Fecha de Baja</th>
 											<th class="text-center">Número de Expediente</th>
 											<th class="text-center">Folio</th>
-											<th class="text-center">Matricula</th>
 											<th class="text-center">Apellido Paterno</th>
 											<th class="text-center">Apellido Materno</th>
 											<th class="text-center">Nombre</th>
@@ -198,15 +198,128 @@
 										<?php
 										include("funciones/conexion.php");
 									  
-										$sentencia = "SELECT * FROM ";
+										$sentencia = " SELECT
+										datosalumno.matricula, 
+										datosalumno.fechaInscripcionAlumno, 
+										datosalumno.fechaBaja, 
+										datosalumno.numExpediente, 
+										datosalumno.folioAlumno, 
+										datosalumno.ape1Alumno, 
+										datosalumno.ape2Alumno, 
+										datosalumno.nombreAlumno, 
+										datosalumno.CURPAlumno, 
+										datosalumno.folioCURPAlumno, 
+										datosalumno.RFCAlumno, 
+										sexo.descripcionSexo, 
+										datosalumno.municipioNacimientoAlumno, 
+										entidadfederativa.descripcionEntidad, 
+										datosalumno.fechaNacimientoAlumno, 
+										datosalumno.correoPersonalAlumno, 
+										datosalumno.correoInstitucionalAlumno, 
+										grado.grado, 
+										grupo.grupo, 
+										datosalumno.calleDomicilio, 
+										datosalumno.numDomicilio, 
+										datosalumno.colonia, 
+										localidad.localidad, 
+										municipio.descripcionMunicipio, 
+										datosalumno.CP, 
+										datosalumno.referenciaDomicilio, 
+										datosalumno.telefonoCelularAlumno, 
+										datosalumno.telefonoFijoAlumno, 
+										alumnotrabaja.descripcionTrabaja, 
+										tiposegurosocial.tipoSeguroSocial, 
+										datosalumno.numSeguroSocial, 
+										inscritoalumno.descripcionInscrito, 
+										beca.tipoBeca, 
+										datosalumno.folioBeca
+									FROM
+										datosalumno
+										INNER JOIN
+										sexo
+										ON 
+											datosalumno.idSexo = sexo.idSexo
+										INNER JOIN
+										entidadfederativa
+										ON 
+											datosalumno.idEntidadFederativa = entidadfederativa.idEntidadFederativa
+										INNER JOIN
+										grado
+										ON 
+											datosalumno.idGrado = grado.idGrado
+										INNER JOIN
+										grupo
+										ON 
+											datosalumno.idGrupo = grupo.idGrupo
+										INNER JOIN
+										localidad
+										ON 
+											datosalumno.idLocalidad = localidad.idLocalidad
+										INNER JOIN
+										municipio
+										ON 
+											entidadfederativa.idEntidadFederativa = municipio.idEntidadFederativa AND
+											localidad.idMunicipio = municipio.idMunicipio
+										INNER JOIN
+										alumnotrabaja
+										ON 
+											datosalumno.idAlumnoTrabaja = alumnotrabaja.idAlumnoTrabaja
+										INNER JOIN
+										tiposegurosocial
+										ON 
+											datosalumno.idTipoSeguroSocial = tiposegurosocial.idSeguroSocial
+										INNER JOIN
+										inscritoalumno
+										ON 
+											datosalumno.idInscritoAlumnno = inscritoalumno.idInscrito
+										INNER JOIN
+										beca
+										ON 
+											datosalumno.idBeca = beca.idBeca
+										
+										";
 										$resultado = mysqli_query($conexion, $sentencia);
 				  
 										while ($registro = mysqli_fetch_assoc($resultado) ){
 										  echo "
 										<tr>
-										  <td>".$registro["clvUsuario"]."</td>
-										  <td>".$registro["Nombre"]."</td>
-										  <td>".$registro["saldoActual"]."</td>
+										  <td>".$registro["matricula"]."</td>
+										  <td>".$registro["fechaInscripcionAlumno"]."</td>
+										  <td>".$registro["fechaBaja"]."</td>
+										  <td>".$registro["numExpediente"]."</td>
+										  <td>".$registro["folioAlumno"]."</td>
+										  <td>".$registro["ape1Alumno"]."</td>
+										  <td>".$registro["ape2Alumno"]."</td>
+										  <td>".$registro["nombreAlumno"]."</td>
+										  <td>".$registro["CURPAlumno"]."</td>
+										  <td>".$registro["folioCURPAlumno"]."</td>
+										  <td>".$registro["RFCAlumno"]."</td>
+										  <td>".$registro["descripcionSexo"]."</td>
+										  <td>".$registro["municipioNacimientoAlumno"]."</td>
+										  <td>".$registro["descripcionEntidad"]."</td>
+										  <td>".$registro["fechaNacimientoAlumno"]."</td>
+										  <td>".$registro["correoPersonalAlumno"]."</td>
+										  <td>".$registro["correoInstitucionalAlumno"]."</td>
+										  <td>".$registro["grado"]."</td>
+										  <td>".$registro["grupo"]."</td>
+										  <td>".$registro["calleDomicilio"]."</td>
+										  <td>".$registro["numDomicilio"]."</td>
+										  <td>".$registro["colonia"]."</td>
+										  <td>".$registro["descripcionMunicipio"]."</td>
+										  <td>".$registro["CP"]."</td>
+										  <td>".$registro["referenciaDomicilio"]."</td>
+										  <td>".$registro["telefonoCelularAlumno"]."</td>
+										  <td>".$registro["telefonoFijoAlumno"]."</td>
+										  <td>".$registro["descripcionTrabaja"]."</td>
+										  <td>".$registro["tipoSeguroSocial"]."</td>
+										  <td>".$registro["numSeguroSocial"]."</td>
+										  <td>".$registro["descripcionInscrito"]."</td>
+										  <td>".$registro["tipoBeca"]."</td>
+										  <td>".$registro["folioBeca"]."</td>
+										  <td><a href='#!' class='btn btn-success btn-raised btn-xs'><i class='zmdi zmdi-refresh'></i></a></td>
+										  <td><a href='#!' class='btn btn-danger btn-raised btn-xs'><i class='zmdi zmdi-delete'></i></a></td>
+										
+										 
 										</tr>
 										  ";
 				  
@@ -214,10 +327,6 @@
 				  
 										mysqli_close($conexion);
 									  ?>
-											<td><a href="#!" class="btn btn-success btn-raised btn-xs"><i class="zmdi zmdi-refresh"></i></a></td>
-											<td><a href="#!" class="btn btn-danger btn-raised btn-xs"><i class="zmdi zmdi-delete"></i></a></td>
-										
-									
 									</tbody>
 								</table>
 							</div>
