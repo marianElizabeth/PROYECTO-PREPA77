@@ -151,7 +151,7 @@
 							<div class="container-fluid">
 								<div class="row">
 									<div class="col-xs-12 col-md-10 col-md-offset-1">
-										<form action="funciones/guardar-escueladondelbora.php" method="POST">
+										<form action="funciones/guardar-maestriaDocente.php" method="POST">
                                             <div class="form-group label-floating">
 											  <label class="control-label" style="color: rgb(0, 0, 0); font-size: 120%;">CURP</label>
 											  <input class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;"type="text" name="txtCURPDocente">
