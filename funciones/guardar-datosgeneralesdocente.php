@@ -12,20 +12,20 @@
     $telefonoFijo= $_POST['txtTelefonoFijoDocente'];//9 en la BD(datosDocente) -- en PHP guardar-datosgeneralesdocente(linea  )
     
     //DATOS PARA LICENCIATURA-DOCENTE
-    $noCedulaProfesional= $_POST['txtNoCedulaProfDocente'];// 10 en la BD(datosDocente) -- en PHP guardar-datosgeneralesdocente(linea  341)
-    $fechaEscuelaEgresion= $_POST['fechaEgresion'];//11 en la BD(datosDocente)  -- en PHP guardar-datosgeneralesdocente(linea  349)
+    //$noCedulaProfesional= $_POST['txtNoCedulaProfDocente'];// 10 en la BD(datosDocente) -- en PHP guardar-datosgeneralesdocente(linea  341)
+    //$fechaEscuelaEgresion= $_POST['fechaEgresion'];//11 en la BD(datosDocente)  -- en PHP guardar-datosgeneralesdocente(linea  349)
 
     //ESPECIALIZACION
-    $fechaEgresoEspecializacion= $_POST['fechaEgresoEspecializacion'];//12  en la BD(datosDocente) -- en PHP guardar-datosgeneralesdocente(linea 369  )
+    //$fechaEgresoEspecializacion= $_POST['fechaEgresoEspecializacion'];//12  en la BD(datosDocente) -- en PHP guardar-datosgeneralesdocente(linea 369  )
 
     //DIPLOMADO
     //$fechaEgresoDiplomado= $_POST['fechaEgresoDiplomado'];// 13 en la BD(datosDocente)   -- en PHP guardar-datosgeneralesdocente(linea  )
     
     //DOCTORADO
-    $noCedulaProfesionalDoctorado= $_POST['txtNCedulaDoctorado'];//15 en la BD(datosDocente) -- en PHP guardar-datosgeneralesdocente(linea  )
+    //$noCedulaProfesionalDoctorado= $_POST['txtNCedulaDoctorado'];//15 en la BD(datosDocente) -- en PHP guardar-datosgeneralesdocente(linea  )
 
     //MAESTRIA
-    $noCedulaProfesionalMaestria= $_POST['txtNoCedulaMaestria'];// 14 en la BD(datosDocente) -- en PHP guardar-datosgeneralesdocente(linea  )    
+    //$noCedulaProfesionalMaestria= $_POST['txtNoCedulaMaestria'];// 14 en la BD(datosDocente) -- en PHP guardar-datosgeneralesdocente(linea  )    
 
     $fechaDeIngresoSEducativoEstatal= $_POST['fechaIngresoSEducativo'];//16 en la BD(datosDocente)     -- en PHP guardar-datosgeneralesdocente(linea  )
     $fechaDeIngresoAlNivel= $_POST['fechaIngresoNivel'];//17 en la BD(datosDocente)  -- en PHP guardar-datosgeneralesdocente(linea  )
@@ -60,13 +60,7 @@
         '$RFCDocente',
         '$claveISSEMYM',
         '$telefonoCelular',
-        '$telefonoFijo',
-        '$noCedulaProfesional',
-        '$fechaEscuelaEgresion',
-        '$fechaEgresoEspecializacion',
-        '$fechaEgresoDiplomado',
-        '$noCedulaProfesionalMaestria',
-        '$noCedulaProfesionalDoctorado',
+        '$telefonoFijo',        
         '$fechaDeIngresoSEducativoEstatal',
         '$fechaDeIngresoAlNivel',
         '$fechaDeBaseAlNivel',
@@ -92,45 +86,45 @@
         echo "Error";
     }
     //INSERTAR DATOS EN LA LICENCIATURA
-    $descripcionTituladoPasanteLicenciatura= $_POST['cmbEstatusDocente'];// 2 en la BD( docente-Licenciatura)---php linea 333
+    //7$descripcionTituladoPasanteLicenciatura= $_POST['cmbEstatusDocente'];// 2 en la BD( docente-Licenciatura)---php linea 333
     //$CURPDatosDocentes= $_POST['txtCURPDocente'];//3  en la BD(docente-Licenciatura) ---php linea
-    $idLicenciatura = $_POST['txtLicDocente'];// 4 en la BD(docente-Licenciatura)---php linea 317
-    $escuelaEgresionLicenciatura = $_POST['txtEscEgresion'];// 5 en la BD(docente-Licenciatura) ---php linea 345
+    //$idLicenciatura = $_POST['txtLicDocente'];// 4 en la BD(docente-Licenciatura)---php linea 317
+   // $escuelaEgresionLicenciatura = $_POST['txtEscEgresion'];// 5 en la BD(docente-Licenciatura) ---php linea 345
  
     
-    $sentenciaLicenciature=" INSERT INTO datosdocente_licenciatura VALUES(    
-    DEFAULT,    
-    '$descripcionTituladoPasanteLicenciatura',
-    '$CURPDocente',
-    $idLicenciatura,
-    '$escuelaEgresionLicenciatura'
-    );";
+    //$sentenciaLicenciature=" INSERT INTO datosdocente_licenciatura VALUES(    
+    //DEFAULT,    
+    //'$descripcionTituladoPasanteLicenciatura',
+    //'$CURPDocente',
+    //$idLicenciatura,
+    //'$escuelaEgresionLicenciatura'
+    //);";
 
-    if(mysqli_query($conexion,$sentenciaLicenciature)){
-        echo("Licenciatura agregada correctamente");
-    }
-    else{
-        echo "Error";
-    }
+    //if(mysqli_query($conexion,$sentenciaLicenciature)){
+    //    echo("Licenciatura agregada correctamente");
+    //}
+    //else{
+    //    echo "Error";
+    //}
 
     //INSERTAR DATOS EN ESPECIALIZACION
     //$descripcionTituladoPasanteEspecializacion= $_POST[''];// 2 en la BD( docente-Especializacion) ---PHP LINEA
     //$CURPDatosDocentes= $_POST[''];//3  en la BD(docente-Especializacion) ---PHP LINEA
-    $idEspecializacion = $_POST['cmbEspecializacion'];// 4 en la BD(docente-Especializacion) ---PHP LINEA 353
+    //$idEspecializacion = $_POST['cmbEspecializacion'];// 4 en la BD(docente-Especializacion) ---PHP LINEA 353
  
     
-    $sentenciaEspecializacion=" INSERT INTO datosdocente_especializacion VALUES(        
-    DEFAULT,
-    '$CURPDocente',
-    $idEspecializacion
-    );";
+    //$sentenciaEspecializacion=" INSERT INTO datosdocente_especializacion VALUES(        
+    //DEFAULT,
+    //'$CURPDocente',
+    //$idEspecializacion
+    //);";
 
-    if(mysqli_query($conexion,$sentenciaEspecializacion)){
-        echo("Especializacion agregada correctamente");
-    }
-    else{
-        echo "Error";
-    }
+    //if(mysqli_query($conexion,$sentenciaEspecializacion)){
+        //echo("Especializacion agregada correctamente");
+    //}
+    //else{
+     // /7  echo "Error";
+    //}
 
 
     //DIPLOMADO 
@@ -152,34 +146,34 @@
     //}
 
     //MAESTRIA
-    $descripcionTituladoPasanteMaestria= $_POST['cmbEstatusMaestria'];// 2 en la BD( docente-Maestria)
+    //$descripcionTituladoPasanteMaestria= $_POST['cmbEstatusMaestria'];// 2 en la BD( docente-Maestria)
     //$CURPDatosDocentes= $_POST[''];//3  en la BD(docente-Maestria)
-    $idMaestria = $_POST['cmbMaestria'];// 4 en la BD(docente-Maestria)
+    //7$idMaestria = $_POST['cmbMaestria'];// 4 en la BD(docente-Maestria)
  
     
-    $sentenciaMaestria=" INSERT INTO datosdocente_maestria VALUES(        
-    DEFAULT,
-    '$descripcionTituladoPasanteMaestria',
-    '$CURPDocente',
-    $idMaestria
-    );";
+    //$sentenciaMaestria=" INSERT INTO datosdocente_maestria VALUES(        
+    //DEFAULT,
+    //'$descripcionTituladoPasanteMaestria',
+    //'$CURPDocente',
+    //$idMaestria
+    //);";
 
-    if(mysqli_query($conexion,$sentenciaMaestria)){
-        echo("Maestria agregada correctamente");
-    }
-    else{
-        echo "Error";
-    }
+    //if(mysqli_query($conexion,$sentenciaMaestria)){
+      //  echo("Maestria agregada correctamente");
+   // }
+    //else{
+     //   echo "Error";
+    //}
 
 
     //doctorado
-    $descripcionTituladoPasanteDoctorado= $_POST['cmbEstatusDoctorado'];// 2 en la BD( docente-doctorado)
+    //$descripcionTituladoPasanteDoctorado= $_POST['cmbEstatusDoctorado'];// 2 en la BD( docente-doctorado)
     //$CURPDatosDocentes= $_POST[''];//3  en la BD(docente-doctorado)
-    $idDoctorado = $_POST['cmbDoctorado'];// 4 en la BD(docente-doctorado)---php 421
+    //$idDoctorado = $_POST['cmbDoctorado'];// 4 en la BD(docente-doctorado)---php 421
  
     
-    $sentenciaDoctorado=" INSERT INTO datosdocente_doctorado VALUES(        
-    DEFAULT,
+    //$sentenciaDoctorado=" INSERT INTO datosdocente_doctorado VALUES(        
+    /*DEFAULT,
     '$descripcionTituladoPasanteDoctorado',
     '$CURPDocente',
     $idDoctorado
@@ -190,6 +184,6 @@
     }
     else{
         echo "Error";
-    }
+    }*/
     mysqli_close($conexion);
 ?>
