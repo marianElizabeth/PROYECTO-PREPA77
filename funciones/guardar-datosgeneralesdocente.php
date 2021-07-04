@@ -51,7 +51,7 @@
     $colonia= $_POST['txtColoniaDocente'];//31  en la BD(datosDocente) -- en PHP guardar-datosgeneralesdocente(linea  )
     $CP= $_POST['txtCPDocente'];//32  en la BD(datosDocente)  -- en PHP guardar-datosgeneralesdocente(linea  )  
     
-    $sentencia=" INSERT INTO datosDocente VALUES(        
+    $sentencia=" INSERT INTO datosDocentes VALUES(        
         '$CURPDocente',
         '$nombreDocente',
         '$ape1Docente',
@@ -98,7 +98,7 @@
     $escuelaEgresionLicenciatura = $_POST['txtEscEgresion'];// 5 en la BD(docente-Licenciatura) ---php linea 345
  
     
-    $sentenciaLicenciature=" INSERT INTO datosdocente_Licenciatura VALUES(    
+    $sentenciaLicenciature=" INSERT INTO datosdocente_licenciatura VALUES(    
     DEFAULT,    
     '$descripcionTituladoPasanteLicenciatura',
     '$CURPDocente',
@@ -119,7 +119,7 @@
     $idEspecializacion = $_POST['cmbEspecializacion'];// 4 en la BD(docente-Especializacion) ---PHP LINEA 353
  
     
-    $sentenciaEspecializacion=" INSERT INTO datosdocente_Especializacion VALUES(        
+    $sentenciaEspecializacion=" INSERT INTO datosdocente_especializacion VALUES(        
     DEFAULT,
     '$CURPDocente',
     $idEspecializacion
@@ -138,7 +138,7 @@
     //$CURPDatosDocentes= $_POST[''];//3  en la BD(docente-diplomado)
     $idDiplomado = $_POST['cmbDiplomado'];// 4 en la BD(docente-diplomado)---php 373
 
-    $sentenciaDiplomado=" INSERT INTO datosdocente_Diplomado VALUES(        
+    $sentenciaDiplomado=" INSERT INTO datosdocentes_diplomado VALUES(        
     DEFAULT,
     '$CURPDocente',
     $idDiplomado
@@ -157,7 +157,7 @@
     $idMaestria = $_POST['cmbMaestria'];// 4 en la BD(docente-Maestria)
  
     
-    $sentenciaMaestria=" INSERT INTO datosdocente_Maestria VALUES(        
+    $sentenciaMaestria=" INSERT INTO datosdocente_maestria VALUES(        
     DEFAULT,
     '$descripcionTituladoPasanteMaestria',
     '$CURPDocente',
