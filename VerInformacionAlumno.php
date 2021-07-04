@@ -232,6 +232,7 @@
 										datosalumno.municipioNacimientoAlumno, 
 										entidadfederativa.descripcionEntidad, 
 										datosalumno.fechaNacimientoAlumno, 
+										(YEAR(CURRENT_DATE)- YEAR(fechaNacimientoAlumno)) - (RIGHT(CURRENT_DATE,5)< RIGHT(fechaNacimientoAlumno,5)) AS 'edad Actual',
 										datosalumno.correoPersonalAlumno, 
 										datosalumno.correoInstitucionalAlumno, 
 										grado.grado, 
@@ -316,6 +317,7 @@
 										  <td>".$registro["municipioNacimientoAlumno"]."</td>
 										  <td>".$registro["descripcionEntidad"]."</td>
 										  <td>".$registro["fechaNacimientoAlumno"]."</td>
+										  <td>".$registro["edad actual"]."</td>
 										  <td>".$registro["correoPersonalAlumno"]."</td>
 										  <td>".$registro["correoInstitucionalAlumno"]."</td>
 										  <td>".$registro["grado"]."</td>
