@@ -300,11 +300,99 @@
 										;										
 										";			
 										
-										//$sentencia2 = "";
-										$resultado = mysqli_query($conexion, $sentencia);				  
-										//$resultado2 = mysqli_query($conexion, $sentencia2);	
-										while ($registro = mysqli_fetch_assoc($resultado) ){
-										  echo "
+										$sentencia2="SELECT
+										escuela.nombreEscuela, 
+										escuela.CCTEscuela, 
+										localidad.localidad, 
+										datosalumno.promSecundaria, 
+										datosalumno.nombreTutor
+									FROM
+										datosalumno
+										INNER JOIN
+										escuela
+										ON 
+											datosalumno.CCTEscuela = escuela.CCTEscuela
+										INNER JOIN
+										localidad
+										ON 
+											escuela.idLocalidad = localidad.idLocalidad
+										";
+
+									$sentencia3="SELECT
+										CONCAT(
+										padre.nombrePadre, ' ', 
+										padre.ape1Padre,' ', 
+										padre.ape2Padre) 'nombrePadre', 
+										nivelescolar.descripcionNivelEscolar, 
+										ocupacion.descripcionOcupacion, 
+										padre.telefonoCelularPadre, 
+										padre.CURPPadre, 
+										padre.claveElectorPadre
+									FROM
+										datosalumno
+										INNER JOIN
+										padre
+										ON 
+											datosalumno.matricula = padre.matricula
+										INNER JOIN
+										nivelescolar
+										ON 
+											padre.idNivelEscolar = nivelescolar.idNivelEscolar
+										INNER JOIN
+										ocupacion
+										ON 
+											padre.idOcupacion = ocupacion.idOcupacion
+									";
+
+									$sentencia4="SELECT
+										CONCAT(
+										madre.nombreMadre, ' ', 
+										madre.ape1Madre,' ', 
+										madre.ape2Madre) AS nombreMadre, 
+										nivelescolar.descripcionNivelEscolar, 
+										ocupacion.descripcionOcupacion, 
+										madre.telefonoCelularMadre, 
+										madre.CURPMadre, 
+										madre.claveElectorMadre
+									FROM
+										datosalumno
+										INNER JOIN
+										madre
+										ON 
+											datosalumno.matricula = madre.matricula
+										INNER JOIN
+										nivelescolar
+										ON 
+											madre.idNivelEscolar = nivelescolar.idNivelEscolar
+										INNER JOIN
+										ocupacion
+										ON 
+										madre.idOcupacion = ocupacion.idOcupacion							
+									";
+
+									$sentencia5="SELECT
+										parentesco.descripcionParentesco, 
+										ocupacion.descripcionOcupacion
+									FROM
+										datosalumno
+										INNER JOIN
+										parentesco
+										ON 
+											datosalumno.idParentesco = parentesco.idParentesco
+										INNER JOIN
+										ocupacion
+										ON 
+											datosalumno.idOcupacion = ocupacion.idOcupacion
+									";
+
+									$resultado = mysqli_query($conexion, $sentencia);	
+									$resultado2 = mysqli_query($conexion, $sentencia2);
+									$resultado3 = mysqli_query($conexion, $sentencia3);
+									$resultado4 = mysqli_query($conexion, $sentencia4);
+									$resultado5 = mysqli_query($conexion, $sentencia5);
+
+									while($registro = mysqli_fetch_assoc($resultado)){
+										echo "
 										<tr>
 										  <td>".$registro["matricula"]."</td>
 										  <td>".$registro["fechaInscripcionAlumno"]."</td>
@@ -342,18 +430,52 @@
 										  <td>".$registro["tipoBeca"]."</td>
 										  <td>".$registro["folioBeca"]."</td>
 										  <td>".$registro["aciertosExamenIngresoAlumno"]."</td>
-										  
-										  
-										  <td><a href='#!' class='btn btn-success btn-raised btn-xs'><i class='zmdi zmdi-refresh'></i></a></td>
-										  <td><a href='#!' class='btn btn-danger btn-raised btn-xs'><i class='zmdi zmdi-delete'></i></a></td>
-										
-										 
-										</tr>
-										  ";				  																							  
-										}
-										 
-										 
-				  
+										  ";
+
+										  if($registro2 = mysqli_fetch_assoc($resultado2)){
+											echo"
+											<td>".$registro2["nombreEscuela"]."</td>
+											<td>".$registro2["CCTEscuela"]."</td>
+											<td>".$registro2["localidad"]."</td>
+											<td>".$registro2["promSecundaria"]."</td>
+											<td>".$registro2["nombreTutor"]."</td>
+											";
+										   }
+
+											if($registro3 = mysqli_fetch_assoc($resultado3)){
+												echo" 	
+												<td>".$registro3["nombrePadre"]."</td>
+												<td>".$registro3["descripcionNivelEscolar"]."</td>
+												<td>".$registro3["descripcionOcupacion"]."</td>
+												<td>".$registro3["telefonoCelularPadre"]."</td>
+												<td>".$registro3["CURPPadre"]."</td>
+												<td>".$registro3["claveElectorPadre"]."</td>
+												";
+											}
+
+											if($registro4 = mysqli_fetch_assoc($resultado4)){
+												echo" 	
+												<td>".$registro4["nombreMadre"]."</td>
+												<td>".$registro4["descripcionNivelEscolar"]."</td>
+												<td>".$registro4["descripcionOcupacion"]."</td>
+												<td>".$registro4["telefonoCelularMadre"]."</td>
+												<td>".$registro4["CURPMadre"]."</td>
+												<td>".$registro4["claveElectorMadre"]."</td>
+												";
+											}
+
+											if($registro5 = mysqli_fetch_assoc($resultado5)){
+												echo" 
+												<td>".$registro5["descripcionParentesco"]."</td>
+												<td>".$registro5["descripcionOcupacion"]."</td>
+												";
+											}
+											echo"
+											<td><a href='#!' class='btn btn-success btn-raised btn-xs'><i class='zmdi zmdi-refresh'></i></a></td>
+											<td><a href='#!' class='btn btn-danger btn-raised btn-xs'><i class='zmdi zmdi-delete'></i></a></td>
+											";
+									}
+									
 										mysqli_close($conexion);
 									  ?>
 									</tbody>
