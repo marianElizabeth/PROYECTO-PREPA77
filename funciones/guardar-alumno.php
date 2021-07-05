@@ -110,6 +110,7 @@
 
     if(mysqli_query($conexion,$sentencia)){
         echo "Alumno Almacenado Correctamene";
+        header("Location:PROYECTO-PREPA77/VerInformacionAlumno.php");
     }
     else{
         echo "Error";
