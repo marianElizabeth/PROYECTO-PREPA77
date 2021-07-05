@@ -314,22 +314,7 @@
 												<label class="control-label" style="color: rgb(0, 0, 0); font-size: 120%;">Nombre Completo del Tutor</label>
 												<input class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;" type="text" name="txtNombreTutorAlum">
 											  </div>
-											  <div class="form-group">
-												<label class="control-label" style="color: rgb(0, 0, 0); font-size: 120%;">Parentesco del Tutor</label>
-												  <select class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;" name="cmbParentescoTutorAlum">
-													<option>--Seleccione--</option>
-													<?php
-														include("funciones/conexion.php");
-														$sentencia="SELECT * FROM parentesco";
-														$resultado=mysqli_query($conexion,$sentencia);
-														while($regParentesco=mysqli_fetch_assoc($resultado)){
-														echo "
-														<option value='".$regParentesco['idParentesco']."'>".$regParentesco["descripcionParentesco"]."</option>
-														";
-														}
-													?>
-												  </select>
-											  </div>
+						
 											  <div class="form-group">
 												<label class="control-label" style="color: rgb(0, 0, 0); font-size: 120%;">Tipo de Seguro Social</label>
 												  <select class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;" name="cmbTipoSocialAlum">
