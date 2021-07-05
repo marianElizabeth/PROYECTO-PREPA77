@@ -2,7 +2,7 @@
     $servidor= "localhost";
     $usuario="root";
     $password="";
-    $bD="nuevaBd";
+    $bD="bdPrepa";
 
     $conexion = mysqli_connect(
         $servidor,
