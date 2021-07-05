@@ -390,6 +390,7 @@
 									$resultado3 = mysqli_query($conexion, $sentencia3);
 									$resultado4 = mysqli_query($conexion, $sentencia4);
 									$resultado5 = mysqli_query($conexion, $sentencia5);
+								
 
 									while($registro = mysqli_fetch_assoc($resultado)){
 										echo "
@@ -473,7 +474,9 @@
 											echo"
 											<td><a href='#!' class='btn btn-success btn-raised btn-xs'><i class='zmdi zmdi-refresh'></i></a></td>
 											<td><a href='#!' class='btn btn-danger btn-raised btn-xs'><i class='zmdi zmdi-delete'></i></a></td>
+											</tr>
 											";
+										
 									}
 									
 										mysqli_close($conexion);
