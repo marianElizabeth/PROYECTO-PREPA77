@@ -235,7 +235,7 @@
 										  <td>".$registro["aciertosExamenIngresoAlumno"]."</td>
 										  <td>".$registro["nombreEscuela"]."</td>
 										  <td>".$registro["promSecundaria"]."</td>
-										  <td><a href='' class='btn btn-success btn-raised btn-xs'><i class='zmdi zmdi-refresh'></i></a></td>
+										  <td><a href='actualizar-alumno.php?MatriculaUpdate=".$registro["matricula"]."' class='btn btn-success btn-raised btn-xs'><i class='zmdi zmdi-refresh'></i></a></td>
 										  <td><a href='funciones/eliminar-procedenciaAlumno.php?MatriculaDelete=".$registro["matricula"]."' class='btn btn-danger btn-raised btn-xs'><i class='zmdi zmdi-delete'></i></a></td>
 										  
 										  </tr>
