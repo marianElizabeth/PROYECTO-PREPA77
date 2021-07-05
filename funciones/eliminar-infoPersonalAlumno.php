@@ -27,7 +27,8 @@
     ;
     ";
     if(mysqli_query($conexion,$sentencia1)){
-        header("Location: ../verInfoPersonalAlumno.php");    }
+        header("Location: ../verInfoPersonalAlumno.php");    
+    }
     else{
         echo "Error";
     }
