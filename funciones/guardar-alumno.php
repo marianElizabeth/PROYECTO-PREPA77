@@ -109,9 +109,7 @@
         '$fechaInscripcionAlumno');";
 
     if(mysqli_query($conexion,$sentencia)){
-        echo "Alumno Almacenado Correctamene";
-        header("Location: ../VerInformacionAlumno.php");
-    }
+        header("Location: ../verInfoPersonalAlumno.php");    }
     else{
         echo "Error";
     }
@@ -145,7 +143,7 @@
     );";
 
     if(mysqli_query($conexion,$sentenciaPadre)){
-        echo "Padre Almacenado Correctamente";
+        header("Location: ../verInfoPersonalAlumno.php");
     }
     else{
         echo "Error";
@@ -180,8 +178,7 @@
         '$matricula'
     );";
     if(mysqli_query($conexion,$sentenciaMadre)){
-        echo "Madre Almacenado correctamente";
-    }
+        header("Location: ../verInfoPersonalAlumno.php");    }
     else{
         echo "Error";
     }

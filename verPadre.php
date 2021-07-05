@@ -221,7 +221,7 @@
 										include("funciones/conexion.php");
 									  
 										$sentencia = "SELECT
-										padre.matricula, 
+										datosalumno.matricula, 
 										padre.nombrePadre, 
 										padre.ape1Padre, 
 										padre.ape2Padre, 
@@ -266,7 +266,7 @@
 										  <td>".$registro["CURPPadre"]."</td>
 										  <td>".$registro["descripcionNivelEscolar"]."</td>
 										  <td><a href='' class='btn btn-success btn-raised btn-xs'><i class='zmdi zmdi-refresh'></i></a></td>
-										  <td><a href='funciones/eliminar-procedencia.php?MatriculaDelete=".$registro["matricula"]."' class='btn btn-danger btn-raised btn-xs'><i class='zmdi zmdi-delete'></i></a></td>
+										  <td><a href='funciones/eliminar-padre.php?MatriculaDelete=".$registro["matricula"]."' class='btn btn-danger btn-raised btn-xs'><i class='zmdi zmdi-delete'></i></a></td>
 										  
 										  </tr>
 										  ";
