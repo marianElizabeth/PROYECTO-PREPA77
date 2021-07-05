@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-	<title>Página Principal</title>
+	<title>Ver Información Alumno</title>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
 	<link rel="stylesheet" href="./css/main.css">
@@ -18,8 +18,8 @@
 			<!-- SideBar User info -->
 			<div class="full-box dashboard-sideBar-UserInfo">
 				<figure class="full-box">
-					<img src="./assets/img/usuario.jpg" alt="UserIcon">
-					<figcaption class="text-center text-titles">Administrador</figcaption>
+				    <img src="./assets/img/usuario.jpg" alt="UserIcon">
+					<figcaption class="text-center text-titles">User Name</figcaption>
 				</figure>
 				<ul class="full-box list-unstyled text-center">
 					<li>
@@ -182,49 +182,195 @@
 			</ul>
 		</nav>
 		<!-- Content page -->
-		<div class="container-fluid">		
-			<div class="text-center" style="text-align: center; font-size: 350%;">
-				<div class="text-center" style="text-align: center; ">
-					<img src="./assets/img/log77.png" srcset="./assets/img/log77.png 720w" sizes="(min-width: 376px) 28.3vw, 90vw"alt="Logo Preparatoria No.77">
-					<span style="color: rgb(0, 0, 0); font-family:Perpetua; font-size: 100%;">PREPARATORIA OFICIAL No.77</span> 
-					<img src="./assets/img/EscudoMx.png" srcset="./assets/img/EscudoMx.png 720w" sizes="(min-width: 376px) 28.3vw, 90vw"alt="EscudoMex">
-				</div>
-		<div class="full-box text-center" style="text-align: center">
-			<img src="./assets/img/escuela.png" srcset="./assets/img/escuela.png 720w" sizes="(min-width: 376px) 58.3vw, 120vw"alt="Escuela">
+		<div class="container-fluid">
+			<div class="page-header">
+			  <h1 class="text-titles"><i class="zmdi zmdi-eye zmdi-hc-fw"></i> Información Personal <small>Alumno</small></h1>
+			</div>
+			<p class="lead">En está sección puedes visualizar toda tu información personal</p>
 		</div>
-			
-		<div class="full-box text-center" style="padding: 30px 10px;">
-			<a href="">
-			<article class="full-box tile">
-				<div class="full-box tile-title text-center text-titles text-uppercase">
-					Horarios
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-xs-12">
+					<ul class="nav nav-tabs" style="margin-bottom: 15px;">
+					  	<li><a href="" data-toggle="tab"></a></li>
+					</ul>
+					<div id="myTabContent" class="tab-content">
+					  	
+							<div class="table-responsive">
+								<table class="table table-hover text-center">
+									<thead>
+										<tr>
+											<th class="text-center">Matricula</th>
+											<th class="text-center">Número de expediente</th>
+											<th class="text-center">Folio de Alumno</th>
+											<th class="text-center">Fecha Inscripción</th>
+											<th class="text-center">Inscrito</th>
+											<th class="text-center">Grado</th>
+											<th class="text-center">Grupo</th>
+											<th class="text-center">CURP</th>
+											<th class="text-center">Folio CURP</th>
+											<th class="text-center">RFC</th>
+											<th class="text-center">Nombre</th>
+											<th class="text-center">Apellido Paterno</th>
+											<th class="text-center">Apellido Materno</th>
+											<th class="text-center">Sexo</th>											
+											<th class="text-center">Edad</th>
+											<th class="text-center">Fecha de Nacimiento</th>
+											<th class="text-center">Municipio Nacimiento</th>
+											<th class="text-center">Entidad Federativa</th>
+											<th class="text-center">Telefono Celular</th>
+											<th class="text-center">Telefono Fijo</th>
+											<th class="text-center">Nombre del Tutor</th>
+											<th class="text-center">Tipo Seguro Social</th>
+											<th class="text-center">Número Seguro Social</th>
+											<th class="text-center">Correo Electrónico Personal</th>
+											<th class="text-center">Correo Electrónico Institucional</th>
+											<th class="text-center">¿Trabaja?</th>
+											<th class="text-center">Beca</th>
+											<th class="text-center">Folio Beca</th>
+											<th class="text-center">De Quien Depende Economicamente</th>
+											<th class="text-center">Ocupacion de Quien Depende</th>
+											<th class="text-center">Fecha Baja</th>
+
+											<th class="text-center">Actualizar</th>
+											<th class="text-center">Eliminar</th>
+										</tr>
+									</thead>
+									<tbody>
+
+										<?php
+										include("funciones/conexion.php");
+									  
+										$sentencia = " SELECT
+										datosalumno.matricula, 
+										datosalumno.numExpediente, 
+										datosalumno.folioAlumno, 
+										datosalumno.fechaInscripcionAlumno, 
+										inscritoalumno.descripcionInscrito, 
+										grado.grado, 
+										grupo.grupo, 
+										datosalumno.CURPAlumno, 
+										datosalumno.folioCURPAlumno, 
+										datosalumno.RFCAlumno, 
+										datosalumno.nombreAlumno, 
+										datosalumno.ape1Alumno, 
+										datosalumno.ape2Alumno, 
+										sexo.descripcionSexo, 
+										edad.edad, 
+										datosalumno.fechaNacimientoAlumno, 
+										datosalumno.municipioNacimientoAlumno, 
+										entidadfederativa.descripcionEntidad, 
+										datosalumno.telefonoCelularAlumno, 
+										datosalumno.telefonoFijoAlumno, 
+										datosalumno.nombreTutor, 
+										tiposegurosocial.tipoSeguroSocial, 
+										datosalumno.numSeguroSocial, 
+										datosalumno.correoPersonalAlumno, 
+										datosalumno.correoInstitucionalAlumno, 
+										alumnotrabaja.descripcionTrabaja, 
+										beca.tipoBeca, 
+										datosalumno.folioBeca, 
+										parentesco.descripcionParentesco, 
+										ocupacion.descripcionOcupacion, 
+										datosalumno.fechaBaja
+								        FROM
+										datosalumno
+										INNER JOIN
+										inscritoalumno
+										ON 
+											datosalumno.idInscritoAlumnno = inscritoalumno.idInscrito
+										INNER JOIN
+										grado
+										ON 
+											datosalumno.idGrado = grado.idGrado
+										INNER JOIN
+										grupo
+										ON 
+											datosalumno.idGrupo = grupo.idGrupo
+										INNER JOIN
+										sexo
+										ON 
+											datosalumno.idSexo = sexo.idSexo
+										INNER JOIN
+										edad
+										ON 
+											datosalumno.idEdad = edad.idEdad
+										INNER JOIN
+										entidadfederativa
+										ON 
+											datosalumno.idEntidadFederativa = entidadfederativa.idEntidadFederativa
+										INNER JOIN
+										tiposegurosocial
+										ON 
+											datosalumno.idTipoSeguroSocial = tiposegurosocial.idSeguroSocial
+										INNER JOIN
+										alumnotrabaja
+										ON 
+											datosalumno.idAlumnoTrabaja = alumnotrabaja.idAlumnoTrabaja
+										INNER JOIN
+										beca
+										ON 
+											datosalumno.idBeca = beca.idBeca
+										INNER JOIN
+										parentesco
+										ON 
+											datosalumno.idParentesco = parentesco.idParentesco
+										INNER JOIN
+										ocupacion
+										ON 
+											datosalumno.idOcupacion = ocupacion.idOcupacion				
+										";			
+
+										$resultado = mysqli_query($conexion, $sentencia);				  
+										while ($registro = mysqli_fetch_assoc($resultado) ){
+										  echo "
+										  <tr>
+										  <td>".$registro["matricula"]."</td>
+										  <td>".$registro["numExpediente"]."</td>
+										  <td>".$registro["folioAlumno"]."</td>
+										  <td>".$registro["fechaInscripcionAlumno"]."</td>
+										  <td>".$registro["descripcionInscrito"]."</td>
+										  <td>".$registro["grado"]."</td>
+										  <td>".$registro["grupo"]."</td>
+										  <td>".$registro["CURPAlumno"]."</td>
+										  <td>".$registro["folioCURPAlumno"]."</td>
+										  <td>".$registro["RFCAlumno"]."</td>
+										  <td>".$registro["nombreAlumno"]."</td>
+										  <td>".$registro["ape1Alumno"]."</td>
+										  <td>".$registro["ape2Alumno"]."</td>
+										  <td>".$registro["descripcionSexo"]."</td>
+										  <td>".$registro["edad"]."</td>
+										  <td>".$registro["fechaNacimientoAlumno"]."</td>
+										  <td>".$registro["municipioNacimientoAlumno"]."</td>
+										  <td>".$registro["descripcionEntidad"]."</td>
+										  <td>".$registro["telefonoCelularAlumno"]."</td>
+										  <td>".$registro["telefonoFijoAlumno"]."</td>
+										  <td>".$registro["nombreTutor"]."</td>
+										  <td>".$registro["tipoSeguroSocial"]."</td>
+										  <td>".$registro["numSeguroSocial"]."</td>
+										  <td>".$registro["correoPersonalAlumno"]."</td>
+										  <td>".$registro["correoInstitucionalAlumno"]."</td>
+										  <td>".$registro["descripcionTrabaja"]."</td>
+										  <td>".$registro["tipoBeca"]."</td>
+										  <td>".$registro["folioBeca"]."</td>
+										  <td>".$registro["descripcionParentesco"]."</td>
+										  <td>".$registro["descripcionOcupacion"]."</td>
+										  <td>".$registro["fechaBaja"]."</td>
+										  <td><a href='' class='btn btn-success btn-raised btn-xs'><i class='zmdi zmdi-refresh'></i></a></td>
+										  <td><a href='funciones/eliminar-datosPersonales.php?MatriculaDelete=".$registro["matricula"]."' class='btn btn-danger btn-raised btn-xs'><i class='zmdi zmdi-delete'></i></a></td>
+										  
+										  </tr>
+										  ";
+										}
+										 			  																							
+										mysqli_close($conexion);
+									  ?>
+									</tbody>
+								</table>
+							</div>
+					</div>  
 				</div>
-				
-				<div class="full-box tile-icon text-center"style="font-size: 250%; left: 75px; top: 5px;">
-					<i class="zmdi zmdi-time"></i>
-				</div>
-			</article>
-			</a>
-			<a href="">
-			<article class="full-box tile" >
-				<div class="full-box tile-title text-center text-titles text-uppercase">
-					Calendario Escolar
-				</div>
-				<div class="full-box tile-icon text-center" style="font-size: 250%; left: 75px; top: 5px;">
-					<i class="zmdi zmdi-calendar-alt"></i>
-				</div>
-			</article>
-			</a>
-			<a href="">
-			<article class="full-box tile">
-				<div class="full-box tile-title text-center text-titles text-uppercase">
-					Cuadro Curricular
-				</div>
-				<div class="full-box tile-icon text-center" style="font-size: 250%; left: 75px; top: 5px;">
-					<i class="zmdi zmdi-assignment"></i>
-				</div>
-			</article>
-			</a>
+			</div>
 		</div>
 	</section>
 

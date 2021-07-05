@@ -1,7 +1,7 @@
-<!DOCTYPE html>
+!DOCTYPE html>
 <html lang="es">
 <head>
-	<title>Página Principal</title>
+	<title>Procedencia</title>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
 	<link rel="stylesheet" href="./css/main.css">
@@ -182,49 +182,103 @@
 			</ul>
 		</nav>
 		<!-- Content page -->
-		<div class="container-fluid">		
-			<div class="text-center" style="text-align: center; font-size: 350%;">
-				<div class="text-center" style="text-align: center; ">
-					<img src="./assets/img/log77.png" srcset="./assets/img/log77.png 720w" sizes="(min-width: 376px) 28.3vw, 90vw"alt="Logo Preparatoria No.77">
-					<span style="color: rgb(0, 0, 0); font-family:Perpetua; font-size: 100%;">PREPARATORIA OFICIAL No.77</span> 
-					<img src="./assets/img/EscudoMx.png" srcset="./assets/img/EscudoMx.png 720w" sizes="(min-width: 376px) 28.3vw, 90vw"alt="EscudoMex">
-				</div>
-		<div class="full-box text-center" style="text-align: center">
-			<img src="./assets/img/escuela.png" srcset="./assets/img/escuela.png 720w" sizes="(min-width: 376px) 58.3vw, 120vw"alt="Escuela">
+		<div class="container-fluid">
+			<div class="page-header">
+			  <h1 class="text-titles"><i class="zmdi zmdi-eye zmdi-hc-fw"></i>Madre <small>Alumno</small></h1>
+			</div>
+			<p class="lead">En esta sección puedes visualizar la información sobre los madres</p>
 		</div>
-			
-		<div class="full-box text-center" style="padding: 30px 10px;">
-			<a href="">
-			<article class="full-box tile">
-				<div class="full-box tile-title text-center text-titles text-uppercase">
-					Horarios
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-xs-12">
+					<ul class="nav nav-tabs" style="margin-bottom: 15px;">
+					  	<li class="active"><a href="#" data-toggle="tab"></a></li>
+					  	<li><a href="#" data-toggle="tab"></a></li>
+					</ul>
+					<div id="myTabContent" class="tab-content">
+					<div class="table-responsive">
+								<table class="table table-hover text-center">
+									<thead>
+										<tr>
+											
+											<th class="text-center">Matricula</th>
+											<th class="text-center">Nombre</th>
+											<th class="text-center">Apellido Paterno</th>
+											<th class="text-center">Apellido Materno</th>
+											<th class="text-center">Parentesco</th>
+											<th class="text-center">Ocupación</th>
+											<th class="text-center">Telefono Celular</th>
+											<th class="text-center">Clave de Elector</th>
+											<th class="text-center">CURP</th>
+											<th class="text-center">Ultimo Grado de Estudios</th>
+											<th class="text-center">Actualizar</th>
+											<th class="text-center">Eliminar</th>
+										</tr>
+									</thead>
+									<tbody>
+
+										<?php
+										include("funciones/conexion.php");
+									  
+										$sentencia = "SELECT
+                                        datosalumno.matricula, 
+                                        madre.nombreMadre, 
+                                        madre.ape1Madre, 
+                                        madre.ape2Madre, 
+                                        parentesco.descripcionParentesco, 
+                                        ocupacion.descripcionOcupacion, 
+                                        madre.telefonoCelularMadre, 
+                                        madre.claveElectorMadre, 
+                                        madre.CURPMadre, 
+                                        nivelescolar.descripcionNivelEscolar
+                                        FROM
+                                        datosalumno
+                                        INNER JOIN
+                                        madre
+                                        ON 
+                                            datosalumno.matricula = madre.matricula
+                                        INNER JOIN
+                                        parentesco
+                                        ON 
+                                            madre.idParentesco = parentesco.idParentesco
+                                        INNER JOIN
+                                        ocupacion
+                                        ON 
+                                            madre.idOcupacion = ocupacion.idOcupacion
+                                        INNER JOIN
+                                        nivelescolar
+                                        ON 
+                                            madre.idNivelEscolar = nivelescolar.idNivelEscolar
+										";			
+
+										$resultado = mysqli_query($conexion, $sentencia);				  
+										while ($registro = mysqli_fetch_assoc($resultado) ){
+										  echo "
+										  <tr>
+										  <td>".$registro["matricula"]."</td>
+										  <td>".$registro["nombreMadre"]."</td>
+										  <td>".$registro["ape1Madre"]."</td>
+										  <td>".$registro["ape2Madre"]."</td>
+										  <td>".$registro["descripcionParentesco"]."</td>
+										  <td>".$registro["descripcionOcupacion"]."</td>
+										  <td>".$registro["telefonoCelularMadre"]."</td>
+										  <td>".$registro["claveElectorMadre"]."</td>
+										  <td>".$registro["CURPMadre"]."</td>
+										  <td>".$registro["descripcionNivelEscolar"]."</td>
+										  <td><a href='' class='btn btn-success btn-raised btn-xs'><i class='zmdi zmdi-refresh'></i></a></td>
+										  <td><a href='funciones/eliminar-procedencia.php?MatriculaDelete=".$registro["matricula"]."' class='btn btn-danger btn-raised btn-xs'><i class='zmdi zmdi-delete'></i></a></td>
+										  
+										  </tr>
+										  ";
+										}	  																							
+										mysqli_close($conexion);
+									  ?>
+									</tbody>
+								</table>
+							</div>
+					</div>
 				</div>
-				
-				<div class="full-box tile-icon text-center"style="font-size: 250%; left: 75px; top: 5px;">
-					<i class="zmdi zmdi-time"></i>
-				</div>
-			</article>
-			</a>
-			<a href="">
-			<article class="full-box tile" >
-				<div class="full-box tile-title text-center text-titles text-uppercase">
-					Calendario Escolar
-				</div>
-				<div class="full-box tile-icon text-center" style="font-size: 250%; left: 75px; top: 5px;">
-					<i class="zmdi zmdi-calendar-alt"></i>
-				</div>
-			</article>
-			</a>
-			<a href="">
-			<article class="full-box tile">
-				<div class="full-box tile-title text-center text-titles text-uppercase">
-					Cuadro Curricular
-				</div>
-				<div class="full-box tile-icon text-center" style="font-size: 250%; left: 75px; top: 5px;">
-					<i class="zmdi zmdi-assignment"></i>
-				</div>
-			</article>
-			</a>
+			</div>
 		</div>
 	</section>
 

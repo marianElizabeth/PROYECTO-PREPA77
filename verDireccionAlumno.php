@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-	<title>Dirección</title>
+	<title>Procedencia</title>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
 	<link rel="stylesheet" href="./css/main.css">
@@ -18,8 +18,8 @@
 			<!-- SideBar User info -->
 			<div class="full-box dashboard-sideBar-UserInfo">
 				<figure class="full-box">
-					<img src="./assets/img/avatar.jpg" alt="UserIcon">
-					<figcaption class="text-center text-titles">User Name</figcaption>
+					<img src="./assets/img/usuario.jpg" alt="UserIcon">
+					<figcaption class="text-center text-titles">Administrador</figcaption>
 				</figure>
 				<ul class="full-box list-unstyled text-center">
 					<li>
@@ -44,49 +44,99 @@
 				<li>
 					<a href="#!" class="btn-sideBar-SubMenu">
 						<i class="nav-icon fas fa-tachometer-alt"></i>
-						<i class="zmdi zmdi-card zmdi-hc-fw"></i>Datos del Alumno<i class="zmdi zmdi-caret-down pull-right"></i>
+						<i class="zmdi zmdi-card zmdi-hc-fw"></i>Alumno<i class="zmdi zmdi-caret-down pull-right"></i>
 					</a>
 					<ul class="list-unstyled full-box">
 						<li>
-							<a href="DatosGenerales.html"><i class="zmdi zmdi-face zmdi-hc-fw"></i>Datos Generales</a>
+							<a href="DatosAlumno.php"><i class="zmdi zmdi-assignment zmdi-hc-fw"></i>Registro Alumno</a>
+						</li>
+						
+					</ul>
+				</li>
+				<li>
+					<a href="#!" class="btn-sideBar-SubMenu">
+						<i class="nav-icon fas fa-tachometer-alt"></i>
+						<i class="zmdi zmdi-eye zmdi-hc-fw"></i>Ver Información del Alumno<i class="zmdi zmdi-caret-down pull-right"></i>
+					</a>
+					<ul class="list-unstyled full-box">
+						<li>
+							<a href="verInfoPersonalAlumno.php"><i class="zmdi zmdi-face zmdi-hc-fw"></i>Información Personal</a>
+						</li>
+						
+						<li>
+							<a href="verProcedenciaAlumno.php"><i class="zmdi zmdi-balance zmdi-hc-fw"></i>Procedencia</a>
 						</li>
 						<li>
-							<a href="Procedencia.html"><i class="zmdi zmdi-balance  zmdi-hc-fw"></i>Procedencia</a>
+							<a href="verDireccionAlumno.php"><i class="zmdi zmdi-pin zmdi-hc-fw"></i>Dirección</a>
 						</li>
 						<li>
-							<a href="Direccion.html"><i class="zmdi zmdi-pin zmdi-hc-fw"></i>Dirección</a>
+							<a href="verPadre.php"><i class="zmdi zmdi-male-alt zmdi-hc-fw"></i>Padre</a>
 						</li>
 						<li>
-							<a href="Padres.html"><i class="zmdi zmdi-male-female zmdi-hc-fw"></i>Padres</a>
-						</li>
-						<li>
-							<a href="VerInformacionAlumno.html"><i class="zmdi zmdi-eye zmdi-hc-fw"></i>Ver información</a>
+							<a href="verMadre.php"><i class="zmdi zmdi-female zmdi-hc-fw"></i>Madre</a>
 						</li>
 					</ul>
 				</li>
 				<li>
 					<a href="#!" class="btn-sideBar-SubMenu">
-						<i class="zmdi zmdi-account zmdi-hc-fw"></i>Datos del Docente<i class="zmdi zmdi-caret-down pull-right"></i>
+						<i class="zmdi zmdi-account zmdi-hc-fw"></i>Docente<i class="zmdi zmdi-caret-down pull-right"></i>
 					</a>
 					<ul class="list-unstyled full-box">
 						<li>
-							<a href="DatosPersonales.html"><i class="zmdi zmdi-male-alt zmdi-hc-fw"></i>Datos Personales</a>
+							<a href="DatosDocente.php"><i class="zmdi zmdi-male-alt zmdi-hc-fw"></i>Datos Docente</a>
 						</li>
 						<li>
-							<a href="DatosCentroTrabajo.html"><i class="zmdi zmdi-home zmdi-hc-fw"></i>Datos del Centro de Trabajo</a>
+							<a href="LicenciaturaDocente.php"><i class="zmdi zmdi-graduation-cap zmdi-hc-fw"></i>Licenciatura</a>
 						</li>
 						<li>
-							<a href="PreparacionProfesional.html"><i class="zmdi zmdi-graduation-cap zmdi-hc-fw"></i>Preparación Profesional</a>
+							<a href="EspecializacionDocente.php"><i class="zmdi zmdi-graduation-cap zmdi-hc-fw"></i>Especialización</a>
 						</li>
 						<li>
-							<a href="DatosLaborales.html"><i class="zmdi zmdi-case zmdi-hc-fw"></i>Datos Laborales</a>
+							<a href="DiplomadoDocente.php"><i class="zmdi zmdi-graduation-cap zmdi-hc-fw"></i>Diplomado</a>
 						</li>
 						<li>
-							<a href="EscuelaDondeLabora.html"><i class="zmdi zmdi-city zmdi-hc-fw"></i>Escuelas Donde Labora</a>
+							<a href="MaestriaDocente.php"><i class="zmdi zmdi-graduation-cap zmdi-hc-fw"></i>Maestria</a>
 						</li>
 						<li>
-							<a href="VerInformacionDocente.html"><i class="zmdi zmdi-eye zmdi-hc-fw"></i>Ver información</a>
-						</li>						
+							<a href="DoctoradoDocente.php"><i class="zmdi zmdi-graduation-cap zmdi-hc-fw"></i>Doctorado</a>
+						</li>
+						<li>
+							<a href="EscuelaDondeLabora.php"><i class="zmdi zmdi-city zmdi-hc-fw"></i>Escuelas Donde Labora</a>
+						</li>
+						<li>
+							<a href="EscuelaAsignacionDocente.php"><i class="zmdi zmdi-city zmdi-hc-fw"></i>Escuela de Asignacion</a>
+						</li>					
+					</ul>
+				</li>
+				<li>
+					<a href="#!" class="btn-sideBar-SubMenu">
+						<i class="zmdi zmdi-eye zmdi-hc-fw"></i>Ver Información del Docente<i class="zmdi zmdi-caret-down pull-right"></i>
+					</a>
+					<ul class="list-unstyled full-box">
+						<li>
+							<a href="DatosDocente.php"><i class="zmdi zmdi-male-alt zmdi-hc-fw"></i>Datos Docente</a>
+						</li>
+						<li>
+							<a href="LicenciaturaDocente.php"><i class="zmdi zmdi-graduation-cap zmdi-hc-fw"></i>Licenciatura</a>
+						</li>
+						<li>
+							<a href="EspecializacionDocente.php"><i class="zmdi zmdi-graduation-cap zmdi-hc-fw"></i>Especialización</a>
+						</li>
+						<li>
+							<a href="DiplomadoDocente.php"><i class="zmdi zmdi-graduation-cap zmdi-hc-fw"></i>Diplomado</a>
+						</li>
+						<li>
+							<a href="MaestriaDocente.php"><i class="zmdi zmdi-graduation-cap zmdi-hc-fw"></i>Maestria</a>
+						</li>
+						<li>
+							<a href="DoctoradoDocente.php"><i class="zmdi zmdi-graduation-cap zmdi-hc-fw"></i>Doctorado</a>
+						</li>
+						<li>
+							<a href="EscuelaDondeLabora.php"><i class="zmdi zmdi-city zmdi-hc-fw"></i>Escuelas Donde Labora</a>
+						</li>
+						<li>
+							<a href="EscuelaAsignacionDocente.php"><i class="zmdi zmdi-city zmdi-hc-fw"></i>Escuela de Asignacion</a>
+						</li>					
 					</ul>
 				</li>
 			</ul>
@@ -99,7 +149,19 @@
 		<nav class="full-box dashboard-Navbar">
 			<ul class="full-box list-unstyled text-right">
 				<li class="pull-left">
+					
 					<a href="#!" class="btn-menu-dashboard"><i class="zmdi zmdi-more-vert"></i></a>
+				</li>
+				<li class="pull-left">
+					<a href="PaginaPrincipal.html" class="btn-menu-dashboard">Principal</a>
+				</li>
+				<li class="pull-left">     </li>
+				<li class="pull-left">
+					<a href="DatosAlumno.php" class="btn-menu-dashboard">Alumno</a>
+				</li>
+				<li class="pull-left">     </li>
+				<li class="pull-left">
+					<a href="DatosDocente.php" class="btn-menu-dashboard">Docente</a>
 				</li>
 				<li>
 					<a href="#!" class="btn-Notifications-area">
@@ -122,9 +184,9 @@
 		<!-- Content page -->
 		<div class="container-fluid">
 			<div class="page-header">
-			  <h1 class="text-titles"><i class="zmdi zmdi-pin zmdi-hc-fw"></i>Dirección <small>Alumno</small></h1>
+			  <h1 class="text-titles"><i class="zmdi zmdi-eye zmdi-hc-fw"></i>Dirección <small>Alumno</small></h1>
 			</div>
-			<p class="lead">En esta sección puedes ingresar información sobre tú dirección</p>
+			<p class="lead">En esta sección puedes visualizar la información sobre la dirección</p>
 		</div>
 		<div class="container-fluid">
 			<div class="row">
@@ -134,69 +196,69 @@
 					  	<li><a href="#" data-toggle="tab"></a></li>
 					</ul>
 					<div id="myTabContent" class="tab-content">
-						<div class="tab-pane fade active in" id="new">
-							<div class="container-fluid">
-								<div class="row">
-									<div class="col-xs-12 col-md-10 col-md-offset-1">
-									    <form action="">
-									    	<div class="form-group label-floating">
-												<label class="control-label" style="color: rgb(0, 0, 0); font-size: 120%;">Calle</label>
-												<input class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;"type="text">
-											  </div>
-
-												<div class="form-group label-floating">
-												  <label class="control-label" style="color: rgb(0, 0, 0); font-size: 120%;">Número</label>
-												  <input class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;"type="text">
-												</div>
-												
-											  <div class="form-group label-floating">
-												  <label class="control-label" style="color: rgb(0, 0, 0); font-size: 120%;">Colonia</label>
-												  <input class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;"type="text">
-												</div>
-												<div class="form-group label-floating">
-													<label class="control-label" style="color: rgb(0, 0, 0); font-size: 120%;">Código Postal</label>
-													<input class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;"type="text">
-												  </div>
-												  <div class="form-group label-floating">
-													<label class="control-label" style="color: rgb(0, 0, 0); font-size: 120%;">Localidad</label>
-													<input class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;"type="text">
-												  </div>
-												  <div class="form-group label-floating">
-												  <label class="control-label" style="color: rgb(0, 0, 0); font-size: 120%;">Colonia</label>
-												  <input class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;"type="text">
-												</div>
-												<div class="form-group">
-													<label class="control-label" style="color: rgb(0, 0, 0); font-size: 120%;">Estado</label>
-													  <select class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;">
-														<option>--Seleccione--</option>
-														<option>México</option>
-														<option>Hidaldo</option>
-														<option>Quéretaro</option>
-														<option>Michoacan</option>
-													  </select>
-												  </div>
-												  <div class="form-group">
-													<label class="control-label" style="color: rgb(0, 0, 0); font-size: 120%;">Municipio</label>
-													  <select class="form-control" style="color: rgba(0, 0, 0, 0.74); font-size: 100%;">
-														<option>--Seleccione--</option>
-														<option>Jilotepec</option>
-														<option>Chapa de Mota</option>
-													  </select>
-												  </div>
-												  <div class="form-group label-floating">
-													<label class="control-label" style="color: rgb(0, 0, 0); font-size: 120%;">Referencia</label>
-													<input class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;" type="text">
-												  </div>
+					<div class="table-responsive">
+								<table class="table table-hover text-center">
+									<thead>
+										<tr>
 											
-										    <p class="text-center">
-										    	<button href="#!" class="btn btn-info btn-raised btn-sm" style="color: rgb(0, 0, 0); font-size: 100%;"><i class="zmdi zmdi-floppy zmdi-hc-fw"></i>GUARDAR CAMBIOS</button>
-										    </p>
-									    </form>
-									</div>
-								</div>
+											<th class="text-center">Matricula</th>
+											<th class="text-center">Calle</th>
+											<th class="text-center">Número</th>
+											<th class="text-center">Colonia</th>
+											<th class="text-center">Localidad</th>
+											<th class="text-center">Municipio</th>
+											<th class="text-center">Referencia</th>
+											<th class="text-center">Actualizar</th>
+											<th class="text-center">Eliminar</th>
+										</tr>
+									</thead>
+									<tbody>
+
+										<?php
+										include("funciones/conexion.php");
+									  
+										$sentencia = "SELECT
+										datosalumno.matricula, 
+										datosalumno.calleDomicilio, 
+										datosalumno.numDomicilio, 
+										datosalumno.colonia, 
+										localidad.localidad, 
+										municipio.descripcionMunicipio, 
+									 	datosalumno.referenciaDomicilio
+								      	FROM
+										datosalumno
+										INNER JOIN
+										localidad
+										ON 
+											datosalumno.idLocalidad = localidad.idLocalidad
+										INNER JOIN
+										municipio
+										ON 
+											localidad.idMunicipio = municipio.idMunicipio
+										";			
+
+										$resultado = mysqli_query($conexion, $sentencia);				  
+										while ($registro = mysqli_fetch_assoc($resultado) ){
+										  echo "
+										  <tr>
+										  <td>".$registro["matricula"]."</td>
+										  <td>".$registro["calleDomicilio"]."</td>
+										  <td>".$registro["numDomicilio"]."</td>
+										  <td>".$registro["colonia"]."</td>
+										  <td>".$registro["localidad"]."</td>
+										  <td>".$registro["descripcionMunicipio"]."</td>
+										  <td>".$registro["referenciaDomicilio"]."</td>
+										  <td><a href='' class='btn btn-success btn-raised btn-xs'><i class='zmdi zmdi-refresh'></i></a></td>
+										  <td><a href='funciones/eliminar-procedencia.php?MatriculaDelete=".$registro["matricula"]."' class='btn btn-danger btn-raised btn-xs'><i class='zmdi zmdi-delete'></i></a></td>
+										  
+										  </tr>
+										  ";
+										}	  																							
+										mysqli_close($conexion);
+									  ?>
+									</tbody>
+								</table>
 							</div>
-						</div>
-					  	
 					</div>
 				</div>
 			</div>

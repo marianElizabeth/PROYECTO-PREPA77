@@ -48,11 +48,32 @@
 					</a>
 					<ul class="list-unstyled full-box">
 						<li>
-							<a href="DatosAlumno.php"><i class="zmdi zmdi-face zmdi-hc-fw"></i>Datos Alumno</a>
+							<a href="DatosAlumno.php"><i class="zmdi zmdi-assignment zmdi-hc-fw"></i>Registro Alumno</a>
+						</li>
+						
+					</ul>
+				</li>
+				<li>
+					<a href="#!" class="btn-sideBar-SubMenu">
+						<i class="nav-icon fas fa-tachometer-alt"></i>
+						<i class="zmdi zmdi-eye zmdi-hc-fw"></i>Ver Información del Alumno<i class="zmdi zmdi-caret-down pull-right"></i>
+					</a>
+					<ul class="list-unstyled full-box">
+						<li>
+							<a href="verInfoPersonalAlumno.php"><i class="zmdi zmdi-face zmdi-hc-fw"></i>Información Personal</a>
 						</li>
 						
 						<li>
-							<a href="VerInformacionAlumno.php"><i class="zmdi zmdi-eye zmdi-hc-fw"></i>Ver información</a>
+							<a href="verProcedenciaAlumno.php"><i class="zmdi zmdi-balance zmdi-hc-fw"></i>Procedencia</a>
+						</li>
+						<li>
+							<a href="verDireccionAlumno.php"><i class="zmdi zmdi-pin zmdi-hc-fw"></i>Dirección</a>
+						</li>
+						<li>
+							<a href="verPadre.php"><i class="zmdi zmdi-male-alt zmdi-hc-fw"></i>Padre</a>
+						</li>
+						<li>
+							<a href="verMadre.php"><i class="zmdi zmdi-female zmdi-hc-fw"></i>Madre</a>
 						</li>
 					</ul>
 				</li>
@@ -84,10 +105,38 @@
 						</li>
 						<li>
 							<a href="EscuelaAsignacionDocente.php"><i class="zmdi zmdi-city zmdi-hc-fw"></i>Escuela de Asignacion</a>
+						</li>					
+					</ul>
+				</li>
+				<li>
+					<a href="#!" class="btn-sideBar-SubMenu">
+						<i class="zmdi zmdi-eye zmdi-hc-fw"></i>Ver Información del Docente<i class="zmdi zmdi-caret-down pull-right"></i>
+					</a>
+					<ul class="list-unstyled full-box">
+						<li>
+							<a href="DatosDocente.php"><i class="zmdi zmdi-male-alt zmdi-hc-fw"></i>Datos Docente</a>
 						</li>
 						<li>
-							<a href="VerInformacionDocente.php"><i class="zmdi zmdi-eye zmdi-hc-fw"></i>Ver información</a>
-						</li>						
+							<a href="LicenciaturaDocente.php"><i class="zmdi zmdi-graduation-cap zmdi-hc-fw"></i>Licenciatura</a>
+						</li>
+						<li>
+							<a href="EspecializacionDocente.php"><i class="zmdi zmdi-graduation-cap zmdi-hc-fw"></i>Especialización</a>
+						</li>
+						<li>
+							<a href="DiplomadoDocente.php"><i class="zmdi zmdi-graduation-cap zmdi-hc-fw"></i>Diplomado</a>
+						</li>
+						<li>
+							<a href="MaestriaDocente.php"><i class="zmdi zmdi-graduation-cap zmdi-hc-fw"></i>Maestria</a>
+						</li>
+						<li>
+							<a href="DoctoradoDocente.php"><i class="zmdi zmdi-graduation-cap zmdi-hc-fw"></i>Doctorado</a>
+						</li>
+						<li>
+							<a href="EscuelaDondeLabora.php"><i class="zmdi zmdi-city zmdi-hc-fw"></i>Escuelas Donde Labora</a>
+						</li>
+						<li>
+							<a href="EscuelaAsignacionDocente.php"><i class="zmdi zmdi-city zmdi-hc-fw"></i>Escuela de Asignacion</a>
+						</li>					
 					</ul>
 				</li>
 			</ul>
@@ -419,7 +468,7 @@
 										    
 
 											<ul class="nav nav-tabs" style="margin-bottom: 15px;">
-												<li class= "disable"><a href="#Procedencia" data-toggle="tab" ><i class="zmdi zmdi-balance  zmdi-hc-fw"></i>Procedencia</a></li>
+												<li class= "disable"><a href="#Procedencia" data-toggle="tab" ><i class="zmdi zmdi-balance zmdi-hc-fw"></i>Procedencia</a></li>
 										    </ul>
 										    
 											<div class="form-group label-floating">
