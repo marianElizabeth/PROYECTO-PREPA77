@@ -265,7 +265,7 @@
 										  <td>".$registro["claveElectorMadre"]."</td>
 										  <td>".$registro["CURPMadre"]."</td>
 										  <td>".$registro["descripcionNivelEscolar"]."</td>
-										  <td><a href='' class='btn btn-success btn-raised btn-xs'><i class='zmdi zmdi-refresh'></i></a></td>
+										  <td><a href='actualizar-alumno.php?MatriculaUpdate=".$registro["matricula"]."' class='btn btn-success btn-raised btn-xs'><i class='zmdi zmdi-refresh'></i></a></td>
 										  <td><a href='funciones/eliminar-madre.php?MatriculaDelete=".$registro["matricula"]."' class='btn btn-danger btn-raised btn-xs'><i class='zmdi zmdi-delete'></i></a></td>
 										  
 										  </tr>
