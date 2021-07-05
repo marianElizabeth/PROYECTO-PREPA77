@@ -356,7 +356,7 @@
 										  <td>".$registro["descripcionParentesco"]."</td>
 										  <td>".$registro["descripcionOcupacion"]."</td>
 										  <td>".$registro["fechaBaja"]."</td>
-										  <td><a href='' class='btn btn-success btn-raised btn-xs'><i class='zmdi zmdi-refresh'></i></a></td>
+										  <td><a href='actualizar-alumno.php?MatriculaUpdate=".$registro["matricula"]."' class='btn btn-success btn-raised btn-xs'><i class='zmdi zmdi-refresh'></i></a></td>
 										  <td><a href='funciones/eliminar-infoPersonalAlumno.php?MatriculaDelete=".$registro["matricula"]."' class='btn btn-danger btn-raised btn-xs'><i class='zmdi zmdi-delete'></i></a></td>
 										  
 										  </tr>
