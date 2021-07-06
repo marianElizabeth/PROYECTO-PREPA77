@@ -85,22 +85,22 @@
         promSecundaria = '$promSecundaria',
         nombreTutor = '$nombreTutor',
         idSexo = (SELECT idSexo FROM sexo WHERE sexo = '$idSexo'),
-        idEdad =$idEdad,
-        idGrupo = $idGrupo,
-        idGrado = $idGrado,
-        idLocalidad = $idLocalidad,
-        idAlumnoTrabaja = $idAlumnoTrabaja,
-        idTipoSeguroSocial = $idTipoSeguroSocial,
+        idEdad = (SELECT idEdad FROM edad WHERE edad = '$idEdad'),
+        idGrupo = (SELECT idGrupo FROM grupo WHERE grupo = '$idGrupo'),
+        idGrado = (SELECT idGrado FROM grado WHERE grado = '$idGrado'),
+        idLocalidad = (SELECT idLocalidad FROM localidad = '$idLocalidad'),
+        idAlumnoTrabaja = (SELECT idAlumnoTrabaja FROM alumnoTrabaja = '$idAlumnoTrabaja'),
+        idTipoSeguroSocial = (SELECT idSeguroSocial FROM tipoSeguroSocial = '$idTipoSeguroSocial'),
         idInscritoAlumnno = (SELECT idInscrito FROM inscritoAlumno WHERE descripcionInscrito = '$idInscritoAlumnno'),    
-        idParentesco = $idParentesco,
-        idBeca = $idBeca,
-        idEntidadFederativa = $idEntidadFederativa,
-        CCTEscuela = '$CCTEscuela',
+        idParentesco = (SELECT idParentesco FROM parentesco = '$idParentesco'),
+        idBeca = (SELECT idBeca FROM beca = '$idBeca'),
+        idEntidadFederativa = (SELECT idEntidadFederativa FROM entidadFederativa = '$idEntidadFederativa'),
+        CCTEscuela = (SELECT CCTEscuela FROM escuela = '$CCTEscuela'),
         numDomicilio = '$numDomicilio',
         calleDomicilio = '$calleDomicilio',
         colonia = '$colonia',
         CP = '$CP',
-        idOcupacion = $idOcupacion,
+        idOcupacion = (SELECT idOcupacion FROM ocupacion = '$idOcupacion'),
         folioCURPAlumno = '$folioCURPAlumno',
         RFCAlumno = '$RFCAlumno',
         municipioNacimientoAlumno = '$municipioNacimientoAlumno',
@@ -135,9 +135,9 @@
         telefonoCelularPadre ='$telefonoCelularPadre',
         CURPPadre ='$CURPPadre',
         claveElectorPadre = '$claveElectorPadre',
-        idOcupacion = $idOcupacionPadre,
-        idNivelEscolar = $idNivelEscolarPadre,
-        idParentesco = $idParentescoPadre
+        idOcupacion = (SELECT idOcupacion FROM ocupacion = '$idOcupacionPadre',
+        idNivelEscolar = (SELECT idNivelEscolar FROM nivelEscolar = '$idNivelEscolarPadre'),
+        idParentesco = (SELECT idParentesco FROM parentesco = '$idParentescoPadre')
         WHERE matricula='$matricula' ;";
 
     if(mysqli_query($conexion,$sentenciaPadre)){
@@ -169,9 +169,9 @@
         telefonoCelularMadre ='$telefonoCelularMadre',
         CURPMadre = '$CURPMadre',
         claveElectorMadre ='$claveElectroMadre',
-        idOcupacion = $idOcupacionMadre,
-        idNivelEscolar = $idNivelEscolarMadre,
-        idParentesco = $idParentescoMadre
+        idOcupacion = (SELECT idOcupacion FROM ocupacion '$idOcupacionMadre'),
+        idNivelEscolar = (SELECT idNivelEscolar FROM nivelEscolar = '$idNivelEscolarMadre'),
+        idParentesco = (SELECT idParentesco FROM parentesco = '$idParentescoMadre')
         WHERE matricula='$matricula';";
     if(mysqli_query($conexion,$sentenciaMadre)){
         echo "Madre Actualizado Correctamene!!!";
