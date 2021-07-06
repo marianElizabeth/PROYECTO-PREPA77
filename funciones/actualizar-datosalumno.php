@@ -78,7 +78,7 @@
         correoInstitucionalAlumno = '$correoInstitucionalAlumno',
         referenciaDomicilio = '$referenciaDomicilio',
         telefonoFijoAlumno = '$telefonoFijoAlumno',
-        efonoCelularAlumno = '$telefonoCelularAlumno',
+        telefonoCelularAlumno = '$telefonoCelularAlumno',
         numSeguroSocial = '$numSeguroSocial',
         folioBeca = '$folioBeca',
         aciertosExamenIngresoAlumno = '$aciertosExamenIngresoAlumno',
@@ -137,7 +137,7 @@
         claveElectorPadre = '$claveElectorPadre',
         idOcupacion = $idOcupacionPadre,
         idNivelEscolar = $idNivelEscolarPadre,
-        idParentesco = $idParentescoPadre,
+        idParentesco = $idParentescoPadre
         WHERE matricula='$matricula' ;";
 
     if(mysqli_query($conexion,$sentenciaPadre)){
@@ -171,7 +171,7 @@
         claveElectorMadre ='$claveElectroMadre',
         idOcupacion = $idOcupacionMadre,
         idNivelEscolar = $idNivelEscolarMadre,
-        idParentesco = $idParentescoMadre,
+        idParentesco = $idParentescoMadre
         WHERE matricula='$matricula';";
     if(mysqli_query($conexion,$sentenciaMadre)){
         echo "Madre Actualizado Correctamene!!!";
