@@ -256,6 +256,8 @@
 										municipio
 										ON 
 											localidad.idMunicipio = municipio.idMunicipio
+                                        WHERE 
+                                        datosdocentes.CURPDocente  = '$CURPDocenteUpdate'
 									";		
 									
 									    $sentencia2 = "SELECT
@@ -288,13 +290,21 @@
                                             ON 
                                                 datosdocentes.idNivelLaboral = nivellaboral.idNivelLaboral
 										";
+
+                                       
 										
 									    $resultado = mysqli_query($conexion, $sentencia);
 									    $resultado1 = mysqli_query($conexion, $sentencia1);
-									    $resultado2 = mysqli_query($conexion, $sentencia2);	
+									    $resultado2 = mysqli_query($conexion, $sentencia2);
+                                       
+
 
 
                                         $InfoPersonal=mysqli_fetch_assoc($resultado);
+                                        $CentroTrabajo=mysqli_fetch_assoc($resultado1);
+                                        $DatosLaborales=mysqli_fetch_assoc($resultado2);
+
+
                                     ?>
 										<form action="" method="POST">
 										<ul class="nav nav-tabs" style="margin-bottom: 15px;">
@@ -399,7 +409,7 @@
 												<div class="form-group label-floating">
 													<label class="control-label" style="color: rgb(0, 0, 0); font-size: 120%;">Nombre de la escuela</label>
 													<select class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;"type="text" name="txtNombreEscuelaDocente">
-														<option>--Seleccione--</option>
+														<option><?php echo $CentroTrabajo['nombreEscuela']?></option>
 														<?php
 																include("funciones/conexion.php");
 																$sentencia="SELECT * FROM escuela";
@@ -469,25 +479,25 @@
 															  <option>Quéretaro</option>
 															  <option>Michoacan</option>
 															</select>-->
-												<ul class="nav nav-tabs" style="margin-bottom: 15px;">
+                                                            <ul class="nav nav-tabs" style="margin-bottom: 15px;">
 													<li class="active"><a href="" data-toggle="tab" ><i class="zmdi zmdi-case zmdi-hc-fw"></i>Datos Laborales</a></li>
 												</ul>
 												<div class="form-group">
 													<label class="control-label" style="color: rgb(0, 0, 0); font-size: 120%;">Fecha de Ingreso al S. Educativo Estatal</label>
-													<input class="form-control" type="date" name="fechaIngresoSEducativo">
+													<input class="form-control" type="date" name="fechaIngresoSEducativo" value="<?php echo $DatosLaborales['fechaDeIngresoSEducativoEstatal']?>">
 												  </div>
 												  <div class="form-group">
 													<label class="control-label" style="color: rgb(0, 0, 0); font-size: 120%;">Fecha de Ingreso al Nivel</label>
-													<input class="form-control" type="date" name="fechaIngresoNivel">
+													<input class="form-control" type="date" name="fechaIngresoNivel" value="<?php echo $DatosLaborales['fechaDeIngresoAlNivel']?>">
 												  </div>
 												  <div class="form-group">
 													<label class="control-label" style="color: rgb(0, 0, 0); font-size: 120%;">Fecha de Base en el Nivel</label>
-													<input class="form-control" type="date" name="fechaBaseNivel">
+													<input class="form-control" type="date" name="fechaBaseNivel" value="<?php echo $DatosLaborales['fechaDeBaseAlNivel']?>">
 												  </div>
 												  <div class="form-group label-floating">
 													  <label class="control-label" style="color: rgb(0, 0, 0); font-size: 120%;">Puesto Funcional</label>
 													  <select class="form-control" style="color: rgba(0, 0, 0); font-size: 100%;" name="cmbPuestoFuncional">
-														<option>--Seleccione--</option>
+														<option><?php echo $DatosLaborales['descripcionInstitucional']?></option>
 														<?php
 																include("funciones/conexion.php");
 																$sentencia="SELECT * FROM puestoInstitucional";
@@ -502,20 +512,20 @@
 													</div>
 													<div class="form-group">
 													  <label class="control-label" style="color: rgb(0, 0, 0); font-size: 120%;">Fecha de Ingreso al Cargo</label>
-													  <input class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;"type="date" name="fechaIngresoCargo">
+													  <input class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;"type="date" name="fechaIngresoCargo" value="<?php echo $DatosLaborales['fechaDeIngresoAlCargo']?>">
 													</div>
 													<div class="form-group">
 													  <label class="control-label" style="color: rgb(0, 0, 0); font-size: 120%;">Fecha de Ingreso a la Institución</label>
-													  <input class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;"type="date" name="fechaIngresoInstitucional">
+													  <input class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;"type="date" name="fechaIngresoInstitucional" value="<?php echo $DatosLaborales['fechaDeIngresoInstitucion']?>">
 													</div>
 													<div class="form-group">
 													  <label class="control-label" style="color: rgb(0, 0, 0); font-size: 120%;">Fecha de Ingreso a la Carrera Docente</label>
-													  <input class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;"type="date" name="fechaCarreraDocente">
+													  <input class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;"type="date" name="fechaCarreraDocente" value="<?php echo $DatosLaborales['fechaDeIngresoCarreraDocente']?>">
 													</div>
 													<div class="form-group label-floating">
 													  <label class="control-label" style="color: rgb(0, 0, 0); font-size: 120%;">Nivel</label>
 														<select class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;" name="cmbNivel">
-														  <option>--Seleccione--</option>
+														  <option><?php echo $DatosLaborales['descripcionNivelLaboral']?></option>
 														  <?php
 																include("funciones/conexion.php");
 																$sentencia="SELECT * FROM nivelLaboral";
@@ -530,8 +540,104 @@
 													</div>
 													<div class="form-group label-floating">
 														<label class="control-label" style="color: rgb(0, 0, 0); font-size: 120%;">Puntaje Escalafonario</label>
-														<input class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;"type="text" name="txtPuntajeEscalafonario">
+														<input class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;"type="text" name="txtPuntajeEscalafonario" value="<?php echo $DatosLaborales['puntajeEscalafonario']?>">
 													</div>
+                                                <ul class="nav nav-tabs" style="margin-bottom: 15px;">
+													<li class="active"><a href="" data-toggle="tab" ><i class="zmdi zmdi-graduation-cap zmdi-hc-fw"></i>Preparación Profesional</a></li>
+												</ul>
+												<div class="form-group label-floating">
+													<label class="control-label" style="color: rgb(0, 0, 0); font-size: 120%;">Licenciatura en:</label>
+													<input class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;" type="text" name="txtLicDocente" >
+												  </div>
+												<div class="form-group">
+													<label class="control-label" style="color: rgb(0, 0, 0); font-size: 120%;">Estatus</label>
+													<select class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;" name="cmbEstatusDocente">
+													  <option>--Seleccione--</option>
+													  <option>Titulado</option>
+													  <option>Pasante</option>
+													</select>
+												</div>
+												<div class="form-group label-floating">
+												  <label class="control-label" style="color: rgb(0, 0, 0); font-size: 120%;">No. Cédula Profesional</label>
+												  <input class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;"type="text" name="txtNoCedulaProfDocente">
+												</div>
+												<div class="form-group label-floating">
+												  <label class="control-label" style="color: rgb(0, 0, 0); font-size: 120%;">Escuela de Egresión:</label>
+												  <input class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;" type="text" name="txtEscEgresion">
+												</div>
+												<div class="form-group">
+												  <label class="control-label" style="color: rgb(0, 0, 0); font-size: 120%;">Fecha</label>
+												  <input class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;" type="date" name="fechaEgresion">
+												</div>
+												<div class="form-group">
+													<label class="control-label" style="color: rgb(0, 0, 0); font-size: 120%;">Especialización en:</label>
+													  <select class="form-control" style="color: rgba(0, 0, 0, 0.664); font-size: 100%;" name="cmbEspecializacion">
+														<option>--Seleccione--</option>
+														<option>.....</option>
+														<option>********</option>
+														<option>---------</option>
+													  </select>
+												  </div>
+												  <div class="form-group">
+													<label class="control-label" style="color: rgb(0, 0, 0); font-size: 120%;">Fecha de Egreso</label>
+													<input class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;" type="date" name="fechaEgresoEspecializacion">
+												  </div>
+												  <div class="form-group">
+													<label class="control-label" style="color: rgb(0, 0, 0); font-size: 120%;">Diplomado en:</label>
+													  <select class="form-control" style="color: rgba(0, 0, 0, 0.664); font-size: 100%;" name="cmbDiplomado">
+														<option>--Seleccione--</option>
+														<option>.....</option>
+														<option>********</option>
+														<option>---------</option>
+													  </select>
+												  </div>
+												<div class="form-group">
+												  <label class="control-label" style="color: rgb(0, 0, 0); font-size: 120%;">Fecha de Egreso</label>
+												  <input class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;" type="date" name="fechaEgresoDiplomado">
+												</div>
+												<div class="form-group">
+													<label class="control-label" style="color: rgb(0, 0, 0); font-size: 120%;">Maestria en:</label>
+													  <select class="form-control" style="color: rgba(0, 0, 0, 0.664); font-size: 100%;" name="cmbMaestria">
+														<option>--Seleccione--</option>
+														<option>.....</option>
+														<option>********</option>
+														<option>---------</option>
+													  </select>
+												  </div>
+												<div class="form-group">
+													<label class="control-label" style="color: rgb(0, 0, 0); font-size: 120%;">Estatus</label>
+													<select class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;" name="cmbEstatusMaestria">
+													  <option>--Seleccione--</option>
+													  <option>Titulado</option>
+													  <option>Pasante</option>
+													</select>
+												</div>
+												<div class="form-group label-floating">
+													<label class="control-label" style="color: rgb(0, 0, 0); font-size: 120%;">No. Cédula Profesional</label>
+													<input class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;"type="text" name="txtNoCedulaMaestria">
+												  </div>
+												  <div class="form-group">
+													<label class="control-label" style="color: rgb(0, 0, 0); font-size: 120%;">Doctorado en:</label>
+													  <select class="form-control" style="color: rgba(0, 0, 0, 0.664); font-size: 100%;" name="cmbDoctorado">
+														<option>--Seleccione--</option>
+														<option>.....</option>
+														<option>********</option>
+														<option>---------</option>
+													  </select>
+												  </div>
+												<div class="form-group">
+													<label class="control-label" style="color: rgb(0, 0, 0); font-size: 120%;">Estatus</label>
+													<select class="form-control" style="color: rgba(0, 0, 0, 0.644); font-size: 100%;" name="cmbEstatusDoctorado">
+													  <option>--Seleccione--</option>
+													  <option>Titulado</option>
+													  <option>Pasante</option>
+													</select>
+												</div>
+												<div class="form-group label-floating">
+													<label class="control-label" style="color: rgb(0, 0, 0); font-size: 120%;">No. Cédula Profesional</label>
+													<input class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;"type="text" name="txtNCedulaDoctorado">
+												  </div>
+												
 												
 										    <p class="text-center">
 										    	<button href="#!" class="btn btn-info btn-raised btn-sm" style="color: rgb(0, 0, 0); font-size: 100%;"><i class="zmdi zmdi-floppy"></i> GUARDAR CAMBIOS</button>
