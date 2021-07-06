@@ -299,6 +299,52 @@
 												</tr>
 											</table>
 										</tr>
+									</table>
+									<table class="table table-hover text-center">
+									
+										<tr>
+											<th  style="text-align:center" bgcolor="yellow">Preparación Profesional</th>
+				
+										</tr>
+										<tr>
+											<table class="table table-hover text-center">
+												<tr>
+												  <th style="text-align:left">Leciatura en:</th>
+												  <td style="text-align:left"></td>
+												  <th style="text-align:left">C.C.T.:</th>
+												  <td style="text-align:left"></td>
+												  <th style="text-align:left">Turno:</th>
+												  <td  style="text-align:left"></td>
+												</tr>
+											</table>
+										</tr>
+										<tr>
+											<table class="table table-hover text-center">
+												<tr>
+												  <th style="text-align:left">Calle:</th>
+												  <td style="text-align:left"></td>
+												  <th style="text-align:left">Número:</th>
+												  <td style="text-align:left"></td>
+												  <th style="text-align:left">Colonia:</th>
+												  <td  style="text-align:left"></td>
+												  <th style="text-align:left">Localidad:</th>
+												  <td  style="text-align:left"></td>
+												</tr>
+											</table>
+										</tr>
+										<tr>
+											<table class="table table-hover text-center">
+												<tr>
+												  <th style="text-align:left">Municipio:</th>
+												  <td style="text-align:left"></td>
+												  <th style="text-align:left">Código Postal:</th>
+												  <td style="text-align:left"></td>
+												  <th style="text-align:left">Teléfono:</th>
+												  <td  style="text-align:left"></td> 
+												</tr>
+											</table>
+										</tr>
+									</table>
 
 										<table class="table table-hover text-center">
 											<tr>
@@ -398,10 +444,6 @@
 											</tr>
 								
 										</table>
-
-                                      
-
-
 									</table>
 								</table>
 							</div>
