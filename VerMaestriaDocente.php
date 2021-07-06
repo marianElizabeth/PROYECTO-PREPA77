@@ -241,7 +241,7 @@
 										  <td>".$registro["noCedulaProfesionalMaestria"]."</td>
 										  
 											<td><a href='#!' class='btn btn-success btn-raised btn-xs'><i class='zmdi zmdi-refresh'></i></a></td>
-											<td><a href='#!' class='btn btn-danger btn-raised btn-xs'><i class='zmdi zmdi-delete'></i></a></td>
+											<td><a href='funciones/eliminar-maestria.php?CurpDelete=".$registro["CURPDocente"]."' class='btn btn-danger btn-raised btn-xs'><i class='zmdi zmdi-delete'></i></a></td>
 											</tr>
 											";
 									}
