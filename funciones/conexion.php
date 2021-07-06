@@ -1,8 +1,8 @@
 <?php
     $servidor= "localhost";
     $usuario="root";
-    $password="";
-    $bD="bdOficial";
+    $password="lamp1999";
+    $bD="pre77";
 
     $conexion = mysqli_connect(
         $servidor,
