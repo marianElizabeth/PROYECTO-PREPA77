@@ -23,11 +23,6 @@
 				</figure>
 				<ul class="full-box list-unstyled text-center">
 					<li>
-						<a href="#!">
-							<i class="zmdi zmdi-settings"></i>
-						</a>
-					</li>
-					<li>
 						<a href="#!" class="btn-exit-system">
 							<i class="zmdi zmdi-power"></i>
 						</a>
