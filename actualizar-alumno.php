@@ -201,6 +201,88 @@
 								<div class="row">
 									<div class="col-xs-12 col-md-10 col-md-offset-1" >
 
+                                    <?php
+
+                                                    include("funciones/conexion.php");
+                                                    $matricula = $_GET['MatriculaUpdate'];
+
+                                                    $sentencia5 = "SELECT                                                    
+                                                    madre.nombreMadre, 
+                                                    madre.ape1Madre, 
+                                                    madre.ape2Madre, 
+                                                    parentesco.descripcionParentesco, 
+                                                    ocupacion.descripcionOcupacion, 
+                                                    madre.telefonoCelularMadre, 
+                                                    madre.claveElectorMadre, 
+                                                    madre.CURPMadre, 
+                                                    nivelescolar.descripcionNivelEscolar
+                                                FROM
+                                                    datosalumno
+                                                    INNER JOIN
+                                                    madre
+                                                    ON 
+                                                        datosalumno.matricula = madre.matricula
+                                                    INNER JOIN
+                                                    ocupacion
+                                                    ON 
+                                                        madre.idOcupacion = ocupacion.idOcupacion
+                                                    INNER JOIN
+                                                    nivelescolar
+                                                    ON 
+                                                        madre.idNivelEscolar = nivelescolar.idNivelEscolar
+                                                    INNER JOIN
+                                                    parentesco
+                                                    ON 
+                                                        madre.idParentesco = parentesco.idParentesco
+                                                    WHERE
+                                                     datosalumno.matricula ='$matricula'";
+
+                                                    $resultado5 = mysqli_query($conexion,$sentencia5);	
+                                                    $madre = mysqli_fetch_assoc($resultado5);
+                                                    mysqli_close($conexion);                                            
+                                    ?>    
+
+                                    <?php
+
+                                                    include("funciones/conexion.php");
+                                                    $matricula = $_GET['MatriculaUpdate'];
+
+                                                    $sentencia4 = "SELECT	
+                                                    padre.nombrePadre, 
+                                                    padre.ape1Padre, 
+                                                    padre.ape2Padre, 
+                                                    parentesco.descripcionParentesco, 
+                                                    ocupacion.descripcionOcupacion, 
+                                                    padre.telefonoCelularPadre, 
+                                                    padre.claveElectorPadre, 
+                                                    padre.CURPPadre, 
+                                                    nivelescolar.descripcionNivelEscolar
+                                                FROM
+                                                    datosalumno
+                                                    INNER JOIN
+                                                    padre
+                                                    ON 
+                                                        datosalumno.matricula = padre.matricula
+                                                    INNER JOIN
+                                                    parentesco
+                                                    ON 
+                                                        padre.idParentesco = parentesco.idParentesco
+                                                    INNER JOIN
+                                                    ocupacion
+                                                    ON 
+                                                        padre.idOcupacion = ocupacion.idOcupacion
+                                                    INNER JOIN
+                                                    nivelescolar
+                                                    ON 
+                                                        padre.idNivelEscolar = nivelescolar.idNivelEscolar
+                                                        
+                                                    WHERE datosalumno.matricula ='$matricula'";
+
+                                                    $resultado4 = mysqli_query($conexion,$sentencia4);	
+                                                    $padre = mysqli_fetch_assoc($resultado4);
+                                                    mysqli_close($conexion);                                            
+                                    ?>
+
                                         <?php
                                             include("funciones/conexion.php");
                                             $matricula = $_GET['MatriculaUpdate'];
@@ -240,7 +322,9 @@
                                                         parentesco.descripcionParentesco, 
                                                         ocupacion.descripcionOcupacion, 
                                                         datosalumno.fechaBaja, 
-                                                        datosalumno.aciertosExamenIngresoAlumno
+                                                        datosalumno.aciertosExamenIngresoAlumno, 
+                                                        escuela.nombreEscuela, 
+                                                        datosalumno.promSecundaria
                                                     FROM
                                                         datosalumno
                                                         INNER JOIN
@@ -287,12 +371,49 @@
                                                         ocupacion
                                                         ON 
                                                             datosalumno.idOcupacion = ocupacion.idOcupacion
-                                                            
-                                                    WHERE datosalumno.matricula = '$matricula'";
+                                                        INNER JOIN
+                                                        escuela
+                                                        ON 
+                                                            datosalumno.CCTEscuela = escuela.CCTEscuela
+                                                    WHERE
+                                                        datosalumno.matricula = '$matricula'";
 
 														$resultado=mysqli_query($conexion,$sentencia);	
                                                         $informacionPersonal = mysqli_fetch_assoc($resultado);
+                                                        mysqli_close($conexion);
+                                                    
+                                        ?>                                      
+                                        <?php
+
+                                            include("funciones/conexion.php");
+                                            $matricula = $_GET['MatriculaUpdate'];
+
+                                            $sentencia3 = "SELECT
+                                            datosalumno.calleDomicilio, 
+                                            datosalumno.numDomicilio, 
+                                            datosalumno.colonia, 
+                                            datosalumno.CP, 
+                                            localidad.localidad, 
+                                            municipio.descripcionMunicipio, 
+                                            datosalumno.referenciaDomicilio
+                                            FROM
+                                            datosalumno
+                                            INNER JOIN
+                                            localidad
+                                            ON 
+                                                datosalumno.idLocalidad = localidad.idLocalidad
+                                            INNER JOIN
+                                            municipio
+                                            ON 
+                                                localidad.idMunicipio = municipio.idMunicipio
+                                                
+                                            WHERE datosalumno.matricula ='$matricula' ";
+
+                                            $resultado3 = mysqli_query($conexion,$sentencia3);	
+                                            $direccion = mysqli_fetch_assoc($resultado3);
+                                            mysqli_close($conexion);                                            
                                         ?>
+                                        
 									    <form action="funciones/actualizar-datosalumno.php" method="POST">
 											<ul class="nav nav-tabs" style="margin-bottom: 15px;">
 												<li><a href="" data-toggle="tab" ><i class="zmdi zmdi-face zmdi-hc-fw"></i>Información Personal</a></li>
@@ -315,19 +436,23 @@
 												<input class="form-control" type="text" name="fechaInscripcionAlum" value="<?php echo $informacionPersonal['fechaInscripcionAlumno'];?>">
 											  </div>
 											  <div class="form-group">
-												<label class="control-label" style="color: rgb(0, 0, 0); font-size: 120%;">Inscrito</label>												  
-                                                  <input class="form-control" type="text" name="cmbInscritoAlum" value="<?php echo $informacionPersonal['descripcionInscrito'];?>">                                                  
+												<label class="control-label" style="color: rgb(0, 0, 0); font-size: 120%;">Inscrito</label>												                                                                                                    
+                                                  <select class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;" name="cmbInscritoAlum" >		
+                                                  <option selected><?php echo $informacionPersonal['descripcionInscrito'];?></option>
+												  </select>	
+											  </div>
+											  <div class="form-group">
+												<label class="control-label" style="color: rgb(0, 0, 0); font-size: 120%;">Grado</label>                                                                                                        
+                                                    <select class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;" name="cmbGradoAlum" >		
+                                                  <option selected><?php echo $informacionPersonal['grado'];?></option>
+												  </select>		
 													
 											  </div>
 											  <div class="form-group">
-												<label class="control-label" style="color: rgb(0, 0, 0); font-size: 120%;">Grado</label>                                                    
-                                                    <input class="form-control" type="text" name="cmbGradoAlum" value="<?php echo $informacionPersonal['grado'];?>">
-												  
-													
-											  </div>
-											  <div class="form-group">
-												<label class="control-label" style="color: rgb(0, 0, 0); font-size: 120%;">Grupo</label>
-                                                <input class="form-control" type="text" name="ccmbGrupoAlum" value="<?php echo $informacionPersonal['grupo'];?>">												  
+												<label class="control-label" style="color: rgb(0, 0, 0); font-size: 120%;">Grupo</label>                                                
+                                                <select class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;" name="ccmbGrupoAlum" >		
+                                                  <option selected><?php echo $informacionPersonal['grupo'];?></option>
+												  </select>											  
 											  </div>
 											  
 											<div class="form-group label-floating">
@@ -355,11 +480,15 @@
 												<input class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;" type="text" name="txtApeMAlum" value="<?php echo $informacionPersonal['ape2Alumno'];?>">
 											  </div>
 											  <div class="form-group">
-												<label class="control-label" style="color: rgb(0, 0, 0); font-size: 120%;">Sexo</label>												  											
-                                                  <input class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;" type="text" name="cmbSexoAlum" value="<?php echo $informacionPersonal['descripcionSexo'];?>">
+												<label class="control-label" style="color: rgb(0, 0, 0); font-size: 120%;">Sexo</label>												  											                                                 
+                                                  <select class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;" name="cmbSexoAlum" >		
+                                                  <option selected><?php echo $informacionPersonal['descripcionSexo'];?></option>
+												  </select>
 											  <div class="form-group label-floating">
-												<label class="control-label" style="color: rgb(0, 0, 0); font-size: 120%;">Edad</label>												
-                                                <input class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;" type="text" name="cmbEdadAlum" value="<?php echo $informacionPersonal['edad'];?>">													
+												<label class="control-label" style="color: rgb(0, 0, 0); font-size: 120%;">Edad</label>												                                                
+                                                <select class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;" name="cmbEdadAlum" >		
+                                                  <option selected><?php echo $informacionPersonal['edad'];?></option>
+												  </select>
 											  </div>
 
 											  <div class="form-group">
@@ -371,8 +500,10 @@
 												<input class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;" type="text" name="txtMunicipioNacimientoAlum" value="<?php echo $informacionPersonal['municipioNacimientoAlumno'];?>">                                                
 											  </div>
 											  <div class="form-group label-floating">
-												<label class="control-label" style="color: rgb(0, 0, 0); font-size: 120%;">Etidad Federativa</label>																								
-                                                <input class="form-control" type="text" name="cmbEntidadFederativaAlum" value="<?php echo $informacionPersonal['descripcionEntidad'];?>">
+												<label class="control-label" style="color: rgb(0, 0, 0); font-size: 120%;">Etidad Federativa</label>																								                                                
+                                                <select class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;" name="cmbEntidadFederativaAlum" >		
+                                                  <option selected><?php echo $informacionPersonal['descripcionEntidad'];?></option>
+												  </select>
 											  </div>
 											  <div class="form-group label-floating">
 												<label class="control-label" style="color: rgb(0, 0, 0); font-size: 120%;">Teléfono Celular(10 digitos)</label>
@@ -388,10 +519,10 @@
 											  </div>
 						
 											  <div class="form-group">
-												<label class="control-label" style="color: rgb(0, 0, 0); font-size: 120%;">Tipo de Seguro Social</label>
-                                                <input class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;" type="text" name="cmbTipoSocialAlum" value="<?php echo $informacionPersonal['tipoSeguroSocial'];?>">
-													
-												  
+												<label class="control-label" style="color: rgb(0, 0, 0); font-size: 120%;">Tipo de Seguro Social</label>                                                
+												<select class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;" name="cmbTipoSocialAlum" >													
+                                                  <option selected><?php echo $informacionPersonal['tipoSeguroSocial'];?></option>
+												  </select>												  
 											  </div>
 											  <div class="form-group label-floating">
 												<label class="control-label" style="color: rgb(0, 0, 0); font-size: 120%;">Número de Seguro Social</label>
@@ -407,14 +538,16 @@
 												<input class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;" type="email" name="txtCorreoInstitucionalAlum" value="<?php echo $informacionPersonal['correoInstitucionalAlumno'];?>">
 											  </div>
 											  <div class="form-group">
-												<label class="control-label" style="color: rgb(0, 0, 0); font-size: 120%;">¿Trabaja?</label>
-                                                <input class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;" type="email" name="txtTrabaja" value="<?php echo $informacionPersonal['descripcionTrabaja'];?>">
-													
+												<label class="control-label" style="color: rgb(0, 0, 0); font-size: 120%;">¿Trabaja?</label>                                                
+												<select class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;" name="cmbTrabaja" >													
+                                                  <option selected><?php echo $informacionPersonal['descripcionTrabaja'];?></option>
+												  </select>
 											  </div>
 											  <div class="form-group">
-												<label class="control-label" style="color: rgb(0, 0, 0); font-size: 120%;">Beca</label>
-												  <select class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;" name="cmbBecaAlum">
-                                                  <input class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;" type="email" name="cmbBecaAlum" value="<?php echo $informacionPersonal['tipoBeca'];?>">
+												<label class="control-label" style="color: rgb(0, 0, 0); font-size: 120%;">Beca</label>												  
+                                                  <select class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;" name="cmbBecaAlum" >													
+                                                  <option selected><?php echo $informacionPersonal['tipoBeca'];?></option>
+												  </select>
 											  </div>
 											  <div class="form-group label-floating">
 												<label class="control-label" style="color: rgb(0, 0, 0); font-size: 120%;">Folio Beca</label>
@@ -422,13 +555,15 @@
 											  </div>
 											  <div class="form-group">
 												<label class="control-label" style="color: rgb(0, 0, 0); font-size: 120%;">De quien depende Economicamente</label>
-                                                <input class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;" type="text" name="txtDequienDepende" value="<?php echo $informacionPersonal['descripcionParentesco'];?>">
+                                                  <select class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;" name="cmbtxtDequienDepende" >		
+                                                  <option selected><?php echo $informacionPersonal['descripcionParentesco'];?></option>
 												  </select>
 											  </div>
 											  <div class="form-group">
-												<label class="control-label" style="color: rgb(0, 0, 0); font-size: 120%;">Ocupación de quien depende Economicamente</label>
-                                                <input class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;" type="text" name="cmbOcupacionDependeEconomicamenteAlum" value="<?php echo $informacionPersonal['descripcionOcupacion'];?>">												  
-													
+												<label class="control-label" style="color: rgb(0, 0, 0); font-size: 120%;">Ocupación de quien depende Economicamente</label>                                                
+												<select class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;" name="cmbOcupacionDependeEconomicamenteAlum" >													
+                                                  <option selected><?php echo $informacionPersonal['descripcionOcupacion'];?></option>
+												  </select>
 											  </div>
 											  <div class="form-group">
 												<label class="control-label" style="color: rgb(0, 0, 0); font-size: 120%;">Fecha de Baja</label>
@@ -442,29 +577,19 @@
 										    
 											<div class="form-group label-floating">
 												<label class="control-label" style="color: rgb(0, 0, 0); font-size: 120%;">Aciertos de Examen de Ingreso</label>
-												<input class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;"type="text" name="txtAciertosExamenIngresoAlum">
+												<input class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;"type="text" name="txtAciertosExamenIngresoAlum" value="<?php echo $informacionPersonal['aciertosExamenIngresoAlumno'];?>">
 											  </div>
 
 												<div class="form-group label-floating">
 												  <label class="control-label" style="color: rgb(0, 0, 0); font-size: 120%;">Secundaria de Procendecia</label>
-												  <select class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;" name="cmbSecundariaProcedenciaAlum">
-													<option>--Seleccione--</option>
-													<?php
-														include("funciones/conexion.php");
-														$sentencia="SELECT * FROM escuela";
-														$resultado=mysqli_query($conexion,$sentencia);
-														while($regEscuela=mysqli_fetch_assoc($resultado)){
-														echo "
-														<option value='".$regEscuela['CCTEscuela']."'>".$regEscuela["nombreEscuela"]."</option>
-														";
-														}
-													?>
+												  <select class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;" name="cmbSecundariaProcedenciaAlum" >													
+                                                  <option selected><?php echo $informacionPersonal['nombreEscuela'];?></option>
 												  </select>
 												</div>
 												
 											  <div class="form-group label-floating">
 												  <label class="control-label" style="color: rgb(0, 0, 0); font-size: 120%;">Promedio Egreso(Secundaria)</label>
-												  <input class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;"type="text" name="txtPromedioEgresoSecundariaAlum">
+												  <input class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;"type="text" name="txtPromedioEgresoSecundariaAlum" value="<?php echo $informacionPersonal['promSecundaria'];?>">
 												</div>
 										 
 												<ul class="nav nav-tabs" style="margin-bottom: 15px;">
@@ -472,37 +597,27 @@
 												</ul>
 												<div class="form-group label-floating">
 													<label class="control-label" style="color: rgb(0, 0, 0); font-size: 120%;">Calle</label>
-													<input class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;"type="text" name="txtCalleAlum">
+													<input class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;"type="text" name="txtCalleAlum" value="<?php echo $direccion['calleDomicilio'];?>">
 												  </div>
 	
 													<div class="form-group label-floating">
 													  <label class="control-label" style="color: rgb(0, 0, 0); font-size: 120%;">Número</label>
-													  <input class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;"type="text" name="txtNumeroAlum">
+													  <input class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;"type="text" name="txtNumeroAlum" value="<?php echo $direccion['numDomicilio'];?>">
 													</div>
 													
 												  <div class="form-group label-floating">
 													  <label class="control-label" style="color: rgb(0, 0, 0); font-size: 120%;">Colonia</label>
-													  <input class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;"type="text" name="txtColoniaAlum">
+													  <input class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;"type="text" name="txtColoniaAlum" value="<?php echo $direccion['colonia'];?>">
 													</div>
 													<div class="form-group label-floating">
 														<label class="control-label" style="color: rgb(0, 0, 0); font-size: 120%;">Código Postal</label>
-														<input class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;"type="text" name="txtCodiopostalAlum">
+														<input class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;"type="text" name="txtCodiopostalAlum" value="<?php echo $direccion['CP'];?>">
 													  </div>
 													  <div class="form-group label-floating">
-														<label class="control-label" style="color: rgb(0, 0, 0); font-size: 120%;">Localidad</label>
-														<select class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;"type="text" name="cmbLocalidadAlum">
-															<option>--Seleccione--</option>
-															<?php
-																include("funciones/conexion.php");
-																$sentencia="SELECT * FROM localidad";
-																$resultado=mysqli_query($conexion,$sentencia);
-																while($regLocalidad=mysqli_fetch_assoc($resultado)){
-																echo "
-																<option value='".$regLocalidad['idLocalidad']."'>".$regLocalidad["localidad"]."</option>
-																";
-																}
-															?>
-														  </select>
+														<label class="control-label" style="color: rgb(0, 0, 0); font-size: 120%;">Localidad</label>														
+														<select class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;" name="cmbLocalidadAlum" >													
+                                                             <option selected><?php echo $direccion['localidad'];?></option>
+												        </select>
 														</div>
 													<div class="form-group"><!--POR QUE ESTA ESTADO
 														<label class="control-label" style="color: rgb(0, 0, 0); font-size: 120%;">Estado</label>
@@ -515,174 +630,105 @@
 														  </select>-->
 													  </div>
 													  <div class="form-group">
-														<label class="control-label" style="color: rgb(0, 0, 0); font-size: 120%;">Municipio</label>
-														  <select class="form-control" style="color: rgba(0, 0, 0, 0.74); font-size: 100%;" name="cmbMunicipio">
-															<option>--Seleccione--</option>
-															<?php
-																include("funciones/conexion.php");
-																$sentencia="SELECT * FROM municipio";
-																$resultado=mysqli_query($conexion,$sentencia);
-																while($regMunicipio=mysqli_fetch_assoc($resultado)){
-																echo "
-																<option value='".$regMunicipio['idMunicipio']."'>".$regMunicipio["descripcionMunicipio"]."</option>
-																";
-																}
-															?>
-														  </select>
+														<label class="control-label" style="color: rgb(0, 0, 0); font-size: 120%;">Municipio</label> 
+                                                          <select class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;" name="cmbMunicipio" >													
+                                                             <option selected><?php echo $direccion['descripcionMunicipio'];?></option>
+												        </select>
 													  </div>
 													  <div class="form-group label-floating">
 														<label class="control-label" style="color: rgb(0, 0, 0); font-size: 120%;">Referencia</label>
-														<input class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;" type="text" name="txtReferenciaAlum">
-													  </div>
+														<input class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;" type="text" name="txtReferenciaAlum" value="<?php echo $direccion['referenciaDomicilio'];?>">
+													  </div>                                             
 													  <ul class="nav nav-tabs" style="margin-bottom: 15px;">
 														<li class="active"><a href="" data-toggle="tab"><i class="zmdi zmdi-male-alt zmdi-hc-fw"></i>Padre</a></li>
 													</ul>
 													<div class="form-group label-floating">
 														<label class="control-label" style="color: rgb(0, 0, 0); font-size: 120%;">Nombre</label>
-														<input class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;"type="text" name="txtNombrePadre">
+														<input class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;"type="text" name="txtNombrePadre" value="<?php echo $padre['nombrePadre'];?>">
 													  </div>
 													  <div class="form-group label-floating">
 														<label class="control-label" style="color: rgb(0, 0, 0); font-size: 120%;">Apellido Paterno</label>
-														<input class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;"type="text" name="txtApePPadre">
+														<input class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;"type="text" name="txtApePPadre" value="<?php echo $padre['ape1Padre'];?>">
 													  </div>
 													  <div class="form-group label-floating">
 														<label class="control-label" style="color: rgb(0, 0, 0); font-size: 120%;">Apellido Materno</label>
-														<input class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;"type="text" name="txtApeMPadre">
+														<input class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;"type="text" name="txtApeMPadre" value="<?php echo $padre['ape2Padre'];?>">
 													  </div>
 													  <div class="form-group">
-														<label class="control-label" style="color: rgb(0, 0, 0); font-size: 120%;">Parentesco</label>
-														  <select class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;" name="cmbParentescoPadre">
-															<option>--Seleccione--</option>
-															<?php
-																include("funciones/conexion.php");
-																$sentencia="SELECT * FROM parentesco";
-																$resultado=mysqli_query($conexion,$sentencia);
-																while($regParentesco=mysqli_fetch_assoc($resultado)){
-																echo "
-																<option value='".$regParentesco['idParentesco']."'>".$regParentesco["descripcionParentesco"]."</option>
-																";
-																}
-															?>
-														  </select>
+														<label class="control-label" style="color: rgb(0, 0, 0); font-size: 120%;">Parentesco</label>														  
+                                                          <select class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;" name="cmbParentescoPadre" >													
+                                                             <option selected><?php echo $padre['descripcionParentesco'];?></option>
+												        </select>					
 													  </div>
 													  <div class="form-group label-floating">
-														<label class="control-label" style="color: rgb(0, 0, 0); font-size: 120%;">Ocupacion</label>
-														<select class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;" name="cmbOcupacionPadre">
-															<option>--Seleccione--</option>
-															<?php
-																include("funciones/conexion.php");
-																$sentencia="SELECT * FROM ocupacion";
-																$resultado=mysqli_query($conexion,$sentencia);
-																while($regOcupacion=mysqli_fetch_assoc($resultado)){
-																echo "
-																<option value='".$regOcupacion['idOcupacion']."'>".$regOcupacion["descripcionOcupacion"]."</option>
-																";
-																}
-															?>
-															</select>
+														<label class="control-label" style="color: rgb(0, 0, 0); font-size: 120%;">Ocupacion</label>														
+                                                        <select class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;" name="cmbOcupacionPadre" >													
+                                                             <option selected><?php echo $padre['descripcionOcupacion'];?></option>
+												        </select>															
 													  </div>
 													  <div class="form-group label-floating">
 														<label class="control-label" style="color: rgb(0, 0, 0); font-size: 120%;">Teléfono Celular(10 digítos)</label>
-														<input class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;"type="text" name="txtTelefonoCelPadre">
+														<input class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;"type="text" name="txtTelefonoCelPadre" value="<?php echo $padre['telefonoCelularPadre'];?>">
 													  </div>
 													  <div class="form-group label-floating">
 														<label class="control-label" style="color: rgb(0, 0, 0); font-size: 120%;">Clave de Credencial de Elector</label>
-														<input class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;"type="text" name="txtClaveElectorPadre">
+														<input class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;"type="text" name="txtClaveElectorPadre" value="<?php echo $padre['claveElectorPadre'];?>">
 													  </div>
 													  <div class="form-group label-floating">
 														<label class="control-label" style="color: rgb(0, 0, 0); font-size: 120%;">CURP</label>
-														<input class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;"type="text" name="txtxCurpPadre">
+														<input class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;"type="text" name="txtxCurpPadre" value="<?php echo $padre['CURPPadre'];?>">
 													  </div>
 													  <div class="form-group">
-														<label class="control-label" style="color: rgb(0, 0, 0); font-size: 120%;">Ultimo Grado de Estudios</label>
-														  <select class="form-control" style="color: rgba(0, 0, 0, 0.664); font-size: 100%;" name="cmbUltimoGradoPadre">
-														  <option>--Seleccione--</option>
-														  <?php
-																include("funciones/conexion.php");
-																$sentencia="SELECT * FROM nivelEscolar";
-																$resultado=mysqli_query($conexion,$sentencia);
-																while($regNivelEscolar=mysqli_fetch_assoc($resultado)){
-																echo "
-																<option value='".$regNivelEscolar['idNivelEscolar']."'>".$regNivelEscolar["descripcionNivelEscolar"]."</option>
-																";
-																}
-															?>
-														  </select>
+														<label class="control-label" style="color: rgb(0, 0, 0); font-size: 120%;">Ultimo Grado de Estudios</label>														  
+                                                          <select class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;" name="cmbUltimoGradoPadre" >													
+                                                             <option selected><?php echo $padre['descripcionNivelEscolar'];?></option>
+												        </select>
+														  
 													  </div>
 													  <ul class="nav nav-tabs" style="margin-bottom: 15px;">
 														<li class="active"><a href="" data-toggle="tab"><i class="zmdi zmdi-female zmdi-hc-fw"></i>Madre</a></li>
 													</ul>
 													<div class="form-group label-floating">
 														<label class="control-label" style="color: rgb(0, 0, 0); font-size: 120%;">Nombre</label>
-														<input class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;"type="text" name="txtNombreMadre">
+														<input class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;"type="text" name="txtNombreMadre" value="<?php echo $madre['nombreMadre'];?>">
 													  </div>
 													  <div class="form-group label-floating">
 														<label class="control-label" style="color: rgb(0, 0, 0); font-size: 120%;">Apellido Paterno</label>
-														<input class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;"type="text" name="txtApePMadre">
+														<input class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;"type="text" name="txtApePMadre" value="<?php echo $madre['ape1Madre'];?>">
 													  </div>
 													  <div class="form-group label-floating">
 														<label class="control-label" style="color: rgb(0, 0, 0); font-size: 120%;">Apellido Materno</label>
-														<input class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;"type="text" name="txtApeMMadre">
+														<input class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;"type="text" name="txtApeMMadre" value="<?php echo $madre['ape2Madre'];?>">
 													  </div>
 													  <div class="form-group">
 														<label class="control-label" style="color: rgb(0, 0, 0); font-size: 120%;">Parentesco</label>
-														  <select class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;" name="cmbParentescoMadre">
-															<option>--Seleccione--</option>
-															<?php
-																include("funciones/conexion.php");
-																$sentencia="SELECT * FROM parentesco";
-																$resultado=mysqli_query($conexion,$sentencia);
-																while($regParentesco=mysqli_fetch_assoc($resultado)){
-																echo "
-																<option value='".$regParentesco['idParentesco']."'>".$regParentesco["descripcionParentesco"]."</option>
-																";
-																}
-															?>
-														  </select>
+                                                          <select class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;" name="cmbParentescoMadre" >		
+                                                             <option selected><?php echo $madre['descripcionParentesco'];?></option>
+												        </select>
 													  </div>
 													  <div class="form-group label-floating">
-														<label class="control-label" style="color: rgb(0, 0, 0); font-size: 120%;">Ocupacion</label>
-														<select class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;" name="cmbOcupacionMadre">
-															<option>--Seleccione--</option>
-															<?php
-																include("funciones/conexion.php");
-																$sentencia="SELECT * FROM ocupacion";
-																$resultado=mysqli_query($conexion,$sentencia);
-																while($regOcupacion=mysqli_fetch_assoc($resultado)){
-																echo "
-																<option value='".$regOcupacion['idOcupacion']."'>".$regOcupacion["descripcionOcupacion"]."</option>
-																";
-																}
-															?>
-															</select>
+														<label class="control-label" style="color: rgb(0, 0, 0); font-size: 120%;">Ocupacion</label>											
+														<select class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;" name="cmbOcupacionMadre" >		
+                                                             <option selected><?php echo $madre['descripcionOcupacion'];?></option>
+												        </select>
 													  </div>
 													  <div class="form-group label-floating">
 														<label class="control-label" style="color: rgb(0, 0, 0); font-size: 120%;">Teléfono Celular(10 digítos)</label>
-														<input class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;"type="text" name="txtTelefonoCelMadre">
+														<input class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;"type="text" name="txtTelefonoCelMadre" value="<?php echo $madre['telefonoCelularMadre'];?>">
 													  </div>
 													  <div class="form-group label-floating">
 														<label class="control-label" style="color: rgb(0, 0, 0); font-size: 120%;">Clave de Credencial de Elector</label>
-														<input class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;"type="text" name="txtClaveElectorMadre">
+														<input class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;"type="text" name="txtClaveElectorMadre" value="<?php echo $madre['claveElectorMadre'];?>">
 													  </div>
 													  <div class="form-group label-floating">
 														<label class="control-label" style="color: rgb(0, 0, 0); font-size: 120%;">CURP</label>
-														<input class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;"type="text" name="txtxCurpMadre">
+														<input class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;"type="text" name="txtxCurpMadre" value="<?php echo $madre['CURPMadre'];?>">
 													  </div>
 													  <div class="form-group">
-														<label class="control-label" style="color: rgb(0, 0, 0); font-size: 120%;">Ultimo Grado de Estudios</label>
-														  <select class="form-control" style="color: rgba(0, 0, 0); font-size: 100%;" name="cmbUltimoGradoMadre">
-															<option>--Seleccione--</option>
-															<?php
-																include("funciones/conexion.php");
-																$sentencia="SELECT * FROM nivelEscolar";
-																$resultado=mysqli_query($conexion,$sentencia);
-																while($regNivelEscolar=mysqli_fetch_assoc($resultado)){
-																echo "
-																<option value='".$regNivelEscolar['idNivelEscolar']."'>".$regNivelEscolar["descripcionNivelEscolar"]."</option>
-																";
-																}
-															?>
-														  </select>
+														<label class="control-label" style="color: rgb(0, 0, 0); font-size: 120%;">Ultimo Grado de Estudios</label>														  
+														  <select class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;" name="cmbUltimoGradoMadre" >		
+                                                             <option selected><?php echo $madre['descripcionNivelEscolar'];?></option>
+												        </select>
 													  </div>
 													  
 										    <p class="text-center">
