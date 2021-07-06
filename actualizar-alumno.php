@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-	<title>Datos Generales</title>
+	<title>Actualizar Datos Generales</title>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
 	<link rel="stylesheet" href="./css/main.css">
@@ -420,8 +420,8 @@
 										    </ul>
 							
 									    	<div class="form-group label-floating">
-											  <label class="control-label" style="color: rgb(0, 0, 0); font-size: 120%;">Matrícula</label>
-											  <input class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;" type="text" name="txtMatriculaAlum" value="<?php echo $informacionPersonal['matricula'];?>">
+											  <!-- <label class="control-label" style="color: rgb(0, 0, 0); font-size: 120%;">Matrícula</label>-->
+											  <input class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;" type="hidden" name="txtMatriculaAlum" value="<?php echo $informacionPersonal['matricula'];?>">
 											</div>
 											<div class="form-group label-floating">
 												<label class="control-label" style="color: rgb(0, 0, 0); font-size: 120%;">Número de Expediente</label>
@@ -438,7 +438,7 @@
 											  <div class="form-group">
 												<label class="control-label" style="color: rgb(0, 0, 0); font-size: 120%;">Inscrito</label>												                                                                                                    
                                                   <select class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;" name="cmbInscritoAlum" >		
-                                                  <option selected><?php echo $informacionPersonal['descripcionInscrito'];?></option>
+                                                  <option value="<?php echo $informacionPersonal['descripcionInscrito'];?>"><?php echo $informacionPersonal['descripcionInscrito'];?></option>
 												  </select>	
 											  </div>
 											  <div class="form-group">
@@ -450,8 +450,8 @@
 											  </div>
 											  <div class="form-group">
 												<label class="control-label" style="color: rgb(0, 0, 0); font-size: 120%;">Grupo</label>                                                
-                                                <select class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;" name="ccmbGrupoAlum" >		
-                                                  <option selected><?php echo $informacionPersonal['grupo'];?></option>
+                                                <select class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;" name="cmbGrupo" >		
+                                                  <option value="<?php echo $informacionPersonal['grupo'];?>"><?php echo $informacionPersonal['grupo'];?></option>
 												  </select>											  
 											  </div>
 											  
@@ -555,7 +555,7 @@
 											  </div>
 											  <div class="form-group">
 												<label class="control-label" style="color: rgb(0, 0, 0); font-size: 120%;">De quien depende Economicamente</label>
-                                                  <select class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;" name="cmbtxtDequienDepende" >		
+                                                  <select class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;" name="cmbDependeEconomicamenteAlum" >		
                                                   <option selected><?php echo $informacionPersonal['descripcionParentesco'];?></option>
 												  </select>
 											  </div>
