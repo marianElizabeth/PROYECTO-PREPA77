@@ -49,10 +49,10 @@
         fechaDeIngresoInstitucion = '$fechaDeIngresoInstitucion',
         fechaDeIngresoCarreraDocente = '$fechaDeIngresoCarreraDocente',
         puntajeEscalafonario = '$puntajeEscalafonario',    
-        CCTEscuela = '$CCTEscuela',
-        idNivelLaboral = $idNivelLaboral,
-        idPuestoInstitucional = $idPuestoInstitucional,
-        idLocalidad = $idLocalidad,        
+        CCTEscuela = '$CCTEscuela'(SELECT  FROM  WHERE  = ''),
+        idNivelLaboral = $idNivelLaboral(SELECT  FROM  WHERE  = ''),
+        idPuestoInstitucional = $idPuestoInstitucional(SELECT  FROM  WHERE  = ''),
+        idLocalidad = $idLocalidad (SELECT  FROM  WHERE  = ''),        
         calleDocente = '$calleDocente',
         numeroDocente = '$numeroDomicilio',
         coloniaDocente = '$colonia',
@@ -72,7 +72,7 @@
     $fechaEgresoDiplomado= $_POST['fechaEgresoDiplomado'];// 13 en la BD(datosDocente)   -- en PHP guardar-datosgeneralesdocente(linea  )
 
     $sentenciaDiplomado=" UPDATE datosdocentes_diplomado SET         
-        idDiplomado = $idDiplomado,
+        idDiplomado = $idDiplomado (SELECT  FROM  WHERE  = ''),
         fechaEgresoDiplomado='$fechaEgresoDiplomado'
         WHERE CURPDocente='$CURPDocente';";
 
@@ -92,7 +92,7 @@
     
     $sentenciaDoctorado=" UPDATE datosdocente_doctorado SET        
         descripcionTituladoPasante='$descripcionTituladoPasante',
-        idDoctorado=$idDoctorado,
+        idDoctorado = (SELECT  FROM  WHERE  = '$idDoctorado'),
         noCedulaProfesionalDoctorado='$noCedulaProfesionalDoctorado'
         WHERE CURPDocente='$CURPDocente';";
     
@@ -111,8 +111,8 @@
  
     
         $sentencia=" UPDATE escuelasLabora SET        
-            CCTEscuela='$CCTEscuela',
-            idPuestoInstitucional=$idPuestoInstitucional,
+            CCTEscuela=(SELECT  FROM  WHERE  = '$CCTEscuela'),
+            idPuestoInstitucional=$idPuestoInstitucional (SELECT  FROM  WHERE  = ''),
             numeroHoras='$numeroHoras'
             WHERE CURPDocente='$CURPDocente';";
 
@@ -128,14 +128,14 @@
     $numHoras = $_POST['txtNumHoras'];// 24  en la BD(datosDocente)
     //$CURPDocente = $_POST['txtCURPDocente'];// 24  en la BD(datosDocente)    
 
-    $sentencia=" UPDATE escuelasnumeros SET
+    $sentencia2=" UPDATE escuelasnumeros SET
         numPlaza='$numPlaza',
         numPrelacion='$numPrelacion',  
         numHoras='$numHoras',
-        CCTEscuela='$CCTEscuela'
+        CCTEscuela=$idEspecializacion(SELECT  FROM  WHERE  = '$idEspecializacion'),
         WHERE CURPDocente='$CURPDocente';";    
     
-    if(mysqli_query($conexion,$sentencia)){
+    if(mysqli_query($conexion,$sentencia2)){
         echo("ESCUELA CON NUMEROS Actualizada Correctamene");
     }
     else{
@@ -148,7 +148,7 @@
  
     
     $sentenciaEspecializacion=" UPDATE datosdocente_especializacion SET
-        idEspecializacion=$idEspecializacion,
+        idEspecializacion=(SELECT  FROM  WHERE  = '$idEspecializacion'),
         fechaEgresoEspecializacion='$fechaEgresoEspecializacion'
         WHERE CURPDocente='$CURPDocente';";  
 
@@ -169,8 +169,8 @@
     
     $sentenciaLicenciature=" UPDATE datosdocente_licenciatura SET
         descripcionTituladoPasante='$descripcionTituladoPasanteLicenciatura',
-        idLicenciatura=$idLicenciatura,
-        escuelaEgresionLicenciatura='$escuelaEgresionLicenciatura',
+        idLicenciatura=(SELECT  FROM  WHERE  = '$idLicenciatura'),
+        escuelaEgresionLicenciatura=(SELECT  FROM  WHERE  = '$escuelaEgresionLicenciatura'),
         noCedulaProfesional=$noCedulaProfesional,
         fechaEscuelaEgresion='$fechaEscuelaEgresion'
         WHERE CURPDocente='$CURPDocente';";  
