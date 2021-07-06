@@ -440,7 +440,7 @@
 														$resultado=mysqli_query($conexion,$sentencia);
 														while($regInscrito=mysqli_fetch_assoc($resultado)){
 														echo "
-														<option value='".$regInscrito['idInscrito']."'>".$regInscrito["descripcionInscrito"]."</option>
+														<option value='".$regInscrito['descripcionInscrito']."'>".$regInscrito['descripcionInscrito']."</option>
 														";
 														}
 														mysqli_close($conexion);
