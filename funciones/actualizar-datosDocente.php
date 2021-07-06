@@ -49,10 +49,10 @@
         fechaDeIngresoInstitucion = '$fechaDeIngresoInstitucion',
         fechaDeIngresoCarreraDocente = '$fechaDeIngresoCarreraDocente',
         puntajeEscalafonario = '$puntajeEscalafonario',    
-        CCTEscuela = '$CCTEscuela'(SELECT  FROM  WHERE  = ''),
-        idNivelLaboral = $idNivelLaboral(SELECT  FROM  WHERE  = ''),
-        idPuestoInstitucional = $idPuestoInstitucional(SELECT  FROM  WHERE  = ''),
-        idLocalidad = $idLocalidad (SELECT  FROM  WHERE  = ''),        
+        CCTEscuela = '$CCTEscuela'(SELECT CCTEcuela FROM escuela WHERE escuela = '$CCTEscuela'),
+        idNivelLaboral = $idNivelLaboral(SELECT idNivelLaboral FROM nivelLaboral WHERE nivelLaboral = '$idNivelLaboral'),
+        idPuestoInstitucional = $idPuestoInstitucional(SELECT idPuestoInstitucional FROM puestoInstitucional WHERE puestoInstitucional = '$idPuestoInstitucional'),
+        idLocalidad = $idLocalidad (SELECT idLocalidad FROM localidad WHERE localidad = '$idLocalidad'),        
         calleDocente = '$calleDocente',
         numeroDocente = '$numeroDomicilio',
         coloniaDocente = '$colonia',
@@ -72,7 +72,7 @@
     $fechaEgresoDiplomado= $_POST['fechaEgresoDiplomado'];// 13 en la BD(datosDocente)   -- en PHP guardar-datosgeneralesdocente(linea  )
 
     $sentenciaDiplomado=" UPDATE datosdocentes_diplomado SET         
-        idDiplomado = $idDiplomado (SELECT  FROM  WHERE  = ''),
+        idDiplomado = $idDiplomado (SELECT idDiplomado FROM diplomado WHERE diplomado = '$idDiplomado'),
         fechaEgresoDiplomado='$fechaEgresoDiplomado'
         WHERE CURPDocente='$CURPDocente';";
 
@@ -92,7 +92,7 @@
     
     $sentenciaDoctorado=" UPDATE datosdocente_doctorado SET        
         descripcionTituladoPasante='$descripcionTituladoPasante',
-        idDoctorado = (SELECT  FROM  WHERE  = '$idDoctorado'),
+        idDoctorado = (SELECT idDoctorado FROM doctorado WHERE doctorado = '$idDoctorado'),
         noCedulaProfesionalDoctorado='$noCedulaProfesionalDoctorado'
         WHERE CURPDocente='$CURPDocente';";
     
@@ -111,8 +111,8 @@
  
     
         $sentencia=" UPDATE escuelasLabora SET        
-            CCTEscuela=(SELECT  FROM  WHERE  = '$CCTEscuela'),
-            idPuestoInstitucional=$idPuestoInstitucional (SELECT  FROM  WHERE  = ''),
+            CCTEscuela=(SELECT CCTEscuela FROM escuela WHERE escuela = '$CCTEscuela'),
+            idPuestoInstitucional= (SELECT idPuestoInstitucional FROM puestoInstitucional WHERE puestoInstitucional = '$idPuestoInstitucional'),
             numeroHoras='$numeroHoras'
             WHERE CURPDocente='$CURPDocente';";
 
@@ -126,13 +126,14 @@
     $numPlaza= $_POST['txtNoPlaza'];//23 en la BD(datosDocente)
     $numPrelacion= $_POST['txtNumPrelacion'];// 24  en la BD(datosDocente)
     $numHoras = $_POST['txtNumHoras'];// 24  en la BD(datosDocente)
+    $CCTEscuela = $_POST['txtEscuelaAsignacion'];
     //$CURPDocente = $_POST['txtCURPDocente'];// 24  en la BD(datosDocente)    
 
     $sentencia2=" UPDATE escuelasnumeros SET
         numPlaza='$numPlaza',
         numPrelacion='$numPrelacion',  
         numHoras='$numHoras',
-        CCTEscuela=$idEspecializacion(SELECT  FROM  WHERE  = '$idEspecializacion'),
+        CCTEscuela= (SELECT CCTEscuela FROM escuela WHERE escuela = '$CCTEscuela'),
         WHERE CURPDocente='$CURPDocente';";    
     
     if(mysqli_query($conexion,$sentencia2)){
@@ -148,7 +149,7 @@
  
     
     $sentenciaEspecializacion=" UPDATE datosdocente_especializacion SET
-        idEspecializacion=(SELECT  FROM  WHERE  = '$idEspecializacion'),
+        idEspecializacion=(SELECT idEspecializacion FROM especializacion WHERE especializacion = '$idEspecializacion'),
         fechaEgresoEspecializacion='$fechaEgresoEspecializacion'
         WHERE CURPDocente='$CURPDocente';";  
 
@@ -169,8 +170,8 @@
     
     $sentenciaLicenciature=" UPDATE datosdocente_licenciatura SET
         descripcionTituladoPasante='$descripcionTituladoPasanteLicenciatura',
-        idLicenciatura=(SELECT  FROM  WHERE  = '$idLicenciatura'),
-        escuelaEgresionLicenciatura=(SELECT  FROM  WHERE  = '$escuelaEgresionLicenciatura'),
+        idLicenciatura=(SELECT idLicenciatura FROM licenciatura WHERE licenciatura = '$idLicenciatura'),
+        escuelaEgresionLicenciatura= '$escuelaEgresionLicenciatura'
         noCedulaProfesional=$noCedulaProfesional,
         fechaEscuelaEgresion='$fechaEscuelaEgresion'
         WHERE CURPDocente='$CURPDocente';";  
