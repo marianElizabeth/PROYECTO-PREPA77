@@ -221,7 +221,7 @@
 										
 									    $resultado = mysqli_query($conexion, $sentencia);
                                         $Maestria=mysqli_fetch_assoc($resultado);
-                                        
+										mysqli_close($conexion);
 
                                     ?>
 										<form action="funciones/actualizar-maestriadocente.php" method="POST">
@@ -239,7 +239,7 @@
 																$resultado=mysqli_query($conexion,$sentencia);
 																while($regMaestria=mysqli_fetch_assoc($resultado)){
 																echo "
-																<option value='".$regMaestria['idMaestria']."'>".$regMaestria["descripcionMaestria"]."</option>
+																<option value='".$regMaestria['descripcionMaestria']."'>".$regMaestria["descripcionMaestria"]."</option>
 																";
 																}
 															?>
@@ -255,7 +255,7 @@
 												</div>
 												<div class="form-group label-floating">
 													<label class="control-label" style="color: rgb(0, 0, 0); font-size: 120%;">No. Cédula Profesional</label>
-													<input class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;"type="text" name="txtNoCedulaMaestria" value="<?php echo $Maestria['noCedulaProfesionalMaestria']?>">
+													<input class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;"type="text" name="txtNoCedulaMaestria" minlength="1" maxlength="12" value="<?php echo $Maestria['noCedulaProfesionalMaestria']?>">
 												  </div>
 										    <p class="text-center">
 										    	<button href="#!" class="btn btn-info btn-raised btn-sm" style="color: rgb(0, 0, 0); font-size: 100%;"><i class="zmdi zmdi-floppy"></i> GUARDAR CAMBIOS</button>
