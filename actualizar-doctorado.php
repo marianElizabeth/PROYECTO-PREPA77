@@ -179,7 +179,7 @@
 		<!-- Content page -->
 		<div class="container-fluid">
 			<div class="page-header">
-			  <h1 class="text-titles"><i class="zmdi zmdi-refresh zmdi-hc-fw"></i>Preparación profesional<small> Maestria</small></h1>
+			  <h1 class="text-titles"><i class="zmdi zmdi-refresh zmdi-hc-fw"></i>Preparación profesional<small> Doctorado</small></h1>
 			</div>
 			<p class="lead">En esta sección puedes actualizar tú información</p>
 		</div>
