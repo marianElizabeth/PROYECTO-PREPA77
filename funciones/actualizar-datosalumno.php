@@ -168,7 +168,7 @@
         idParentesco = (SELECT idParentesco FROM parentesco WHERE descripcionParentesco = '$idParentescoMadre')
         WHERE matricula='$matricula';";
     if(mysqli_query($conexion,$sentenciaMadre)){
-        header("Location: ../verMadre.php");    
+        header("Location: ../verPadre.php");    
       }
     else{
         echo "Error";
