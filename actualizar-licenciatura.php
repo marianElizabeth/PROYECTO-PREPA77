@@ -223,7 +223,7 @@
                                         $Licenciatura=mysqli_fetch_assoc($resultado);
                                     
                                     ?>
-										<form action="" method="POST">
+										<form action="funciones/actualizar-licenciaturadocente.php" method="POST">
 										    <div class="form-group label-floating">
 											  <!--label class="control-label" style="color: rgb(0, 0, 0); font-size: 120%;">CURP</label-->
 											  <input class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;" type="hidden" type="text" name="txtCURPDocente" value="<?php echo $Licenciatura['CURPDocente']?>">
