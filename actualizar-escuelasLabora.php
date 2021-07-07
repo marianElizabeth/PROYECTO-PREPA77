@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-	<title>Ver Escuelas Labora</title>
+	<title>Datos personales</title>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
 	<link rel="stylesheet" href="./css/main.css">
@@ -137,6 +137,7 @@
 			</ul>
 		</div>
 	</section>
+
 	<!-- Content page-->
 	<section class="full-box dashboard-contentPage">
 		<!-- NavBar -->
@@ -178,36 +179,25 @@
 		<!-- Content page -->
 		<div class="container-fluid">
 			<div class="page-header">
-			  <h1 class="text-titles"><i class="zmdi zmdi-eye zmdi-hc-fw"></i>Escuelas Labora <small>Docente</small></h1>
+			  <h1 class="text-titles"><i class="zmdi zmdi-refresh zmdi-hc-fw"></i>Escuelas donde Labora <small>Docente</small></h1>
 			</div>
-			<p class="lead">En está sección puedes visualizar toda su información</p>
+			<p class="lead">En esta sección puedes actualizar tú información</p>
 		</div>
 		<div class="container-fluid">
 			<div class="row">
 				<div class="col-xs-12">
-					<ul class="nav nav-tabs" style="margin-bottom: 15px;">
-					  	<li><a href="" data-toggle="tab"></a></li>
+				
+					<ul class="nav nav-tabs" style="margin-bottom: 15px;">				  	
+						<li class="active"><a href="Nuevo" data-toggle="tab">Nuevo</a></li>
 					</ul>
 					<div id="myTabContent" class="tab-content">
-					  	
-							<div class="table-responsive">
-								<table class="table table-hover text-center">
-									<thead>
-										<tr>
-                                            <th class="text-center">CURP Docente</th>
-											<th class="text-center">Nombre de la escuela</th>
-											<th class="text-center">Puesto o Asignatura que atiende</th>
-											<th class="text-center">No. Horas</th>
-                                            <th class="text-center">Actualizar</th>
-                                            <th class="text-center">Eliminar</th>
-
-										</tr>
-									</thead>
-									<tbody>
-
+                    <div class="container-fluid">
+								<div class="row">
+									<div class="col-xs-12 col-md-10 col-md-offset-1">
                                     <?php
                                         include("funciones/conexion.php");
-                                                            
+                                        $CURPDocenteUpdate=$_GET['CurpUpdate']; 
+
                                         $sentencia = "SELECT
                                         escuelaslabora.CURPDocente, 
                                         escuela.nombreEscuela, 
@@ -223,30 +213,70 @@
                                         puestoinstitucional
                                         ON 
                                         escuelaslabora.idPuestoInstitucional = puestoinstitucional.idPuestoInstitucional
-                                        ORDER BY CURPDocente ASC
-                                        ";
-                                                            
-                                        $resultado = mysqli_query($conexion, $sentencia);
+                                       
+                                        WHERE 
+                                        escuelaslabora.CURPDocente  = '$CURPDocenteUpdate'
+                                    
+										";
+									
+										
+									    $resultado = mysqli_query($conexion, $sentencia);
+                                        $EscuelasLabora=mysqli_fetch_assoc($resultado);
+                                        
 
-                                        while($registro = mysqli_fetch_assoc($resultado)){
-                                       echo "
-                                        <tr>
-                                        <td>".$registro["CURPDocente"]."</td>
-                                        <td>".$registro["nombreEscuela"]."</td>
-                                        <td>".$registro["descripcionInstitucional"]."</td>
-                                        <td>".$registro["numeroHoras"]."</td>
-                                                                
-                                       <td><a href='actualizar-escuelasLabora.php?CurpUpdate=".$registro["CURPDocente"]."' class='btn btn-success btn-raised btn-xs'><i class='zmdi zmdi-refresh'></i></a></td>
-									   <td><a href='funciones/eliminar-escuelasLabora.php?CurpDelete=".$registro["CURPDocente"]."' class='btn btn-danger btn-raised btn-xs'><i class='zmdi zmdi-delete'></i></a></td>
-                                       </tr>
-                                       ";
-                                      }
-                                       mysqli_close($conexion);
                                     ?>
-									</tbody>
-								</table>
+										<form action="" method="POST">
+                                            <div class="form-group label-floating">
+											  <!--label class="control-label" style="color: rgb(0, 0, 0); font-size: 120%;">CURP</label-->
+											  <input class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;" type="hidden" type="text" name="txtCURPDocente" value="<?php echo $EscuelasLabora['CURPDocente']?>">
+											</div>
+                                                <div class="form-group label-floating">
+													<label class="control-label" style="color: rgb(0, 0, 0); font-size: 120%;">Nombre de la Escuela:</label>
+                                                            <select class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;" name="cmbNombreEscuela">
+																<option><?php echo $EscuelasLabora['nombreEscuela']?></option>
+																	<?php
+																		include("funciones/conexion.php");
+																		$sentencia="SELECT * FROM escuela";
+																		$resultado=mysqli_query($conexion,$sentencia);
+																		while($regEscLaboral=mysqli_fetch_assoc($resultado)){
+																		echo "
+																		<option value='".$regEscLaboral['CCTEscuela']."'>".$regEscLaboral["nombreEscuela"]."</option>
+																		";
+																		}
+																	?>
+															</select>
+												</div>
+												<div class="form-group label-floating">
+													<label class="control-label" style="color: rgb(0, 0, 0); font-size: 120%;">Puesto o Asignatura que Atiende:</label>
+													    <select class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;" name="cmbPuesto">
+															<option><?php echo $EscuelasLabora['descripcionInstitucional']?></option>
+																	<?php
+																		include("funciones/conexion.php");
+																		$sentencia="SELECT * FROM puestoInstitucional";
+																		$resultado=mysqli_query($conexion,$sentencia);
+																		while($regEscLaboral=mysqli_fetch_assoc($resultado)){
+																		echo "
+																		<option value='".$regEscLaboral['idPuestoInstitucional']."'>".$regEscLaboral["descripcionInstitucional"]."</option>
+																		";
+																		}
+																	?>
+                                                        </select>
+                                                        
+												</div>
+												<div class="form-group label-floating">
+													<label class="control-label" style="color: rgb(0, 0, 0); font-size: 120%;">Horas:</label>
+                                                    <input class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;" type="text" name="txtNoHoras" value="<?php echo $EscuelasLabora['numeroHoras']?>">
+												</div>
+										    <p class="text-center">
+										    	<button href="#!" class="btn btn-info btn-raised btn-sm" style="color: rgb(0, 0, 0); font-size: 100%;"><i class="zmdi zmdi-floppy"></i> GUARDAR CAMBIOS</button>
+										    </p>
+									    </form>
+									</div>
+								</div>
 							</div>
-					</div>  
+						</div>
+					  	
+					</div>
 				</div>
 			</div>
 		</div>
@@ -339,4 +369,5 @@
 		$.material.init();
 	</script>
 </body>
+</html>
 </html>
