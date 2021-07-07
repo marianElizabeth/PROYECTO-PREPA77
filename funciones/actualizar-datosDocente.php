@@ -59,7 +59,7 @@
         CPDocente = '$CP'   
         WHERE CURPDocente='$CURPDocente';";    
     if(mysqli_query($conexion,$sentencia)){
-        echo("Docente Actualizado Correctamene");
+        header("Location: ../VerDatosDocentes.php");    
     }
     else{
         echo "Error";

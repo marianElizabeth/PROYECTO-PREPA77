@@ -11,7 +11,7 @@
         WHERE CURPDatosDocente='$CURPDatosDocentes';";
 
     if(mysqli_query($conexion,$sentenciaDiplomado)){
-        header("Location: ../verDiplomadoDocente.php");    
+        header("Location: ../VerDiplomadoDocente.php");    
     }
     else{
         echo "Error";
