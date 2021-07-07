@@ -1,7 +1,7 @@
 <?php 
     include("conexion.php");
         //ESCUELAS LABORA
-       $CURPDocente= $_POST['txtCurpDocente'];// 1 en la BD(datosDocente)
+       $CURPDocente= $_POST['txtCURPDocente'];// 1 en la BD(datosDocente)
        $CCTEscuela= $_POST['cmbNombreEscuela'];//25  en la BD(datosAlumono)
        $idPuestoInstitucionalLabora = $_POST['cmbPuesto'];// 2 en la BD(datosAlumono)
        $numeroHoras = $_POST['txtNoHoras'];// 3 en la BD(datosAlumono)
