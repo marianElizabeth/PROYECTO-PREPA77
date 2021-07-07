@@ -221,9 +221,10 @@
 									    $resultado = mysqli_query($conexion, $sentencia);
                                         $Especializacion=mysqli_fetch_assoc($resultado);
                                         
+										mysqli_close($conexion);
 
                                     ?>
-										<form action="" method="POST">
+										<form action="funciones/actualizar-especializaciondocente.php" method="POST">
                                         <div class="form-group label-floating">
 											  <!--label class="control-label" style="color: rgb(0, 0, 0); font-size: 120%;">CURP</label-->
 											  <input class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;" type="hidden" type="text" name="txtCURPDocente" value="<?php echo $Especializacion['CURPDatosDocentes']?>">
@@ -238,9 +239,10 @@
 																$resultado=mysqli_query($conexion,$sentencia);
 																while($regEspecializacion=mysqli_fetch_assoc($resultado)){
 																echo "
-																<option value='".$regEspecializacion['idEspecializacion']."'>".$regEspecializacion["descripcionEspecializacion"]."</option>
+																<option value='".$regEspecializacion['descripcionEspecializacion']."'>".$regEspecializacion["descripcionEspecializacion"]."</option>
 																";
 																}
+																mysqli_close($conexion);
 															?>
 													  </select>
 												  </div>
