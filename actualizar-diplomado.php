@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-	<title>Ver Diplomado Docente</title>
+	<title>Datos personales</title>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
 	<link rel="stylesheet" href="./css/main.css">
@@ -179,39 +179,30 @@
 		<!-- Content page -->
 		<div class="container-fluid">
 			<div class="page-header">
-			  <h1 class="text-titles"><i class="zmdi zmdi-eye zmdi-hc-fw"></i>Diplomado <small>Docente</small></h1>
+			  <h1 class="text-titles"><i class="zmdi zmdi-refresh zmdi-hc-fw"></i>Preparación profesional<small> Diplomado</small></h1>
 			</div>
-			<p class="lead">En está sección puedes visualizar toda su información</p>
+			<p class="lead">En esta sección puedes actualizar tú información</p>
 		</div>
 		<div class="container-fluid">
 			<div class="row">
 				<div class="col-xs-12">
-					<ul class="nav nav-tabs" style="margin-bottom: 15px;">
-					  	<li><a href="" data-toggle="tab"></a></li>
+				
+					<ul class="nav nav-tabs" style="margin-bottom: 15px;">				  	
+						<li class="active"><a href="Nuevo" data-toggle="tab">Nuevo</a></li>
 					</ul>
 					<div id="myTabContent" class="tab-content">
-					  	
-							<div class="table-responsive">
-								<table class="table table-hover text-center">
-									<thead>
-										<tr>
-											<th class="text-center">CURP Docente</th>
-											<th class="text-center">Diplomado</th>
-											<th class="text-center">Fecha de Egreso</th>
-											<th class="text-center">Actualizar</th>
-											<th class="text-center">Eliminar</th>
-										</tr>
-									</thead>
-									<tbody>
+                    <div class="container-fluid">
+								<div class="row">
+									<div class="col-xs-12 col-md-10 col-md-offset-1">
+                                    <?php
+                                        include("funciones/conexion.php");
+                                        $CURPDocenteUpdate=$_GET['CurpUpdate']; 
 
-										<?php
-										include("funciones/conexion.php");
-									  
-										$sentencia = "SELECT
+                                        $sentencia = "SELECT
                                         datosdocentes_diplomado.CURPDatosDocente, 
                                         diplomado.descripcionDiplomado, 
                                         datosdocentes_diplomado.fechaEgresoDiplomado
-                                    FROM
+                                        FROM
                                         datosdocentes
                                         INNER JOIN
                                         datosdocentes_diplomado
@@ -221,34 +212,52 @@
                                         diplomado
                                         ON 
                                             datosdocentes_diplomado.idDiplomado = diplomado.idDiplomado
+                                        WHERE 
+                                        datosdocentes.CURPDocente  = '$CURPDocenteUpdate'
+                                    
 										";
 									
 										
-									$resultado = mysqli_query($conexion, $sentencia);
+									    $resultado = mysqli_query($conexion, $sentencia);
+                                        $Diplomado=mysqli_fetch_assoc($resultado);
+                                        
 
-									while($registro = mysqli_fetch_assoc($resultado)){
-										echo "
-										<tr>
-										  <td>".$registro["CURPDatosDocente"]."</td>
-										  <td>".$registro["descripcionDiplomado"]."</td>
-										  <td>".$registro["fechaEgresoDiplomado"]."</td>
-										  
-											<td><a href='actualizar-diplomado.php?CurpUpdate=".$registro["CURPDatosDocente"]."' class='btn btn-success btn-raised btn-xs'><i class='zmdi zmdi-refresh'></i></a></td>
-											<td><a href='funciones/eliminar-diplomado.php?CurpDelete=".$registro["CURPDatosDocente"]."' class='btn btn-danger btn-raised btn-xs'><i class='zmdi zmdi-delete'></i></a></td>
-											</tr>
-											";
-									}
-									
-										mysqli_close($conexion);
-									  ?>
-									</tbody>
-								</table>
+                                    ?>
+										<form action="" method="POST">
+                                        <div class="form-group label-floating">
+											  <!--label class="control-label" style="color: rgb(0, 0, 0); font-size: 120%;">CURP</label-->
+											  <input class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;" type="hidden" type="text" name="txtCURPDocente" value="<?php echo $Diplomado['CURPDatosDocente']?>">
+											</div>
+                                            <div class="form-group label-floating">
+													<label class="control-label" style="color: rgb(0, 0, 0); font-size: 120%;">Diplomado en:</label>
+													  <select class="form-control" style="color: rgba(0, 0, 0); font-size: 100%;" name="cmbDiplomado">
+														<option><?php echo $Diplomado['descripcionDiplomado']?></option>
+														<?php
+																include("funciones/conexion.php");
+																$sentencia="SELECT * FROM diplomado";
+																$resultado=mysqli_query($conexion,$sentencia);
+																while($regDiplomado=mysqli_fetch_assoc($resultado)){
+																echo "
+																<option value='".$regDiplomado['idDiplomado']."'>".$regDiplomado["descripcionDiplomado"]."</option>
+																";
+																}
+															?>
+													  </select>
+												  </div>
+												<div class="form-group">
+												  <label class="control-label" style="color: rgb(0, 0, 0); font-size: 120%;">Fecha de Egreso</label>
+												  <input class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;" type="date" name="fechaEgresoDiplomado" value="<?php echo $Diplomado['fechaEgresoDiplomado']?>">
+												</div>
+										    <p class="text-center">
+										    	<button href="#!" class="btn btn-info btn-raised btn-sm" style="color: rgb(0, 0, 0); font-size: 100%;"><i class="zmdi zmdi-floppy"></i> GUARDAR CAMBIOS</button>
+										    </p>
+									    </form>
+									</div>
+								</div>
 							</div>
-							
+						</div>
 					  	
-
-						 
-					</div>  
+					</div>
 				</div>
 			</div>
 		</div>
@@ -341,4 +350,5 @@
 		$.material.init();
 	</script>
 </body>
+</html>
 </html>
