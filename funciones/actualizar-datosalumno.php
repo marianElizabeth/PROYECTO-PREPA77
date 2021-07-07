@@ -102,7 +102,7 @@
         WHERE matricula='$matricula';";
 
     if(mysqli_query($conexion,$sentencia)){
-        echo "Alumno Actualizado Correctamene!!!";
+        header("Location: ../verInformacionAlumno.php");    
     }
     else{
         echo "Error";
