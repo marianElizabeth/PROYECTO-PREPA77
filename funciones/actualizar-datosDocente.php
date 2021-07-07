@@ -36,7 +36,7 @@
     $sentencia=" UPDATE datosdocentes SET           
         nombreDocente = '$nombreDocente',
         ape1Docente = '$ape1Docente',
-        ape2Docente = '$ape2Docente ',
+        ape2Docente = '$ape2Docente',
         fechaNacimientoDocente = '$fechaNacimientoDocente',
         RFCDocente = '$RFCDocente',
         claveISSEMYM = '$claveISSEMYM',
@@ -49,7 +49,7 @@
         fechaDeIngresoInstitucion = '$fechaDeIngresoInstitucion',
         fechaDeIngresoCarreraDocente = '$fechaDeIngresoCarreraDocente',
         puntajeEscalafonario = '$puntajeEscalafonario',    
-        CCTEscuela = (SELECT CCTEcuela FROM escuela WHERE nombreEscuela = '$CCTEscuela'),
+        CCTEscuela = (SELECT CCTEscuela FROM escuela WHERE nombreEscuela = '$CCTEscuela'),
         idNivelLaboral = (SELECT idNivelLaboral FROM nivelLaboral WHERE descripcionNivelLaboral = '$idNivelLaboral'),
         idPuestoInstitucional = (SELECT idPuestoInstitucional FROM puestoInstitucional WHERE descripcionInstitucional = '$idPuestoInstitucional'),
         idLocalidad = (SELECT idLocalidad FROM localidad WHERE localidad = '$idLocalidad'),        
