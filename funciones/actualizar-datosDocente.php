@@ -49,9 +49,9 @@
         fechaDeIngresoInstitucion = '$fechaDeIngresoInstitucion',
         fechaDeIngresoCarreraDocente = '$fechaDeIngresoCarreraDocente',
         puntajeEscalafonario = '$puntajeEscalafonario',    
-        CCTEscuela = '$CCTEscuela'(SELECT CCTEcuela FROM escuela WHERE escuela = '$CCTEscuela'),
-        idNivelLaboral = $idNivelLaboral(SELECT idNivelLaboral FROM nivelLaboral WHERE nivelLaboral = '$idNivelLaboral'),
-        idPuestoInstitucional = $idPuestoInstitucional(SELECT idPuestoInstitucional FROM puestoInstitucional WHERE puestoInstitucional = '$idPuestoInstitucional'),
+        CCTEscuela = '$CCTEscuela'(SELECT CCTEcuela FROM escuela WHERE nombreEscuela = '$CCTEscuela'),
+        idNivelLaboral = $idNivelLaboral(SELECT idNivelLaboral FROM nivelLaboral WHERE descripcionNivelLaboral = '$idNivelLaboral'),
+        idPuestoInstitucional = $idPuestoInstitucional(SELECT idPuestoInstitucional FROM puestoInstitucional WHERE descripcionInstitucional = '$idPuestoInstitucional'),
         idLocalidad = $idLocalidad (SELECT idLocalidad FROM localidad WHERE localidad = '$idLocalidad'),        
         calleDocente = '$calleDocente',
         numeroDocente = '$numeroDomicilio',
@@ -66,15 +66,15 @@
     }
 
 
-
+    //DIPLOMADO
     //$CURPDatosDocentes= $_POST['txtCURPDocente'];//3  en la BD(docente-diplomado)
     $idDiplomado = $_POST['cmbDiplomado'];// 4 en la BD(docente-diplomado)---php 373
     $fechaEgresoDiplomado= $_POST['fechaEgresoDiplomado'];// 13 en la BD(datosDocente)   -- en PHP guardar-datosgeneralesdocente(linea  )
 
     $sentenciaDiplomado=" UPDATE datosdocentes_diplomado SET         
-        idDiplomado = $idDiplomado (SELECT idDiplomado FROM diplomado WHERE diplomado = '$idDiplomado'),
+        idDiplomado = $idDiplomado (SELECT idDiplomado FROM diplomado WHERE descripcionDiplomado = '$idDiplomado'),
         fechaEgresoDiplomado='$fechaEgresoDiplomado'
-        WHERE CURPDocente='$CURPDocente';";
+        WHERE CURPDatosDocente='$CURPDocente';";
 
     if(mysqli_query($conexion,$sentenciaDiplomado)){
         echo("Diplomado Actualizado correctamente");
@@ -83,7 +83,7 @@
         echo "Error";
     }
 
-
+    //DOCTORADE
     $descripcionTituladoPasante= $_POST['cmbEstatusDoctorado'];// 2 en la BD( docente-doctorado)
     //$CURPDatosDocentes= $_POST['txtCURPDocente'];//3  en la BD(docente-doctorado)
     $idDoctorado = $_POST['cmbDoctorado'];// 4 en la BD(docente-doctorado)
@@ -92,9 +92,9 @@
     
     $sentenciaDoctorado=" UPDATE datosdocente_doctorado SET        
         descripcionTituladoPasante='$descripcionTituladoPasante',
-        idDoctorado = (SELECT idDoctorado FROM doctorado WHERE doctorado = '$idDoctorado'),
+        idDoctorado = (SELECT idDoctorado FROM doctorado WHERE descripcionDoctorado = '$idDoctorado'),
         noCedulaProfesionalDoctorado='$noCedulaProfesionalDoctorado'
-        WHERE CURPDocente='$CURPDocente';";
+        WHERE CURPDatosDocentes='$CURPDocente';";
     
         if(mysqli_query($conexion,$sentenciaDoctorado)){
             echo("Doctorado actualizado correctamente");
@@ -103,26 +103,26 @@
             echo "Error";
         }
 
-
+        //ESCUELAS LABORA
        // $CURPDocente= $_POST['txtCurpDocente'];// 1 en la BD(datosDocente)
         $CCTEscuela= $_POST['cmbNombreEscuela'];//25  en la BD(datosAlumono)
-        $idPuestoInstitucional = $_POST['cmbPuesto'];// 2 en la BD(datosAlumono)
+        $idPuestoInstitucionalLabora = $_POST['cmbPuesto'];// 2 en la BD(datosAlumono)
         $numeroHoras = $_POST['txtNoHoras'];// 3 en la BD(datosAlumono)
  
     
-        $sentencia=" UPDATE escuelasLabora SET        
-            CCTEscuela=(SELECT CCTEscuela FROM escuela WHERE escuela = '$CCTEscuela'),
-            idPuestoInstitucional= (SELECT idPuestoInstitucional FROM puestoInstitucional WHERE puestoInstitucional = '$idPuestoInstitucional'),
+        $sentenciaLabora=" UPDATE escuelasLabora SET        
+            CCTEscuela=(SELECT CCTEscuela FROM escuela WHERE nombreEscuela = '$CCTEscuela'),
+            idPuestoInstitucional= (SELECT idPuestoInstitucional FROM puestoInstitucional WHERE descripcionInstitucional = '$idPuestoInstitucionalLabora'),
             numeroHoras='$numeroHoras'
             WHERE CURPDocente='$CURPDocente';";
 
-    if(mysqli_query($conexion,$sentencia)){
-        echo("Escuela actualizada correctamente");
+    if(mysqli_query($conexion,$sentenciaLabora)){
+        echo("Escuela  labora actualizada correctamente");
     }
     else{
         echo "Error";
     }
-
+    //ESCUELASNUMEROS
     $numPlaza= $_POST['txtNoPlaza'];//23 en la BD(datosDocente)
     $numPrelacion= $_POST['txtNumPrelacion'];// 24  en la BD(datosDocente)
     $numHoras = $_POST['txtNumHoras'];// 24  en la BD(datosDocente)
@@ -133,7 +133,7 @@
         numPlaza='$numPlaza',
         numPrelacion='$numPrelacion',  
         numHoras='$numHoras',
-        CCTEscuela= (SELECT CCTEscuela FROM escuela WHERE escuela = '$CCTEscuela'),
+        CCTEscuela= (SELECT CCTEscuela FROM escuela WHERE nombreEscuela = '$CCTEscuela'),
         WHERE CURPDocente='$CURPDocente';";    
     
     if(mysqli_query($conexion,$sentencia2)){
@@ -142,24 +142,24 @@
     else{
         echo "Error";
     }
-
+    //ESPECIALIZACION
     //$CURPDatosDocentes= $_POST['txtCURPDocente'];//3  en la BD(docente-Especializacion) ---PHP LINEA
     $idEspecializacion = $_POST['cmbEspecializacion'];// 4 en la BD(docente-Especializacion) ---PHP LINEA 353
     $fechaEgresoEspecializacion= $_POST['fechaEgresoEspecializacion'];//12  en la BD(datosDocente) -- en PHP guardar-datosgeneralesdocente(linea 369  )
  
     
     $sentenciaEspecializacion=" UPDATE datosdocente_especializacion SET
-        idEspecializacion=(SELECT idEspecializacion FROM especializacion WHERE especializacion = '$idEspecializacion'),
+        idEspecializacion=(SELECT idEspecializacion FROM especializacion WHERE descripcionEspecializacion = '$idEspecializacion'),
         fechaEgresoEspecializacion='$fechaEgresoEspecializacion'
-        WHERE CURPDocente='$CURPDocente';";  
+        WHERE CURPDatosDocentes='$CURPDocente';";  
 
     if(mysqli_query($conexion,$sentenciaEspecializacion)){
-        echo("Especializacion agregada correctamente");
+        echo("Especializacion actualizada correctamente");
     }
     else{
         echo "Error";
     }
-
+    //LICENCIATURE
     $descripcionTituladoPasanteLicenciatura= $_POST['cmbEstatusDocente'];// 2 en la BD( docente-Licenciatura)---php linea 333
     //$CURPDatosDocentes= $_POST['txtCURPDocente'];//3  en la BD(docente-Licenciatura) ---php linea
     $idLicenciatura = $_POST['txtLicDocente'];// 4 en la BD(docente-Licenciatura)---php linea 317
@@ -170,14 +170,34 @@
     
     $sentenciaLicenciature=" UPDATE datosdocente_licenciatura SET
         descripcionTituladoPasante='$descripcionTituladoPasanteLicenciatura',
-        idLicenciatura=(SELECT idLicenciatura FROM licenciatura WHERE licenciatura = '$idLicenciatura'),
+        idLicenciatura=(SELECT idLicenciatura FROM licenciatura WHERE descripcionLicenciatura = '$idLicenciatura'),
         escuelaEgresionLicenciatura= '$escuelaEgresionLicenciatura'
         noCedulaProfesional=$noCedulaProfesional,
         fechaEscuelaEgresion='$fechaEscuelaEgresion'
-        WHERE CURPDocente='$CURPDocente';";  
+        WHERE CURPDatosDocente='$CURPDocente';";  
 
     if(mysqli_query($conexion,$sentenciaLicenciature)){
         echo("Licenciatura actualizado correctamente");
+    }
+    else{
+        echo "Error";
+    }
+
+    //MAESTRIA
+    $descripcionTituladoPasanteMaestria= $_POST['cmbEstatusMaestria'];// 2 en la BD( docente-Maestria)
+    //$CURPDatosDocentes= $_POST['txtCURPDocente'];//3  en la BD(docente-Maestria)
+    $idMaestria = $_POST['cmbMaestria'];// 4 en la BD(docente-Maestria)
+    $noCedulaProfesionalMaestria= $_POST['txtNoCedulaMaestria'];// 14 en la BD(datosDocente) -- en PHP guardar-datosgeneralesdocente(linea  )    
+ 
+    
+    $sentenciaMaestria="  UPDATE datosdocente_maestria SET
+    descripcionTituladoPasante ='$descripcionTituladoPasanteMaestria',
+    idMaestria = (SELECT idMaestria FROM maestria WHERE descripcionMaestria = '$idMaestria'),
+    noCedulaProfesionalMaestria ='$noCedulaProfesionalMaestria'
+    WHERE CURPDatosDocente='$CURPDocente';";
+
+    if(mysqli_query($conexion,$sentenciaMaestria)){
+        echo("Maestria actualizada correctamente");
     }
     else{
         echo "Error";
