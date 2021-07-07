@@ -179,7 +179,7 @@
 		<!-- Content page -->
 		<div class="container-fluid">
 			<div class="page-header">
-			  <h1 class="text-titles"><i class="zmdi zmdi-male-alt zmdi-hc-fw"></i> Datos<small> Docente</small></h1>
+			  <h1 class="text-titles"><i class="zmdi zmdi-refresh zmdi-hc-fw"></i> Datos<small> Docente</small></h1>
 			</div>
 			<p class="lead">En esta sección puedes actualizar toda tú información</p>
 		</div>
@@ -544,103 +544,7 @@
 														<label class="control-label" style="color: rgb(0, 0, 0); font-size: 120%;">Puntaje Escalafonario</label>
 														<input class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;"type="text" name="txtPuntajeEscalafonario" value="<?php echo $DatosLaborales['puntajeEscalafonario']?>">
 													</div>
-                                                <ul class="nav nav-tabs" style="margin-bottom: 15px;">
-													<li class="active"><a href="" data-toggle="tab" ><i class="zmdi zmdi-graduation-cap zmdi-hc-fw"></i>Preparación Profesional</a></li>
-												</ul>
-												<div class="form-group label-floating">
-													<label class="control-label" style="color: rgb(0, 0, 0); font-size: 120%;">Licenciatura en:</label>
-													<input class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;" type="text" name="txtLicDocente" >
-												  </div>
-												<div class="form-group">
-													<label class="control-label" style="color: rgb(0, 0, 0); font-size: 120%;">Estatus</label>
-													<select class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;" name="cmbEstatusDocente">
-													  <option>--Seleccione--</option>
-													  <option>Titulado</option>
-													  <option>Pasante</option>
-													</select>
-												</div>
-												<div class="form-group label-floating">
-												  <label class="control-label" style="color: rgb(0, 0, 0); font-size: 120%;">No. Cédula Profesional</label>
-												  <input class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;"type="text" name="txtNoCedulaProfDocente">
-												</div>
-												<div class="form-group label-floating">
-												  <label class="control-label" style="color: rgb(0, 0, 0); font-size: 120%;">Escuela de Egresión:</label>
-												  <input class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;" type="text" name="txtEscEgresion">
-												</div>
-												<div class="form-group">
-												  <label class="control-label" style="color: rgb(0, 0, 0); font-size: 120%;">Fecha</label>
-												  <input class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;" type="date" name="fechaEgresion">
-												</div>
-												<div class="form-group">
-													<label class="control-label" style="color: rgb(0, 0, 0); font-size: 120%;">Especialización en:</label>
-													  <select class="form-control" style="color: rgba(0, 0, 0, 0.664); font-size: 100%;" name="cmbEspecializacion">
-														<option>--Seleccione--</option>
-														<option>.....</option>
-														<option>********</option>
-														<option>---------</option>
-													  </select>
-												  </div>
-												  <div class="form-group">
-													<label class="control-label" style="color: rgb(0, 0, 0); font-size: 120%;">Fecha de Egreso</label>
-													<input class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;" type="date" name="fechaEgresoEspecializacion">
-												  </div>
-												  <div class="form-group">
-													<label class="control-label" style="color: rgb(0, 0, 0); font-size: 120%;">Diplomado en:</label>
-													  <select class="form-control" style="color: rgba(0, 0, 0, 0.664); font-size: 100%;" name="cmbDiplomado">
-														<option>--Seleccione--</option>
-														<option>.....</option>
-														<option>********</option>
-														<option>---------</option>
-													  </select>
-												  </div>
-												<div class="form-group">
-												  <label class="control-label" style="color: rgb(0, 0, 0); font-size: 120%;">Fecha de Egreso</label>
-												  <input class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;" type="date" name="fechaEgresoDiplomado">
-												</div>
-												<div class="form-group">
-													<label class="control-label" style="color: rgb(0, 0, 0); font-size: 120%;">Maestria en:</label>
-													  <select class="form-control" style="color: rgba(0, 0, 0, 0.664); font-size: 100%;" name="cmbMaestria">
-														<option>--Seleccione--</option>
-														<option>.....</option>
-														<option>********</option>
-														<option>---------</option>
-													  </select>
-												  </div>
-												<div class="form-group">
-													<label class="control-label" style="color: rgb(0, 0, 0); font-size: 120%;">Estatus</label>
-													<select class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;" name="cmbEstatusMaestria">
-													  <option>--Seleccione--</option>
-													  <option>Titulado</option>
-													  <option>Pasante</option>
-													</select>
-												</div>
-												<div class="form-group label-floating">
-													<label class="control-label" style="color: rgb(0, 0, 0); font-size: 120%;">No. Cédula Profesional</label>
-													<input class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;"type="text" name="txtNoCedulaMaestria">
-												  </div>
-												  <div class="form-group">
-													<label class="control-label" style="color: rgb(0, 0, 0); font-size: 120%;">Doctorado en:</label>
-													  <select class="form-control" style="color: rgba(0, 0, 0, 0.664); font-size: 100%;" name="cmbDoctorado">
-														<option>--Seleccione--</option>
-														<option>.....</option>
-														<option>********</option>
-														<option>---------</option>
-													  </select>
-												  </div>
-												<div class="form-group">
-													<label class="control-label" style="color: rgb(0, 0, 0); font-size: 120%;">Estatus</label>
-													<select class="form-control" style="color: rgba(0, 0, 0, 0.644); font-size: 100%;" name="cmbEstatusDoctorado">
-													  <option>--Seleccione--</option>
-													  <option>Titulado</option>
-													  <option>Pasante</option>
-													</select>
-												</div>
-												<div class="form-group label-floating">
-													<label class="control-label" style="color: rgb(0, 0, 0); font-size: 120%;">No. Cédula Profesional</label>
-													<input class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;"type="text" name="txtNCedulaDoctorado">
-												  </div>
-												
-												
+                                                
 										    <p class="text-center">
 										    	<button href="#!" class="btn btn-info btn-raised btn-sm" style="color: rgb(0, 0, 0); font-size: 100%;"><i class="zmdi zmdi-floppy"></i> GUARDAR CAMBIOS</button>
 										    </p>
