@@ -202,15 +202,15 @@
 							
 									    	<div class="form-group label-floating">
 											  <label class="control-label" style="color: rgb(0, 0, 0); font-size: 120%;">Matrícula</label>
-											  <input class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;" type="text" name="txtMatriculaAlum">
+											  <input class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;" type="text" minlength="1"  maxlength="11" name="txtMatriculaAlum">
 											</div>
 											<div class="form-group label-floating">
 												<label class="control-label" style="color: rgb(0, 0, 0); font-size: 120%;">Número de Expediente</label>
-												<input class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;" type="text" name="txtNumExpedienteAlum">
+												<input class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;" type="text" minlength="1"  maxlength="4" name="txtNumExpedienteAlum">
 											  </div>
 											  <div class="form-group label-floating">
 												<label class="control-label" style="color: rgb(0, 0, 0); font-size: 120%;">Folio de Alumno</label>
-												<input class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;" type="text" name="txtFolioAlum">
+												<input class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;" type="text" minlength="1"  maxlength="9" name="txtFolioAlum">
 											  </div>
 											  <div class="form-group">
 												<label class="control-label" style="color: rgb(0, 0, 0); font-size: 120%;">Fecha de Inscripción</label>
@@ -267,15 +267,15 @@
 											  
 											<div class="form-group label-floating">
 												<label class="control-label" style="color: rgb(0, 0, 0); font-size: 120%;">CURP</label>
-												<input class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;" type="text" name="txtCurpAlum">
+												<input class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;" type="text" minlength="1"  maxlength="18" name="txtCurpAlum">
 											  </div>
 											  <div class="form-group label-floating">
 												<label class="control-label" style="color: rgb(0, 0, 0); font-size: 120%;">Folio CURP</label>
-												<input class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;" type="text" name="txtFolioCurpAlum">
+												<input class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;" type="text" minlength="1"  maxlength="10" name="txtFolioCurpAlum">
 											  </div>
 											  <div class="form-group label-floating">
 												<label class="control-label" style="color: rgb(0, 0, 0); font-size: 120%;">RFC</label>
-												<input class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;" type="text" name="txtRFCAlum">
+												<input class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;" type="text" minlength="1"  maxlength="15" name="txtRFCAlum">
 											  </div>
 											<div class="form-group label-floating">
 												<label class="control-label" style="color: rgb(0, 0, 0); font-size: 120%;">Nombre(s)</label>
@@ -328,7 +328,7 @@
 											  </div>
 											  <div class="form-group label-floating">
 												<label class="control-label" style="color: rgb(0, 0, 0); font-size: 120%;">Municipio de Nacimiento</label>
-												<input class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;" type="text" name="txtMunicipioNacimientoAlum">
+												<input class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;" type="text" minlength="1"  maxlength="10" name="txtMunicipioNacimientoAlum">
 											  </div>
 											  <div class="form-group label-floating">
 												<label class="control-label" style="color: rgb(0, 0, 0); font-size: 120%;">Etidad Federativa</label>
@@ -348,11 +348,11 @@
 											  </div>
 											  <div class="form-group label-floating">
 												<label class="control-label" style="color: rgb(0, 0, 0); font-size: 120%;">Teléfono Celular(10 digitos)</label>
-												<input class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;"type="text" name="txtTelefonoCelAlum">
+												<input class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;"type="text" minlength="1"  maxlength="15" name="txtTelefonoCelAlum">
 											  </div>
 											  <div class="form-group label-floating">
 												<label class="control-label" style="color: rgb(0, 0, 0); font-size: 120%;">Teléfono Fijo(10 digitos)</label>
-												<input class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;"type="text" name="txtTelefonoFijoAlum">
+												<input class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;"type="text" minlength="1"  maxlength="15" name="txtTelefonoFijoAlum">
 											  </div>
 											  <div class="form-group label-floating">
 												<label class="control-label" style="color: rgb(0, 0, 0); font-size: 120%;">Nombre Completo del Tutor</label>
@@ -377,16 +377,16 @@
 											  </div>
 											  <div class="form-group label-floating">
 												<label class="control-label" style="color: rgb(0, 0, 0); font-size: 120%;">Número de Seguro Social</label>
-												<input class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;" type="text" name="txtNumSeguroSocialAlum">
+												<input class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;" type="text" minlength="1"  maxlength="11" name="txtNumSeguroSocialAlum">
 											  </div>
 
 											<div class="form-group label-floating">
 											  <label class="control-label" style="color: rgb(0, 0, 0); font-size: 120%;">Correo Electrónico Personal</label>
-											  <input class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;" type="email" name="txtCorreoPersonalAlum">
+											  <input class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;" type="email" minlength="1"  maxlength="50" name="txtCorreoPersonalAlum">
 											</div>
 											<div class="form-group label-floating">
 												<label class="control-label" style="color: rgb(0, 0, 0); font-size: 120%;">Correo Electrónico Institucional</label>
-												<input class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;" type="email" name="txtCorreoInstitucionalAlum">
+												<input class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;" type="email" minlength="1"  maxlength="50" name="txtCorreoInstitucionalAlum">
 											  </div>
 											  <div class="form-group">
 												<label class="control-label" style="color: rgb(0, 0, 0); font-size: 120%;">¿Trabaja?</label>
@@ -422,7 +422,7 @@
 											  </div>
 											  <div class="form-group label-floating">
 												<label class="control-label" style="color: rgb(0, 0, 0); font-size: 120%;">Folio Beca</label>
-												<input class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;" type="text" name="txtFolioBecaAlum">
+												<input class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;" type="text" minlength="1"  maxlength="15" name="txtFolioBecaAlum">
 											  </div>
 											  <div class="form-group">
 												<label class="control-label" style="color: rgb(0, 0, 0); font-size: 120%;">De quien depende Economicamente</label>
@@ -468,7 +468,7 @@
 										    
 											<div class="form-group label-floating">
 												<label class="control-label" style="color: rgb(0, 0, 0); font-size: 120%;">Aciertos de Examen de Ingreso</label>
-												<input class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;"type="text" name="txtAciertosExamenIngresoAlum">
+												<input class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;"type="text" minlength="1"  maxlength="3" name="txtAciertosExamenIngresoAlum">
 											  </div>
 
 												<div class="form-group label-floating">
@@ -490,7 +490,7 @@
 												
 											  <div class="form-group label-floating">
 												  <label class="control-label" style="color: rgb(0, 0, 0); font-size: 120%;">Promedio Egreso(Secundaria)</label>
-												  <input class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;"type="text" name="txtPromedioEgresoSecundariaAlum">
+												  <input class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;"type="text" minlength="1"  maxlength="3" name="txtPromedioEgresoSecundariaAlum">
 												</div>
 										 
 												<ul class="nav nav-tabs" style="margin-bottom: 15px;">
@@ -498,21 +498,21 @@
 												</ul>
 												<div class="form-group label-floating">
 													<label class="control-label" style="color: rgb(0, 0, 0); font-size: 120%;">Calle</label>
-													<input class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;"type="text" name="txtCalleAlum">
+													<input class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;"type="text" minlength="1"  maxlength="20" name="txtCalleAlum">
 												  </div>
 	
 													<div class="form-group label-floating">
 													  <label class="control-label" style="color: rgb(0, 0, 0); font-size: 120%;">Número</label>
-													  <input class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;"type="text" name="txtNumeroAlum">
+													  <input class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;"type="text" minlength="1"  maxlength="10" name="txtNumeroAlum">
 													</div>
 													
 												  <div class="form-group label-floating">
 													  <label class="control-label" style="color: rgb(0, 0, 0); font-size: 120%;">Colonia</label>
-													  <input class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;"type="text" name="txtColoniaAlum">
+													  <input class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;"type="text"  minlength="1"  maxlength="50" name="txtColoniaAlum">
 													</div>
 													<div class="form-group label-floating">
 														<label class="control-label" style="color: rgb(0, 0, 0); font-size: 120%;">Código Postal</label>
-														<input class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;"type="text" name="txtCodiopostalAlum">
+														<input class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;"type="text" minlength="1"  maxlength="6" name="txtCodiopostalAlum">
 													  </div>
 													  <div class="form-group label-floating">
 														<label class="control-label" style="color: rgb(0, 0, 0); font-size: 120%;">Localidad</label>
@@ -558,7 +558,7 @@
 													  </div>
 													  <div class="form-group label-floating">
 														<label class="control-label" style="color: rgb(0, 0, 0); font-size: 120%;">Referencia</label>
-														<input class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;" type="text" name="txtReferenciaAlum">
+														<input class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;" type="text"  name="txtReferenciaAlum">
 													  </div>
 													  <ul class="nav nav-tabs" style="margin-bottom: 15px;">
 														<li class="active"><a href="" data-toggle="tab"><i class="zmdi zmdi-male-alt zmdi-hc-fw"></i>Padre</a></li>
@@ -609,15 +609,15 @@
 													  </div>
 													  <div class="form-group label-floating">
 														<label class="control-label" style="color: rgb(0, 0, 0); font-size: 120%;">Teléfono Celular(10 digítos)</label>
-														<input class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;"type="text" name="txtTelefonoCelPadre">
+														<input class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;"type="text" minlength="1"  maxlength="15" name="txtTelefonoCelPadre">
 													  </div>
 													  <div class="form-group label-floating">
 														<label class="control-label" style="color: rgb(0, 0, 0); font-size: 120%;">Clave de Credencial de Elector</label>
-														<input class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;"type="text" name="txtClaveElectorPadre">
+														<input class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;"type="text" minlength="1"  maxlength="18" name="txtClaveElectorPadre">
 													  </div>
 													  <div class="form-group label-floating">
 														<label class="control-label" style="color: rgb(0, 0, 0); font-size: 120%;">CURP</label>
-														<input class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;"type="text" name="txtxCurpPadre">
+														<input class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;"type="text" minlength="1"  maxlength="18" name="txtxCurpPadre">
 													  </div>
 													  <div class="form-group">
 														<label class="control-label" style="color: rgb(0, 0, 0); font-size: 120%;">Ultimo Grado de Estudios</label>
@@ -684,15 +684,15 @@
 													  </div>
 													  <div class="form-group label-floating">
 														<label class="control-label" style="color: rgb(0, 0, 0); font-size: 120%;">Teléfono Celular(10 digítos)</label>
-														<input class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;"type="text" name="txtTelefonoCelMadre">
+														<input class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;"type="text" minlength="1"  maxlength="15" name="txtTelefonoCelMadre">
 													  </div>
 													  <div class="form-group label-floating">
 														<label class="control-label" style="color: rgb(0, 0, 0); font-size: 120%;">Clave de Credencial de Elector</label>
-														<input class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;"type="text" name="txtClaveElectorMadre">
+														<input class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;"type="text" minlength="1"  maxlength="18" name="txtClaveElectorMadre">
 													  </div>
 													  <div class="form-group label-floating">
 														<label class="control-label" style="color: rgb(0, 0, 0); font-size: 120%;">CURP</label>
-														<input class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;"type="text" name="txtxCurpMadre">
+														<input class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;"type="text" minlength="1"  maxlength="18" name="txtxCurpMadre">
 													  </div>
 													  <div class="form-group">
 														<label class="control-label" style="color: rgb(0, 0, 0); font-size: 120%;">Ultimo Grado de Estudios</label>
