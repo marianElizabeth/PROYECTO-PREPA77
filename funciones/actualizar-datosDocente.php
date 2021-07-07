@@ -9,7 +9,7 @@
     $RFCDocente = $_POST['txtRFCDocente'];//6  en la BD(datosDocente) -- en PHP guardar-datosgeneralesdocente(linea  157)
     $claveISSEMYM= $_POST['txtClaveISSEMYM'];//7 en la BD(datosDocente) -- en PHP guardar-datosgeneralesdocente(linea  )
     $telefonoCelular= $_POST['txtTelefonoCelularDocente'];//8 en la BD(datosDocente) -- en PHP guardar-datosgeneralesdocente(linea  )
-    $telefonoFijo= $_POST['txtTelefonoFijoDocente'];//9 en la BD(datosDocente) -- en PHP guardar-datosgeneralesdocente(linea  )
+    //$telefonoFijo= $_POST['txtTelefonoFijoDocente'];//9 en la BD(datosDocente) -- en PHP guardar-datosgeneralesdocente(linea  )
     
     $fechaDeIngresoSEducativoEstatal= $_POST['fechaIngresoSEducativo'];//16 en la BD(datosDocente)     -- en PHP guardar-datosgeneralesdocente(linea  )
     $fechaDeIngresoAlNivel= $_POST['fechaIngresoNivel'];//17 en la BD(datosDocente)  -- en PHP guardar-datosgeneralesdocente(linea  )
@@ -41,7 +41,7 @@
         RFCDocente = '$RFCDocente',
         claveISSEMYM = '$claveISSEMYM',
         telefonoCelular ='$telefonoCelular',
-        telefonoFijo = '$telefonoFijo',        
+              
         fechaDeIngresoSEducativoEstatal = '$fechaDeIngresoSEducativoEstatal',
         fechaDeIngresoAlNivel = '$fechaDeIngresoAlNivel',
         fechaDeBaseAlNivel ='$fechaDeBaseAlNivel',
@@ -65,4 +65,5 @@
         echo "Error";
     }
     mysqli_close($conexion);
+    //telefonoFijo = '$telefonoFijo',  
 ?>
