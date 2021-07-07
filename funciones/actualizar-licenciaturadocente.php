@@ -12,7 +12,7 @@
     $sentenciaLicenciature=" UPDATE datosdocente_licenciatura SET
         descripcionTituladoPasante='$descripcionTituladoPasanteLicenciatura',
         idLicenciatura=(SELECT idLicenciatura FROM licenciatura WHERE descripcionLicenciatura = '$idLicenciatura'),
-        escuelaEgresionLicenciatura= '$escuelaEgresionLicenciatura'
+        escuelaEgresionLicenciatura= '$escuelaEgresionLicenciatura',
         noCedulaProfesional=$noCedulaProfesional,
         fechaEscuelaEgresion='$fechaEscuelaEgresion'
         WHERE CURPDatosDocente='$CURPDatosDocentes';";  
