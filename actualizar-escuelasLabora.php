@@ -225,7 +225,7 @@
                                         
 
                                     ?>
-										<form action="" method="POST">
+										<form action="funciones/actualizar-escuelalabora.php" method="POST">
                                             <div class="form-group label-floating">
 											  <!--label class="control-label" style="color: rgb(0, 0, 0); font-size: 120%;">CURP</label-->
 											  <input class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;" type="hidden" type="text" name="txtCURPDocente" value="<?php echo $EscuelasLabora['CURPDocente']?>">
@@ -240,9 +240,10 @@
 																		$resultado=mysqli_query($conexion,$sentencia);
 																		while($regEscLaboral=mysqli_fetch_assoc($resultado)){
 																		echo "
-																		<option value='".$regEscLaboral['CCTEscuela']."'>".$regEscLaboral["nombreEscuela"]."</option>
+																		<option value='".$regEscLaboral['nombreEscuela']."'>".$regEscLaboral["nombreEscuela"]."</option>
 																		";
 																		}
+																		mysqli_close($conexion);
 																	?>
 															</select>
 												</div>
@@ -256,16 +257,17 @@
 																		$resultado=mysqli_query($conexion,$sentencia);
 																		while($regEscLaboral=mysqli_fetch_assoc($resultado)){
 																		echo "
-																		<option value='".$regEscLaboral['idPuestoInstitucional']."'>".$regEscLaboral["descripcionInstitucional"]."</option>
+																		<option value='".$regEscLaboral['descripcionInstitucional']."'>".$regEscLaboral["descripcionInstitucional"]."</option>
 																		";
 																		}
+																		mysqli_close($conexion);
 																	?>
                                                         </select>
                                                         
 												</div>
 												<div class="form-group label-floating">
 													<label class="control-label" style="color: rgb(0, 0, 0); font-size: 120%;">Horas:</label>
-                                                    <input class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;" type="text" name="txtNoHoras" value="<?php echo $EscuelasLabora['numeroHoras']?>">
+                                                    <input class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;" type="text" minlength="1" maxlength="2" name="txtNoHoras" value="<?php echo $EscuelasLabora['numeroHoras']?>">
 												</div>
 										    <p class="text-center">
 										    	<button href="#!" class="btn btn-info btn-raised btn-sm" style="color: rgb(0, 0, 0); font-size: 100%;"><i class="zmdi zmdi-floppy"></i> GUARDAR CAMBIOS</button>
