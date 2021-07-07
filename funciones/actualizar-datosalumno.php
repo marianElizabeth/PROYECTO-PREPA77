@@ -57,19 +57,13 @@
 
     $municipioNacimientoAlumno= $_POST['txtMunicipioNacimientoAlum'];//39  en la BD(datosAlumno) -- en PHP(linea 263)    
 
-    $fechaInscripcionAlumno = $_POST['fechaInscripcionAlum'];// //40  en la BD(datosAlumno) -- en PHP(linea 263)    
-    //$= $_POST['PROCEDENDCIA LINEA 317 -- DATOS GENERALES ALUMNO'];    
-    //DATOS DE LA DIRECCIÓN    
-    //$= $_POST['txtColoniaAlum'];//  en la BD(datosAlumono)
-    //$= $_POST['cmbEstado'];//  en la BD(datosAlumono)
-    //$= $_POST['cmbMunicipio'];//  en la BD(datosAlumono)
-    //$= $_POST[''];
+    $fechaInscripcionAlumno = $_POST['fechaInscripcionAlum'];// //40  en la BD(datosAlumno) -- en PHP(linea 263)        
     
-    $sentencia=" UPDATE datosAlumno SET        
+    $sentencia=" UPDATE datosalumno SET        
         nombreAlumno='$nombreAlumno',
         ape1Alumno='$ape1Alumno',
         ape2Alumno='$ape2Alumno',
-        fechaBaja ='$fechaBaja',
+        fechaBaja = '$fechaBaja',
         numExpediente = '$numExpediente',
         folioAlumno = '$folioAlumno',
         CURPAlumno = '$CURPAlumno',
