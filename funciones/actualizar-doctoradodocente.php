@@ -14,7 +14,7 @@
         WHERE CURPDatosDocentes='$CURPDatosDocentes';";
     
         if(mysqli_query($conexion,$sentenciaDoctorado)){
-            echo("Doctorado actualizado correctamente");
+            header("Location: ../verDoctoradoDocente.php");    
         }
         else{
             echo "Error";

@@ -12,7 +12,7 @@
         WHERE CURPDatosDocentes='$CURPDatosDocentes';";  
 
     if(mysqli_query($conexion,$sentenciaEspecializacion)){
-        echo("Especializacion actualizada correctamente");
+        header("Location: ../VerEspecializacionDocente.php");    
     }
     else{
         echo "Error";

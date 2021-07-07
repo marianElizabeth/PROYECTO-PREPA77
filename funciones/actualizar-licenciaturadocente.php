@@ -18,7 +18,7 @@
         WHERE CURPDatosDocente='$CURPDatosDocentes';";  
 
     if(mysqli_query($conexion,$sentenciaLicenciature)){
-        echo("Licenciatura actualizado correctamente");
+        header("Location: ../VerLicenciatura.php");    
     }
     else{
         echo "Error";

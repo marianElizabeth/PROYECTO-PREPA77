@@ -11,7 +11,7 @@
         WHERE CURPDatosDocente='$CURPDatosDocentes';";
 
     if(mysqli_query($conexion,$sentenciaDiplomado)){
-        echo("Diplomado Actualizado correctamente");
+        header("Location: ../verDiplomadoDocente.php");    
     }
     else{
         echo "Error";

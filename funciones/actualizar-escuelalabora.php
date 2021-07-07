@@ -14,8 +14,8 @@
            WHERE CURPDocente='$CURPDocente';";
 
    if(mysqli_query($conexion,$sentenciaLabora)){
-       echo("Escuela  labora actualizada correctamente");
-   }
+    header("Location: ../VerEscuelasLaboraDocente.php");    
+}
    else{
        echo "Error";
    }

@@ -141,7 +141,7 @@
         WHERE matricula='$matricula' ;";
 
     if(mysqli_query($conexion,$sentenciaPadre)){
-        echo "padre Actualizado Correctamene!!!";
+        header("Location: ../verPadre.php");    
     }
     else{
         echo "Error";
@@ -174,7 +174,7 @@
         idParentesco = (SELECT idParentesco FROM parentesco WHERE descripcionParentesco = '$idParentescoMadre')
         WHERE matricula='$matricula';";
     if(mysqli_query($conexion,$sentenciaMadre)){
-        echo "Madre Actualizado Correctamene!!!";
+        header("Location: ../verMadre.php");    
       }
     else{
         echo "Error";

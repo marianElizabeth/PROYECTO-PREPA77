@@ -15,7 +15,7 @@
         WHERE CURPDocente='$CURPDocente';";    
     
     if(mysqli_query($conexion,$sentencia2)){
-        echo("ESCUELA CON NUMEROS Actualizada Correctamene");
+        header("Location: ../VerEscuelaAsignacionDocente.php");    
     }
     else{
         echo "Error";

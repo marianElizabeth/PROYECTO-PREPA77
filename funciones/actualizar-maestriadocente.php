@@ -14,7 +14,7 @@
     WHERE CURPDatosDocente='$CURPDatosDocentes';";
 
     if(mysqli_query($conexion,$sentenciaMaestria)){
-        echo("Maestria actualizada correctamente");
+        header("Location: ../VerMaestriaDocente.php");    
     }
     else{
         echo "Error";
