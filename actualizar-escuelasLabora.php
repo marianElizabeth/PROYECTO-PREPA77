@@ -222,7 +222,7 @@
 										
 									    $resultado = mysqli_query($conexion, $sentencia);
                                         $EscuelasLabora=mysqli_fetch_assoc($resultado);
-                                        
+                                        mysqli_close($conexion);
 
                                     ?>
 										<form action="funciones/actualizar-escuelalabora.php" method="POST">
