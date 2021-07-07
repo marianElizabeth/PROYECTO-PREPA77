@@ -220,10 +220,10 @@
 										
 									    $resultado = mysqli_query($conexion, $sentencia);
                                         $Diplomado=mysqli_fetch_assoc($resultado);
-                                        
+                                        mysqli_close($conexion);
 
                                     ?>
-										<form action="" method="POST">
+										<form action="funciones/actualizar-diplomadodocente.php" method="POST">
                                         <div class="form-group label-floating">
 											  <!--label class="control-label" style="color: rgb(0, 0, 0); font-size: 120%;">CURP</label-->
 											  <input class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;" type="hidden" type="text" name="txtCURPDocente" value="<?php echo $Diplomado['CURPDatosDocente']?>">
@@ -238,7 +238,7 @@
 																$resultado=mysqli_query($conexion,$sentencia);
 																while($regDiplomado=mysqli_fetch_assoc($resultado)){
 																echo "
-																<option value='".$regDiplomado['idDiplomado']."'>".$regDiplomado["descripcionDiplomado"]."</option>
+																<option value='".$regDiplomado['descripcionDiplomado']."'>".$regDiplomado["descripcionDiplomado"]."</option>
 																";
 																}
 															?>
