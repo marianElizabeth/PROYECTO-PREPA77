@@ -221,10 +221,10 @@
 										
 									    $resultado = mysqli_query($conexion, $sentencia);
                                         $Doctorado=mysqli_fetch_assoc($resultado);
-                                        
+                                        mysqli_close($conexion);
 
                                     ?>
-										<form action="" method="POST">
+										<form action="funciones/actualizar-doctoradodocente.php" method="POST">
                                         <div class="form-group label-floating">
 											  <!--label class="control-label" style="color: rgb(0, 0, 0); font-size: 120%;">CURP</label-->
 											  <input class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;" type="hidden" type="text" name="txtCURPDocente" value="<?php echo $Doctorado['CURPDatosDocentes']?>">
@@ -239,9 +239,10 @@
 																$resultado=mysqli_query($conexion,$sentencia);
 																while($regDoctorado=mysqli_fetch_assoc($resultado)){
 																echo "
-																<option value='".$regDoctorado['idDoctorado']."'>".$regDoctorado["descripcionDoctorado"]."</option>
+																<option value='".$regDoctorado['descripcionDoctorado']."'>".$regDoctorado["descripcionDoctorado"]."</option>
 																";
 																}
+																mysqli_close($conexion);
 															?>
 													  </select>
 												  </div>
@@ -255,7 +256,7 @@
 												</div>
 												<div class="form-group label-floating">
 													<label class="control-label" style="color: rgb(0, 0, 0); font-size: 120%;">No. Cédula Profesional</label>
-													<input class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;"type="text" name="txtNCedulaDoctorado" value="<?php echo $Doctorado['noCedulaProfesionalDoctorado']?>">
+													<input class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;"type="text" name="txtNCedulaDoctorado" minlength="1" maxlength="12" value="<?php echo $Doctorado['noCedulaProfesionalDoctorado']?>">
 												  </div>
 										    <p class="text-center">
 										    	<button href="#!" class="btn btn-info btn-raised btn-sm" style="color: rgb(0, 0, 0); font-size: 100%;"><i class="zmdi zmdi-floppy"></i> GUARDAR CAMBIOS</button>
