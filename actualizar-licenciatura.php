@@ -221,7 +221,7 @@
 										
 									    $resultado = mysqli_query($conexion, $sentencia);
                                         $Licenciatura=mysqli_fetch_assoc($resultado);
-                                    
+										mysqli_close($conexion);
                                     ?>
 										<form action="funciones/actualizar-licenciaturadocente.php" method="POST">
 										    <div class="form-group label-floating">
@@ -238,9 +238,10 @@
 																$resultado=mysqli_query($conexion,$sentencia);
 																while($regLic=mysqli_fetch_assoc($resultado)){
 																echo "
-																<option value='".$regLic['idLicenciatura']."'>".$regLic["descripcionLicenciatura"]."</option>
+																<option value='".$regLic['descripcionLicenciatura']."'>".$regLic["descripcionLicenciatura"]."</option>
 																";
 																}
+																mysqli_close($conexion);
 															?>
 													  </select>
 												  </div>
@@ -254,7 +255,7 @@
 												</div>
 												<div class="form-group label-floating">
 												  <label class="control-label" style="color: rgb(0, 0, 0); font-size: 120%;">No. Cédula Profesional</label>
-												  <input class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;"type="text" name="txtNoCedulaProfDocente" value="<?php echo $Licenciatura['noCedulaProfesional']?>">
+												  <input class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;"type="text" minlength="1" maxlength="12" name="txtNoCedulaProfDocente" value="<?php echo $Licenciatura['noCedulaProfesional']?>">
 												</div>
 												<div class="form-group label-floating">
 												  <label class="control-label" style="color: rgb(0, 0, 0); font-size: 120%;">Escuela de Egresión:</label>
