@@ -63,7 +63,7 @@
         nombreAlumno='$nombreAlumno',
         ape1Alumno='$ape1Alumno',
         ape2Alumno='$ape2Alumno',
-        fechaBaja = '$fechaBaja',
+        fechaBaja = '',
         numExpediente = '$numExpediente',
         folioAlumno = '$folioAlumno',
         CURPAlumno = '$CURPAlumno',
