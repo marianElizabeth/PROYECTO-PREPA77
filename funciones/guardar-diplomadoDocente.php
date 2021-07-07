@@ -16,7 +16,7 @@
     );";
 
     if(mysqli_query($conexion,$sentenciaDiplomado)){
-        echo("Diplomado agregada correctamente");
+        header("Location: ../VerDiplomadoDocente.php");    
     }
     else{
         echo "Error";

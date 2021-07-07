@@ -26,7 +26,7 @@
     )";
 
     if(mysqli_query($conexion,$sentencia)){
-        echo "Padre Almacenado Correctamente";
+        header("Location: ../verPadre.php");    
     }
     else{
         echo "Error";

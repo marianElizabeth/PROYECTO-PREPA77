@@ -26,7 +26,7 @@
         '$matricula'
     )";
     if(mysqli_query($conexion,$sentencia)){
-        echo "Madre Almacenado correctamente";
+        header("Location: ../verMadre.php");    
     }
     else{
         echo "Error";

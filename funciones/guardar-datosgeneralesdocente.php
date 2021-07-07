@@ -80,7 +80,7 @@
     // '$numPlaza',
     //'$numPrelacion',
     if(mysqli_query($conexion,$sentencia)){
-        echo("Docente Almacenado Correctamene");
+        header("Location: ../VerDatosDocentes.php");    
     }
     else{
         echo "Error";

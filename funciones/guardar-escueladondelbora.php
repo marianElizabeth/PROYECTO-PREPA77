@@ -16,7 +16,7 @@
     );";
 
     if(mysqli_query($conexion,$sentencia)){
-        echo("Escuela agregada correctamente");
+        header("Location: ../VerEscuelasLaboraDocente.php");    
     }
     else{
         echo "Error";

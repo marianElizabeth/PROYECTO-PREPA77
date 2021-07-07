@@ -16,7 +16,7 @@
     );";
 
     if(mysqli_query($conexion,$sentenciaEspecializacion)){
-        echo("Especializacion agregada correctamente");
+        header("Location: ../VerEspecializacionDocente.php");    
     }
     else{
         echo "Error";

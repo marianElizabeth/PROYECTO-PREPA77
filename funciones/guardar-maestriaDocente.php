@@ -16,7 +16,7 @@
     );";
 
     if(mysqli_query($conexion,$sentenciaMaestria)){
-        echo("Maestria agregada correctamente");
+        header("Location: ../VerMaestriaDocente.php");    
     }
     else{
         echo "Error";

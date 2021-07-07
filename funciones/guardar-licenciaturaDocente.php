@@ -21,7 +21,7 @@
     );";
 
     if(mysqli_query($conexion,$sentenciaLicenciature)){
-        echo("Licenciatura agregada correctamente");
+        header("Location: ../VerLicenciatura.php");    
     }
     else{
         echo "Error";

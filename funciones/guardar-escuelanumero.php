@@ -18,7 +18,7 @@
     );";
     
     if(mysqli_query($conexion,$sentencia)){
-        echo("ESCUELA CON NUMEROS Almacenado Correctamene");
+        header("Location: ../VerEscuelaAsignacionDocente.php");    
     }
     else{
         echo "Error";
