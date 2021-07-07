@@ -236,13 +236,23 @@
 										  <td>".$registro["noCedulaProfesionalMaestria"]."</td>
 										  
 											<td><a href='actualizar-maestria.php?CurpUpdate=".$registro["CURPDatosDocente"]."' class='btn btn-success btn-raised btn-xs'><i class='zmdi zmdi-refresh'></i></a></td>
-											<td><a href='funciones/eliminar-maestria.php?CurpDelete=".$registro["CURPDatosDocente"]."' class='btn btn-danger btn-raised btn-xs'><i class='zmdi zmdi-delete'></i></a></td>
+											<td><a href='funciones/eliminar-maestria.php?CurpDelete=".$registro["CURPDatosDocente"]."'><button class='btn btn-danger btn-raised btn-xs' type='button' onclick='return confirmarEliminar()'><i class='zmdi zmdi-delete'></i></button></a></td>
 											</tr>
 											";
-									}
-									
-										mysqli_close($conexion);
-									  ?>
+										  }																										 
+										  mysqli_close($conexion);
+										?>
+										<script type="text/javascript">
+											function confirmarEliminar(){
+												var respuesta = confirm("Esta seguro de Eliminar");
+												if(respuesta==false){
+													return false;
+												}
+												else{
+													return true;
+												}
+											}
+										</script>
 									</tbody>
 								</table>
 							</div>
