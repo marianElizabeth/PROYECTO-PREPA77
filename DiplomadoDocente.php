@@ -179,7 +179,7 @@
 		<!-- Content page -->
 		<div class="container-fluid">
 			<div class="page-header">
-			  <h1 class="text-titles"><i class="zmdi zmdi-city zmdi-hc-fw"></i> Diplomado <small>Docente</small></h1>
+			  <h1 class="text-titles"><i class="zmdi zmdi-graduation-cap zmdi-hc-fw"></i> Diplomado <small>Docente</small></h1>
 			</div>
 			<p class="lead">Aquí podrá insertar y actualizar datos de su Diplomado</p>
 		</div>

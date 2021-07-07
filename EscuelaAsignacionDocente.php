@@ -179,7 +179,7 @@
 		<!-- Content page -->
 		<div class="container-fluid">
 			<div class="page-header">
-			  <h1 class="text-titles"><i class="zmdi zmdi-city zmdi-hc-fw"></i> Escuela de Asignación <small>Docente</small></h1>
+			  <h1 class="text-titles"><i class="zmdi zmdi-home zmdi-hc-fw"></i> Escuela de Asignación <small>Docente</small></h1>
 			</div>
 			<p class="lead">Aquí podrá insertar y actualizar datos de la Escuela de Asignación</p>
 		</div>

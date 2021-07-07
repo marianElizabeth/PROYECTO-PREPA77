@@ -179,7 +179,7 @@
 		<!-- Content page -->
 		<div class="container-fluid">
 			<div class="page-header">
-			  <h1 class="text-titles"><i class="zmdi zmdi-face zmdi-hc-fw"></i>Datos<small> Alumno</small></h1>
+			  <h1 class="text-titles"><i class="zmdi zmdi-refresh zmdi-hc-fw"></i>Datos<small> Alumno</small></h1>
 			</div>
 			<p class="lead">En esta sección puedes Actualizar toda tú información</p>
 		</div>
