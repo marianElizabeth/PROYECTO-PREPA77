@@ -305,10 +305,10 @@
                                         $InfoPersonal=mysqli_fetch_assoc($resultado);
                                         $CentroTrabajo=mysqli_fetch_assoc($resultado1);
                                         $DatosLaborales=mysqli_fetch_assoc($resultado2);
-
+										mysqli_close($conexion);
 
                                     ?>
-										<form action="" method="POST">
+										<form action="funciones/actualizar-datosDocente.php" method="POST">
 										<ul class="nav nav-tabs" style="margin-bottom: 15px;">
 												<li class="active"><a href="" data-toggle="tab" ><i class="zmdi zmdi-face zmdi-hc-fw"></i>Información Personal</a></li>
 										    </ul>
@@ -330,28 +330,28 @@
 											</div>
 											<div class="form-group label-floating">
 											  <label class="control-label" style="color: rgb(0, 0, 0); font-size: 120%;">R.F.C</label>
-											  <input class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;"type="text" name="txtRFCDocente" value="<?php echo $InfoPersonal['RFCDocente']?>">
+											  <input class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;"type="text" name="txtRFCDocente" minlength="1" maxlength="10" value="<?php echo $InfoPersonal['RFCDocente']?>">
 											</div>
 											<div class="form-group label-floating">
 											  <label class="control-label" style="color: rgb(0, 0, 0); font-size: 120%;">CURP</label>
-											  <input class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;"type="text" name="txtCURPDocente" value="<?php echo $InfoPersonal['CURPDocente']?>">
+											  <input class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;"type="hidden" name="txtCURPDocente" minlength="1" maxlength="18" value="<?php echo $InfoPersonal['CURPDocente']?>">
 											</div>
 											<div class="form-group label-floating">
 											  <label class="control-label" style="color: rgb(0, 0, 0); font-size: 120%;">Clave ISSEMYM</label>
-											  <input class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;"type="text" name="txtClaveISSEMYM" value="<?php echo $InfoPersonal['claveISSEMYM']?>">
+											  <input class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;"type="text" name="txtClaveISSEMYM" minlength="1" maxlength="10" value="<?php echo $InfoPersonal['claveISSEMYM']?>">
 											</div>
 											<div class="form-group label-floating">
 											  <label class="control-label" style="color: rgb(0, 0, 0); font-size: 120%;">Teléfono celular</label>
-											  <input class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;"type="text" name="txtTelefonoCelularDocente" value="<?php echo $InfoPersonal['telefonoCelular']?>">
+											  <input class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;"type="text" name="txtTelefonoCelularDocente" minlength="1" maxlength="15" value="<?php echo $InfoPersonal['telefonoCelular']?>">
 											</div>
 											<div class="form-group label-floating">
 												<label class="control-label" style="color: rgb(0, 0, 0); font-size: 120%;">Calle</label>
-												<input class="form-control"style="color: rgb(0, 0, 0); font-size: 100%;" type="text" name="txtCalleDocente" value="<?php echo $InfoPersonal['calleDocente']?>">
+												<input class="form-control"style="color: rgb(0, 0, 0); font-size: 100%;" type="text" name="txtCalleDocente" minlength="1" maxlength="30" value="<?php echo $InfoPersonal['calleDocente']?>">
 											  </div>
 
 												<div class="form-group label-floating">
 												  <label class="control-label" style="color: rgb(0, 0, 0); font-size: 120%;">Número</label>
-												  <input class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;"type="text" name="txtNumDocente" value="<?php echo $InfoPersonal['numeroDocente']?>">
+												  <input class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;"type="text" name="txtNumDocente" minlength="1" maxlength="10" value="<?php echo $InfoPersonal['numeroDocente']?>">
 												</div>
 												
 											  <div class="form-group label-floating">
@@ -368,15 +368,16 @@
 																$resultado=mysqli_query($conexion,$sentencia);
 																while($regLocalidad=mysqli_fetch_assoc($resultado)){
 																echo "
-																<option value='".$regLocalidad['idLocalidad']."'>".$regLocalidad["localidad"]."</option>
+																<option value='".$regLocalidad['localidad']."'>".$regLocalidad["localidad"]."</option>
 																";
 																}
+																mysqli_close($conexion);
 															?>
 														  </select>
 												  </div>
 												<div class="form-group label-floating">
 													<label class="control-label" style="color: rgb(0, 0, 0); font-size: 120%;">Código Postal</label>
-													<input class="form-control"style="color: rgb(0, 0, 0); font-size: 100%;" type="text" name="txtCPDocente" value="<?php echo $InfoPersonal['CPDocente']?>">
+													<input class="form-control"style="color: rgb(0, 0, 0); font-size: 100%;" type="text" name="txtCPDocente" minlength="1" maxlength="6" value="<?php echo $InfoPersonal['CPDocente']?>">
 												</div>												  												 												
 												<div class="form-group label-floating">
 													<label class="control-label" style="color: rgb(0, 0, 0); font-size: 120%;">Municipio</label>
@@ -388,9 +389,10 @@
 																$resultado=mysqli_query($conexion,$sentencia);
 																while($regMunicipio=mysqli_fetch_assoc($resultado)){
 																echo "
-																<option value='".$regMunicipio['idMunicipio']."'>".$regMunicipio["descripcionMunicipio"]."</option>
+																<option value='".$regMunicipio['descripcionMunicipio']."'>".$regMunicipio["descripcionMunicipio"]."</option>
 																";
 																}
+																mysqli_close($conexion);
 															?>
 													  </select>
 												</div>
@@ -418,9 +420,10 @@
 																$resultado=mysqli_query($conexion,$sentencia);
 																while($regEsc=mysqli_fetch_assoc($resultado)){
 																echo "
-																<option value='".$regEsc['CCTEscuela']."'>".$regEsc["CCTEscuela"].".".$regEsc["nombreEscuela"]."</option>
+																<option value='".$regEsc['nombreEscuela']."'>".$regEsc["CCTEscuela"].".".$regEsc["nombreEscuela"]."</option>
 																";
 																}
+																mysqli_close($conexion);
 															?>
 													  </select>
 												  </div><!--
@@ -506,9 +509,10 @@
 																$resultado=mysqli_query($conexion,$sentencia);
 																while($regPuestoInstitucional=mysqli_fetch_assoc($resultado)){
 																echo "
-																<option value='".$regPuestoInstitucional['idPuestoInstitucional']."'>".$regPuestoInstitucional["descripcionInstitucional"]."</option>
+																<option value='".$regPuestoInstitucional['descripcionInstitucional']."'>".$regPuestoInstitucional["descripcionInstitucional"]."</option>
 																";
 																}
+																mysqli_close($conexion);
 															?>
 													  </select>
 													</div>
@@ -534,15 +538,16 @@
 																$resultado=mysqli_query($conexion,$sentencia);
 																while($regNivelLaboral=mysqli_fetch_assoc($resultado)){
 																echo "
-																<option value='".$regNivelLaboral['idNivelLaboral']."'>".$regNivelLaboral["descripcionNivelLaboral"]."</option>
+																<option value='".$regNivelLaboral['descripcionNivelLaboral']."'>".$regNivelLaboral["descripcionNivelLaboral"]."</option>
 																";
 																}
+																mysqli_close($conexion);
 															?>
 														</select>
 													</div>
 													<div class="form-group label-floating">
 														<label class="control-label" style="color: rgb(0, 0, 0); font-size: 120%;">Puntaje Escalafonario</label>
-														<input class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;"type="text" name="txtPuntajeEscalafonario" value="<?php echo $DatosLaborales['puntajeEscalafonario']?>">
+														<input class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;"type="text" name="txtPuntajeEscalafonario" minlength="1" maxlength="8" value="<?php echo $DatosLaborales['puntajeEscalafonario']?>">
 													</div>
                                                 
 										    <p class="text-center">
