@@ -232,10 +232,10 @@
 												  </div>
 												<div class="form-group">
 													<label class="control-label" style="color: rgb(0, 0, 0); font-size: 120%;">Estatus</label>
-													<select class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;" name="cmbEstatusDocente" value="<?php echo $Licenciatura['descripcionTituladoPasante']?>">
-													  <option>--Seleccione--</option>
-													  <option>Titulado</option>
-													  <option>Pasante</option>
+													<select class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;" name="cmbEstatusDocente">
+													  <option><?php echo $Licenciatura['descripcionTituladoPasante']?></option>
+													  <option>TITULADO</option>
+													  <option>PASANTE</option>
 													</select>
 												</div>
 												<div class="form-group label-floating">
