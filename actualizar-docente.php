@@ -289,6 +289,8 @@
                                             nivellaboral
                                             ON 
                                                 datosdocentes.idNivelLaboral = nivellaboral.idNivelLaboral
+											WHERE 
+                                            datosdocentes.CURPDocente  = '$CURPDocenteUpdate'
 										";
 
                                        

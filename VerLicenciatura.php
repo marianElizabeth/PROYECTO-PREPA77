@@ -242,7 +242,7 @@
 										  <td>".$registro["escuelaEgresionLicenciatura"]."</td>
 										  <td>".$registro["fechaEscuelaEgresion"]."</td>
 										  
-											<td><a href='#!' class='btn btn-success btn-raised btn-xs'><i class='zmdi zmdi-refresh'></i></a></td>
+											<td><a href='actualizar-licenciatura.php?CurpUpdate=".$registro["CURPDocente"]."' class='btn btn-success btn-raised btn-xs'><i class='zmdi zmdi-refresh'></i></a></td>
 											<td><a href='funciones/eliminar-licenciatura.php?CurpDelete=".$registro["CURPDocente"]."' class='btn btn-danger btn-raised btn-xs'><i class='zmdi zmdi-delete'></i></a></td>
 											</tr>
 											";
