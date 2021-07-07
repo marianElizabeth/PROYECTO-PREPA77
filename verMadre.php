@@ -261,13 +261,23 @@
 										  <td>".$registro["CURPMadre"]."</td>
 										  <td>".$registro["descripcionNivelEscolar"]."</td>
 										  <td><a href='actualizar-alumno.php?MatriculaUpdate=".$registro["matricula"]."' class='btn btn-success btn-raised btn-xs'><i class='zmdi zmdi-refresh'></i></a></td>
-										  <td><a href='funciones/eliminar-madre.php?MatriculaDelete=".$registro["matricula"]."' class='btn btn-danger btn-raised btn-xs'><i class='zmdi zmdi-delete'></i></a></td>
-										  
+										  <td><a href='funciones/eliminar-madre.php?MatriculaDelete=".$registro["matricula"]."'><button class='btn btn-danger btn-raised btn-xs' type='button' onclick='return confirmarEliminar()'><i class='zmdi zmdi-delete'></i></button></a></td>
 										  </tr>
 										  ";
-										}	  																							
+										}																										 
 										mysqli_close($conexion);
 									  ?>
+									  <script type="text/javascript">
+										  function confirmarEliminar(){
+											  var respuesta = confirm("Esta seguro de Eliminar");
+											  if(respuesta==false){
+												  return false;
+											  }
+											  else{
+												  return true;
+											  }
+										  }
+									  </script>
 									</tbody>
 								</table>
 							</div>
