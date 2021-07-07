@@ -223,21 +223,21 @@
 										
 									    $resultado = mysqli_query($conexion, $sentencia);
                                         $EscuelaAsignacion=mysqli_fetch_assoc($resultado);
-                                        
+                                        mysqli_close($conexion);
 
                                     ?>
-										<form action="" method="POST">
+										<form action="funciones/actualizar-escuelasnumeros.php" method="POST">
                                             <div class="form-group label-floating">
 											  <!--label class="control-label" style="color: rgb(0, 0, 0); font-size: 120%;">CURP</label-->
 											  <input class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;" type="hidden" type="text" name="txtCURPDocente" value="<?php echo $EscuelaAsignacion['CURPDocente']?>">
 											</div>
                                             <div class="form-group label-floating">
 												<label class="control-label" style="color: rgb(0, 0, 0); font-size: 120%;">Número de Plaza</label>
-												<input class="form-control"style="color: rgb(0, 0, 0); font-size: 100%;" type="text" name="txtNoPlaza" value="<?php echo $EscuelaAsignacion['numPlaza']?>">
+												<input class="form-control"style="color: rgb(0, 0, 0); font-size: 100%;" type="text" name="txtNoPlaza" minlength="1" maxlength="10" value="<?php echo $EscuelaAsignacion['numPlaza']?>">
 											</div>
 											<div class="form-group label-floating">
 												<label class="control-label" style="color: rgb(0, 0, 0); font-size: 120%;">Número de Prelación</label>
-												<input class="form-control"style="color: rgb(0, 0, 0); font-size: 100%;" type="text" name="txtNumPrelacion" value="<?php echo $EscuelaAsignacion['numPrelacion']?>">
+												<input class="form-control"style="color: rgb(0, 0, 0); font-size: 100%;" type="text" name="txtNumPrelacion" minlength="1" maxlength="10" value="<?php echo $EscuelaAsignacion['numPrelacion']?>">
 											</div>
 											<div class="form-group label-floating">
 													<label class="control-label" style="color: rgb(0, 0, 0); font-size: 120%;">Escuela de Asignación</label>
@@ -249,15 +249,16 @@
 																		$resultado=mysqli_query($conexion,$sentencia);
 																		while($regEscAsig=mysqli_fetch_assoc($resultado)){
 																		echo "
-																		<option value='".$regEscAsig['CCTEscuela']."'>".$regEscAsig["nombreEscuela"]."</option>
+																		<option value='".$regEscAsig['nombreEscuela']."'>".$regEscAsig["nombreEscuela"]."</option>
 																		";
 																		}
+																		mysqli_close($conexion);
 																	?>
 														</select>
 											</div>
 											<div class="form-group label-floating">
 												<label class="control-label" style="color: rgb(0, 0, 0); font-size: 120%;">Número de Horas</label>
-												<input class="form-control"style="color: rgb(0, 0, 0); font-size: 100%;" type="text" name="txtNumHoras" value="<?php echo $EscuelaAsignacion['numHoras']?>">
+												<input class="form-control"style="color: rgb(0, 0, 0); font-size: 100%;" type="text" name="txtNumHoras" minlength="1" maxlength="2" value="<?php echo $EscuelaAsignacion['numHoras']?>">
 											</div>
 										    <p class="text-center">
 										    	<button href="#!" class="btn btn-info btn-raised btn-sm" style="color: rgb(0, 0, 0); font-size: 100%;"><i class="zmdi zmdi-floppy"></i> GUARDAR CAMBIOS</button>
