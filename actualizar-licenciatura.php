@@ -179,9 +179,9 @@
 		<!-- Content page -->
 		<div class="container-fluid">
 			<div class="page-header">
-			  <h1 class="text-titles"><i class="zmdi zmdi-male-alt zmdi-hc-fw"></i>Preparacion profesional<small> Licenciatura</small></h1>
+			  <h1 class="text-titles"><i class="zmdi zmdi-refresh zmdi-hc-fw"></i>Preparacion profesional<small> Licenciatura</small></h1>
 			</div>
-			<p class="lead">En esta sección puedes actualizar toda tú información</p>
+			<p class="lead">En esta sección puedes actualizar tú información</p>
 		</div>
 		<div class="container-fluid">
 			<div class="row">
@@ -221,14 +221,28 @@
 										
 									    $resultado = mysqli_query($conexion, $sentencia);
                                         $Licenciatura=mysqli_fetch_assoc($resultado);
-                                        
-
-
+                                    
                                     ?>
 										<form action="" method="POST">
-												<div class="form-group label-floating">
+										    <div class="form-group label-floating">
+											  <!--label class="control-label" style="color: rgb(0, 0, 0); font-size: 120%;">CURP</label-->
+											  <input class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;" type="hidden" type="text" name="txtCURPDocente" value="<?php echo $Licenciatura['CURPDocente']?>">
+											</div>
+											<div class="form-group label-floating">
 													<label class="control-label" style="color: rgb(0, 0, 0); font-size: 120%;">Licenciatura en:</label>
-													<input class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;" type="text" name="txtLicDocente" value="<?php echo $Licenciatura['descripcionLicenciatura']?>">
+													<select class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;"type="text" name="txtLicDocente">
+														<option><?php echo $Licenciatura['descripcionLicenciatura']?></option>
+														<?php
+																include("funciones/conexion.php");
+																$sentencia="SELECT * FROM licenciatura";
+																$resultado=mysqli_query($conexion,$sentencia);
+																while($regLic=mysqli_fetch_assoc($resultado)){
+																echo "
+																<option value='".$regLic['idLicenciatura']."'>".$regLic["descripcionLicenciatura"]."</option>
+																";
+																}
+															?>
+													  </select>
 												  </div>
 												<div class="form-group">
 													<label class="control-label" style="color: rgb(0, 0, 0); font-size: 120%;">Estatus</label>
