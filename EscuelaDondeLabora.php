@@ -241,10 +241,10 @@
 																</select>
 																</td>
 																<td>
-																<input class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;" type="text" name="txtNoHoras">
+																<input class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;" type="text" name="txtNoHoras" maxlength="10">
 																</td>
 																<td>
-																<input class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;" type="text" name="txtCurpDocente">
+																<input class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;" type="text" name="txtCurpDocente" minlength="1" maxlength="18">
 																</td>
 															</tr>
 														</tbody>
