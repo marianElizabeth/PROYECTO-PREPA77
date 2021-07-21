@@ -13,7 +13,7 @@
         descripcionTituladoPasante='$descripcionTituladoPasanteLicenciatura',
         idLicenciatura=(SELECT idLicenciatura FROM licenciatura WHERE descripcionLicenciatura = '$idLicenciatura'),
         escuelaEgresionLicenciatura= '$escuelaEgresionLicenciatura',
-        noCedulaProfesional=$noCedulaProfesional,
+        noCedulaProfesional='$noCedulaProfesional',
         fechaEscuelaEgresion='$fechaEscuelaEgresion'
         WHERE CURPDatosDocente='$CURPDatosDocentes';";  
 
