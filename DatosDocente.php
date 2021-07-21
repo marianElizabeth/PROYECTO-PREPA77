@@ -216,23 +216,23 @@
 											</div>
 											<div class="form-group label-floating">
 											  <label class="control-label" style="color: rgb(0, 0, 0); font-size: 120%;">R.F.C</label>
-											  <input class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;"type="text" name="txtRFCDocente">
+											  <input class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;"type="text" name="txtRFCDocente" minlength="1" maxlength="10">
 											</div>
 											<div class="form-group label-floating">
 											  <label class="control-label" style="color: rgb(0, 0, 0); font-size: 120%;">CURP</label>
-											  <input class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;"type="text" name="txtCURPDocente">
+											  <input class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;"type="text" name="txtCURPDocente" minlength="1" maxlength="18">
 											</div>
 											<div class="form-group label-floating">
 											  <label class="control-label" style="color: rgb(0, 0, 0); font-size: 120%;">Clave ISSEMYM</label>
-											  <input class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;"type="text" name="txtClaveISSEMYM">
+											  <input class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;"type="text" name="txtClaveISSEMYM" minlength="1" maxlength="10">
 											</div>
 											<div class="form-group label-floating">
 											  <label class="control-label" style="color: rgb(0, 0, 0); font-size: 120%;">Teléfono fijo (incluir lada)</label>
-											  <input class="form-control"style="color: rgb(0, 0, 0); font-size: 100%;" type="text" name="txtTelefonoFijoDocente">
+											  <input class="form-control"style="color: rgb(0, 0, 0); font-size: 100%;" type="text" name="txtTelefonoFijoDocente" minlength="1" maxlength="10">
 											</div>
 											<div class="form-group label-floating">
 											  <label class="control-label" style="color: rgb(0, 0, 0); font-size: 120%;">Teléfono celular</label>
-											  <input class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;"type="text" name="txtTelefonoCelularDocente">
+											  <input class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;"type="text" name="txtTelefonoCelularDocente" minlength="1" maxlength="10">
 											</div>
 											<div class="form-group label-floating">
 												<label class="control-label" style="color: rgb(0, 0, 0); font-size: 120%;">Calle</label>
@@ -266,7 +266,7 @@
 												  </div>
 												<div class="form-group label-floating">
 													<label class="control-label" style="color: rgb(0, 0, 0); font-size: 120%;">Código Postal</label>
-													<input class="form-control"style="color: rgb(0, 0, 0); font-size: 100%;" type="text" name="txtCPDocente">
+													<input class="form-control"style="color: rgb(0, 0, 0); font-size: 100%;" type="text" name="txtCPDocente" minlength="1" maxlength="5">
 												</div>												  												 												
 												<div class="form-group label-floating">
 													<label class="control-label" style="color: rgb(0, 0, 0); font-size: 120%;">Municipio</label>
@@ -432,7 +432,7 @@
 													</div>
 													<div class="form-group label-floating">
 														<label class="control-label" style="color: rgb(0, 0, 0); font-size: 120%;">Puntaje Escalafonario</label>
-														<input class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;"type="text" name="txtPuntajeEscalafonario">
+														<input class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;"type="text" name="txtPuntajeEscalafonario" minlength="1" maxlength="8">
 													</div>
 												
 										    <p class="text-center">
