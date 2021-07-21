@@ -198,7 +198,7 @@
 										<form action="funciones/guardar-especializacionDocente.php" method="POST">
                                             <div class="form-group label-floating">
 											  <label class="control-label" style="color: rgb(0, 0, 0); font-size: 120%;">CURP</label>
-											  <input class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;"type="text" name="txtCURPDocente">
+											  <input class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;"type="text" name="txtCURPDocente" minlength="1" maxlength="18">
 											</div>
                                             <div class="form-group label-floating">
 													<label class="control-label" style="color: rgb(0, 0, 0); font-size: 120%;">Especialización en:</label>
