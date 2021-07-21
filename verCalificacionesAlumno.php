@@ -193,7 +193,6 @@
 					<div id="myTabContent" class="tab-content">
 					<div class="table-responsive">
                         <table class="table table-hover text-center">
-                                
                                     <tr>
 								        <th  class="text-center" bgcolor="yellow">Ciclo Escolar: 2021-2022</th>
                                         <th  class="text-center" bgcolor="yellow">Primer Semestre</th>
@@ -480,9 +479,1545 @@
                                         <td>0</td>
                                         <td>0</td> 
                                     </tr>
-                                   
                                 </tbody>
-							</table>
+						    </table>
+                            <table class="table table-hover text-center">
+                                <tr>
+                                    <th  class="text-center" bgcolor="yellow">Ciclo Escolar: 2021-2022</th>
+                                    <th  class="text-center" bgcolor="yellow">Segundo Semestre</th>
+                                    <th  class="text-center" bgcolor="yellow">Promedio Semestral: 9.0</th>
+                                    <th  class="text-center" bgcolor="yellow">Promedio General: 9.0</th>
+                                </tr>
+                            </table>
+                            <table class="table table-hover text-center">
+                                <thead>
+                                    <tr>
+                                        <th class="text-center">Asignaturas</th>
+                                        <th class="text-center"></th>
+                                        <th class="text-center"></th>
+                                        <th class="text-center">Faltas</th>
+                                        <th class="text-center"></th>
+                                        <th class="text-center"></th>
+                                        <th class="text-center"></th>
+                                        <th class="text-center"></th>
+                                        <th class="text-center">Calificaciones Parciales</th>
+                                        <th class="text-center"></th>
+                                        <th class="text-center"></th>
+                                        <th class="text-center"></th>
+                                        <th class="text-center"></th>
+
+                                        <th class="text-center">Calificaciones Extraordinarias</th>
+                                        <th class="text-center"></th>
+                                        <th class="text-center"></th>
+                                        <th class="text-center"></th>
+                                    </tr>
+                                    <tr>
+                                        <th class="text-center"></th>
+                                        <th class="text-center">1ero</th>
+                                        <th class="text-center">2do</th>
+                                        <th class="text-center">3ro</th>
+                                        <th class="text-center">Total</th>
+                                        <th class="text-center"></th>
+                                        <th class="text-center"></th>
+                                        <th class="text-center">1ero</th>
+                                        <th class="text-center">2do</th>
+                                        <th class="text-center">3ro</th>
+                                        <th class="text-center">Final</th>
+                                        <th class="text-center"></th>
+                                        <th class="text-center"></th>
+                                        <th class="text-center">Calificación</th>
+                                        <th class="text-center">Fecha</th>
+                                        <th class="text-center">Calificación</th>
+                                        <th class="text-center">Fecha</th>
+                                        <th class="text-center">Calificación</th>
+                                        <th class="text-center">Fecha</th>
+                                        <th class="text-center">Calificación</th>
+                                        <th class="text-center">Fecha</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>Matematicas II</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td></td>
+                                        <td></td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td></td>
+                                        <td></td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td> 
+
+                                    </tr>
+                                    <tr>
+                                        <td>Quimica II</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td></td>
+                                        <td></td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td></td>
+                                        <td></td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td> 
+
+                                    </tr>
+                                    <tr>
+                                        <td>Introducción a las Ciencias Sociales</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td></td>
+                                        <td></td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td></td>
+                                        <td></td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td> 
+                                    </tr>
+                                    <tr>
+                                        <td>Taller de Lectura y Redacción II</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td></td>
+                                        <td></td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td></td>
+                                        <td></td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td> 
+                                    </tr>
+                                    <tr>
+                                        <td>Ingles II</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td></td>
+                                        <td></td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td></td>
+                                        <td></td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td> 
+                                    </tr>
+                                    <tr>
+                                        <td>Informatica II</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td></td>
+                                        <td></td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td></td>
+                                        <td></td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td> 
+                                    </tr>
+                                    <tr>
+                                        <td>Etica II</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td></td>
+                                        <td></td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td></td>
+                                        <td></td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td> 
+                                    </tr>
+                                    <tr>
+                                        <td>Actividades Fisicas y Recreativas II</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td></td>
+                                        <td></td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td></td>
+                                        <td></td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td> 
+                                    </tr>
+                                    <tr>
+                                        <td>Actividades Artisticas y Culturales II</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td></td>
+                                        <td></td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td></td>
+                                        <td></td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td> 
+                                    </tr>
+                                    <tr>
+                                        <td>Salud Integral del Adolecente II</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td></td>
+                                        <td></td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td></td>
+                                        <td></td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td> 
+                                    </tr>
+                                </tbody>
+						    </table>
+                            <table class="table table-hover text-center">
+                                <tr>
+                                    <th  class="text-center" bgcolor="yellow">Ciclo Escolar: 2021-2022</th>
+                                    <th  class="text-center" bgcolor="yellow">Tercer Semestre</th>
+                                    <th  class="text-center" bgcolor="yellow">Promedio Semestral: 9.0</th>
+                                    <th  class="text-center" bgcolor="yellow">Promedio General: 9.0</th>
+                                </tr>
+                            </table>
+                            <table class="table table-hover text-center">
+                                <thead>
+                                    <tr>
+                                        <th class="text-center">Asignaturas</th>
+                                        <th class="text-center"></th>
+                                        <th class="text-center"></th>
+                                        <th class="text-center">Faltas</th>
+                                        <th class="text-center"></th>
+                                        <th class="text-center"></th>
+                                        <th class="text-center"></th>
+                                        <th class="text-center"></th>
+                                        <th class="text-center">Calificaciones Parciales</th>
+                                        <th class="text-center"></th>
+                                        <th class="text-center"></th>
+                                        <th class="text-center"></th>
+                                        <th class="text-center"></th>
+
+                                        <th class="text-center">Calificaciones Extraordinarias</th>
+                                        <th class="text-center"></th>
+                                        <th class="text-center"></th>
+                                        <th class="text-center"></th>
+                                    </tr>
+                                    <tr>
+                                        <th class="text-center"></th>
+                                        <th class="text-center">1ero</th>
+                                        <th class="text-center">2do</th>
+                                        <th class="text-center">3ro</th>
+                                        <th class="text-center">Total</th>
+                                        <th class="text-center"></th>
+                                        <th class="text-center"></th>
+                                        <th class="text-center">1ero</th>
+                                        <th class="text-center">2do</th>
+                                        <th class="text-center">3ro</th>
+                                        <th class="text-center">Final</th>
+                                        <th class="text-center"></th>
+                                        <th class="text-center"></th>
+                                        <th class="text-center">Calificación</th>
+                                        <th class="text-center">Fecha</th>
+                                        <th class="text-center">Calificación</th>
+                                        <th class="text-center">Fecha</th>
+                                        <th class="text-center">Calificación</th>
+                                        <th class="text-center">Fecha</th>
+                                        <th class="text-center">Calificación</th>
+                                        <th class="text-center">Fecha</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>Matematicas III</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td></td>
+                                        <td></td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td></td>
+                                        <td></td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td> 
+
+                                    </tr>
+                                    <tr>
+                                        <td>Biologia I</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td></td>
+                                        <td></td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td></td>
+                                        <td></td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td> 
+
+                                    </tr>
+                                    <tr>
+                                        <td>Fisica I</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td></td>
+                                        <td></td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td></td>
+                                        <td></td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td> 
+                                    </tr>
+                                    <tr>
+                                        <td>Historia de México I</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td></td>
+                                        <td></td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td></td>
+                                        <td></td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td> 
+                                    </tr>
+                                    <tr>
+                                        <td>Ingles III</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td></td>
+                                        <td></td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td></td>
+                                        <td></td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td> 
+                                    </tr>
+                                    <tr>
+                                        <td>Lectura I</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td></td>
+                                        <td></td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td></td>
+                                        <td></td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td> 
+                                    </tr>
+                                    <tr>
+                                        <td>Gestión de Archivos de Texto</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td></td>
+                                        <td></td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td></td>
+                                        <td></td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td> 
+                                    </tr>
+                                    <tr>
+                                        <td>Hoja de Calculo Aplicada</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td></td>
+                                        <td></td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td></td>
+                                        <td></td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td> 
+                                    </tr>
+                                    <tr>
+                                        <td>Actividades Fisicas, Deportivas y Recreativas III</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td></td>
+                                        <td></td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td></td>
+                                        <td></td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td> 
+                                    </tr>
+                                    <tr>
+                                        <td>Salud Integral del Adolecente III</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td></td>
+                                        <td></td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td></td>
+                                        <td></td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td> 
+                                    </tr>
+                                    <tr>
+                                        <td>Habilidades de Razonamiento</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td></td>
+                                        <td></td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td></td>
+                                        <td></td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td> 
+                                    </tr>
+                                </tbody>
+						    </table>
+                            <table class="table table-hover text-center">
+                                <tr>
+                                    <th  class="text-center" bgcolor="yellow">Ciclo Escolar: 2021-2022</th>
+                                    <th  class="text-center" bgcolor="yellow">Cuarto Semestre</th>
+                                    <th  class="text-center" bgcolor="yellow">Promedio Semestral: 9.0</th>
+                                    <th  class="text-center" bgcolor="yellow">Promedio General: 9.0</th>
+                                </tr>
+                            </table>
+                            <table class="table table-hover text-center">
+                                <thead>
+                                    <tr>
+                                        <th class="text-center">Asignaturas</th>
+                                        <th class="text-center"></th>
+                                        <th class="text-center"></th>
+                                        <th class="text-center">Faltas</th>
+                                        <th class="text-center"></th>
+                                        <th class="text-center"></th>
+                                        <th class="text-center"></th>
+                                        <th class="text-center"></th>
+                                        <th class="text-center">Calificaciones Parciales</th>
+                                        <th class="text-center"></th>
+                                        <th class="text-center"></th>
+                                        <th class="text-center"></th>
+                                        <th class="text-center"></th>
+
+                                        <th class="text-center">Calificaciones Extraordinarias</th>
+                                        <th class="text-center"></th>
+                                        <th class="text-center"></th>
+                                        <th class="text-center"></th>
+                                    </tr>
+                                    <tr>
+                                        <th class="text-center"></th>
+                                        <th class="text-center">1ero</th>
+                                        <th class="text-center">2do</th>
+                                        <th class="text-center">3ro</th>
+                                        <th class="text-center">Total</th>
+                                        <th class="text-center"></th>
+                                        <th class="text-center"></th>
+                                        <th class="text-center">1ero</th>
+                                        <th class="text-center">2do</th>
+                                        <th class="text-center">3ro</th>
+                                        <th class="text-center">Final</th>
+                                        <th class="text-center"></th>
+                                        <th class="text-center"></th>
+                                        <th class="text-center">Calificación</th>
+                                        <th class="text-center">Fecha</th>
+                                        <th class="text-center">Calificación</th>
+                                        <th class="text-center">Fecha</th>
+                                        <th class="text-center">Calificación</th>
+                                        <th class="text-center">Fecha</th>
+                                        <th class="text-center">Calificación</th>
+                                        <th class="text-center">Fecha</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>Matematicas IV</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td></td>
+                                        <td></td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td></td>
+                                        <td></td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td> 
+
+                                    </tr>
+                                    <tr>
+                                        <td>Biologia II</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td></td>
+                                        <td></td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td></td>
+                                        <td></td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td> 
+
+                                    </tr>
+                                    <tr>
+                                        <td>Fisica II</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td></td>
+                                        <td></td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td></td>
+                                        <td></td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td> 
+                                    </tr>
+                                    <tr>
+                                        <td>Historia de México II</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td></td>
+                                        <td></td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td></td>
+                                        <td></td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td> 
+                                    </tr>
+                                    <tr>
+                                        <td>Ingles IV</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td></td>
+                                        <td></td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td></td>
+                                        <td></td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td> 
+                                    </tr>
+                                    <tr>
+                                        <td>Lectura II</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td></td>
+                                        <td></td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td></td>
+                                        <td></td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td> 
+                                    </tr>
+                                    <tr>
+                                        <td>Comunidades Virtules</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td></td>
+                                        <td></td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td></td>
+                                        <td></td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td> 
+                                    </tr>
+                                    <tr>
+                                        <td>Mantenimiento y Redes de Computo</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td></td>
+                                        <td></td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td></td>
+                                        <td></td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td> 
+                                    </tr>
+                                    <tr>
+                                        <td>Actividades Fisicas, Deportivas y Recreativas IV</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td></td>
+                                        <td></td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td></td>
+                                        <td></td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td> 
+                                    </tr>
+                                    <tr>
+                                        <td>Salud Integral del Adolecente IV</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td></td>
+                                        <td></td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td></td>
+                                        <td></td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td> 
+                                    </tr>
+                                </tbody>
+						    </table>
+                            <table class="table table-hover text-center">
+                                <tr>
+                                    <th  class="text-center" bgcolor="yellow">Ciclo Escolar: 2021-2022</th>
+                                    <th  class="text-center" bgcolor="yellow">Quinto Semestre</th>
+                                    <th  class="text-center" bgcolor="yellow">Promedio Semestral: 9.0</th>
+                                    <th  class="text-center" bgcolor="yellow">Promedio General: 9.0</th>
+                                </tr>
+                            </table>
+                            <table class="table table-hover text-center">
+                                <thead>
+                                    <tr>
+                                        <th class="text-center">Asignaturas</th>
+                                        <th class="text-center"></th>
+                                        <th class="text-center"></th>
+                                        <th class="text-center">Faltas</th>
+                                        <th class="text-center"></th>
+                                        <th class="text-center"></th>
+                                        <th class="text-center"></th>
+                                        <th class="text-center"></th>
+                                        <th class="text-center">Calificaciones Parciales</th>
+                                        <th class="text-center"></th>
+                                        <th class="text-center"></th>
+                                        <th class="text-center"></th>
+                                        <th class="text-center"></th>
+
+                                        <th class="text-center">Calificaciones Extraordinarias</th>
+                                        <th class="text-center"></th>
+                                        <th class="text-center"></th>
+                                        <th class="text-center"></th>
+                                    </tr>
+                                    <tr>
+                                        <th class="text-center"></th>
+                                        <th class="text-center">1ero</th>
+                                        <th class="text-center">2do</th>
+                                        <th class="text-center">3ro</th>
+                                        <th class="text-center">Total</th>
+                                        <th class="text-center"></th>
+                                        <th class="text-center"></th>
+                                        <th class="text-center">1ero</th>
+                                        <th class="text-center">2do</th>
+                                        <th class="text-center">3ro</th>
+                                        <th class="text-center">Final</th>
+                                        <th class="text-center"></th>
+                                        <th class="text-center"></th>
+                                        <th class="text-center">Calificación</th>
+                                        <th class="text-center">Fecha</th>
+                                        <th class="text-center">Calificación</th>
+                                        <th class="text-center">Fecha</th>
+                                        <th class="text-center">Calificación</th>
+                                        <th class="text-center">Fecha</th>
+                                        <th class="text-center">Calificación</th>
+                                        <th class="text-center">Fecha</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>Matematicas V</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td></td>
+                                        <td></td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td></td>
+                                        <td></td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td> 
+
+                                    </tr>
+                                    <tr>
+                                        <td>Geografía</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td></td>
+                                        <td></td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td></td>
+                                        <td></td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td> 
+
+                                    </tr>
+                                    <tr>
+                                        <td>Estructura Socioeconómica de México</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td></td>
+                                        <td></td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td></td>
+                                        <td></td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td> 
+                                    </tr>
+                                    <tr>
+                                        <td>Economía I</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td></td>
+                                        <td></td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td></td>
+                                        <td></td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td> 
+                                    </tr>
+                                    <tr>
+                                        <td>Psicología I</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td></td>
+                                        <td></td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td></td>
+                                        <td></td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td> 
+                                    </tr>
+                                    <tr>
+                                        <td>Derecho I</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td></td>
+                                        <td></td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td></td>
+                                        <td></td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td> 
+                                    </tr>
+                                    <tr>
+                                        <td>Inglés V</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td></td>
+                                        <td></td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td></td>
+                                        <td></td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td> 
+                                    </tr>
+                                    <tr>
+                                        <td>Introducción a la Filosofía</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td></td>
+                                        <td></td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td></td>
+                                        <td></td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td> 
+                                    </tr>
+                                    <tr>
+                                        <td>Sistemas de Información</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td></td>
+                                        <td></td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td></td>
+                                        <td></td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td> 
+                                    </tr>
+                                    <tr>
+                                        <td>Programación</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td></td>
+                                        <td></td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td></td>
+                                        <td></td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td> 
+                                    </tr>
+                                    <tr>
+                                        <td>Actividades Artistico Culturales III</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td></td>
+                                        <td></td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td></td>
+                                        <td></td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td> 
+                                    </tr>
+                                    <tr>
+                                        <td>Salud Integral del Adolecente V</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td></td>
+                                        <td></td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td></td>
+                                        <td></td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td> 
+                                    </tr>
+                                </tbody>
+						    </table>
+                            <table class="table table-hover text-center">
+                                <tr>
+                                    <th  class="text-center" bgcolor="yellow">Ciclo Escolar: 2021-2022</th>
+                                    <th  class="text-center" bgcolor="yellow">Sexto Semestre</th>
+                                    <th  class="text-center" bgcolor="yellow">Promedio Semestral: 9.0</th>
+                                    <th  class="text-center" bgcolor="yellow">Promedio General: 9.0</th>
+                                </tr>
+                            </table>
+                            <table class="table table-hover text-center">
+                                <thead>
+                                    <tr>
+                                        <th class="text-center">Asignaturas</th>
+                                        <th class="text-center"></th>
+                                        <th class="text-center"></th>
+                                        <th class="text-center">Faltas</th>
+                                        <th class="text-center"></th>
+                                        <th class="text-center"></th>
+                                        <th class="text-center"></th>
+                                        <th class="text-center"></th>
+                                        <th class="text-center">Calificaciones Parciales</th>
+                                        <th class="text-center"></th>
+                                        <th class="text-center"></th>
+                                        <th class="text-center"></th>
+                                        <th class="text-center"></th>
+
+                                        <th class="text-center">Calificaciones Extraordinarias</th>
+                                        <th class="text-center"></th>
+                                        <th class="text-center"></th>
+                                        <th class="text-center"></th>
+                                    </tr>
+                                    <tr>
+                                        <th class="text-center"></th>
+                                        <th class="text-center">1ero</th>
+                                        <th class="text-center">2do</th>
+                                        <th class="text-center">3ro</th>
+                                        <th class="text-center">Total</th>
+                                        <th class="text-center"></th>
+                                        <th class="text-center"></th>
+                                        <th class="text-center">1ero</th>
+                                        <th class="text-center">2do</th>
+                                        <th class="text-center">3ro</th>
+                                        <th class="text-center">Final</th>
+                                        <th class="text-center"></th>
+                                        <th class="text-center"></th>
+                                        <th class="text-center">Calificación</th>
+                                        <th class="text-center">Fecha</th>
+                                        <th class="text-center">Calificación</th>
+                                        <th class="text-center">Fecha</th>
+                                        <th class="text-center">Calificación</th>
+                                        <th class="text-center">Fecha</th>
+                                        <th class="text-center">Calificación</th>
+                                        <th class="text-center">Fecha</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>Matematicas VI</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td></td>
+                                        <td></td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td></td>
+                                        <td></td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td> 
+
+                                    </tr>
+                                    <tr>
+                                        <td>Ecología y Medio Ambiente</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td></td>
+                                        <td></td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td></td>
+                                        <td></td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td> 
+
+                                    </tr>
+                                    <tr>
+                                        <td>Historia Universal Contemporánea</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td></td>
+                                        <td></td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td></td>
+                                        <td></td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td> 
+                                    </tr>
+                                    <tr>
+                                        <td>Economía II</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td></td>
+                                        <td></td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td></td>
+                                        <td></td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td> 
+                                    </tr>
+                                    <tr>
+                                        <td>Psicología II</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td></td>
+                                        <td></td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td></td>
+                                        <td></td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td> 
+                                    </tr>
+                                    <tr>
+                                        <td>Derecho II</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td></td>
+                                        <td></td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td></td>
+                                        <td></td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td> 
+                                    </tr>
+                                    <tr>
+                                        <td>Inglés VI</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td></td>
+                                        <td></td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td></td>
+                                        <td></td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td> 
+                                    </tr>
+                                    <tr>
+                                        <td>Filosofía</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td></td>
+                                        <td></td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td></td>
+                                        <td></td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td> 
+                                    </tr>
+                                    <tr>
+                                        <td>Diseño Digital</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td></td>
+                                        <td></td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td></td>
+                                        <td></td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td> 
+                                    </tr>
+                                    <tr>
+                                        <td>Actividades Artistico Culturales IV</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td></td>
+                                        <td></td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td></td>
+                                        <td></td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td> 
+                                    </tr>
+                                    <tr>
+                                        <td>Salud Integral del Adolecente VI</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td></td>
+                                        <td></td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td></td>
+                                        <td></td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td> 
+                                    </tr>
+                                </tbody>
+						    </table>
 						</div>
 					</div>
 				</div>
