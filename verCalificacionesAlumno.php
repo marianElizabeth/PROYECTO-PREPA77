@@ -216,11 +216,9 @@
                                         <th class="text-center"></th>
                                         <th class="text-center"></th>
                                         <th class="text-center"></th>
-
                                         <th class="text-center">Calificaciones Extraordinarias</th>
-                                        <th class="text-center"></th>
-                                        <th class="text-center"></th>
-                                        <th class="text-center"></th>
+                                        
+                                        
                                     </tr>
                                     <tr>
                                         <th class="text-center"></th>
@@ -244,6 +242,9 @@
                                         <th class="text-center">Fecha</th>
                                         <th class="text-center">Calificación</th>
                                         <th class="text-center">Fecha</th>
+                                        <th class="text-center"></th>
+                                        <th class="text-center">Actualizar</th>
+										<th class="text-center">Eliminar</th>
                                     </tr>
                                 </thead>
                                 <tbody>
@@ -268,7 +269,10 @@
                                         <td>0</td>
                                         <td>0</td>
                                         <td>0</td>
-                                        <td>0</td> 
+                                        <td>0</td>
+                                        <td></td>
+                                        <td><a href="#!" class="btn btn-success btn-raised btn-xs"><i class="zmdi zmdi-refresh"></i></a></td>
+										<td><a href="#!" class="btn btn-danger btn-raised btn-xs"><i class="zmdi zmdi-delete"></i></a></td>
 
                                     </tr>
                                     <tr>
@@ -292,7 +296,10 @@
                                         <td>0</td>
                                         <td>0</td>
                                         <td>0</td>
-                                        <td>0</td> 
+                                        <td>0</td>
+                                        <td></td>
+                                        <td><a href="#!" class="btn btn-success btn-raised btn-xs"><i class="zmdi zmdi-refresh"></i></a></td>
+										<td><a href="#!" class="btn btn-danger btn-raised btn-xs"><i class="zmdi zmdi-delete"></i></a></td>
 
                                     </tr>
                                     <tr>
@@ -316,7 +323,10 @@
                                         <td>0</td>
                                         <td>0</td>
                                         <td>0</td>
-                                        <td>0</td> 
+                                        <td>0</td>
+                                        <td></td>
+                                        <td><a href="#!" class="btn btn-success btn-raised btn-xs"><i class="zmdi zmdi-refresh"></i></a></td>
+										<td><a href="#!" class="btn btn-danger btn-raised btn-xs"><i class="zmdi zmdi-delete"></i></a></td>
                                     </tr>
                                     <tr>
                                         <td>Taller de lectura y redacción I</td>
@@ -339,7 +349,10 @@
                                         <td>0</td>
                                         <td>0</td>
                                         <td>0</td>
-                                        <td>0</td> 
+                                        <td>0</td>
+                                        <td></td>
+                                        <td><a href="#!" class="btn btn-success btn-raised btn-xs"><i class="zmdi zmdi-refresh"></i></a></td>
+										<td><a href="#!" class="btn btn-danger btn-raised btn-xs"><i class="zmdi zmdi-delete"></i></a></td>
                                     </tr>
                                     <tr>
                                         <td>Ingles I</td>
@@ -362,7 +375,10 @@
                                         <td>0</td>
                                         <td>0</td>
                                         <td>0</td>
-                                        <td>0</td> 
+                                        <td>0</td>
+                                        <td></td>
+                                        <td><a href="#!" class="btn btn-success btn-raised btn-xs"><i class="zmdi zmdi-refresh"></i></a></td>
+										<td><a href="#!" class="btn btn-danger btn-raised btn-xs"><i class="zmdi zmdi-delete"></i></a></td> 
                                     </tr>
                                     <tr>
                                         <td>Informatica I</td>
@@ -385,7 +401,10 @@
                                         <td>0</td>
                                         <td>0</td>
                                         <td>0</td>
-                                        <td>0</td> 
+                                        <td>0</td>
+                                        <td></td>
+                                        <td><a href="#!" class="btn btn-success btn-raised btn-xs"><i class="zmdi zmdi-refresh"></i></a></td>
+										<td><a href="#!" class="btn btn-danger btn-raised btn-xs"><i class="zmdi zmdi-delete"></i></a></td>
                                     </tr>
                                     <tr>
                                         <td>Etica I</td>
@@ -408,7 +427,10 @@
                                         <td>0</td>
                                         <td>0</td>
                                         <td>0</td>
-                                        <td>0</td> 
+                                        <td>0</td>
+                                        <td></td>
+                                        <td><a href="#!" class="btn btn-success btn-raised btn-xs"><i class="zmdi zmdi-refresh"></i></a></td>
+										<td><a href="#!" class="btn btn-danger btn-raised btn-xs"><i class="zmdi zmdi-delete"></i></a></td>
                                     </tr>
                                     <tr>
                                         <td>Actividades Fisicas y Recreativas I</td>
@@ -431,7 +453,10 @@
                                         <td>0</td>
                                         <td>0</td>
                                         <td>0</td>
-                                        <td>0</td> 
+                                        <td>0</td>
+                                        <td></td>
+                                        <td><a href="#!" class="btn btn-success btn-raised btn-xs"><i class="zmdi zmdi-refresh"></i></a></td>
+										<td><a href="#!" class="btn btn-danger btn-raised btn-xs"><i class="zmdi zmdi-delete"></i></a></td>
                                     </tr>
                                     <tr>
                                         <td>Actividades Artisticas y Culturales I</td>
@@ -454,7 +479,10 @@
                                         <td>0</td>
                                         <td>0</td>
                                         <td>0</td>
-                                        <td>0</td> 
+                                        <td>0</td>
+                                        <td></td>
+                                        <td><a href="#!" class="btn btn-success btn-raised btn-xs"><i class="zmdi zmdi-refresh"></i></a></td>
+										<td><a href="#!" class="btn btn-danger btn-raised btn-xs"><i class="zmdi zmdi-delete"></i></a></td>
                                     </tr>
                                     <tr>
                                         <td>Salud Integral del Adolecente I</td>
@@ -477,7 +505,10 @@
                                         <td>0</td>
                                         <td>0</td>
                                         <td>0</td>
-                                        <td>0</td> 
+                                        <td>0</td>
+                                        <td></td>
+                                        <td><a href="#!" class="btn btn-success btn-raised btn-xs"><i class="zmdi zmdi-refresh"></i></a></td>
+										<td><a href="#!" class="btn btn-danger btn-raised btn-xs"><i class="zmdi zmdi-delete"></i></a></td>
                                     </tr>
                                 </tbody>
 						    </table>
@@ -505,11 +536,7 @@
                                         <th class="text-center"></th>
                                         <th class="text-center"></th>
                                         <th class="text-center"></th>
-
                                         <th class="text-center">Calificaciones Extraordinarias</th>
-                                        <th class="text-center"></th>
-                                        <th class="text-center"></th>
-                                        <th class="text-center"></th>
                                     </tr>
                                     <tr>
                                         <th class="text-center"></th>
@@ -533,6 +560,9 @@
                                         <th class="text-center">Fecha</th>
                                         <th class="text-center">Calificación</th>
                                         <th class="text-center">Fecha</th>
+                                        <th class="text-center"></th>
+                                        <th class="text-center">Actualizar</th>
+										<th class="text-center">Eliminar</th>
                                     </tr>
                                 </thead>
                                 <tbody>
@@ -557,7 +587,10 @@
                                         <td>0</td>
                                         <td>0</td>
                                         <td>0</td>
-                                        <td>0</td> 
+                                        <td>0</td>
+                                        <td></td>
+                                        <td><a href="#!" class="btn btn-success btn-raised btn-xs"><i class="zmdi zmdi-refresh"></i></a></td>
+										<td><a href="#!" class="btn btn-danger btn-raised btn-xs"><i class="zmdi zmdi-delete"></i></a></td>
 
                                     </tr>
                                     <tr>
@@ -581,7 +614,10 @@
                                         <td>0</td>
                                         <td>0</td>
                                         <td>0</td>
-                                        <td>0</td> 
+                                        <td>0</td>
+                                        <td></td>
+                                        <td><a href="#!" class="btn btn-success btn-raised btn-xs"><i class="zmdi zmdi-refresh"></i></a></td>
+										<td><a href="#!" class="btn btn-danger btn-raised btn-xs"><i class="zmdi zmdi-delete"></i></a></td>
 
                                     </tr>
                                     <tr>
@@ -605,7 +641,10 @@
                                         <td>0</td>
                                         <td>0</td>
                                         <td>0</td>
-                                        <td>0</td> 
+                                        <td>0</td>
+                                        <td></td>
+                                        <td><a href="#!" class="btn btn-success btn-raised btn-xs"><i class="zmdi zmdi-refresh"></i></a></td>
+										<td><a href="#!" class="btn btn-danger btn-raised btn-xs"><i class="zmdi zmdi-delete"></i></a></td>
                                     </tr>
                                     <tr>
                                         <td>Taller de Lectura y Redacción II</td>
@@ -628,7 +667,10 @@
                                         <td>0</td>
                                         <td>0</td>
                                         <td>0</td>
-                                        <td>0</td> 
+                                        <td>0</td>
+                                        <td></td>
+                                        <td><a href="#!" class="btn btn-success btn-raised btn-xs"><i class="zmdi zmdi-refresh"></i></a></td>
+										<td><a href="#!" class="btn btn-danger btn-raised btn-xs"><i class="zmdi zmdi-delete"></i></a></td>
                                     </tr>
                                     <tr>
                                         <td>Ingles II</td>
@@ -651,7 +693,10 @@
                                         <td>0</td>
                                         <td>0</td>
                                         <td>0</td>
-                                        <td>0</td> 
+                                        <td>0</td>
+                                        <td></td>
+                                        <td><a href="#!" class="btn btn-success btn-raised btn-xs"><i class="zmdi zmdi-refresh"></i></a></td>
+										<td><a href="#!" class="btn btn-danger btn-raised btn-xs"><i class="zmdi zmdi-delete"></i></a></td> 
                                     </tr>
                                     <tr>
                                         <td>Informatica II</td>
@@ -674,7 +719,10 @@
                                         <td>0</td>
                                         <td>0</td>
                                         <td>0</td>
-                                        <td>0</td> 
+                                        <td>0</td>
+                                        <td></td>
+                                        <td><a href="#!" class="btn btn-success btn-raised btn-xs"><i class="zmdi zmdi-refresh"></i></a></td>
+										<td><a href="#!" class="btn btn-danger btn-raised btn-xs"><i class="zmdi zmdi-delete"></i></a></td>
                                     </tr>
                                     <tr>
                                         <td>Etica II</td>
@@ -697,7 +745,10 @@
                                         <td>0</td>
                                         <td>0</td>
                                         <td>0</td>
-                                        <td>0</td> 
+                                        <td>0</td>
+                                        <td></td>
+                                        <td><a href="#!" class="btn btn-success btn-raised btn-xs"><i class="zmdi zmdi-refresh"></i></a></td>
+										<td><a href="#!" class="btn btn-danger btn-raised btn-xs"><i class="zmdi zmdi-delete"></i></a></td> 
                                     </tr>
                                     <tr>
                                         <td>Actividades Fisicas y Recreativas II</td>
@@ -720,7 +771,10 @@
                                         <td>0</td>
                                         <td>0</td>
                                         <td>0</td>
-                                        <td>0</td> 
+                                        <td>0</td>
+                                        <td></td>
+                                        <td><a href="#!" class="btn btn-success btn-raised btn-xs"><i class="zmdi zmdi-refresh"></i></a></td>
+										<td><a href="#!" class="btn btn-danger btn-raised btn-xs"><i class="zmdi zmdi-delete"></i></a></td>
                                     </tr>
                                     <tr>
                                         <td>Actividades Artisticas y Culturales II</td>
@@ -743,7 +797,10 @@
                                         <td>0</td>
                                         <td>0</td>
                                         <td>0</td>
-                                        <td>0</td> 
+                                        <td>0</td>
+                                        <td></td>
+                                        <td><a href="#!" class="btn btn-success btn-raised btn-xs"><i class="zmdi zmdi-refresh"></i></a></td>
+										<td><a href="#!" class="btn btn-danger btn-raised btn-xs"><i class="zmdi zmdi-delete"></i></a></td>
                                     </tr>
                                     <tr>
                                         <td>Salud Integral del Adolecente II</td>
@@ -766,7 +823,10 @@
                                         <td>0</td>
                                         <td>0</td>
                                         <td>0</td>
-                                        <td>0</td> 
+                                        <td>0</td>
+                                        <td></td>
+                                        <td><a href="#!" class="btn btn-success btn-raised btn-xs"><i class="zmdi zmdi-refresh"></i></a></td>
+										<td><a href="#!" class="btn btn-danger btn-raised btn-xs"><i class="zmdi zmdi-delete"></i></a></td>
                                     </tr>
                                 </tbody>
 						    </table>
@@ -794,11 +854,8 @@
                                         <th class="text-center"></th>
                                         <th class="text-center"></th>
                                         <th class="text-center"></th>
-
                                         <th class="text-center">Calificaciones Extraordinarias</th>
-                                        <th class="text-center"></th>
-                                        <th class="text-center"></th>
-                                        <th class="text-center"></th>
+                                      
                                     </tr>
                                     <tr>
                                         <th class="text-center"></th>
@@ -822,6 +879,9 @@
                                         <th class="text-center">Fecha</th>
                                         <th class="text-center">Calificación</th>
                                         <th class="text-center">Fecha</th>
+                                        <th class="text-center"></th>
+                                        <th class="text-center">Actualizar</th>
+										<th class="text-center">Eliminar</th>
                                     </tr>
                                 </thead>
                                 <tbody>
@@ -846,7 +906,10 @@
                                         <td>0</td>
                                         <td>0</td>
                                         <td>0</td>
-                                        <td>0</td> 
+                                        <td>0</td>
+                                        <td></td>
+                                        <td><a href="#!" class="btn btn-success btn-raised btn-xs"><i class="zmdi zmdi-refresh"></i></a></td>
+										<td><a href="#!" class="btn btn-danger btn-raised btn-xs"><i class="zmdi zmdi-delete"></i></a></td>
 
                                     </tr>
                                     <tr>
@@ -870,7 +933,10 @@
                                         <td>0</td>
                                         <td>0</td>
                                         <td>0</td>
-                                        <td>0</td> 
+                                        <td>0</td>
+                                        <td></td>
+                                        <td><a href="#!" class="btn btn-success btn-raised btn-xs"><i class="zmdi zmdi-refresh"></i></a></td>
+										<td><a href="#!" class="btn btn-danger btn-raised btn-xs"><i class="zmdi zmdi-delete"></i></a></td>
 
                                     </tr>
                                     <tr>
@@ -894,7 +960,10 @@
                                         <td>0</td>
                                         <td>0</td>
                                         <td>0</td>
-                                        <td>0</td> 
+                                        <td>0</td>
+                                        <td></td>
+                                        <td><a href="#!" class="btn btn-success btn-raised btn-xs"><i class="zmdi zmdi-refresh"></i></a></td>
+										<td><a href="#!" class="btn btn-danger btn-raised btn-xs"><i class="zmdi zmdi-delete"></i></a></td>
                                     </tr>
                                     <tr>
                                         <td>Historia de México I</td>
@@ -917,7 +986,10 @@
                                         <td>0</td>
                                         <td>0</td>
                                         <td>0</td>
-                                        <td>0</td> 
+                                        <td>0</td>
+                                        <td></td>
+                                        <td><a href="#!" class="btn btn-success btn-raised btn-xs"><i class="zmdi zmdi-refresh"></i></a></td>
+										<td><a href="#!" class="btn btn-danger btn-raised btn-xs"><i class="zmdi zmdi-delete"></i></a></td>
                                     </tr>
                                     <tr>
                                         <td>Ingles III</td>
@@ -940,7 +1012,10 @@
                                         <td>0</td>
                                         <td>0</td>
                                         <td>0</td>
-                                        <td>0</td> 
+                                        <td>0</td>
+                                        <td></td>
+                                        <td><a href="#!" class="btn btn-success btn-raised btn-xs"><i class="zmdi zmdi-refresh"></i></a></td>
+										<td><a href="#!" class="btn btn-danger btn-raised btn-xs"><i class="zmdi zmdi-delete"></i></a></td>
                                     </tr>
                                     <tr>
                                         <td>Lectura I</td>
@@ -963,7 +1038,10 @@
                                         <td>0</td>
                                         <td>0</td>
                                         <td>0</td>
-                                        <td>0</td> 
+                                        <td>0</td>
+                                        <td></td>
+                                        <td><a href="#!" class="btn btn-success btn-raised btn-xs"><i class="zmdi zmdi-refresh"></i></a></td>
+										<td><a href="#!" class="btn btn-danger btn-raised btn-xs"><i class="zmdi zmdi-delete"></i></a></td>
                                     </tr>
                                     <tr>
                                         <td>Gestión de Archivos de Texto</td>
@@ -986,7 +1064,10 @@
                                         <td>0</td>
                                         <td>0</td>
                                         <td>0</td>
-                                        <td>0</td> 
+                                        <td>0</td>
+                                        <td></td>
+                                        <td><a href="#!" class="btn btn-success btn-raised btn-xs"><i class="zmdi zmdi-refresh"></i></a></td>
+										<td><a href="#!" class="btn btn-danger btn-raised btn-xs"><i class="zmdi zmdi-delete"></i></a></td>
                                     </tr>
                                     <tr>
                                         <td>Hoja de Calculo Aplicada</td>
@@ -1009,7 +1090,10 @@
                                         <td>0</td>
                                         <td>0</td>
                                         <td>0</td>
-                                        <td>0</td> 
+                                        <td>0</td>
+                                        <td></td>
+                                        <td><a href="#!" class="btn btn-success btn-raised btn-xs"><i class="zmdi zmdi-refresh"></i></a></td>
+										<td><a href="#!" class="btn btn-danger btn-raised btn-xs"><i class="zmdi zmdi-delete"></i></a></td>
                                     </tr>
                                     <tr>
                                         <td>Actividades Fisicas, Deportivas y Recreativas III</td>
@@ -1033,6 +1117,9 @@
                                         <td>0</td>
                                         <td>0</td>
                                         <td>0</td> 
+                                        <td></td>
+                                        <td><a href="#!" class="btn btn-success btn-raised btn-xs"><i class="zmdi zmdi-refresh"></i></a></td>
+										<td><a href="#!" class="btn btn-danger btn-raised btn-xs"><i class="zmdi zmdi-delete"></i></a></td>
                                     </tr>
                                     <tr>
                                         <td>Salud Integral del Adolecente III</td>
@@ -1056,6 +1143,9 @@
                                         <td>0</td>
                                         <td>0</td>
                                         <td>0</td> 
+                                        <td></td>
+                                        <td><a href="#!" class="btn btn-success btn-raised btn-xs"><i class="zmdi zmdi-refresh"></i></a></td>
+										<td><a href="#!" class="btn btn-danger btn-raised btn-xs"><i class="zmdi zmdi-delete"></i></a></td>
                                     </tr>
                                     <tr>
                                         <td>Habilidades de Razonamiento</td>
@@ -1079,6 +1169,9 @@
                                         <td>0</td>
                                         <td>0</td>
                                         <td>0</td> 
+                                        <td></td>
+                                        <td><a href="#!" class="btn btn-success btn-raised btn-xs"><i class="zmdi zmdi-refresh"></i></a></td>
+										<td><a href="#!" class="btn btn-danger btn-raised btn-xs"><i class="zmdi zmdi-delete"></i></a></td>
                                     </tr>
                                 </tbody>
 						    </table>
@@ -1106,11 +1199,7 @@
                                         <th class="text-center"></th>
                                         <th class="text-center"></th>
                                         <th class="text-center"></th>
-
                                         <th class="text-center">Calificaciones Extraordinarias</th>
-                                        <th class="text-center"></th>
-                                        <th class="text-center"></th>
-                                        <th class="text-center"></th>
                                     </tr>
                                     <tr>
                                         <th class="text-center"></th>
@@ -1134,6 +1223,9 @@
                                         <th class="text-center">Fecha</th>
                                         <th class="text-center">Calificación</th>
                                         <th class="text-center">Fecha</th>
+                                        <th class="text-center"></th>
+                                        <th class="text-center">Actualizar</th>
+										<th class="text-center">Eliminar</th>
                                     </tr>
                                 </thead>
                                 <tbody>
@@ -1159,6 +1251,9 @@
                                         <td>0</td>
                                         <td>0</td>
                                         <td>0</td> 
+                                        <td></td>
+                                        <td><a href="#!" class="btn btn-success btn-raised btn-xs"><i class="zmdi zmdi-refresh"></i></a></td>
+										<td><a href="#!" class="btn btn-danger btn-raised btn-xs"><i class="zmdi zmdi-delete"></i></a></td>
 
                                     </tr>
                                     <tr>
@@ -1183,6 +1278,9 @@
                                         <td>0</td>
                                         <td>0</td>
                                         <td>0</td> 
+                                        <td></td>
+                                        <td><a href="#!" class="btn btn-success btn-raised btn-xs"><i class="zmdi zmdi-refresh"></i></a></td>
+										<td><a href="#!" class="btn btn-danger btn-raised btn-xs"><i class="zmdi zmdi-delete"></i></a></td>
 
                                     </tr>
                                     <tr>
@@ -1207,6 +1305,9 @@
                                         <td>0</td>
                                         <td>0</td>
                                         <td>0</td> 
+                                        <td></td>
+                                        <td><a href="#!" class="btn btn-success btn-raised btn-xs"><i class="zmdi zmdi-refresh"></i></a></td>
+										<td><a href="#!" class="btn btn-danger btn-raised btn-xs"><i class="zmdi zmdi-delete"></i></a></td>
                                     </tr>
                                     <tr>
                                         <td>Historia de México II</td>
@@ -1230,6 +1331,9 @@
                                         <td>0</td>
                                         <td>0</td>
                                         <td>0</td> 
+                                        <td></td>
+                                        <td><a href="#!" class="btn btn-success btn-raised btn-xs"><i class="zmdi zmdi-refresh"></i></a></td>
+										<td><a href="#!" class="btn btn-danger btn-raised btn-xs"><i class="zmdi zmdi-delete"></i></a></td>
                                     </tr>
                                     <tr>
                                         <td>Ingles IV</td>
@@ -1253,6 +1357,9 @@
                                         <td>0</td>
                                         <td>0</td>
                                         <td>0</td> 
+                                        <td></td>
+                                        <td><a href="#!" class="btn btn-success btn-raised btn-xs"><i class="zmdi zmdi-refresh"></i></a></td>
+										<td><a href="#!" class="btn btn-danger btn-raised btn-xs"><i class="zmdi zmdi-delete"></i></a></td>
                                     </tr>
                                     <tr>
                                         <td>Lectura II</td>
@@ -1276,6 +1383,9 @@
                                         <td>0</td>
                                         <td>0</td>
                                         <td>0</td> 
+                                        <td></td>
+                                        <td><a href="#!" class="btn btn-success btn-raised btn-xs"><i class="zmdi zmdi-refresh"></i></a></td>
+										<td><a href="#!" class="btn btn-danger btn-raised btn-xs"><i class="zmdi zmdi-delete"></i></a></td>
                                     </tr>
                                     <tr>
                                         <td>Comunidades Virtules</td>
@@ -1299,6 +1409,9 @@
                                         <td>0</td>
                                         <td>0</td>
                                         <td>0</td> 
+                                        <td></td>
+                                        <td><a href="#!" class="btn btn-success btn-raised btn-xs"><i class="zmdi zmdi-refresh"></i></a></td>
+										<td><a href="#!" class="btn btn-danger btn-raised btn-xs"><i class="zmdi zmdi-delete"></i></a></td>
                                     </tr>
                                     <tr>
                                         <td>Mantenimiento y Redes de Computo</td>
@@ -1322,6 +1435,9 @@
                                         <td>0</td>
                                         <td>0</td>
                                         <td>0</td> 
+                                        <td></td>
+                                        <td><a href="#!" class="btn btn-success btn-raised btn-xs"><i class="zmdi zmdi-refresh"></i></a></td>
+										<td><a href="#!" class="btn btn-danger btn-raised btn-xs"><i class="zmdi zmdi-delete"></i></a></td>
                                     </tr>
                                     <tr>
                                         <td>Actividades Fisicas, Deportivas y Recreativas IV</td>
@@ -1345,6 +1461,9 @@
                                         <td>0</td>
                                         <td>0</td>
                                         <td>0</td> 
+                                        <td></td>
+                                        <td><a href="#!" class="btn btn-success btn-raised btn-xs"><i class="zmdi zmdi-refresh"></i></a></td>
+										<td><a href="#!" class="btn btn-danger btn-raised btn-xs"><i class="zmdi zmdi-delete"></i></a></td>
                                     </tr>
                                     <tr>
                                         <td>Salud Integral del Adolecente IV</td>
@@ -1368,6 +1487,9 @@
                                         <td>0</td>
                                         <td>0</td>
                                         <td>0</td> 
+                                        <td></td>
+                                        <td><a href="#!" class="btn btn-success btn-raised btn-xs"><i class="zmdi zmdi-refresh"></i></a></td>
+										<td><a href="#!" class="btn btn-danger btn-raised btn-xs"><i class="zmdi zmdi-delete"></i></a></td>
                                     </tr>
                                 </tbody>
 						    </table>
@@ -1395,11 +1517,7 @@
                                         <th class="text-center"></th>
                                         <th class="text-center"></th>
                                         <th class="text-center"></th>
-
                                         <th class="text-center">Calificaciones Extraordinarias</th>
-                                        <th class="text-center"></th>
-                                        <th class="text-center"></th>
-                                        <th class="text-center"></th>
                                     </tr>
                                     <tr>
                                         <th class="text-center"></th>
@@ -1423,6 +1541,9 @@
                                         <th class="text-center">Fecha</th>
                                         <th class="text-center">Calificación</th>
                                         <th class="text-center">Fecha</th>
+                                        <th class="text-center"></th>
+                                        <th class="text-center">Actualizar</th>
+										<th class="text-center">Eliminar</th>
                                     </tr>
                                 </thead>
                                 <tbody>
@@ -1447,7 +1568,10 @@
                                         <td>0</td>
                                         <td>0</td>
                                         <td>0</td>
-                                        <td>0</td> 
+                                        <td>0</td>
+                                        <td></td>
+                                        <td><a href="#!" class="btn btn-success btn-raised btn-xs"><i class="zmdi zmdi-refresh"></i></a></td>
+										<td><a href="#!" class="btn btn-danger btn-raised btn-xs"><i class="zmdi zmdi-delete"></i></a></td>
 
                                     </tr>
                                     <tr>
@@ -1472,6 +1596,9 @@
                                         <td>0</td>
                                         <td>0</td>
                                         <td>0</td> 
+                                        <td></td>
+                                        <td><a href="#!" class="btn btn-success btn-raised btn-xs"><i class="zmdi zmdi-refresh"></i></a></td>
+										<td><a href="#!" class="btn btn-danger btn-raised btn-xs"><i class="zmdi zmdi-delete"></i></a></td>
 
                                     </tr>
                                     <tr>
@@ -1496,6 +1623,9 @@
                                         <td>0</td>
                                         <td>0</td>
                                         <td>0</td> 
+                                        <td></td>
+                                        <td><a href="#!" class="btn btn-success btn-raised btn-xs"><i class="zmdi zmdi-refresh"></i></a></td>
+										<td><a href="#!" class="btn btn-danger btn-raised btn-xs"><i class="zmdi zmdi-delete"></i></a></td>
                                     </tr>
                                     <tr>
                                         <td>Economía I</td>
@@ -1519,6 +1649,9 @@
                                         <td>0</td>
                                         <td>0</td>
                                         <td>0</td> 
+                                        <td></td>
+                                        <td><a href="#!" class="btn btn-success btn-raised btn-xs"><i class="zmdi zmdi-refresh"></i></a></td>
+										<td><a href="#!" class="btn btn-danger btn-raised btn-xs"><i class="zmdi zmdi-delete"></i></a></td>
                                     </tr>
                                     <tr>
                                         <td>Psicología I</td>
@@ -1542,6 +1675,9 @@
                                         <td>0</td>
                                         <td>0</td>
                                         <td>0</td> 
+                                        <td></td>
+                                        <td><a href="#!" class="btn btn-success btn-raised btn-xs"><i class="zmdi zmdi-refresh"></i></a></td>
+										<td><a href="#!" class="btn btn-danger btn-raised btn-xs"><i class="zmdi zmdi-delete"></i></a></td>
                                     </tr>
                                     <tr>
                                         <td>Derecho I</td>
@@ -1565,6 +1701,9 @@
                                         <td>0</td>
                                         <td>0</td>
                                         <td>0</td> 
+                                        <td></td>
+                                        <td><a href="#!" class="btn btn-success btn-raised btn-xs"><i class="zmdi zmdi-refresh"></i></a></td>
+										<td><a href="#!" class="btn btn-danger btn-raised btn-xs"><i class="zmdi zmdi-delete"></i></a></td>
                                     </tr>
                                     <tr>
                                         <td>Inglés V</td>
@@ -1588,6 +1727,9 @@
                                         <td>0</td>
                                         <td>0</td>
                                         <td>0</td> 
+                                        <td></td>
+                                        <td><a href="#!" class="btn btn-success btn-raised btn-xs"><i class="zmdi zmdi-refresh"></i></a></td>
+										<td><a href="#!" class="btn btn-danger btn-raised btn-xs"><i class="zmdi zmdi-delete"></i></a></td>
                                     </tr>
                                     <tr>
                                         <td>Introducción a la Filosofía</td>
@@ -1611,6 +1753,9 @@
                                         <td>0</td>
                                         <td>0</td>
                                         <td>0</td> 
+                                        <td></td>
+                                        <td><a href="#!" class="btn btn-success btn-raised btn-xs"><i class="zmdi zmdi-refresh"></i></a></td>
+										<td><a href="#!" class="btn btn-danger btn-raised btn-xs"><i class="zmdi zmdi-delete"></i></a></td>
                                     </tr>
                                     <tr>
                                         <td>Sistemas de Información</td>
@@ -1633,7 +1778,10 @@
                                         <td>0</td>
                                         <td>0</td>
                                         <td>0</td>
-                                        <td>0</td> 
+                                        <td>0</td>
+                                        <td></td>
+                                        <td><a href="#!" class="btn btn-success btn-raised btn-xs"><i class="zmdi zmdi-refresh"></i></a></td>
+										<td><a href="#!" class="btn btn-danger btn-raised btn-xs"><i class="zmdi zmdi-delete"></i></a></td> 
                                     </tr>
                                     <tr>
                                         <td>Programación</td>
@@ -1657,6 +1805,9 @@
                                         <td>0</td>
                                         <td>0</td>
                                         <td>0</td> 
+                                        <td></td>
+                                        <td><a href="#!" class="btn btn-success btn-raised btn-xs"><i class="zmdi zmdi-refresh"></i></a></td>
+										<td><a href="#!" class="btn btn-danger btn-raised btn-xs"><i class="zmdi zmdi-delete"></i></a></td>
                                     </tr>
                                     <tr>
                                         <td>Actividades Artistico Culturales III</td>
@@ -1680,6 +1831,9 @@
                                         <td>0</td>
                                         <td>0</td>
                                         <td>0</td> 
+                                        <td></td>
+                                        <td><a href="#!" class="btn btn-success btn-raised btn-xs"><i class="zmdi zmdi-refresh"></i></a></td>
+										<td><a href="#!" class="btn btn-danger btn-raised btn-xs"><i class="zmdi zmdi-delete"></i></a></td>
                                     </tr>
                                     <tr>
                                         <td>Salud Integral del Adolecente V</td>
@@ -1703,6 +1857,9 @@
                                         <td>0</td>
                                         <td>0</td>
                                         <td>0</td> 
+                                        <td></td>
+                                        <td><a href="#!" class="btn btn-success btn-raised btn-xs"><i class="zmdi zmdi-refresh"></i></a></td>
+										<td><a href="#!" class="btn btn-danger btn-raised btn-xs"><i class="zmdi zmdi-delete"></i></a></td>
                                     </tr>
                                 </tbody>
 						    </table>
@@ -1730,11 +1887,7 @@
                                         <th class="text-center"></th>
                                         <th class="text-center"></th>
                                         <th class="text-center"></th>
-
                                         <th class="text-center">Calificaciones Extraordinarias</th>
-                                        <th class="text-center"></th>
-                                        <th class="text-center"></th>
-                                        <th class="text-center"></th>
                                     </tr>
                                     <tr>
                                         <th class="text-center"></th>
@@ -1758,6 +1911,9 @@
                                         <th class="text-center">Fecha</th>
                                         <th class="text-center">Calificación</th>
                                         <th class="text-center">Fecha</th>
+                                        <th class="text-center"></th>
+                                        <th class="text-center">Actualizar</th>
+										<th class="text-center">Eliminar</th>
                                     </tr>
                                 </thead>
                                 <tbody>
@@ -1783,6 +1939,9 @@
                                         <td>0</td>
                                         <td>0</td>
                                         <td>0</td> 
+                                        <td></td>
+                                        <td><a href="#!" class="btn btn-success btn-raised btn-xs"><i class="zmdi zmdi-refresh"></i></a></td>
+										<td><a href="#!" class="btn btn-danger btn-raised btn-xs"><i class="zmdi zmdi-delete"></i></a></td>
 
                                     </tr>
                                     <tr>
@@ -1807,6 +1966,9 @@
                                         <td>0</td>
                                         <td>0</td>
                                         <td>0</td> 
+                                        <td></td>
+                                        <td><a href="#!" class="btn btn-success btn-raised btn-xs"><i class="zmdi zmdi-refresh"></i></a></td>
+										<td><a href="#!" class="btn btn-danger btn-raised btn-xs"><i class="zmdi zmdi-delete"></i></a></td>
 
                                     </tr>
                                     <tr>
@@ -1831,6 +1993,9 @@
                                         <td>0</td>
                                         <td>0</td>
                                         <td>0</td> 
+                                        <td></td>
+                                        <td><a href="#!" class="btn btn-success btn-raised btn-xs"><i class="zmdi zmdi-refresh"></i></a></td>
+										<td><a href="#!" class="btn btn-danger btn-raised btn-xs"><i class="zmdi zmdi-delete"></i></a></td>
                                     </tr>
                                     <tr>
                                         <td>Economía II</td>
@@ -1854,6 +2019,9 @@
                                         <td>0</td>
                                         <td>0</td>
                                         <td>0</td> 
+                                        <td></td>
+                                        <td><a href="#!" class="btn btn-success btn-raised btn-xs"><i class="zmdi zmdi-refresh"></i></a></td>
+										<td><a href="#!" class="btn btn-danger btn-raised btn-xs"><i class="zmdi zmdi-delete"></i></a></td>
                                     </tr>
                                     <tr>
                                         <td>Psicología II</td>
@@ -1877,6 +2045,9 @@
                                         <td>0</td>
                                         <td>0</td>
                                         <td>0</td> 
+                                        <td></td>
+                                        <td><a href="#!" class="btn btn-success btn-raised btn-xs"><i class="zmdi zmdi-refresh"></i></a></td>
+										<td><a href="#!" class="btn btn-danger btn-raised btn-xs"><i class="zmdi zmdi-delete"></i></a></td>
                                     </tr>
                                     <tr>
                                         <td>Derecho II</td>
@@ -1900,6 +2071,9 @@
                                         <td>0</td>
                                         <td>0</td>
                                         <td>0</td> 
+                                        <td></td>
+                                        <td><a href="#!" class="btn btn-success btn-raised btn-xs"><i class="zmdi zmdi-refresh"></i></a></td>
+										<td><a href="#!" class="btn btn-danger btn-raised btn-xs"><i class="zmdi zmdi-delete"></i></a></td>
                                     </tr>
                                     <tr>
                                         <td>Inglés VI</td>
@@ -1923,6 +2097,9 @@
                                         <td>0</td>
                                         <td>0</td>
                                         <td>0</td> 
+                                        <td></td>
+                                        <td><a href="#!" class="btn btn-success btn-raised btn-xs"><i class="zmdi zmdi-refresh"></i></a></td>
+										<td><a href="#!" class="btn btn-danger btn-raised btn-xs"><i class="zmdi zmdi-delete"></i></a></td>
                                     </tr>
                                     <tr>
                                         <td>Filosofía</td>
@@ -1946,6 +2123,9 @@
                                         <td>0</td>
                                         <td>0</td>
                                         <td>0</td> 
+                                        <td></td>
+                                        <td><a href="#!" class="btn btn-success btn-raised btn-xs"><i class="zmdi zmdi-refresh"></i></a></td>
+										<td><a href="#!" class="btn btn-danger btn-raised btn-xs"><i class="zmdi zmdi-delete"></i></a></td>
                                     </tr>
                                     <tr>
                                         <td>Diseño Digital</td>
@@ -1969,6 +2149,9 @@
                                         <td>0</td>
                                         <td>0</td>
                                         <td>0</td> 
+                                        <td></td>
+                                        <td><a href="#!" class="btn btn-success btn-raised btn-xs"><i class="zmdi zmdi-refresh"></i></a></td>
+										<td><a href="#!" class="btn btn-danger btn-raised btn-xs"><i class="zmdi zmdi-delete"></i></a></td>
                                     </tr>
                                     <tr>
                                         <td>Actividades Artistico Culturales IV</td>
@@ -1992,6 +2175,9 @@
                                         <td>0</td>
                                         <td>0</td>
                                         <td>0</td> 
+                                        <td></td>
+                                        <td><a href="#!" class="btn btn-success btn-raised btn-xs"><i class="zmdi zmdi-refresh"></i></a></td>
+										<td><a href="#!" class="btn btn-danger btn-raised btn-xs"><i class="zmdi zmdi-delete"></i></a></td>
                                     </tr>
                                     <tr>
                                         <td>Salud Integral del Adolecente VI</td>
@@ -2015,6 +2201,9 @@
                                         <td>0</td>
                                         <td>0</td>
                                         <td>0</td> 
+                                        <td></td>
+                                        <td><a href="#!" class="btn btn-success btn-raised btn-xs"><i class="zmdi zmdi-refresh"></i></a></td>
+										<td><a href="#!" class="btn btn-danger btn-raised btn-xs"><i class="zmdi zmdi-delete"></i></a></td>
                                     </tr>
                                 </tbody>
 						    </table>
