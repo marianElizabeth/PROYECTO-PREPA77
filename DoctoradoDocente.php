@@ -198,7 +198,7 @@
 										<form action="funciones/guardar-doctoradoDocente.php" method="POST">
                                             <div class="form-group label-floating">
 											  <label class="control-label" style="color: rgb(0, 0, 0); font-size: 120%;">CURP</label>
-											  <input class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;"type="text" name="txtCURPDocente">
+											  <input class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;"type="text" name="txtCURPDocente" minlength="1" maxlength="18">
 											</div>
                                             <div class="form-group label-floating">
 													<label class="control-label" style="color: rgb(0, 0, 0); font-size: 120%;">Doctorado en:</label>
@@ -226,7 +226,7 @@
 												</div>
 												<div class="form-group label-floating">
 													<label class="control-label" style="color: rgb(0, 0, 0); font-size: 120%;">No. Cédula Profesional</label>
-													<input class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;"type="text" name="txtNCedulaDoctorado">
+													<input class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;"type="text" name="txtNCedulaDoctorado" maxlength="12">
 												  </div>
 											<p class="text-center">
 											<button href="" class="btn btn-info btn-raised btn-sm" style="color: rgb(0, 0, 0); font-size: 100%;"><i class="zmdi zmdi-floppy "></i> GUARDAR CAMBIOS</button>
