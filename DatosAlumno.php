@@ -328,7 +328,7 @@
 											  </div>
 											  <div class="form-group label-floating">
 												<label class="control-label" style="color: rgb(0, 0, 0); font-size: 120%;">Municipio de Nacimiento</label>
-												<input class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;" type="text" minlength="1"  maxlength="10" name="txtMunicipioNacimientoAlum">
+												<input class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;" type="text" minlength="1"  maxlength="255" name="txtMunicipioNacimientoAlum">
 											  </div>
 											  <div class="form-group label-floating">
 												<label class="control-label" style="color: rgb(0, 0, 0); font-size: 120%;">Etidad Federativa</label>
@@ -348,11 +348,11 @@
 											  </div>
 											  <div class="form-group label-floating">
 												<label class="control-label" style="color: rgb(0, 0, 0); font-size: 120%;">Teléfono Celular(10 digitos)</label>
-												<input class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;"type="text" minlength="1"  maxlength="15" name="txtTelefonoCelAlum">
+												<input class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;"type="text" minlength="1"  maxlength="10" name="txtTelefonoCelAlum">
 											  </div>
 											  <div class="form-group label-floating">
 												<label class="control-label" style="color: rgb(0, 0, 0); font-size: 120%;">Teléfono Fijo(10 digitos)</label>
-												<input class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;"type="text" minlength="1"  maxlength="15" name="txtTelefonoFijoAlum">
+												<input class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;"type="text" minlength="1"  maxlength="10" name="txtTelefonoFijoAlum">
 											  </div>
 											  <div class="form-group label-floating">
 												<label class="control-label" style="color: rgb(0, 0, 0); font-size: 120%;">Nombre Completo del Tutor</label>
