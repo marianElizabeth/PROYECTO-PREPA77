@@ -82,7 +82,7 @@
 					</a>
 					<ul class="list-unstyled full-box">
 						<li>
-							<a href=""><i class="zmdi zmdi-n-1-square zmdi-hc-fw"></i>Primer Semestre</a>
+							<a href="calificacionPrimerSemestre.php"><i class="zmdi zmdi-n-1-square zmdi-hc-fw"></i>Primer Semestre</a>
 						</li>
 						
 						<li>
