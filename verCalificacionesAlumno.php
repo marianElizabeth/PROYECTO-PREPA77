@@ -71,7 +71,7 @@
 							<a href="verMadre.php"><i class="zmdi zmdi-female zmdi-hc-fw"></i>Madre</a>
 						</li>
                         <li>
-							<a href="verMadre.php"><i class="zmdi zmdi-assignment-check zmdi-hc-fw"></i>Calificaciones</a>
+							<a href="verCalificacionesAlumno.php"><i class="zmdi zmdi-assignment-check zmdi-hc-fw"></i>Calificaciones</a>
 						</li>
 					</ul>
 				</li>
@@ -82,23 +82,23 @@
 					</a>
 					<ul class="list-unstyled full-box">
 						<li>
-							<a href="verInfoPersonalAlumno.php"><i class="zmdi zmdi-n-1-square zmdi-hc-fw"></i>Primer Semestre</a>
+							<a href=""><i class="zmdi zmdi-n-1-square zmdi-hc-fw"></i>Primer Semestre</a>
 						</li>
 						
 						<li>
-							<a href="verProcedenciaAlumno.php"><i class="zmdi zmdi-n-2-square zmdi-hc-fw"></i>Segundo Semestre</a>
+							<a href=""><i class="zmdi zmdi-n-2-square zmdi-hc-fw"></i>Segundo Semestre</a>
 						</li>
 						<li>
-							<a href="verDireccionAlumno.php"><i class="zmdi zmdi-n-3-square zmdi-hc-fw"></i>Tercer Semestre</a>
+							<a href=""><i class="zmdi zmdi-n-3-square zmdi-hc-fw"></i>Tercer Semestre</a>
 						</li>
 						<li>
-							<a href="verPadre.php"><i class="zmdi zmdi-n-4-square zmdi-hc-fw"></i>Cuarto Semestre</a>
+							<a href=""><i class="zmdi zmdi-n-4-square zmdi-hc-fw"></i>Cuarto Semestre</a>
 						</li>
 						<li>
-							<a href="verMadre.php"><i class="zmdi zmdi-n-5-square zmdi-hc-fw"></i>Quinto Semestre</a>
+							<a href=""><i class="zmdi zmdi-n-5-square zmdi-hc-fw"></i>Quinto Semestre</a>
 						</li>
                         <li>
-							<a href="verMadre.php"><i class="zmdi zmdi-n-6-square zmdi-hc-fw"></i>Sexto Semestre</a>
+							<a href=""><i class="zmdi zmdi-n-6-square zmdi-hc-fw"></i>Sexto Semestre</a>
 						</li>
 					</ul>
 				</li>
