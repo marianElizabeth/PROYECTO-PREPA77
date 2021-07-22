@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-	<title>Procedencia</title>
+	<title>Calificaciones Alumno</title>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
 	<link rel="stylesheet" href="./css/main.css">
@@ -69,6 +69,36 @@
 						</li>
 						<li>
 							<a href="verMadre.php"><i class="zmdi zmdi-female zmdi-hc-fw"></i>Madre</a>
+						</li>
+                        <li>
+							<a href="verMadre.php"><i class="zmdi zmdi-assignment-check zmdi-hc-fw"></i>Calificaciones</a>
+						</li>
+					</ul>
+				</li>
+                <li>
+					<a href="#!" class="btn-sideBar-SubMenu">
+						<i class="nav-icon fas fa-tachometer-alt"></i>
+						<i class="zmdi zmdi-plus-circle-o zmdi-hc-fw"></i>Calificaciones<i class="zmdi zmdi-caret-down pull-right"></i>
+					</a>
+					<ul class="list-unstyled full-box">
+						<li>
+							<a href="verInfoPersonalAlumno.php"><i class="zmdi zmdi-n-1-square zmdi-hc-fw"></i>Primer Semestre</a>
+						</li>
+						
+						<li>
+							<a href="verProcedenciaAlumno.php"><i class="zmdi zmdi-n-2-square zmdi-hc-fw"></i>Segundo Semestre</a>
+						</li>
+						<li>
+							<a href="verDireccionAlumno.php"><i class="zmdi zmdi-n-3-square zmdi-hc-fw"></i>Tercer Semestre</a>
+						</li>
+						<li>
+							<a href="verPadre.php"><i class="zmdi zmdi-n-4-square zmdi-hc-fw"></i>Cuarto Semestre</a>
+						</li>
+						<li>
+							<a href="verMadre.php"><i class="zmdi zmdi-n-5-square zmdi-hc-fw"></i>Quinto Semestre</a>
+						</li>
+                        <li>
+							<a href="verMadre.php"><i class="zmdi zmdi-n-6-square zmdi-hc-fw"></i>Sexto Semestre</a>
 						</li>
 					</ul>
 				</li>
