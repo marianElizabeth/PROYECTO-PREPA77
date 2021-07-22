@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-	<title>Escuela donde labora</title>
+	<title>Calificaciones Primer Semestre</title>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
 	<link rel="stylesheet" href="./css/main.css">
@@ -179,9 +179,9 @@
 		<!-- Content page -->
 		<div class="container-fluid">
 			<div class="page-header">
-			  <h1 class="text-titles"><i class="zmdi zmdi-city zmdi-hc-fw"></i> Escuela donde labora <small>Docente</small></h1>
+			  <h1 class="text-titles"><i class="zmdi zmdi-assignment-o zmdi-hc-fw"></i>Calificaciones <small>Primer Semestre</small></h1>
 			</div>
-			<p class="lead">Aquí podrá insertar y actualizar datos de la escuela donde labora</p>
+			<p class="lead">Aquí podrá insertar todas las calificaciones del primer semestre</p>
 		</div>
 		<div class="container-fluid">
 			<div class="row">
@@ -198,40 +198,40 @@
 											<div id="myTabContent"class="tab-content">
 												<div class="table-responsive">
                                                     <table class="table table-hover text-center">
+                                                        <tbody>
                                                         <tr>
-                                                            <th class="text-rigth">Asignaturas</th>
+                                                            <th class="text-lefth">Asignaturas</th>
                                                             <th class="text-center">Faltas</th>
                                                             <th class="text-center"></th>
                                                             <th class="text-center"></th>
-                                                            <th class="text-center"></th>
-                                                            <th class="text-center"></th>
-                                                            <th class="text-center"></th>
-                                                            <th class="text-center">Calificaciones Parciales</th>
-                                                            <th class="text-center"></th>
-                                                            <th class="text-center"></th>
-                                                            <th class="text-center"></th>
-                                                            <th class="text-center"></th>
-                                                            <th class="text-center"></th>
-                                                            <th class="text-center"></th>
-                                                            <th class="text-center">Calificaciones Extraordinarias</th>
+                                                            <th class="text-lefth">Calificaciones Parciales</th>                                                            
+                                                            <th class="text-lefth">Calificaciones Extraordinarias</th>
                                                         </tr>
+                                                        </tbody>
                                                     </table>
                                                     
 													<table class="table table-hover text-center">
-                                                        <tbody>
+                                                        <thead>
                                                             <tr>
                                                                 <td>
-                                                                   <th class="text-center"></th>
-                                                                   <th class="text-center"></th>
-                                                                   <th class="text-center"></th>
+                                                                    <th class="text-center"></th>
+                                                                    <th class="text-center"></th>
+                                                                    <th class="text-center"></th>
+                                                                    <th class="text-center"></th>
                                                                     <th class="text-center">1er Parcial</th>
                                                                     <th class="text-center">2do Parcial</th>
                                                                     <th class="text-center">3er Parcial</th>
                                                                     <th class="text-center"></th>
                                                                     <th class="text-center"></th>
-                                                                    <th class="text-center">1ro</th>
-                                                                    <th class="text-center">2do</th>
-                                                                    <th class="text-center">3ro</th>
+                                                                    <th class="text-center"></th>
+                                                                    <th class="text-center"></th>
+                                                                    <th class="text-center">1r Parcial</th>
+                                                                    <th class="text-center">2do Parcial</th>
+                                                                    <th class="text-center">3er Parcial</th>
+                                                                    <th class="text-center"></th>
+                                                                    <th class="text-center"></th>
+                                                                    <th class="text-center"></th>
+                                                                    <th class="text-center"></th>
                                                                     <th class="text-center">Calificación</th>
                                                                     <th class="text-center">Fecha</th>
                                                                     <th class="text-center">Calificación</th>
@@ -241,22 +241,13 @@
                                                                     <th class="text-center">Calificación</th>
                                                                     <th class="text-center">Fecha</th>   
                                                                 </td>
-                                                            </tr>          
+                                                            </tr>
+                                                        </thead>
+                                                        <tbody>          
                                                             <tr class="text-center">    
-                                                                <th>Matemáticas I</th>
+                                                                <th class="text-center">Matemáticas I</th>
                                                                 <td></td>
                                                                 <td></td>
-                                                                <td></td>
-                                                                <td>
-                                                                    <input class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;" type="number" name="txtFaltaMateI_1" maxlength="2">
-                                                                </td>
-                                                                <td>
-                                                                    <input class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;" type="number" name="txtFaltaMateI_2" maxlength="2">
-                                                                </td>
-                                                                
-                                                                <td>
-                                                                    <input class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;" type="number" name="txtFaltaMateI_3" maxlength="2">
-                                                                </td>
                                                                 <td></td>
                                                                 <td></td>
                                                                 <td>
@@ -268,34 +259,54 @@
                                                                 <td>
                                                                     <input class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;" type="number" name="txtFaltaMateI_3" maxlength="2">
                                                                 </td>
-                                                                   
+                                                                <td></td>
+                                                                <td></td>
+                                                                <td></td>
+                                                                <td></td>
                                                                 <td>
-                                                                    <input class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;" type="number" name="txtFaltaMateI_1" maxlength="2">
+                                                                    <input class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;" type="number" name="txtCalMateI_1" maxlength="2">
                                                                 </td>
                                                                 <td>
-                                                                    <input class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;" type="date" name="txtFaltaMateI_2" maxlength="2">
+                                                                    <input class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;" type="number" name="txtCalMateI_2" maxlength="2">
                                                                 </td>
                                                                 <td>
-                                                                    <input class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;" type="number" name="txtFaltaMateI_3" maxlength="2">
+                                                                    <input class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;" type="number" name="txtCalMateI_3" maxlength="2">
+                                                                </td>
+                                                                <td></td>
+                                                                <td></td>
+                                                                <td></td>
+                                                                <td></td>
+                                                                <td>
+                                                                    <input class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;" type="number" name="txtCalExtraMateI_1" maxlength="2">
                                                                 </td>
                                                                 <td>
-                                                                    <input class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;" type="date" name="txtFaltaMateI_3" maxlength="2">
+                                                                    <input class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;" type="date" name="txtFechaCalExtraMateI_1" maxlength="2">
                                                                 </td>
                                                                 <td>
-                                                                    <input class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;" type="number" name="txtFaltaMateI_1" maxlength="2">
+                                                                    <input class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;" type="number" name="txtCalExtraMateI_2" maxlength="2">
                                                                 </td>
                                                                 <td>
-                                                                    <input class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;" type="date" name="txtFaltaMateI_2" maxlength="2">
+                                                                    <input class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;" type="date" name="txtFechaCalExtraMateI_2" maxlength="2">
                                                                 </td>
                                                                 <td>
-                                                                    <input class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;" type="number" name="txtFaltaMateI_3" maxlength="2">
+                                                                    <input class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;" type="number" name="txtCalExtraMateI_3" maxlength="2">
                                                                 </td>
                                                                 <td>
-                                                                    <input class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;" type="date" name="txtFaltaMateI_3" maxlength="2">
+                                                                    <input class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;" type="date" name="txtFechaCalExtraMateI_3" maxlength="2">
+                                                                </td>
+                                                                <td>
+                                                                    <input class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;" type="number" name="txtCalExtraMateI_4" maxlength="2">
+                                                                </td>
+                                                                <td>
+                                                                    <input class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;" type="date" name="txtFechaCalExtraMateI_3" maxlength="2">
                                                                 </td>                                           
                                                             </tr>
                                                             <tr class="text-center">    
-                                                                <th>Química I</th>
+                                                                <th class="text-center">Química I</th>
+                                                                <td></td>
+                                                                <td></td>
+                                                                <td></td>
+                                                                <td></td>
                                                                 <td>
                                                                     <input class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;" type="number" name="txtFaltaQuimicaI_1" maxlength="2">
                                                                 </td>
@@ -304,34 +315,169 @@
                                                                 </td>
                                                                 <td>
                                                                     <input class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;" type="number" name="txtFaltaQuimicaI_3" maxlength="2">
-                                                                </td>                                                       
+                                                                </td>
+                                                                <td></td>
+                                                                <td></td>
+                                                                <td></td>
+                                                                <td></td>
+                                                                <td>
+                                                                    <input class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;" type="number" name="txtCalQuimicaI_1" maxlength="2">
+                                                                </td>
+                                                                <td>
+                                                                    <input class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;" type="number" name="txtCalQuimicaI_2" maxlength="2">
+                                                                </td>
+                                                                <td>
+                                                                    <input class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;" type="number" name="txtCalQuimicaI_3" maxlength="2">
+                                                                </td>
+                                                                <td></td>
+                                                                <td></td>
+                                                                <td></td>
+                                                                <td></td>
+                                                                <td>
+                                                                    <input class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;" type="number" name="txtCalExtraQuimicaI_1" maxlength="2">
+                                                                </td>
+                                                                <td>
+                                                                    <input class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;" type="date" name="txtFechaCalExtraQuimicaI_1" maxlength="2">
+                                                                </td>
+                                                                <td>
+                                                                    <input class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;" type="number" name="txtCalExtraQuimicaI_2" maxlength="2">
+                                                                </td>
+                                                                <td>
+                                                                    <input class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;" type="date" name="txtFechaCalExtraQuimicaI_2" maxlength="2">
+                                                                </td>
+                                                                <td>
+                                                                    <input class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;" type="number" name="txtCalExtraQuimicaI_3" maxlength="2">
+                                                                </td>
+                                                                <td>
+                                                                    <input class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;" type="date" name="txtFechaCalExtraQuimicaI_3" maxlength="2">
+                                                                </td>
+                                                                <td>
+                                                                    <input class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;" type="number" name="txtCalExtraQuimicaI_4" maxlength="2">
+                                                                </td>
+                                                                <td>
+                                                                    <input class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;" type="date" name="txtFechaCalExtraQuimicaI_4" maxlength="2">
+                                                                </td>                                           
                                                             </tr>
                                                             <tr class="text-center">    
-                                                                <th>Metodología de la investigación</th>
+                                                                <th class="text-center">Metodología de la Investigación I</th>
+                                                                <td></td>
+                                                                <td></td>
+                                                                <td></td>
+                                                                <td></td>
                                                                 <td>
-                                                                    <input class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;" type="number" name="txtFaltaMetoI_1" maxlength="2">
+                                                                    <input class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;" type="number" name="txtFaltaMetodologiaI_1" maxlength="2">
                                                                 </td>
                                                                 <td>
-                                                                    <input class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;" type="number" name="txtFaltaMetoI_2" maxlength="2">
+                                                                    <input class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;" type="number" name="txtFaltaMetodologiaI_2" maxlength="2">
                                                                 </td>
                                                                 <td>
-                                                                    <input class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;" type="number" name="txtFaltaMetoI_3" maxlength="2">
-                                                                </td>                                                       
+                                                                    <input class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;" type="number" name="txtFaltaMetodologiaI_3" maxlength="2">
+                                                                </td>
+                                                                <td></td>
+                                                                <td></td>
+                                                                <td></td>
+                                                                <td></td>
+                                                                <td>
+                                                                    <input class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;" type="number" name="txtCalMetodologiaI_1" maxlength="2">
+                                                                </td>
+                                                                <td>
+                                                                    <input class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;" type="number" name="txtCalMetodologiaI_2" maxlength="2">
+                                                                </td>
+                                                                <td>
+                                                                    <input class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;" type="number" name="txtCalMetodologiaI_3" maxlength="2">
+                                                                </td>
+                                                                <td></td>
+                                                                <td></td>
+                                                                <td></td>
+                                                                <td></td>
+                                                                <td>
+                                                                    <input class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;" type="number" name="txtCalExtraMetodologiaI_1" maxlength="2">
+                                                                </td>
+                                                                <td>
+                                                                    <input class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;" type="date" name="txtFechaCalExtraMetodologiaI_1" maxlength="2">
+                                                                </td>
+                                                                <td>
+                                                                    <input class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;" type="number" name="txtCalExtraMetodologiaI_2" maxlength="2">
+                                                                </td>
+                                                                <td>
+                                                                    <input class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;" type="date" name="txtFechaCalExtraMetodologiaI_2" maxlength="2">
+                                                                </td>
+                                                                <td>
+                                                                    <input class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;" type="number" name="txtCalExtraMetodologiaI_3" maxlength="2">
+                                                                </td>
+                                                                <td>
+                                                                    <input class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;" type="date" name="txtFechaCalExtraMetodologiaI_3" maxlength="2">
+                                                                </td>
+                                                                <td>
+                                                                    <input class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;" type="number" name="txtCalExtraMetodologiaI_3" maxlength="2">
+                                                                </td>
+                                                                <td>
+                                                                    <input class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;" type="date" name="txtFechaCalExtraMetodologiaI_4" maxlength="2">
+                                                                </td>                                           
                                                             </tr>
                                                             <tr class="text-center">    
-                                                                <th>Taller de Lectura y Redacción</th>
+                                                                <th class="text-center">Taller de Lectura y Redacción I</th>
+                                                                <td></td>
+                                                                <td></td>
+                                                                <td></td>
+                                                                <td></td>
                                                                 <td>
-                                                                    <input class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;" type="number" name="txtFaltaTallerLecturaI_1" maxlength="2">
+                                                                    <input class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;" type="number" name="txtFaltaTallerI_1" maxlength="2">
                                                                 </td>
                                                                 <td>
-                                                                    <input class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;" type="number" name="txtFaltaTallerLecturaI_2" maxlength="2">
+                                                                    <input class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;" type="number" name="txtFaltaTallerI_2" maxlength="2">
                                                                 </td>
                                                                 <td>
-                                                                    <input class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;" type="number" name="txtFaltaTallerLecturaI_3" maxlength="2">
-                                                                </td>                                                       
+                                                                    <input class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;" type="number" name="txtFaltaTallerI_3" maxlength="2">
+                                                                </td>
+                                                                <td></td>
+                                                                <td></td>
+                                                                <td></td>
+                                                                <td></td>
+                                                                <td>
+                                                                    <input class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;" type="number" name="txtCalTallerI_1" maxlength="2">
+                                                                </td>
+                                                                <td>
+                                                                    <input class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;" type="number" name="txtCalTallerI_2" maxlength="2">
+                                                                </td>
+                                                                <td>
+                                                                    <input class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;" type="number" name="txtCalTallerI_3" maxlength="2">
+                                                                </td>
+                                                                <td></td>
+                                                                <td></td>
+                                                                <td></td>
+                                                                <td></td>
+                                                                <td>
+                                                                    <input class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;" type="number" name="txtCalExtraTallerI_1" maxlength="2">
+                                                                </td>
+                                                                <td>
+                                                                    <input class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;" type="date" name="txtFechaCalExtraTallerI_1" maxlength="2">
+                                                                </td>
+                                                                <td>
+                                                                    <input class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;" type="number" name="txtCalExtraTallerI_2" maxlength="2">
+                                                                </td>
+                                                                <td>
+                                                                    <input class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;" type="date" name="txtFechaCalExtraTallerI_2" maxlength="2">
+                                                                </td>
+                                                                <td>
+                                                                    <input class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;" type="number" name="txtCalExtraTallerI_3" maxlength="2">
+                                                                </td>
+                                                                <td>
+                                                                    <input class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;" type="date" name="txtFechaCalExtraTallerI_3" maxlength="2">
+                                                                </td>
+                                                                <td>
+                                                                    <input class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;" type="number" name="txtCalExtraTallerI_4" maxlength="2">
+                                                                </td>
+                                                                <td>
+                                                                    <input class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;" type="date" name="txtFechaCalExtraTallerI_4" maxlength="2">
+                                                                </td>                                           
                                                             </tr>
                                                             <tr class="text-center">    
-                                                                <th>Inglés I</th>
+                                                                <th class="text-center">Inglés I</th>
+                                                                <td></td>
+                                                                <td></td>
+                                                                <td></td>
+                                                                <td></td>
                                                                 <td>
                                                                     <input class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;" type="number" name="txtFaltaInglesI_1" maxlength="2">
                                                                 </td>
@@ -340,10 +486,55 @@
                                                                 </td>
                                                                 <td>
                                                                     <input class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;" type="number" name="txtFaltaInglesI_3" maxlength="2">
-                                                                </td>                                                       
+                                                                </td>
+                                                                <td></td>
+                                                                <td></td>
+                                                                <td></td>
+                                                                <td></td>
+                                                                <td>
+                                                                    <input class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;" type="number" name="txtCalInglesI_1" maxlength="2">
+                                                                </td>
+                                                                <td>
+                                                                    <input class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;" type="number" name="txtCalInglesI_2" maxlength="2">
+                                                                </td>
+                                                                <td>
+                                                                    <input class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;" type="number" name="txtCalInglesI_3" maxlength="2">
+                                                                </td>
+                                                                <td></td>
+                                                                <td></td>
+                                                                <td></td>
+                                                                <td></td>
+                                                                <td>
+                                                                    <input class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;" type="number" name="txtCalExtraInglesI_1" maxlength="2">
+                                                                </td>
+                                                                <td>
+                                                                    <input class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;" type="date" name="txtFechaCalExtraInglesI_1" maxlength="2">
+                                                                </td>
+                                                                <td>
+                                                                    <input class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;" type="number" name="txtCalExtraInglesI_2" maxlength="2">
+                                                                </td>
+                                                                <td>
+                                                                    <input class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;" type="date" name="txtFechaCalExtraInglesI_2" maxlength="2">
+                                                                </td>
+                                                                <td>
+                                                                    <input class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;" type="number" name="txtCalExtraInglesI_3" maxlength="2">
+                                                                </td>
+                                                                <td>
+                                                                    <input class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;" type="date" name="txtFechaCalExtraInglesI_3" maxlength="2">
+                                                                </td>
+                                                                <td>
+                                                                    <input class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;" type="number" name="txtCalExtraInglesI_4" maxlength="2">
+                                                                </td>
+                                                                <td>
+                                                                    <input class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;" type="date" name="txtFechaCalExtraInglesI_4" maxlength="2">
+                                                                </td>                                           
                                                             </tr>
                                                             <tr class="text-center">    
-                                                                <th>Informatica I</th>
+                                                                <th class="text-center">Informática I</th>
+                                                                <td></td>
+                                                                <td></td>
+                                                                <td></td>
+                                                                <td></td>
                                                                 <td>
                                                                     <input class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;" type="number" name="txtFaltaInfoI_1" maxlength="2">
                                                                 </td>
@@ -352,10 +543,55 @@
                                                                 </td>
                                                                 <td>
                                                                     <input class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;" type="number" name="txtFaltaInfoI_3" maxlength="2">
-                                                                </td>                                                       
+                                                                </td>
+                                                                <td></td>
+                                                                <td></td>
+                                                                <td></td>
+                                                                <td></td>
+                                                                <td>
+                                                                    <input class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;" type="number" name="txtCalInfoI_1" maxlength="2">
+                                                                </td>
+                                                                <td>
+                                                                    <input class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;" type="number" name="txtCalInfoI_2" maxlength="2">
+                                                                </td>
+                                                                <td>
+                                                                    <input class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;" type="number" name="txtCalInfoI_3" maxlength="2">
+                                                                </td>
+                                                                <td></td>
+                                                                <td></td>
+                                                                <td></td>
+                                                                <td></td>
+                                                                <td>
+                                                                    <input class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;" type="number" name="txtCalExtraInfoI_1" maxlength="2">
+                                                                </td>
+                                                                <td>
+                                                                    <input class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;" type="date" name="txtFechaCalExtraInfoI_1" maxlength="2">
+                                                                </td>
+                                                                <td>
+                                                                    <input class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;" type="number" name="txtCalExtraInfoI_2" maxlength="2">
+                                                                </td>
+                                                                <td>
+                                                                    <input class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;" type="date" name="txtFechaCalExtraInfoI_2" maxlength="2">
+                                                                </td>
+                                                                <td>
+                                                                    <input class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;" type="number" name="txtCalExtraInfoI_3" maxlength="2">
+                                                                </td>
+                                                                <td>
+                                                                    <input class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;" type="date" name="txtFechaCalExtraInfoI_3" maxlength="2">
+                                                                </td>
+                                                                <td>
+                                                                    <input class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;" type="number" name="txtCalExtraInfoI_4" maxlength="2">
+                                                                </td>
+                                                                <td>
+                                                                    <input class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;" type="date" name="txtFechaCalExtraInfoI_4" maxlength="2">
+                                                                </td>                                           
                                                             </tr>
                                                             <tr class="text-center">    
-                                                                <th>Ética I</th>
+                                                                <th class="text-center">Ética I</th>
+                                                                <td></td>
+                                                                <td></td>
+                                                                <td></td>
+                                                                <td></td>
                                                                 <td>
                                                                     <input class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;" type="number" name="txtFaltaEticaI_1" maxlength="2">
                                                                 </td>
@@ -364,34 +600,169 @@
                                                                 </td>
                                                                 <td>
                                                                     <input class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;" type="number" name="txtFaltaEticaI_3" maxlength="2">
-                                                                </td>                                                       
+                                                                </td>
+                                                                <td></td>
+                                                                <td></td>
+                                                                <td></td>
+                                                                <td></td>
+                                                                <td>
+                                                                    <input class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;" type="number" name="txtCalEticaI_1" maxlength="2">
+                                                                </td>
+                                                                <td>
+                                                                    <input class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;" type="number" name="txtCalEticaI_2" maxlength="2">
+                                                                </td>
+                                                                <td>
+                                                                    <input class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;" type="number" name="txtCalEticaI_3" maxlength="2">
+                                                                </td>
+                                                                <td></td>
+                                                                <td></td>
+                                                                <td></td>
+                                                                <td></td>
+                                                                <td>
+                                                                    <input class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;" type="number" name="txtCalExtraEticaI_1" maxlength="2">
+                                                                </td>
+                                                                <td>
+                                                                    <input class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;" type="date" name="txtFechaCalExtraEticaI_1" maxlength="2">
+                                                                </td>
+                                                                <td>
+                                                                    <input class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;" type="number" name="txtCalExtraEticaI_2" maxlength="2">
+                                                                </td>
+                                                                <td>
+                                                                    <input class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;" type="date" name="txtFechaCalExtraEticaI_2" maxlength="2">
+                                                                </td>
+                                                                <td>
+                                                                    <input class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;" type="number" name="txtCalExtraEticaI_3" maxlength="2">
+                                                                </td>
+                                                                <td>
+                                                                    <input class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;" type="date" name="txtFechaCalExtraEticaI_3" maxlength="2">
+                                                                </td>
+                                                                <td>
+                                                                    <input class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;" type="number" name="txtCalExtraEticaI_4" maxlength="2">
+                                                                </td>
+                                                                <td>
+                                                                    <input class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;" type="date" name="txtFechaCalExtraEticaI_4" maxlength="2">
+                                                                </td>                                           
                                                             </tr>
                                                             <tr class="text-center">    
-                                                                <th>Actividades Físicas, Deportivas y Recreativas I</th>
+                                                                <th class="text-center">Actividades Físicas, Deportivas y Recreativas I</th>
+                                                                <td></td>
+                                                                <td></td>
+                                                                <td></td>
+                                                                <td></td>
                                                                 <td>
-                                                                    <input class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;" type="number" name="txtFaltaActFisicasI_1" maxlength="2">
+                                                                    <input class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;" type="number" name="txtFaltaAFDRI_1" maxlength="2">
                                                                 </td>
                                                                 <td>
-                                                                    <input class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;" type="number" name="txtFaltaActFisicasI_2" maxlength="2">
+                                                                    <input class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;" type="number" name="txtFaltaAFDRI_2" maxlength="2">
                                                                 </td>
                                                                 <td>
-                                                                    <input class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;" type="number" name="txtFaltaActFisicasI_3" maxlength="2">
-                                                                </td>                                                       
+                                                                    <input class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;" type="number" name="txtFaltaAFDRI_3" maxlength="2">
+                                                                </td>
+                                                                <td></td>
+                                                                <td></td>
+                                                                <td></td>
+                                                                <td></td>
+                                                                <td>
+                                                                    <input class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;" type="number" name="txtCalAFDRI_1" maxlength="2">
+                                                                </td>
+                                                                <td>
+                                                                    <input class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;" type="number" name="txtCalAFDRI_2" maxlength="2">
+                                                                </td>
+                                                                <td>
+                                                                    <input class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;" type="number" name="txtCalAFDRI_3" maxlength="2">
+                                                                </td>
+                                                                <td></td>
+                                                                <td></td>
+                                                                <td></td>
+                                                                <td></td>
+                                                                <td>
+                                                                    <input class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;" type="number" name="txtCalExtraAFDRI_1" maxlength="2">
+                                                                </td>
+                                                                <td>
+                                                                    <input class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;" type="date" name="txtFechaCalExtraAFDRI_1" maxlength="2">
+                                                                </td>
+                                                                <td>
+                                                                    <input class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;" type="number" name="txtCalExtraAFDRI_2" maxlength="2">
+                                                                </td>
+                                                                <td>
+                                                                    <input class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;" type="date" name="txtFechaCalExtraAFDRI_2" maxlength="2">
+                                                                </td>
+                                                                <td>
+                                                                    <input class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;" type="number" name="txtCalExtraAFDRI_3" maxlength="2">
+                                                                </td>
+                                                                <td>
+                                                                    <input class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;" type="date" name="txtFechaCalExtraAFDRI_3" maxlength="2">
+                                                                </td>
+                                                                <td>
+                                                                    <input class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;" type="number" name="txtCalExtraAFDRI_4" maxlength="2">
+                                                                </td>
+                                                                <td>
+                                                                    <input class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;" type="date" name="txtFechaCalExtraAFDRI_4" maxlength="2">
+                                                                </td>                                           
                                                             </tr>
                                                             <tr class="text-center">    
-                                                                <th>Actividades Artísticas y Culturales I</th>
+                                                                <th class="text-center">Actividades Artísticas y Culturales I</th>
+                                                                <td></td>
+                                                                <td></td>
+                                                                <td></td>
+                                                                <td></td>
                                                                 <td>
-                                                                    <input class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;" type="number" name="txtFaltaActArtisticasI_1" maxlength="2">
+                                                                    <input class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;" type="number" name="txtFaltaAACI_1" maxlength="2">
                                                                 </td>
                                                                 <td>
-                                                                    <input class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;" type="number" name="txtFaltaActArtisticasI_1" maxlength="2">
+                                                                    <input class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;" type="number" name="txtFaltaAACI_2" maxlength="2">
                                                                 </td>
                                                                 <td>
-                                                                    <input class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;" type="number" name="txtFaltaActArtisticasI_1" maxlength="2">
-                                                                </td>                                                       
+                                                                    <input class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;" type="number" name="txtFaltaAACI_3" maxlength="2">
+                                                                </td>
+                                                                <td></td>
+                                                                <td></td>
+                                                                <td></td>
+                                                                <td></td>
+                                                                <td>
+                                                                    <input class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;" type="number" name="txtCalAACI_1" maxlength="2">
+                                                                </td>
+                                                                <td>
+                                                                    <input class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;" type="number" name="txtCalAACI_2" maxlength="2">
+                                                                </td>
+                                                                <td>
+                                                                    <input class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;" type="number" name="txtCalAACI_3" maxlength="2">
+                                                                </td>
+                                                                <td></td>
+                                                                <td></td>
+                                                                <td></td>
+                                                                <td></td>
+                                                                <td>
+                                                                    <input class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;" type="number" name="txtCalExtraAACI_1" maxlength="2">
+                                                                </td>
+                                                                <td>
+                                                                    <input class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;" type="date" name="txtFechaCalExtraAACI_1" maxlength="2">
+                                                                </td>
+                                                                <td>
+                                                                    <input class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;" type="number" name="txtCalExtraAACI_2" maxlength="2">
+                                                                </td>
+                                                                <td>
+                                                                    <input class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;" type="date" name="txtFechaCalExtraAACI_2" maxlength="2">
+                                                                </td>
+                                                                <td>
+                                                                    <input class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;" type="number" name="txtCalExtraAACI_3" maxlength="2">
+                                                                </td>
+                                                                <td>
+                                                                    <input class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;" type="date" name="txtFechaCalExtraAACI_3" maxlength="2">
+                                                                </td>
+                                                                <td>
+                                                                    <input class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;" type="number" name="txtCalExtraAACI_4" maxlength="2">
+                                                                </td>
+                                                                <td>
+                                                                    <input class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;" type="date" name="txtFechaCalExtraAACI_4" maxlength="2">
+                                                                </td>                                           
                                                             </tr>
                                                             <tr class="text-center">    
-                                                                <th>Salud Integral del Adolecente I</th>
+                                                                <th class="text-center">Salud Integral del Adolecente I</th>
+                                                                <td></td>
+                                                                <td></td>
+                                                                <td></td>
+                                                                <td></td>
                                                                 <td>
                                                                     <input class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;" type="number" name="txtFaltaSaludI_1" maxlength="2">
                                                                 </td>
@@ -400,8 +771,50 @@
                                                                 </td>
                                                                 <td>
                                                                     <input class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;" type="number" name="txtFaltaSaludI_3" maxlength="2">
-                                                                </td>                                                       
+                                                                </td>
+                                                                <td></td>
+                                                                <td></td>
+                                                                <td></td>
+                                                                <td></td>
+                                                                <td>
+                                                                    <input class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;" type="number" name="txtCalSaludI_1" maxlength="2">
+                                                                </td>
+                                                                <td>
+                                                                    <input class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;" type="number" name="txtCalSaludI_2" maxlength="2">
+                                                                </td>
+                                                                <td>
+                                                                    <input class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;" type="number" name="txtCalSaludI_3" maxlength="2">
+                                                                </td>
+                                                                <td></td>
+                                                                <td></td>
+                                                                <td></td>
+                                                                <td></td>
+                                                                <td>
+                                                                    <input class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;" type="number" name="txtCalExtraSaludI_1" maxlength="2">
+                                                                </td>
+                                                                <td>
+                                                                    <input class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;" type="date" name="txtFechaCalExtraSaludI_1" maxlength="2">
+                                                                </td>
+                                                                <td>
+                                                                    <input class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;" type="number" name="txtCalExtraSaludI_2" maxlength="2">
+                                                                </td>
+                                                                <td>
+                                                                    <input class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;" type="date" name="txtFechaCalExtraSaludI_2" maxlength="2">
+                                                                </td>
+                                                                <td>
+                                                                    <input class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;" type="number" name="txtCalExtraSaludI_3" maxlength="2">
+                                                                </td>
+                                                                <td>
+                                                                    <input class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;" type="date" name="txtFechaCalExtraSaludI_3" maxlength="2">
+                                                                </td>
+                                                                <td>
+                                                                    <input class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;" type="number" name="txtCalExtraSaludI_4" maxlength="2">
+                                                                </td>
+                                                                <td>
+                                                                    <input class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;" type="date" name="txtFechaCalExtraSaludI_4" maxlength="2">
+                                                                </td>                                           
                                                             </tr>
+                                                            
 														</tbody>
 													</table>
 												</div>
