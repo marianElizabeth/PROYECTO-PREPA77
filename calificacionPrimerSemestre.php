@@ -187,66 +187,221 @@
 			<div class="row">
 				<div class="col-xs-12">
 					<ul class="nav nav-tabs" style="margin-bottom: 15px;">
-					  	<li class="active"><a href="" data-toggle="tab">Nuevo</a></li>
+					  	<li class="active"><a href="" data-toggle="tab"></a></li>
 					  	<li><a href="" data-toggle="tab"></a></li>
 					</ul>
                     <div id="myTabContent" class="tab-content">
 						<div class="tab-pane fade active in" id="Nuevo">
 							<div class="container-fluid">
 								<div class="row">
-									<div class="col-xs-12 col-md-10 col-md-offset-1">
 										<form action="funciones/guardar-escueladondelbora.php" method="POST">
 											<div id="myTabContent"class="tab-content">
 												<div class="table-responsive">
+                                                    <table class="table table-hover text-center">
+                                                        <tr>
+                                                            <th class="text-rigth">Asignaturas</th>
+                                                            <th class="text-center">Faltas</th>
+                                                            <th class="text-center"></th>
+                                                            <th class="text-center"></th>
+                                                            <th class="text-center"></th>
+                                                            <th class="text-center"></th>
+                                                            <th class="text-center"></th>
+                                                            <th class="text-center">Calificaciones Parciales</th>
+                                                            <th class="text-center"></th>
+                                                            <th class="text-center"></th>
+                                                            <th class="text-center"></th>
+                                                            <th class="text-center"></th>
+                                                            <th class="text-center"></th>
+                                                            <th class="text-center"></th>
+                                                            <th class="text-center">Calificaciones Extraordinarias</th>
+                                                        </tr>
+                                                    </table>
+                                                    
 													<table class="table table-hover text-center">
-														<thead>
-															<tr>
-																<th class="text-center">Nombre de la escuela</th>
-																<th class="text-center">Puesto o Asignatura que atiende</th>
-																<th class="text-center">No. Horas</th>
-																<th class="text-center">CURP Docente</th>
-
-															</tr>
-														</thead>
-														<tbody>
-															<tr>
-																<td>
-																<select class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;" name="cmbNombreEscuela">
-																	<option>--Seleccione--</option>
-																	<?php
-																		include("funciones/conexion.php");
-																		$sentencia="SELECT * FROM escuela";
-																		$resultado=mysqli_query($conexion,$sentencia);
-																		while($regEscLaboral=mysqli_fetch_assoc($resultado)){
-																		echo "
-																		<option value='".$regEscLaboral['CCTEscuela']."'>".$regEscLaboral["nombreEscuela"]."</option>
-																		";
-																		}
-																	?>
-																</select>
-																</td>
-																<td>
-																<select class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;" name="cmbPuesto">
-																	<option>--Seleccione--</option>
-																	<?php
-																		include("funciones/conexion.php");
-																		$sentencia="SELECT * FROM puestoInstitucional";
-																		$resultado=mysqli_query($conexion,$sentencia);
-																		while($regEscLaboral=mysqli_fetch_assoc($resultado)){
-																		echo "
-																		<option value='".$regEscLaboral['idPuestoInstitucional']."'>".$regEscLaboral["descripcionInstitucional"]."</option>
-																		";
-																		}
-																	?>
-																</select>
-																</td>
-																<td>
-																<input class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;" type="text" name="txtNoHoras" maxlength="10">
-																</td>
-																<td>
-																<input class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;" type="text" name="txtCurpDocente" minlength="1" maxlength="18">
-																</td>
-															</tr>
+                                                        <tbody>
+                                                            <tr>
+                                                                <td>
+                                                                   <th class="text-center"></th>
+                                                                   <th class="text-center"></th>
+                                                                   <th class="text-center"></th>
+                                                                    <th class="text-center">1er Parcial</th>
+                                                                    <th class="text-center">2do Parcial</th>
+                                                                    <th class="text-center">3er Parcial</th>
+                                                                    <th class="text-center"></th>
+                                                                    <th class="text-center"></th>
+                                                                    <th class="text-center">1ro</th>
+                                                                    <th class="text-center">2do</th>
+                                                                    <th class="text-center">3ro</th>
+                                                                    <th class="text-center">Calificación</th>
+                                                                    <th class="text-center">Fecha</th>
+                                                                    <th class="text-center">Calificación</th>
+                                                                    <th class="text-center">Fecha</th>
+                                                                    <th class="text-center">Calificación</th>
+                                                                    <th class="text-center">Fecha</th>
+                                                                    <th class="text-center">Calificación</th>
+                                                                    <th class="text-center">Fecha</th>   
+                                                                </td>
+                                                            </tr>          
+                                                            <tr class="text-center">    
+                                                                <th>Matemáticas I</th>
+                                                                <td></td>
+                                                                <td></td>
+                                                                <td></td>
+                                                                <td>
+                                                                    <input class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;" type="number" name="txtFaltaMateI_1" maxlength="2">
+                                                                </td>
+                                                                <td>
+                                                                    <input class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;" type="number" name="txtFaltaMateI_2" maxlength="2">
+                                                                </td>
+                                                                
+                                                                <td>
+                                                                    <input class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;" type="number" name="txtFaltaMateI_3" maxlength="2">
+                                                                </td>
+                                                                <td></td>
+                                                                <td></td>
+                                                                <td>
+                                                                    <input class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;" type="number" name="txtFaltaMateI_1" maxlength="2">
+                                                                </td>
+                                                                <td>
+                                                                    <input class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;" type="number" name="txtFaltaMateI_2" maxlength="2">
+                                                                </td>
+                                                                <td>
+                                                                    <input class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;" type="number" name="txtFaltaMateI_3" maxlength="2">
+                                                                </td>
+                                                                   
+                                                                <td>
+                                                                    <input class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;" type="number" name="txtFaltaMateI_1" maxlength="2">
+                                                                </td>
+                                                                <td>
+                                                                    <input class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;" type="date" name="txtFaltaMateI_2" maxlength="2">
+                                                                </td>
+                                                                <td>
+                                                                    <input class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;" type="number" name="txtFaltaMateI_3" maxlength="2">
+                                                                </td>
+                                                                <td>
+                                                                    <input class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;" type="date" name="txtFaltaMateI_3" maxlength="2">
+                                                                </td>
+                                                                <td>
+                                                                    <input class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;" type="number" name="txtFaltaMateI_1" maxlength="2">
+                                                                </td>
+                                                                <td>
+                                                                    <input class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;" type="date" name="txtFaltaMateI_2" maxlength="2">
+                                                                </td>
+                                                                <td>
+                                                                    <input class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;" type="number" name="txtFaltaMateI_3" maxlength="2">
+                                                                </td>
+                                                                <td>
+                                                                    <input class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;" type="date" name="txtFaltaMateI_3" maxlength="2">
+                                                                </td>                                           
+                                                            </tr>
+                                                            <tr class="text-center">    
+                                                                <th>Química I</th>
+                                                                <td>
+                                                                    <input class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;" type="number" name="txtFaltaQuimicaI_1" maxlength="2">
+                                                                </td>
+                                                                <td>
+                                                                    <input class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;" type="number" name="txtFaltaQuimicaI_2" maxlength="2">
+                                                                </td>
+                                                                <td>
+                                                                    <input class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;" type="number" name="txtFaltaQuimicaI_3" maxlength="2">
+                                                                </td>                                                       
+                                                            </tr>
+                                                            <tr class="text-center">    
+                                                                <th>Metodología de la investigación</th>
+                                                                <td>
+                                                                    <input class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;" type="number" name="txtFaltaMetoI_1" maxlength="2">
+                                                                </td>
+                                                                <td>
+                                                                    <input class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;" type="number" name="txtFaltaMetoI_2" maxlength="2">
+                                                                </td>
+                                                                <td>
+                                                                    <input class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;" type="number" name="txtFaltaMetoI_3" maxlength="2">
+                                                                </td>                                                       
+                                                            </tr>
+                                                            <tr class="text-center">    
+                                                                <th>Taller de Lectura y Redacción</th>
+                                                                <td>
+                                                                    <input class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;" type="number" name="txtFaltaTallerLecturaI_1" maxlength="2">
+                                                                </td>
+                                                                <td>
+                                                                    <input class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;" type="number" name="txtFaltaTallerLecturaI_2" maxlength="2">
+                                                                </td>
+                                                                <td>
+                                                                    <input class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;" type="number" name="txtFaltaTallerLecturaI_3" maxlength="2">
+                                                                </td>                                                       
+                                                            </tr>
+                                                            <tr class="text-center">    
+                                                                <th>Inglés I</th>
+                                                                <td>
+                                                                    <input class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;" type="number" name="txtFaltaInglesI_1" maxlength="2">
+                                                                </td>
+                                                                <td>
+                                                                    <input class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;" type="number" name="txtFaltaInglesI_2" maxlength="2">
+                                                                </td>
+                                                                <td>
+                                                                    <input class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;" type="number" name="txtFaltaInglesI_3" maxlength="2">
+                                                                </td>                                                       
+                                                            </tr>
+                                                            <tr class="text-center">    
+                                                                <th>Informatica I</th>
+                                                                <td>
+                                                                    <input class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;" type="number" name="txtFaltaInfoI_1" maxlength="2">
+                                                                </td>
+                                                                <td>
+                                                                    <input class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;" type="number" name="txtFaltaInfoI_2" maxlength="2">
+                                                                </td>
+                                                                <td>
+                                                                    <input class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;" type="number" name="txtFaltaInfoI_3" maxlength="2">
+                                                                </td>                                                       
+                                                            </tr>
+                                                            <tr class="text-center">    
+                                                                <th>Ética I</th>
+                                                                <td>
+                                                                    <input class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;" type="number" name="txtFaltaEticaI_1" maxlength="2">
+                                                                </td>
+                                                                <td>
+                                                                    <input class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;" type="number" name="txtFaltaEticaI_2" maxlength="2">
+                                                                </td>
+                                                                <td>
+                                                                    <input class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;" type="number" name="txtFaltaEticaI_3" maxlength="2">
+                                                                </td>                                                       
+                                                            </tr>
+                                                            <tr class="text-center">    
+                                                                <th>Actividades Físicas, Deportivas y Recreativas I</th>
+                                                                <td>
+                                                                    <input class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;" type="number" name="txtFaltaActFisicasI_1" maxlength="2">
+                                                                </td>
+                                                                <td>
+                                                                    <input class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;" type="number" name="txtFaltaActFisicasI_2" maxlength="2">
+                                                                </td>
+                                                                <td>
+                                                                    <input class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;" type="number" name="txtFaltaActFisicasI_3" maxlength="2">
+                                                                </td>                                                       
+                                                            </tr>
+                                                            <tr class="text-center">    
+                                                                <th>Actividades Artísticas y Culturales I</th>
+                                                                <td>
+                                                                    <input class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;" type="number" name="txtFaltaActArtisticasI_1" maxlength="2">
+                                                                </td>
+                                                                <td>
+                                                                    <input class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;" type="number" name="txtFaltaActArtisticasI_1" maxlength="2">
+                                                                </td>
+                                                                <td>
+                                                                    <input class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;" type="number" name="txtFaltaActArtisticasI_1" maxlength="2">
+                                                                </td>                                                       
+                                                            </tr>
+                                                            <tr class="text-center">    
+                                                                <th>Salud Integral del Adolecente I</th>
+                                                                <td>
+                                                                    <input class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;" type="number" name="txtFaltaSaludI_1" maxlength="2">
+                                                                </td>
+                                                                <td>
+                                                                    <input class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;" type="number" name="txtFaltaSaludI_2" maxlength="2">
+                                                                </td>
+                                                                <td>
+                                                                    <input class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;" type="number" name="txtFaltaSaludI_3" maxlength="2">
+                                                                </td>                                                       
+                                                            </tr>
 														</tbody>
 													</table>
 												</div>

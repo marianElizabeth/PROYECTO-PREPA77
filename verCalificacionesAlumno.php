@@ -252,13 +252,13 @@
                                     </tr>
                                     <tr>
                                         <th class="text-center"></th>
-                                        <th class="text-center">1ero</th>
+                                        <th class="text-center">1ro</th>
                                         <th class="text-center">2do</th>
                                         <th class="text-center">3ro</th>
                                         <th class="text-center">Total</th>
                                         <th class="text-center"></th>
                                         <th class="text-center"></th>
-                                        <th class="text-center">1ero</th>
+                                        <th class="text-center">1ro</th>
                                         <th class="text-center">2do</th>
                                         <th class="text-center">3ro</th>
                                         <th class="text-center">Final</th>
