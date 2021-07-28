@@ -194,7 +194,7 @@
 						<div class="tab-pane fade active in" id="Nuevo">
 							<div class="container-fluid">
 								<div class="row">
-										<form action="funciones/guardar-calprimersemestre.php" method="POST">
+										<form action="funciones/calprimersemestre.php" method="POST">
 											<div id="myTabContent"class="tab-content">
 												<div class="table-responsive">
 
