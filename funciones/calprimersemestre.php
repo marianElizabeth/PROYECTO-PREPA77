@@ -72,7 +72,7 @@
     $txtFechaCalExtraInglesI_1 = $_POST['txtFechaCalExtraInglesI_1'];
     $txtCalExtraInglesI_2= $_POST['txtCalExtraInglesI_2'];
     $txtFechaCalExtraInglesI_2= $_POST['txtFechaCalExtraInglesI_2'];
-    $txtCalExtraInglesI_4= $_POST['txtCalExtraInglesI_3'];
+    $txtCalExtraInglesI_3= $_POST['txtCalExtraInglesI_3'];
     $txtFechaCalExtraInglesI_3 = $_POST['txtFechaCalExtraInglesI_3'];
     $txtCalExtraInglesI_4= $_POST['txtCalExtraInglesI_4'];
     $txtFechaCalExtraInglesI_4= $_POST['txtFechaCalExtraInglesI_4'];
@@ -104,7 +104,7 @@
     $txtFechaCalExtraEticaI_2 = $_POST['txtFechaCalExtraEticaI_2'];
     $txtCalExtraEticaI_3 = $_POST['txtCalExtraEticaI_3'];
     $txtFechaCalExtraEticaI_3 = $_POST['txtFechaCalExtraEticaI_3'];
-    $txtCalExtraEticaI_= $_POST['txtCalExtraEticaI_4'];
+    $txtCalExtraEticaI_4= $_POST['txtCalExtraEticaI_4'];
     $txtFechaCalExtraEticaI_4 = $_POST['txtFechaCalExtraEticaI_4'];
 
     $txtCalAFDRI_1= $_POST['txtCalAFDRI_1'];
@@ -151,7 +151,8 @@
     $txtFechaCalExtraSaludI_3 = $_POST['txtFechaCalExtraSaludI_3'];
     $txtCalExtraSaludI_4 = $_POST['txtCalExtraSaludI_4'];
     $txtFechaCalExtraSaludI_4 = $_POST['txtFechaCalExtraSaludI_4'];
-
+    echo "$txtFaltaSaludI_1 $txtFaltaSaludI_2 $txtFaltaSaludI_3 ";
+    echo "$txtCalSaludI_1 $txtCalSaludI_2 $txtCalSaludI_3 ";
     $calificacionFinal1   = ($txtCalMateI_3 + $txtCalMateI_2 + $txtCalMateI_1)/3;
     $calificacionFinal2   = ($txtCalQuimicaI_3 + $txtCalQuimicaI_2 + $txtCalQuimicaI_1)/3;
     $calificacionFinal3   = ($txtCalMetodologiaI_3 + $txtCalMetodologiaI_2 + $txtCalMetodologiaI_1)/3;
@@ -162,7 +163,17 @@
     $calificacionFinal8   = ($txtCalAFDRI_3 + $txtCalAFDRI_2 + $txtCalAFDRI_1)/3;
     $calificacionFinal9   = ($txtCalAACI_3 + $txtCalAACI_2 + $txtCalAACI_1)/3;
     $calificacionFinal10  = ($txtCalSaludI_3 + $txtCalSaludI_2 + $txtCalSaludI_1)/3;
-    $sentencia= "INSERT INTO datosalumno_semestre1 VALUES 
+    /*echo "$calificacionFinal1";
+    echo "$calificacionFinal2";
+    echo "$calificacionFinal3";
+    echo "$calificacionFinal4";
+    echo "$calificacionFinal5";
+    echo "$calificacionFinal6";
+    echo "$calificacionFinal7";
+    echo "$calificacionFinal8";
+    echo "$calificacionFinal9";
+    echo "$calificacionFinal10";*/
+    $sentencia="INSERT INTO `datosalumno-semestre1` VALUES
         (DEFAULT,1,'$matricula',$txtFaltaMateI_1,$txtFaltaMateI_2,$txtFaltaMateI_3,$txtCalMateI_1,$txtCalMateI_2,$txtCalMateI_3,$txtCalExtraMateI_1,'$txtFechaCalExtraMateI_1',$txtCalExtraMateI_2,'$txtFechaCalExtraMateI_2',$txtCalExtraMateI_3,'$txtFechaCalExtraMateI_3',$txtCalExtraMateI_4,'$txtFechaCalExtraMateI_4',$calificacionFinal1),
         (DEFAULT,2,'$matricula',$txtFaltaQuimicaI_1,$txtFaltaQuimicaI_2,$txtFaltaQuimicaI_3,$txtCalQuimicaI_1,$txtCalQuimicaI_2,$txtCalQuimicaI_3,$txtCalExtraQuimicaI_1,'$txtFechaCalExtraQuimicaI_1',$txtCalExtraQuimicaI_2,'$txtFechaCalExtraQuimicaI_2',$txtCalExtraQuimicaI_3,'$txtFechaCalExtraQuimicaI_3',$txtCalExtraQuimicaI_4,'$txtFechaCalExtraQuimicaI_4',$calificacionFinal2),
         (DEFAULT,3,'$matricula',$txtFaltaMetodologiaI_1,$txtFaltaMetodologiaI_2,$txtFaltaMetodologiaI_3,$txtCalMetodologiaI_1,$txtCalMetodologiaI_2,$txtCalMetodologiaI_3,$txtCalExtraMetodologiaI_1,'$txtFechaCalExtraMetodologiaI_1',$txtCalExtraMetodologiaI_2,'$txtFechaCalExtraMetodologiaI_2',$txtCalExtraMetodologiaI_3,'$txtFechaCalExtraMetodologiaI_3',$txtCalExtraMetodologiaI_4,'$txtFechaCalExtraMetodologiaI_4',$calificacionFinal3),
@@ -172,7 +183,7 @@
         (DEFAULT,7,'$matricula',$txtFaltaEticaI_1,$txtFaltaEticaI_2,$txtFaltaEticaI_3,$txtCalEticaI_1,$txtCalEticaI_2,$txtCalEticaI_3,$txtCalExtraEticaI_1,'$txtFechaCalExtraEticaI_1',$txtCalExtraEticaI_2,'$txtFechaCalExtraEticaI_2',$txtCalExtraEticaI_3,'$txtFechaCalExtraEticaI_3',$txtCalExtraEticaI_4,'$txtFechaCalExtraEticaI_4',$calificacionFinal7),
         (DEFAULT,8,'$matricula',$txtFaltaAFDRI_1,$txtFaltaAFDRI_2,$txtFaltaAFDRI_3,$txtCalAFDRI_1,$txtCalAFDRI_2,$txtCalAFDRI_3,$txtCalExtraAFDRI_1,'$txtFechaCalExtraAFDRI_1',$txtCalExtraAFDRI_2,'$txtFechaCalExtraAFDRI_2',$txtCalExtraAFDRI_3,'$txtFechaCalExtraAFDRI_3',$txtCalExtraAFDRI_4,'$txtFechaCalExtraAFDRI_4',$calificacionFinal8),
         (DEFAULT,9,'$matricula',$txtFaltaAACI_1,$txtFaltaAACI_2,$txtFaltaAACI_3,$txtCalAACI_1,$txtCalAACI_2,$txtCalAACI_3,$txtCalExtraAACI_1,'$txtFechaCalExtraAACI_1',$txtCalExtraAACI_2,'$txtFechaCalExtraAACI_2',$txtCalExtraAACI_3,'$txtFechaCalExtraAACI_3',$txtCalExtraAACI_4,'$txtFechaCalExtraAACI_4',$calificacionFinal9),
-        (DEFAULT,10,'$matricula',$txtFaltaSaludI_1,$txtFaltaSaludI_2,$txtFaltaSaludI_3,$txtCalSaludI_1,$txtCalSaludI_2,$txtCalSaludI_3,$txtCalExtraSaludI_1,'$txtFechaCalExtraSaludI_1',$txtCalExtraSaludI_2,'$txtFechaCalExtraSaludI_2',$txtCalExtraSaludI_3,'$txtFechaCalExtraSaludI_3',$calificacionFinal10);";
+        (DEFAULT,10,'$matricula',$txtFaltaSaludI_1,$txtFaltaSaludI_2,$txtFaltaSaludI_3,$txtCalSaludI_1,$txtCalSaludI_2,$txtCalSaludI_3,$txtCalExtraSaludI_1,'$txtFechaCalExtraSaludI_1',$txtCalExtraSaludI_2,'$txtFechaCalExtraSaludI_2',$txtCalExtraSaludI_3,'$txtFechaCalExtraSaludI_3',$txtCalExtraSaludI_4,'$txtFechaCalExtraSaludI_4',$calificacionFinal10);";
     if(mysqli_query($conexion,$sentencia)){
         header("Location: ../verCalificacionesAlumno.php");}
     else{
