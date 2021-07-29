@@ -43,7 +43,7 @@
 					</a>
 					<ul class="list-unstyled full-box">
 						<li>
-							<a href="DatosAlumno.php"><i class="zmdi zmdi-assignment zmdi-hc-fw"></i>Registro Alumno</a>
+							<a href="DatosAlumno.php"><i class="zmdi zmdi-assignment zmdi-hc-fw"></i>se$semestre1 Alumno</a>
 						</li>
 						
 					</ul>
@@ -278,268 +278,392 @@
                                     </tr>
                                 </thead>
                                 <tbody>
-                                    <tr>
+                                    
+                                    <?php
+                                        include("funciones/conexion.php");									  
+										$sentencia = "
+                                        SELECT
+                                        datosalumno.matricula, 
+                                        `datosalumno-semestre1`.idMateria1, 
+                                        semestre1.materia1, 
+                                        `datosalumno-semestre1`.falta1ro, 
+                                        `datosalumno-semestre1`.falta2do, 
+                                        `datosalumno-semestre1`.falta3ro, 
+                                        `datosalumno-semestre1`.calParcial1ro, 
+                                        `datosalumno-semestre1`.calParcial2do, 
+                                        `datosalumno-semestre1`.calParcial3ro, 
+                                        `datosalumno-semestre1`.calExtra1, 
+                                        `datosalumno-semestre1`.fechaCalExtra1, 
+                                        `datosalumno-semestre1`.calExtra2, 
+                                        `datosalumno-semestre1`.fechaCalExtra2, 
+                                        `datosalumno-semestre1`.calExtra3, 
+                                        `datosalumno-semestre1`.fechaCalExtra3, 
+                                        `datosalumno-semestre1`.calExtra4, 
+                                        `datosalumno-semestre1`.fechaCalExtra4, 
+                                        `datosalumno-semestre1`.calFinal
+                                         FROM
+                                        datosalumno
+                                        INNER JOIN
+                                        `datosalumno-semestre1`
+                                        ON 
+                                            datosalumno.matricula = `datosalumno-semestre1`.matricula
+                                        INNER JOIN
+                                        semestre1
+                                        ON 
+                                            `datosalumno-semestre1`.idMateria1 = semestre1.idMateria1
+                                          WHERE
+                                        datosalumno.matricula = '11111111111'
+                                        ";	
+                                        $resultado = mysqli_query($conexion, $sentencia);
+                                        $semestre1=mysqli_fetch_assoc($resultado);	
+                                        $semestre11=mysqli_fetch_assoc($resultado);	
+                                        $semestre12=mysqli_fetch_assoc($resultado);
+                                        $semestre13=mysqli_fetch_assoc($resultado);
+                                        $semestre14=mysqli_fetch_assoc($resultado);
+                                        $semestre15=mysqli_fetch_assoc($resultado);
+                                        $semestre16=mysqli_fetch_assoc($resultado);
+                                        $semestre17=mysqli_fetch_assoc($resultado);
+                                        $semestre18=mysqli_fetch_assoc($resultado);
+                                        $semestre19=mysqli_fetch_assoc($resultado);
+                                        mysqli_close($conexion);
+
+                                        while ($registro = mysqli_fetch_assoc($resultado) ){
+                                            for ($z=1; $z <11 ; $z++) { 
+                                            
+                                                if($semestre1['idMateria1']==$z){
+                                                    echo "
+                                                    <tr>
+                                                    <td>".$semestre1["materia1"]."+" .$z."</td>
+                                                    <td>".$semestre1["falta1ro"]."</td>
+                                                    <td>".$semestre1["falta2do"]."</td>
+                                                    <td>".$semestre1["falta3ro"]."</td>
+                                                    <td>3</td>
+                                                    <td></td>
+                                                    <td></td>
+                                                    <td>".$semestre1["calParcial1ro"]."</td>
+                                                    <td>".$semestre1["calParcial2do"]."</td>
+                                                    <td>".$semestre1["calParcial3ro"]."</td>
+                                                    <td>".$semestre1["calFinal"]."</td>
+                                                    <td></td>
+                                                    <td></td>
+                                                    <td>".$semestre1["calExtra1"]."</td>
+                                                    <td>".$semestre1["fechaCalExtra1"]."</td>
+                                                    <td>".$semestre1["calExtra2"]."</td>
+                                                    <td>".$semestre1["fechaCalExtra2"]."</td>
+                                                    <td>".$semestre1["calExtra3"]."</td>
+                                                    <td>".$semestre1["fechaCalExtra3"]."</td>
+                                                    <td>".$semestre1["calExtra4"]."</td>
+                                                    <td>".$semestre1["fechaCalExtra4"]."</td>
+                                                    <td></td>
+                                                    <td><a href='actualizar-alumno.php?MatriculaUpdate=".$semestre1["matricula"]."' class='btn btn-success btn-raised btn-xs'><i class='zmdi zmdi-refresh'></i></a></td>
+                                                      <td><a href='funciones/eliminar-madre.php?MatriculaDelete=".$semestre1["matricula"]."'><button class='btn btn-danger btn-raised btn-xs' type='button' onclick='return confirmarEliminar()'><i class='zmdi zmdi-delete'></i></button></a></td>
+                                                      </tr>
+                                                    
+                                                    ";}                                                
+                                            }                                                                        
+                                        }
+                                        
+                                        if($semestre1['idMateria1']==1){
+                                        echo "
+                                        <tr>
                                         <td>Matematicas I</td>
-                                        <td>0</td>
-                                        <td>0</td>
-                                        <td>0</td>
-                                        <td>0</td>
+                                        <td>".$semestre1["falta1ro"]."</td>
+                                        <td>".$semestre1["falta2do"]."</td>
+                                        <td>".$semestre1["falta3ro"]."</td>
+                                        <td>3</td>
                                         <td></td>
                                         <td></td>
-                                        <td>0</td>
-                                        <td>0</td>
-                                        <td>0</td>
-                                        <td>0</td>
+                                        <td>".$semestre1["calParcial1ro"]."</td>
+                                        <td>".$semestre1["calParcial2do"]."</td>
+                                        <td>".$semestre1["calParcial3ro"]."</td>
+                                        <td>".$semestre1["calFinal"]."</td>
                                         <td></td>
                                         <td></td>
-                                        <td>0</td>
-                                        <td>0</td>
-                                        <td>0</td>
-                                        <td>0</td>
-                                        <td>0</td>
-                                        <td>0</td>
-                                        <td>0</td>
-                                        <td>0</td>
+                                        <td>".$semestre1["calExtra1"]."</td>
+                                        <td>".$semestre1["fechaCalExtra1"]."</td>
+                                        <td>".$semestre1["calExtra2"]."</td>
+                                        <td>".$semestre1["fechaCalExtra2"]."</td>
+                                        <td>".$semestre1["calExtra3"]."</td>
+                                        <td>".$semestre1["fechaCalExtra3"]."</td>
+                                        <td>".$semestre1["calExtra4"]."</td>
+                                        <td>".$semestre1["fechaCalExtra4"]."</td>
                                         <td></td>
-                                        <td><a href="#!" class="btn btn-success btn-raised btn-xs"><i class="zmdi zmdi-refresh"></i></a></td>
-										<td><a href="#!" class="btn btn-danger btn-raised btn-xs"><i class="zmdi zmdi-delete"></i></a></td>
-
-                                    </tr>
-                                    <tr>
-                                        <td>Quimica I</td>
-                                        <td>0</td>
-                                        <td>0</td>
-                                        <td>0</td>
-                                        <td>0</td>
-                                        <td></td>
-                                        <td></td>
-                                        <td>0</td>
-                                        <td>0</td>
-                                        <td>0</td>
-                                        <td>0</td>
-                                        <td></td>
-                                        <td></td>
-                                        <td>0</td>
-                                        <td>0</td>
-                                        <td>0</td>
-                                        <td>0</td>
-                                        <td>0</td>
-                                        <td>0</td>
-                                        <td>0</td>
-                                        <td>0</td>
-                                        <td></td>
-                                        <td><a href="#!" class="btn btn-success btn-raised btn-xs"><i class="zmdi zmdi-refresh"></i></a></td>
-										<td><a href="#!" class="btn btn-danger btn-raised btn-xs"><i class="zmdi zmdi-delete"></i></a></td>
-
-                                    </tr>
-                                    <tr>
-                                        <td>Metodologia de la investigación I</td>
-                                        <td>0</td>
-                                        <td>0</td>
-                                        <td>0</td>
-                                        <td>0</td>
-                                        <td></td>
-                                        <td></td>
-                                        <td>0</td>
-                                        <td>0</td>
-                                        <td>0</td>
-                                        <td>0</td>
-                                        <td></td>
-                                        <td></td>
-                                        <td>0</td>
-                                        <td>0</td>
-                                        <td>0</td>
-                                        <td>0</td>
-                                        <td>0</td>
-                                        <td>0</td>
-                                        <td>0</td>
-                                        <td>0</td>
-                                        <td></td>
-                                        <td><a href="#!" class="btn btn-success btn-raised btn-xs"><i class="zmdi zmdi-refresh"></i></a></td>
-										<td><a href="#!" class="btn btn-danger btn-raised btn-xs"><i class="zmdi zmdi-delete"></i></a></td>
-                                    </tr>
-                                    <tr>
-                                        <td>Taller de lectura y redacción I</td>
-                                        <td>0</td>
-                                        <td>0</td>
-                                        <td>0</td>
-                                        <td>0</td>
-                                        <td></td>
-                                        <td></td>
-                                        <td>0</td>
-                                        <td>0</td>
-                                        <td>0</td>
-                                        <td>0</td>
-                                        <td></td>
-                                        <td></td>
-                                        <td>0</td>
-                                        <td>0</td>
-                                        <td>0</td>
-                                        <td>0</td>
-                                        <td>0</td>
-                                        <td>0</td>
-                                        <td>0</td>
-                                        <td>0</td>
-                                        <td></td>
-                                        <td><a href="#!" class="btn btn-success btn-raised btn-xs"><i class="zmdi zmdi-refresh"></i></a></td>
-										<td><a href="#!" class="btn btn-danger btn-raised btn-xs"><i class="zmdi zmdi-delete"></i></a></td>
-                                    </tr>
-                                    <tr>
-                                        <td>Ingles I</td>
-                                        <td>0</td>
-                                        <td>0</td>
-                                        <td>0</td>
-                                        <td>0</td>
-                                        <td></td>
-                                        <td></td>
-                                        <td>0</td>
-                                        <td>0</td>
-                                        <td>0</td>
-                                        <td>0</td>
-                                        <td></td>
-                                        <td></td>
-                                        <td>0</td>
-                                        <td>0</td>
-                                        <td>0</td>
-                                        <td>0</td>
-                                        <td>0</td>
-                                        <td>0</td>
-                                        <td>0</td>
-                                        <td>0</td>
-                                        <td></td>
-                                        <td><a href="#!" class="btn btn-success btn-raised btn-xs"><i class="zmdi zmdi-refresh"></i></a></td>
-										<td><a href="#!" class="btn btn-danger btn-raised btn-xs"><i class="zmdi zmdi-delete"></i></a></td> 
-                                    </tr>
-                                    <tr>
-                                        <td>Informatica I</td>
-                                        <td>0</td>
-                                        <td>0</td>
-                                        <td>0</td>
-                                        <td>0</td>
-                                        <td></td>
-                                        <td></td>
-                                        <td>0</td>
-                                        <td>0</td>
-                                        <td>0</td>
-                                        <td>0</td>
-                                        <td></td>
-                                        <td></td>
-                                        <td>0</td>
-                                        <td>0</td>
-                                        <td>0</td>
-                                        <td>0</td>
-                                        <td>0</td>
-                                        <td>0</td>
-                                        <td>0</td>
-                                        <td>0</td>
-                                        <td></td>
-                                        <td><a href="#!" class="btn btn-success btn-raised btn-xs"><i class="zmdi zmdi-refresh"></i></a></td>
-										<td><a href="#!" class="btn btn-danger btn-raised btn-xs"><i class="zmdi zmdi-delete"></i></a></td>
-                                    </tr>
-                                    <tr>
-                                        <td>Etica I</td>
-                                        <td>0</td>
-                                        <td>0</td>
-                                        <td>0</td>
-                                        <td>0</td>
-                                        <td></td>
-                                        <td></td>
-                                        <td>0</td>
-                                        <td>0</td>
-                                        <td>0</td>
-                                        <td>0</td>
-                                        <td></td>
-                                        <td></td>
-                                        <td>0</td>
-                                        <td>0</td>
-                                        <td>0</td>
-                                        <td>0</td>
-                                        <td>0</td>
-                                        <td>0</td>
-                                        <td>0</td>
-                                        <td>0</td>
-                                        <td></td>
-                                        <td><a href="#!" class="btn btn-success btn-raised btn-xs"><i class="zmdi zmdi-refresh"></i></a></td>
-										<td><a href="#!" class="btn btn-danger btn-raised btn-xs"><i class="zmdi zmdi-delete"></i></a></td>
-                                    </tr>
-                                    <tr>
-                                        <td>Actividades Fisicas y Recreativas I</td>
-                                        <td>0</td>
-                                        <td>0</td>
-                                        <td>0</td>
-                                        <td>0</td>
-                                        <td></td>
-                                        <td></td>
-                                        <td>0</td>
-                                        <td>0</td>
-                                        <td>0</td>
-                                        <td>0</td>
-                                        <td></td>
-                                        <td></td>
-                                        <td>0</td>
-                                        <td>0</td>
-                                        <td>0</td>
-                                        <td>0</td>
-                                        <td>0</td>
-                                        <td>0</td>
-                                        <td>0</td>
-                                        <td>0</td>
-                                        <td></td>
-                                        <td><a href="#!" class="btn btn-success btn-raised btn-xs"><i class="zmdi zmdi-refresh"></i></a></td>
-										<td><a href="#!" class="btn btn-danger btn-raised btn-xs"><i class="zmdi zmdi-delete"></i></a></td>
-                                    </tr>
-                                    <tr>
-                                        <td>Actividades Artisticas y Culturales I</td>
-                                        <td>0</td>
-                                        <td>0</td>
-                                        <td>0</td>
-                                        <td>0</td>
-                                        <td></td>
-                                        <td></td>
-                                        <td>0</td>
-                                        <td>0</td>
-                                        <td>0</td>
-                                        <td>0</td>
-                                        <td></td>
-                                        <td></td>
-                                        <td>0</td>
-                                        <td>0</td>
-                                        <td>0</td>
-                                        <td>0</td>
-                                        <td>0</td>
-                                        <td>0</td>
-                                        <td>0</td>
-                                        <td>0</td>
-                                        <td></td>
-                                        <td><a href="#!" class="btn btn-success btn-raised btn-xs"><i class="zmdi zmdi-refresh"></i></a></td>
-										<td><a href="#!" class="btn btn-danger btn-raised btn-xs"><i class="zmdi zmdi-delete"></i></a></td>
-                                    </tr>
-                                    <tr>
-                                        <td>Salud Integral del Adolecente I</td>
-                                        <td>0</td>
-                                        <td>0</td>
-                                        <td>0</td>
-                                        <td>0</td>
-                                        <td></td>
-                                        <td></td>
-                                        <td>0</td>
-                                        <td>0</td>
-                                        <td>0</td>
-                                        <td>0</td>
-                                        <td></td>
-                                        <td></td>
-                                        <td>0</td>
-                                        <td>0</td>
-                                        <td>0</td>
-                                        <td>0</td>
-                                        <td>0</td>
-                                        <td>0</td>
-                                        <td>0</td>
-                                        <td>0</td>
-                                        <td></td>
-                                        <td><a href="#!" class="btn btn-success btn-raised btn-xs"><i class="zmdi zmdi-refresh"></i></a></td>
-										<td><a href="#!" class="btn btn-danger btn-raised btn-xs"><i class="zmdi zmdi-delete"></i></a></td>
-                                    </tr>
+                                        <td><a href='actualizar-alumno.php?MatriculaUpdate=".$semestre1["matricula"]."' class='btn btn-success btn-raised btn-xs'><i class='zmdi zmdi-refresh'></i></a></td>
+										  <td><a href='funciones/eliminar-madre.php?MatriculaDelete=".$semestre1["matricula"]."'><button class='btn btn-danger btn-raised btn-xs' type='button' onclick='return confirmarEliminar()'><i class='zmdi zmdi-delete'></i></button></a></td>
+                                          </tr>
+                                        ";}
+                                    ?>
+                                        <?php
+                                        if($semestre11['idMateria1']==2){
+                                            echo "
+                                            <tr>
+                                            <td>Quimica I</td>
+                                            <td>".$semestre11["falta1ro"]."</td>
+                                            <td>".$semestre11["falta2do"]."</td>
+                                            <td>".$semestre11["falta3ro"]."</td>
+                                            <td>3</td>
+                                            <td></td>
+                                            <td></td>
+                                            <td>".$semestre11["calParcial1ro"]."</td>
+                                            <td>".$semestre11["calParcial2do"]."</td>
+                                            <td>".$semestre11["calParcial3ro"]."</td>
+                                            <td>".$semestre11["calFinal"]."</td>
+                                            <td></td>
+                                            <td></td>
+                                            <td>".$semestre11["calExtra1"]."</td>
+                                            <td>".$semestre11["fechaCalExtra1"]."</td>
+                                            <td>".$semestre11["calExtra2"]."</td>
+                                            <td>".$semestre11["fechaCalExtra2"]."</td>
+                                            <td>".$semestre11["calExtra3"]."</td>
+                                            <td>".$semestre11["fechaCalExtra3"]."</td>
+                                            <td>".$semestre11["calExtra4"]."</td>
+                                            <td>".$semestre11["fechaCalExtra4"]."</td>
+                                            <td></td>
+                                            <td><a href='actualizar-alumno.php?MatriculaUpdate=".$semestre1["matricula"]."' class='btn btn-success btn-raised btn-xs'><i class='zmdi zmdi-refresh'></i></a></td>
+                                            <td><a href='funciones/eliminar-madre.php?MatriculaDelete=".$semestre1["matricula"]."'><button class='btn btn-danger btn-raised btn-xs' type='button' onclick='return confirmarEliminar()'><i class='zmdi zmdi-delete'></i></button></a></td>
+                                            </tr>
+                                            ";}?>
+                                            <?php
+                                        if($semestre12['idMateria1']==3){
+                                            echo "
+                                            <tr>
+                                            <td>Metodologia de la investigación I</td>
+                                            <td>".$semestre12["falta1ro"]."</td>
+                                            <td>".$semestre12["falta2do"]."</td>
+                                            <td>".$semestre12["falta3ro"]."</td>
+                                            <td>3</td>
+                                            <td></td>
+                                            <td></td>
+                                            <td>".$semestre12["calParcial1ro"]."</td>
+                                            <td>".$semestre12["calParcial2do"]."</td>
+                                            <td>".$semestre12["calParcial3ro"]."</td>
+                                            <td>".$semestre12["calFinal"]."</td>
+                                            <td></td>
+                                            <td></td>
+                                            <td>".$semestre12["calExtra1"]."</td>
+                                            <td>".$semestre12["fechaCalExtra1"]."</td>
+                                            <td>".$semestre12["calExtra2"]."</td>
+                                            <td>".$semestre12["fechaCalExtra2"]."</td>
+                                            <td>".$semestre12["calExtra3"]."</td>
+                                            <td>".$semestre12["fechaCalExtra3"]."</td>
+                                            <td>".$semestre12["calExtra4"]."</td>
+                                            <td>".$semestre12["fechaCalExtra4"]."</td>
+                                            <td></td>
+                                            <td><a href='actualizar-alumno.php?MatriculaUpdate=".$semestre1["matricula"]."' class='btn btn-success btn-raised btn-xs'><i class='zmdi zmdi-refresh'></i></a></td>
+                                            <td><a href='funciones/eliminar-madre.php?MatriculaDelete=".$semestre1["matricula"]."'><button class='btn btn-danger btn-raised btn-xs' type='button' onclick='return confirmarEliminar()'><i class='zmdi zmdi-delete'></i></button></a></td>
+                                            </tr>
+                                            ";}?>
+                                            <?php
+                                        if($semestre13['idMateria1']==4){
+                                            echo "
+                                            <tr>
+                                            <td>Taller de lectura y redacción I</td>
+                                            <td>".$semestre13["falta1ro"]."</td>
+                                            <td>".$semestre13["falta2do"]."</td>
+                                            <td>".$semestre13["falta3ro"]."</td>
+                                            <td>3</td>
+                                            <td></td>
+                                            <td></td>
+                                            <td>".$semestre13["calParcial1ro"]."</td>
+                                            <td>".$semestre13["calParcial2do"]."</td>
+                                            <td>".$semestre13["calParcial3ro"]."</td>
+                                            <td>".$semestre13["calFinal"]."</td>
+                                            <td></td>
+                                            <td></td>
+                                            <td>".$semestre13["calExtra1"]."</td>
+                                            <td>".$semestre13["fechaCalExtra1"]."</td>
+                                            <td>".$semestre13["calExtra2"]."</td>
+                                            <td>".$semestre13["fechaCalExtra2"]."</td>
+                                            <td>".$semestre13["calExtra3"]."</td>
+                                            <td>".$semestre13["fechaCalExtra3"]."</td>
+                                            <td>".$semestre13["calExtra4"]."</td>
+                                            <td>".$semestre13["fechaCalExtra4"]."</td>
+                                            <td></td>
+                                            <td><a href='actualizar-alumno.php?MatriculaUpdate=".$semestre1["matricula"]."' class='btn btn-success btn-raised btn-xs'><i class='zmdi zmdi-refresh'></i></a></td>
+                                            <td><a href='funciones/eliminar-madre.php?MatriculaDelete=".$semestre1["matricula"]."'><button class='btn btn-danger btn-raised btn-xs' type='button' onclick='return confirmarEliminar()'><i class='zmdi zmdi-delete'></i></button></a></td>
+                                            </tr>
+                                            ";}?>
+                                            <?php
+                                        if($semestre14['idMateria1']==5){
+                                            echo "
+                                            <tr>
+                                            <td>Ingles I</td>
+                                            <td>".$semestre14["falta1ro"]."</td>
+                                            <td>".$semestre14["falta2do"]."</td>
+                                            <td>".$semestre14["falta3ro"]."</td>
+                                            <td>3</td>
+                                            <td></td>
+                                            <td></td>
+                                            <td>".$semestre14["calParcial1ro"]."</td>
+                                            <td>".$semestre14["calParcial2do"]."</td>
+                                            <td>".$semestre14["calParcial3ro"]."</td>
+                                            <td>".$semestre14["calFinal"]."</td>
+                                            <td></td>
+                                            <td></td>
+                                            <td>".$semestre14["calExtra1"]."</td>
+                                            <td>".$semestre14["fechaCalExtra1"]."</td>
+                                            <td>".$semestre14["calExtra2"]."</td>
+                                            <td>".$semestre14["fechaCalExtra2"]."</td>
+                                            <td>".$semestre14["calExtra3"]."</td>
+                                            <td>".$semestre14["fechaCalExtra3"]."</td>
+                                            <td>".$semestre14["calExtra4"]."</td>
+                                            <td>".$semestre14["fechaCalExtra4"]."</td>
+                                            <td></td>
+                                            <td><a href='actualizar-alumno.php?MatriculaUpdate=".$semestre1["matricula"]."' class='btn btn-success btn-raised btn-xs'><i class='zmdi zmdi-refresh'></i></a></td>
+                                            <td><a href='funciones/eliminar-madre.php?MatriculaDelete=".$semestre1["matricula"]."'><button class='btn btn-danger btn-raised btn-xs' type='button' onclick='return confirmarEliminar()'><i class='zmdi zmdi-delete'></i></button></a></td>
+                                            </tr>
+                                            ";}?>
+                                            <?php
+                                        if($semestre15['idMateria1']==6){
+                                            echo "
+                                            <tr>
+                                            <td>Informatica I</td>
+                                            <td>".$semestre15["falta1ro"]."</td>
+                                            <td>".$semestre15["falta2do"]."</td>
+                                            <td>".$semestre15["falta3ro"]."</td>
+                                            <td>3</td>
+                                            <td></td>
+                                            <td></td>
+                                            <td>".$semestre15["calParcial1ro"]."</td>
+                                            <td>".$semestre15["calParcial2do"]."</td>
+                                            <td>".$semestre15["calParcial3ro"]."</td>
+                                            <td>".$semestre15["calFinal"]."</td>
+                                            <td></td>
+                                            <td></td>
+                                            <td>".$semestre15["calExtra1"]."</td>
+                                            <td>".$semestre15["fechaCalExtra1"]."</td>
+                                            <td>".$semestre15["calExtra2"]."</td>
+                                            <td>".$semestre15["fechaCalExtra2"]."</td>
+                                            <td>".$semestre15["calExtra3"]."</td>
+                                            <td>".$semestre15["fechaCalExtra3"]."</td>
+                                            <td>".$semestre15["calExtra4"]."</td>
+                                            <td>".$semestre15["fechaCalExtra4"]."</td>
+                                            <td></td>
+                                            <td><a href='actualizar-alumno.php?MatriculaUpdate=".$semestre1["matricula"]."' class='btn btn-success btn-raised btn-xs'><i class='zmdi zmdi-refresh'></i></a></td>
+                                            <td><a href='funciones/eliminar-madre.php?MatriculaDelete=".$semestre1["matricula"]."'><button class='btn btn-danger btn-raised btn-xs' type='button' onclick='return confirmarEliminar()'><i class='zmdi zmdi-delete'></i></button></a></td>
+                                            </tr>
+                                            ";}?>
+                                            <?php
+                                        if($semestre16['idMateria1']==7){
+                                            echo "
+                                            <tr>
+                                            <td>Etica I</td>
+                                            <td>".$semestre16["falta1ro"]."</td>
+                                            <td>".$semestre16["falta2do"]."</td>
+                                            <td>".$semestre16["falta3ro"]."</td>
+                                            <td>3</td>
+                                            <td></td>
+                                            <td></td>
+                                            <td>".$semestre16["calParcial1ro"]."</td>
+                                            <td>".$semestre16["calParcial2do"]."</td>
+                                            <td>".$semestre16["calParcial3ro"]."</td>
+                                            <td>".$semestre16["calFinal"]."</td>
+                                            <td></td>
+                                            <td></td>
+                                            <td>".$semestre16["calExtra1"]."</td>
+                                            <td>".$semestre16["fechaCalExtra1"]."</td>
+                                            <td>".$semestre16["calExtra2"]."</td>
+                                            <td>".$semestre16["fechaCalExtra2"]."</td>
+                                            <td>".$semestre16["calExtra3"]."</td>
+                                            <td>".$semestre16["fechaCalExtra3"]."</td>
+                                            <td>".$semestre16["calExtra4"]."</td>
+                                            <td>".$semestre16["fechaCalExtra4"]."</td>
+                                            <td></td>
+                                            <td><a href='actualizar-alumno.php?MatriculaUpdate=".$semestre1["matricula"]."' class='btn btn-success btn-raised btn-xs'><i class='zmdi zmdi-refresh'></i></a></td>
+                                            <td><a href='funciones/eliminar-madre.php?MatriculaDelete=".$semestre1["matricula"]."'><button class='btn btn-danger btn-raised btn-xs' type='button' onclick='return confirmarEliminar()'><i class='zmdi zmdi-delete'></i></button></a></td>
+                                            </tr>
+                                            ";} ?>
+                                            <?php    
+                                        if($semestre17['idMateria1']==8){
+                                            echo "
+                                            <tr>
+                                            <td>Actividades Fisicas y Recreativas I</td>
+                                            <td>".$semestre17["falta1ro"]."</td>
+                                            <td>".$semestre17["falta2do"]."</td>
+                                            <td>".$semestre17["falta3ro"]."</td>
+                                            <td>3</td>
+                                            <td></td>
+                                            <td></td>
+                                            <td>".$semestre17["calParcial1ro"]."</td>
+                                            <td>".$semestre17["calParcial2do"]."</td>
+                                            <td>".$semestre17["calParcial3ro"]."</td>
+                                            <td>".$semestre17["calFinal"]."</td>
+                                            <td></td>
+                                            <td></td>
+                                            <td>".$semestre17["calExtra1"]."</td>
+                                            <td>".$semestre17["fechaCalExtra1"]."</td>
+                                            <td>".$semestre17["calExtra2"]."</td>
+                                            <td>".$semestre17["fechaCalExtra2"]."</td>
+                                            <td>".$semestre17["calExtra3"]."</td>
+                                            <td>".$semestre17["fechaCalExtra3"]."</td>
+                                            <td>".$semestre17["calExtra4"]."</td>
+                                            <td>".$semestre17["fechaCalExtra4"]."</td>
+                                            <td></td>
+                                            <td><a href='actualizar-alumno.php?MatriculaUpdate=".$semestre1["matricula"]."' class='btn btn-success btn-raised btn-xs'><i class='zmdi zmdi-refresh'></i></a></td>
+                                            <td><a href='funciones/eliminar-madre.php?MatriculaDelete=".$semestre1["matricula"]."'><button class='btn btn-danger btn-raised btn-xs' type='button' onclick='return confirmarEliminar()'><i class='zmdi zmdi-delete'></i></button></a></td>
+                                            </tr>
+                                            ";}?>
+                                            <?php
+                                        if($semestre18['idMateria1']==9){
+                                            echo "
+                                            <tr>
+                                            <td>Actividades Artisticas y Culturales I</td>
+                                            <td>".$semestre18["falta1ro"]."</td>
+                                            <td>".$semestre18["falta2do"]."</td>
+                                            <td>".$semestre18["falta3ro"]."</td>
+                                            <td>3</td>
+                                            <td></td>
+                                            <td></td>
+                                            <td>".$semestre18["calParcial1ro"]."</td>
+                                            <td>".$semestre18["calParcial2do"]."</td>
+                                            <td>".$semestre18["calParcial3ro"]."</td>
+                                            <td>".$semestre18["calFinal"]."</td>
+                                            <td></td>
+                                            <td></td>
+                                            <td>".$semestre18["calExtra1"]."</td>
+                                            <td>".$semestre18["fechaCalExtra1"]."</td>
+                                            <td>".$semestre18["calExtra2"]."</td>
+                                            <td>".$semestre18["fechaCalExtra2"]."</td>
+                                            <td>".$semestre18["calExtra3"]."</td>
+                                            <td>".$semestre18["fechaCalExtra3"]."</td>
+                                            <td>".$semestre18["calExtra4"]."</td>
+                                            <td>".$semestre18["fechaCalExtra4"]."</td>
+                                            <td></td>
+                                            <td><a href='actualizar-alumno.php?MatriculaUpdate=".$semestre1["matricula"]."' class='btn btn-success btn-raised btn-xs'><i class='zmdi zmdi-refresh'></i></a></td>
+                                            <td><a href='funciones/eliminar-madre.php?MatriculaDelete=".$semestre1["matricula"]."'><button class='btn btn-danger btn-raised btn-xs' type='button' onclick='return confirmarEliminar()'><i class='zmdi zmdi-delete'></i></button></a></td>
+                                            </tr>
+                                            ";}?>
+                                            <?php
+                                            if($semestre19['idMateria1']==10){
+                                            echo "
+                                            <tr>
+                                            <td>Salud Integral del Adolecente I</td>
+                                            <td>".$semestre19["falta1ro"]."</td>
+                                            <td>".$semestre19["falta2do"]."</td>
+                                            <td>".$semestre19["falta3ro"]."</td>
+                                            <td>3</td>
+                                            <td></td>
+                                            <td></td>
+                                            <td>".$semestre19["calParcial1ro"]."</td>
+                                            <td>".$semestre19["calParcial2do"]."</td>
+                                            <td>".$semestre19["calParcial3ro"]."</td>
+                                            <td>".$semestre19["calFinal"]."</td>
+                                            <td></td>
+                                            <td></td>
+                                            <td>".$semestre19["calExtra1"]."</td>
+                                            <td>".$semestre19["fechaCalExtra1"]."</td>
+                                            <td>".$semestre19["calExtra2"]."</td>
+                                            <td>".$semestre19["fechaCalExtra2"]."</td>
+                                            <td>".$semestre19["calExtra3"]."</td>
+                                            <td>".$semestre19["fechaCalExtra3"]."</td>
+                                            <td>".$semestre19["calExtra4"]."</td>
+                                            <td>".$semestre19["fechaCalExtra4"]."</td>
+                                            <td></td>
+                                            <td><a href='actualizar-alumno.php?MatriculaUpdate=".$semestre1["matricula"]."' class='btn btn-success btn-raised btn-xs'><i class='zmdi zmdi-refresh'></i></a></td>
+                                            <td><a href='funciones/eliminar-madre.php?MatriculaDelete=".$semestre1["matricula"]."'><button class='btn btn-danger btn-raised btn-xs' type='button' onclick='return confirmarEliminar()'><i class='zmdi zmdi-delete'></i></button></a></td>
+                                            </tr>
+                                            ";}                                      
+                                          ?>                                                                             
                                 </tbody>
 						    </table>
                             <table class="table table-hover text-center">
