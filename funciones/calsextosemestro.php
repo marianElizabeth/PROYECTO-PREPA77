@@ -192,7 +192,7 @@
         (DEFAULT,11,'$matricula',$txtFaltaSIAVI_1,$txtFaltaSIAVI_2,$txtFaltaSIAVI_3,$txtCalSIAVI_1,$txtCalSIAVI_2,$txtCalSIAVI_3,$txtCalExtraSIAVI_1,'$txtFechaCalExtraSIAVI_1',$txtCalExtraSIAVI_2,'$txtFechaCalExtraSIAVI_2',$txtCalExtraSIAVI_3,'$txtFechaCalExtraSIAVI_3',$txtCalExtraSIAVI_4,'$txtFechaCalExtraSIAVI_4',$calFilosofiaicacionFinal11)        
         ;";
     if(mysqli_query($conexion,$sentencia)){
-        header("Location: ../verCalFilosofiaicacionesAlumno.php");}
+        header("Location: ../verCalificacionesAlumno.php");}
     else{
         echo "Error";
     }
