@@ -70,6 +70,36 @@
 						<li>
 							<a href="verMadre.php"><i class="zmdi zmdi-female zmdi-hc-fw"></i>Madre</a>
 						</li>
+                        <li>
+							<a href="verCalificacionesAlumno.php"><i class="zmdi zmdi-assignment-check zmdi-hc-fw"></i>Calificaciones</a>
+						</li>
+					</ul>
+				</li>
+                <li>
+					<a href="#!" class="btn-sideBar-SubMenu">
+						<i class="nav-icon fas fa-tachometer-alt"></i>
+						<i class="zmdi zmdi-plus-circle-o zmdi-hc-fw"></i>Calificaciones<i class="zmdi zmdi-caret-down pull-right"></i>
+					</a>
+					<ul class="list-unstyled full-box">
+						<li>
+							<a href="calificacionPrimerSemestre.php"><i class="zmdi zmdi-n-1-square zmdi-hc-fw"></i>Primer Semestre</a>
+						</li>
+						
+						<li>
+							<a href="calificacionSegundoSemestre.php"><i class="zmdi zmdi-n-2-square zmdi-hc-fw"></i>Segundo Semestre</a>
+						</li>
+						<li>
+							<a href="calificacionTercerSemestre.php"><i class="zmdi zmdi-n-3-square zmdi-hc-fw"></i>Tercer Semestre</a>
+						</li>
+						<li>
+							<a href="calificacionCuartoSemestre.php"><i class="zmdi zmdi-n-4-square zmdi-hc-fw"></i>Cuarto Semestre</a>
+						</li>
+						<li>
+							<a href="calificacionQuintoSemestre.php"><i class="zmdi zmdi-n-5-square zmdi-hc-fw"></i>Quinto Semestre</a>
+						</li>
+                        <li>
+							<a href="calificacionSextoSemestre.php"><i class="zmdi zmdi-n-6-square zmdi-hc-fw"></i>Sexto Semestre</a>
+						</li>
 					</ul>
 				</li>
 				<li>
@@ -763,7 +793,7 @@
                                                                 </td>                                           
                                                             </tr>
                                                             <tr class="text-center">    
-                                                                <th class="text-center">Salud Integral del Adolecente I</th>
+                                                                <th class="text-center">Salud Integral del Adolescente I</th>
                                                                 <td></td>
                                                                 <td></td>
                                                                 <td></td>
