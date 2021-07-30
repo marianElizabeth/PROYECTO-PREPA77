@@ -43,7 +43,7 @@
 					</a>
 					<ul class="list-unstyled full-box">
 						<li>
-							<a href="DatosAlumno.php"><i class="zmdi zmdi-assignment zmdi-hc-fw"></i>se$semestre1 Alumno</a>
+							<a href="DatosAlumno.php"><i class="zmdi zmdi-assignment zmdi-hc-fw"></i>Registro Alumno</a>
 						</li>
 						
 					</ul>
@@ -86,19 +86,19 @@
 						</li>
 						
 						<li>
-							<a href=""><i class="zmdi zmdi-n-2-square zmdi-hc-fw"></i>Segundo Semestre</a>
+							<a href="calificacionSegundoSemestre.php"><i class="zmdi zmdi-n-2-square zmdi-hc-fw"></i>Segundo Semestre</a>
 						</li>
 						<li>
-							<a href=""><i class="zmdi zmdi-n-3-square zmdi-hc-fw"></i>Tercer Semestre</a>
+							<a href="calificacionTercerSemestre.php"><i class="zmdi zmdi-n-3-square zmdi-hc-fw"></i>Tercer Semestre</a>
 						</li>
 						<li>
-							<a href=""><i class="zmdi zmdi-n-4-square zmdi-hc-fw"></i>Cuarto Semestre</a>
+							<a href="calificacionCuartoSemestre.php"><i class="zmdi zmdi-n-4-square zmdi-hc-fw"></i>Cuarto Semestre</a>
 						</li>
 						<li>
-							<a href=""><i class="zmdi zmdi-n-5-square zmdi-hc-fw"></i>Quinto Semestre</a>
+							<a href="calificacionQuintoSemestre.php"><i class="zmdi zmdi-n-5-square zmdi-hc-fw"></i>Quinto Semestre</a>
 						</li>
                         <li>
-							<a href=""><i class="zmdi zmdi-n-6-square zmdi-hc-fw"></i>Sexto Semestre</a>
+							<a href="calificacionSextoSemestre.php"><i class="zmdi zmdi-n-6-square zmdi-hc-fw"></i>Sexto Semestre</a>
 						</li>
 					</ul>
 				</li>
@@ -281,8 +281,7 @@
                                     
                                     <?php
                                         include("funciones/conexion.php");									  
-										$sentencia = "
-                                        SELECT
+										$sentencia = "SELECT
                                         datosalumno.matricula, 
                                         `datosalumno-semestre1`.idMateria1, 
                                         semestre1.materia1, 
