@@ -82,7 +82,7 @@
     $txtCalLiteraturaII_3 = $_POST['txtCalLiteraturaII_3'];
     $txtFaltaLiteraturaII_1 = $_POST['txtFaltaLiteraturaII_1'];
     $txtFaltaLiteraturaII_2 = $_POST['txtFaltaLiteraturaII_2'];
-    $txtFaltaLiteraturaII_3= $_POST['txtFaltaLiteraturaII_3'];
+    $txtFaltaLiteraturaII_3 = $_POST['txtFaltaLiteraturaII_3'];
     $txtCalExtraLiteraturaII_1= $_POST['txtCalExtraLiteraturaII_1'];
     $txtFechaCalExtraLiteraturaII_1= $_POST['txtFechaCalExtraLiteraturaII_1'];
     $txtCalExtraLiteraturaII_2= $_POST['txtCalExtraLiteraturaII_2'];
