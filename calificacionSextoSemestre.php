@@ -332,7 +332,7 @@
                                                                     <input class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;" type="number" name="txtCalExtraMateVI_4" value="0" maxlength="2">
                                                                 </td>
                                                                 <td>
-                                                                    <input class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;" type="date" name="txtFechaCalExtraMateVI_3" maxlength="2">
+                                                                    <input class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;" type="date" name="txtFechaCalExtraMateVI_4" maxlength="2">
                                                                 </td>                                           
                                                             </tr>
                                                             <tr class="text-center">    
@@ -443,7 +443,7 @@
                                                                     <input class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;" type="date" name="txtFechaCalExtraHUC_3" maxlength="2">
                                                                 </td>
                                                                 <td>
-                                                                    <input class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;" type="number" name="txtCalExtraHUC_3" value="0" maxlength="2">
+                                                                    <input class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;" type="number" name="txtCalExtraHUC_4" value="0" maxlength="2">
                                                                 </td>
                                                                 <td>
                                                                     <input class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;" type="date" name="txtFechaCalExtraHUC_4" maxlength="2">
