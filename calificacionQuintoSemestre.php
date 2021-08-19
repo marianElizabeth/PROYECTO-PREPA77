@@ -332,7 +332,7 @@
                                                                     <input class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;" type="number" name="txtCalExtraMateV_4" value="0" maxlength="2">
                                                                 </td>
                                                                 <td>
-                                                                    <input class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;" type="date" name="txtFechaCalExtraMateV_3" maxlength="2">
+                                                                    <input class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;" type="date" name="txtFechaCalExtraMateV_4" maxlength="2">
                                                                 </td>                                           
                                                             </tr>
                                                             <tr class="text-center">    
@@ -428,7 +428,7 @@
                                                                     <input class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;" type="number" name="txtCalExtraESM_1" value="0" maxlength="2">
                                                                 </td>
                                                                 <td>
-                                                                    <input class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;" type="date" name="txtFechaExtraCalESM_1" maxlength="2">
+                                                                    <input class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;" type="date" name="txtFechaCalExtraESM_1" maxlength="2">
                                                                 </td>
                                                                 <td>
                                                                     <input class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;" type="number" name="txtCalExtraESM_2" value="0" maxlength="2">
@@ -443,7 +443,7 @@
                                                                     <input class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;" type="date" name="txtFechaCalExtraESM_3" maxlength="2">
                                                                 </td>
                                                                 <td>
-                                                                    <input class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;" type="number" name="txtCalExtraESM_3" value="0" maxlength="2">
+                                                                    <input class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;" type="number" name="txtCalExtraESM_4" value="0" maxlength="2">
                                                                 </td>
                                                                 <td>
                                                                     <input class="form-control" style="color: rgb(0, 0, 0); font-size: 100%;" type="date" name="txtFechaCalExtraESM_4" maxlength="2">
