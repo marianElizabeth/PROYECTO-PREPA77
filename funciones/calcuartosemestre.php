@@ -152,7 +152,7 @@
     $txtCalExtraSIAIV_4 = $_POST['txtCalExtraSIAIV_4'];
     $txtFechaCalExtraSIAIV_4 = $_POST['txtFechaCalExtraSIAIV_4'];
 
-    $calificacionFinal1   = ($txtCalMateIV_3 + $txtCalMateIV_2 + $txtCalMateIV_1)/3;
+    /*$calificacionFinal1   = ($txtCalMateIV_3 + $txtCalMateIV_2 + $txtCalMateIV_1)/3;
     $calificacionFinal2   = ($txtCalBiologiaII_3 + $txtCalBiologiaII_2 + $txtCalBiologiaII_1)/3;
     $calificacionFinal3   = ($txtCalFisicaII_3 + $txtCalFisicaII_2 + $txtCalFisicaII_1)/3;
     $calificacionFinal4   = ($txtCalHMII_3 + $txtCalHMII_2 + $txtCalHMII_1)/3;
@@ -161,7 +161,7 @@
     $calificacionFinal7   = ($txtCalCV_3 + $txtCalCV_2 + $txtCalCV_1)/3;
     $calificacionFinal8   = ($txtCalMRC_3 + $txtCalMRC_2 + $txtCalMRC_1)/3;
     $calificacionFinal9   = ($txtCalAFDRIV_3 + $txtCalAFDRIV_2 + $txtCalAFDRIV_1)/3;
-    $calificacionFinal10  = ($txtCalSIAIV_3 + $txtCalSIAIV_2 + $txtCalSIAIV_1)/3;
+    $calificacionFinal10  = ($txtCalSIAIV_3 + $txtCalSIAIV_2 + $txtCalSIAIV_1)/3;*/
     $sentencia= "INSERT INTO `datosalumno-semestre4` VALUES 
         (DEFAULT,1,'$matricula',$txtFaltaMateIV_1,$txtFaltaMateIV_2,$txtFaltaMateIV_3,$txtCalMateIV_1,$txtCalMateIV_2,$txtCalMateIV_3,$txtCalExtraMateIV_1,'$txtFechaCalExtraMateIV_1',$txtCalExtraMateIV_2,'$txtFechaCalExtraMateIV_2',$txtCalExtraMateIV_3,'$txtFechaCalExtraMateIV_3',$txtCalExtraMateIV_4,'$txtFechaCalExtraMateIV_4',$calificacionFinal1),
         (DEFAULT,2,'$matricula',$txtFaltaBiologiaII_1,$txtFaltaBiologiaII_2,$txtFaltaBiologiaII_3,$txtCalBiologiaII_1,$txtCalBiologiaII_2,$txtCalBiologiaII_3,$txtCalExtraBiologiaII_1,'$txtFechaCalExtraBiologiaII_1',$txtCalExtraBiologiaII_2,'$txtFechaCalExtraBiologiaII_2',$txtCalExtraBiologiaII_3,'$txtFechaCalExtraBiologiaII_3',$txtCalExtraBiologiaII_4,'$txtFechaCalExtraBiologiaII_4',$calificacionFinal2),
