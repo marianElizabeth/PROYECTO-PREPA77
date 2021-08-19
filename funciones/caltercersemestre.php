@@ -122,20 +122,20 @@
     $txtCalExtraHCA_4= $_POST['txtCalExtraHCA_4'];
     $txtFechaCalExtraHCA_4= $_POST['txtFechaCalExtraHCA_4'];
 
-    $txtCalAFDRIII_1 = $_POST['txtCalAFDRIII_1'];
-    $txtCalAFDRIII_2 = $_POST['txtCalAFDRIII_2'];
-    $txtCalAFDRIII_3 = $_POST['txtCalAFDRIII_3'];
-    $txtFaltaAFDRIII_1= $_POST['txtFaltaAFDRIII_1'];
-    $txtFaltaAFDRIII_2= $_POST['txtFaltaAFDRIII_2'];
-    $txtFaltaAFDRIII_3= $_POST['txtFaltaAFDRIII_3'];
-    $txtCalExtraAFDRIII_1 = $_POST['txtCalExtraAFDRIII_1'];
-    $txtFechaCalExtraAFDRIII_1= $_POST['txtFechaCalExtraAFDRIII_1'];
-    $txtCalExtraAFDRIII_2= $_POST['txtCalExtraAFDRIII_2'];
-    $txtFechaCalExtraAFDRIII_2= $_POST['txtFechaCalExtraAFDRIII_2'];
-    $txtCalExtraAFDRIII_3= $_POST['txtCalExtraAFDRIII_3'];
-    $txtFechaCalExtraAFDRIII_3 = $_POST['txtFechaCalExtraAFDRIII_3'];
-    $txtCalExtraAFDRIII_4= $_POST['txtCalExtraAFDRIII_4'];
-    $txtFechaCalExtraAFDRIII_4= $_POST['txtFechaCalExtraAFDRIII_4'];
+    $txtCalAACIII_1 = $_POST['txtCalAACIII_1'];
+    $txtCalAACIII_2 = $_POST['txtCalAACIII_2'];
+    $txtCalAACIII_3 = $_POST['txtCalAACIII_3'];
+    $txtFaltaAACIII_1= $_POST['txtFaltaAACIII_1'];
+    $txtFaltaAACIII_2= $_POST['txtFaltaAACIII_2'];
+    $txtFaltaAACIII_3= $_POST['txtFaltaAACIII_3'];
+    $txtCalExtraAACIII_1 = $_POST['txtCalExtraAACIII_1'];
+    $txtFechaCalExtraAACIII_1= $_POST['txtFechaCalExtraAACIII_1'];
+    $txtCalExtraAACIII_2= $_POST['txtCalExtraAACIII_2'];
+    $txtFechaCalExtraAACIII_2= $_POST['txtFechaCalExtraAACIII_2'];
+    $txtCalExtraAACIII_3= $_POST['txtCalExtraAACIII_3'];
+    $txtFechaCalExtraAACIII_3 = $_POST['txtFechaCalExtraAACIII_3'];
+    $txtCalExtraAACIII_4= $_POST['txtCalExtraAACIII_4'];
+    $txtFechaCalExtraAACIII_4= $_POST['txtFechaCalExtraAACIII_4'];
 
     $txtCalSaludIII_1 = $_POST['txtCalSaludIII_1'];
     $txtCalSaludIII_2 = $_POST['txtCalSaludIII_2'];
@@ -175,7 +175,7 @@
     $calificacionFinal6   = ($txtCalLiteraturaI_3 + $txtCalLiteraturaI_2 + $txtCalLiteraturaI_1)/3;
     $calificacionFinal7   = ($txtCalGAT_3 + $txtCalGAT_2 + $txtCalGAT_1)/3;
     $calificacionFinal8   = ($txtCalHCA_3 + $txtCalHCA_2 + $txtCalHCA_1)/3;
-    $calificacionFinal9   = ($txtCalAFDRIII_3 + $txtCalAFDRIII_2 + $txtCalAFDRIII_1)/3;
+    $calificacionFinal9   = ($txtCalAACIII_3 + $txtCalAACIII_2 + $txtCalAACIII_1)/3;
     $calificacionFinal10  = ($txtCalSaludIII_3 + $txtCalSaludIII_2 + $txtCalSaludIII_1)/3;
     $calificacionFinal11  = ($txtCalHR_3 + $txtCalHR_2 + $txtCalHR_1)/3;*/
     $sentencia= "INSERT INTO `datosalumno-semestre3` VALUES 
@@ -187,7 +187,7 @@
         (DEFAULT,6,'$matricula',$txtFaltaLiteraturaI_1,$txtFaltaLiteraturaI_2,$txtFaltaLiteraturaI_3,$txtCalLiteraturaI_1,$txtCalLiteraturaI_2,$txtCalLiteraturaI_3,$txtCalExtraLiteraturaI_1,'$txtFechaCalExtraLiteraturaI_1',$txtCalExtraLiteraturaI_2,'$txtFechaCalExtraLiteraturaI_2',$txtCalExtraLiteraturaI_3,'$txtFechaCalExtraLiteraturaI_3',$txtCalExtraLiteraturaI_4,'$txtFechaCalExtraLiteraturaI_4',$calificacionFinal6),
         (DEFAULT,7,'$matricula',$txtFaltaGAT_1,$txtFaltaGAT_2,$txtFaltaGAT_3,$txtCalGAT_1,$txtCalGAT_2,$txtCalGAT_3,$txtCalExtraGAT_1,'$txtFechaCalExtraGAT_1',$txtCalExtraGAT_2,'$txtFechaCalExtraGAT_2',$txtCalExtraGAT_3,'$txtFechaCalExtraGAT_3',$txtCalExtraGAT_4,'$txtFechaCalExtraGAT_4',$calificacionFinal7),
         (DEFAULT,8,'$matricula',$txtFaltaHCA_1,$txtFaltaHCA_2,$txtFaltaHCA_3,$txtCalHCA_1,$txtCalHCA_2,$txtCalHCA_3,$txtCalExtraHCA_1,'$txtFechaCalExtraHCA_1',$txtCalExtraHCA_2,'$txtFechaCalExtraHCA_2',$txtCalExtraHCA_3,'$txtFechaCalExtraHCA_3',$txtCalExtraHCA_4,'$txtFechaCalExtraHCA_4',$calificacionFinal8),
-        (DEFAULT,9,'$matricula',$txtFaltaAFDRIII_1,$txtFaltaAFDRIII_2,$txtFaltaAFDRIII_3,$txtCalAFDRIII_1,$txtCalAFDRIII_2,$txtCalAFDRIII_3,$txtCalExtraAFDRIII_1,'$txtFechaCalExtraAFDRIII_1',$txtCalExtraAFDRIII_2,'$txtFechaCalExtraAFDRIII_2',$txtCalExtraAFDRIII_3,'$txtFechaCalExtraAFDRIII_3',$txtCalExtraAFDRIII_4,'$txtFechaCalExtraAFDRIII_4',$calificacionFinal9),
+        (DEFAULT,9,'$matricula',$txtFaltaAACIII_1,$txtFaltaAACIII_2,$txtFaltaAACIII_3,$txtCalAACIII_1,$txtCalAACIII_2,$txtCalAACIII_3,$txtCalExtraAACIII_1,'$txtFechaCalExtraAACIII_1',$txtCalExtraAACIII_2,'$txtFechaCalExtraAACIII_2',$txtCalExtraAACIII_3,'$txtFechaCalExtraAACIII_3',$txtCalExtraAACIII_4,'$txtFechaCalExtraAACIII_4',$calificacionFinal9),
         (DEFAULT,10,'$matricula',$txtFaltaSaludIII_1,$txtFaltaSaludIII_2,$txtFaltaSaludIII_3,$txtCalSaludIII_1,$txtCalSaludIII_2,$txtCalSaludIII_3,$txtCalExtraSaludIII_1,'$txtFechaCalExtraSaludIII_1',$txtCalExtraSaludIII_2,'$txtFechaCalExtraSaludIII_2',$txtCalExtraSaludIII_3,'$txtFechaCalExtraSaludIII_3',$calificacionFinal10),
         (DEFAULT,11,'$matricula',$txtFaltaHR_1,$txtFaltaHR_2,$txtFaltaHR_3,$txtCalHR_1,$txtCalHR_2,$txtCalHR_3,$txtCalExtraHR_1,'$txtFechaCalExtraHR_1',$txtCalExtraHR_2,'$txtFechaCalExtraHR_2',$txtCalExtraHR_3,'$txtFechaCalExtraHR_3',$txtCalExtraHR_4,'$txtFechaCalExtraHR_4',$calificacionFinal11);";
     if(mysqli_query($conexion,$sentencia)){
