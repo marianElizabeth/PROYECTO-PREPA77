@@ -589,26 +589,25 @@
                                             echo "
                                             <tr>
                                             <td>Matematicas I</td>
-                                            <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtFaltaMateI_1' maxlength='2' value =".$registro1["falta1ro"]."> </td>
-                                            <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro1["falta2do"]."> </td>
-                                            <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro1["falta3ero"]."></td>
-                                            <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =3></td>
+                                            <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtFaltaMateI_1' value =".$registro1["falta1ro"]."> </td>
+                                            <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtFaltaMateI_2' value =".$registro1["falta2do"]."> </td>
+                                            <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtFaltaMateI_3' value =".$registro1["falta3ero"]."></td>
                                             <td></td>
                                             <td></td>
-                                            <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro1["calParcial1ro"]."></td>
-                                            <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro1["calParcial2do"]."></td>
-                                            <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro1["calParcial3ero"]."></td>
+                                            <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtCalMateI_1' value =".$registro1["calParcial1ro"]."></td>
+                                            <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtCalMateI_2' value =".$registro1["calParcial2do"]."></td>
+                                            <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtCalMateI_3' value =".$registro1["calParcial3ero"]."></td>
                                             <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro1["calFinal"]."></td>
                                             <td></td>
                                             <td></td>
-                                            <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro1["calExtra1"]."></td>
-                                            <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro1["fechaCalExtra1"]."></td>
-                                            <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro1["calExtra2"]."></td>
-                                            <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro1["fechaCalExtra2"]."></td>
-                                            <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro1["calExtra3"]."></td>
-                                            <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro1["fechaCalExtra3"]."></td>
-                                            <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro1["calExtra4"]."></td>
-                                            <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro1["fechaCalExtra4"]."></td>
+                                            <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtCalExtraMateI_1' value =".$registro1["calExtra1"]."></td>
+                                            <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtFechaCalExtraMateI_1' value =".$registro1["fechaCalExtra1"]."></td>
+                                            <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtCalExtraMateI_2' value =".$registro1["calExtra2"]."></td>
+                                            <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtFechaCalExtraMateI_2' value =".$registro1["fechaCalExtra2"]."></td>
+                                            <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtCalExtraMateI_3' value =".$registro1["calExtra3"]."></td>
+                                            <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtFechaCalExtraMateI_3' value =".$registro1["fechaCalExtra3"]."></td>
+                                            <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtCalExtraMateI_4' value =".$registro1["calExtra4"]."></td>
+                                            <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtFechaCalExtraMateI_4' value =".$registro1["fechaCalExtra4"]."></td>
                                             <td></td>
                                             <td><a href='actualizar-alumno.php?MatriculaUpdate=".$registro1["matricula"]."' class='btn btn-success btn-raised btn-xs'><i class='zmdi zmdi-refresh'></i></a></td>
                                             <td><a href='funciones/eliminar-madre.php?MatriculaDelete=".$registro1["matricula"]."'><button class='btn btn-danger btn-raised btn-xs' type='button' onclick='return confirmarEliminar()'><i class='zmdi zmdi-delete'></i></button></a></td>
@@ -617,26 +616,26 @@
                                                 echo "
                                                 <tr>
                                                 <td>Quimica I</td>
-                                                <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro2["falta1ro"]."></td>
-                                                <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro2["falta2do"]."></td>
-                                                <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro2["falta3ero"]."></td>
-                                                <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =3></td>
+                                                <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtFaltaQuimicaI_1' value =".$registro2["falta1ro"]."></td>
+                                                <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtFaltaQuimicaI_2' value =".$registro2["falta2do"]."></td>
+                                                <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtFaltaQuimicaI_3' value =".$registro2["falta3ero"]."></td>
+
                                                 <td></td>
                                                 <td></td>
-                                                <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro2["calParcial1ro"]."></td>
-                                                <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro2["calParcial2do"]."></td>
-                                                <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro2["calParcial3ero"]."></td>
+                                                <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtCalQuimicaI_1' value =".$registro2["calParcial1ro"]."></td>
+                                                <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtCalQuimicaI_2' value =".$registro2["calParcial2do"]."></td>
+                                                <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtCalQuimicaI_3' value =".$registro2["calParcial3ero"]."></td>
                                                 <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro2["calFinal"]."></td>
                                                 <td></td>
                                                 <td></td>
-                                                <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro2["calExtra1"]."></td>
-                                                <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro2["fechaCalExtra1"]."></td>
-                                                <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro2["calExtra2"]."></td>
-                                                <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro2["fechaCalExtra2"]."></td>
-                                                <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro2["calExtra3"]."></td>
-                                                <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro2["fechaCalExtra3"]."></td>
-                                                <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro2["calExtra4"]."></td>
-                                                <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro2["fechaCalExtra4"]."></td>
+                                                <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtCalExtraQuimicaI_1' value =".$registro2["calExtra1"]."></td>
+                                                <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtFechaCalExtraQuimicaI_1' value =".$registro2["fechaCalExtra1"]."></td>
+                                                <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtCalExtraQuimicaI_2' value =".$registro2["calExtra2"]."></td>
+                                                <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtFechaCalExtraQuimicaI_2' value =".$registro2["fechaCalExtra2"]."></td>
+                                                <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtCalExtraQuimicaI_3' value =".$registro2["calExtra3"]."></td>
+                                                <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtFechaCalExtraQuimicaI_3' value =".$registro2["fechaCalExtra3"]."></td>
+                                                <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtCalExtraQuimicaI_4' value =".$registro2["calExtra4"]."></td>
+                                                <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtFechaCalExtraQuimicaI_4' value =".$registro2["fechaCalExtra4"]."></td>
                                                 <td></td>
                                                 <td><a href='actualizar-alumno.php?MatriculaUpdate=".$registro2["matricula"]."' class='btn btn-success btn-raised btn-xs'><i class='zmdi zmdi-refresh'></i></a></td>
                                                 <td><a href='funciones/eliminar-madre.php?MatriculaDelete=".$registro2["matricula"]."'><button class='btn btn-danger btn-raised btn-xs' type='button' onclick='return confirmarEliminar()'><i class='zmdi zmdi-delete'></i></button></a></td>
@@ -647,26 +646,26 @@
                                                     echo "
                                                     <tr>
                                                     <td>Metodologia de la investigación I</td>
-                                                    <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro3["falta1ro"]."></td>
-                                                    <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro3["falta2do"]."></td>
-                                                    <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro3["falta3ero"]."></td>
-                                                    <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =3></td>
+                                                    <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtFaltaMetodologiaI_1' value =".$registro3["falta1ro"]."></td>
+                                                    <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtFaltaMetodologiaI_2' value =".$registro3["falta2do"]."></td>
+                                                    <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtFaltaMetodologiaI_3' value =".$registro3["falta3ero"]."></td>
+
                                                     <td></td>
                                                     <td></td>
-                                                    <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro3["calParcial1ro"]."></td>
-                                                    <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro3["calParcial2do"]."></td>
-                                                    <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro3["calParcial3ero"]."></td>
+                                                    <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtCalMetodologiaI_1' value =".$registro3["calParcial1ro"]."></td>
+                                                    <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtCalMetodologiaI_2' value =".$registro3["calParcial2do"]."></td>
+                                                    <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtCalMetodologiaI_3' value =".$registro3["calParcial3ero"]."></td>
                                                     <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro3["calFinal"]."></td>
                                                     <td></td>
                                                     <td></td>
-                                                    <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro3["calExtra1"]."></td>
-                                                    <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro3["fechaCalExtra1"]."></td>
-                                                    <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro3["calExtra2"]."></td>
-                                                    <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro3["fechaCalExtra2"]."></td>
-                                                    <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro3["calExtra3"]."></td>
-                                                    <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro3["fechaCalExtra3"]."></td>
-                                                    <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro3["calExtra4"]."></td>
-                                                    <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro3["fechaCalExtra4"]."></td>
+                                                    <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtCalExtraMetodologiaI_1' value =".$registro3["calExtra1"]."></td>
+                                                    <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtFechaCalExtraMetodologiaI_1' value =".$registro3["fechaCalExtra1"]."></td>
+                                                    <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtCalExtraMetodologiaI_2' value =".$registro3["calExtra2"]."></td>
+                                                    <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtFechaCalExtraMetodologiaI_2' value =".$registro3["fechaCalExtra2"]."></td>
+                                                    <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtCalExtraMetodologiaI_3' value =".$registro3["calExtra3"]."></td>
+                                                    <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtFechaCalExtraMetodologiaI_3' value =".$registro3["fechaCalExtra3"]."></td>
+                                                    <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtCalExtraMetodologiaI_4' value =".$registro3["calExtra4"]."></td>
+                                                    <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtFechaCalExtraMetodologiaI_4' value =".$registro3["fechaCalExtra4"]."></td>
                                                     <td></td>
                                                     <td><a href='actualizar-alumno.php?MatriculaUpdate=".$registro3["matricula"]."' class='btn btn-success btn-raised btn-xs'><i class='zmdi zmdi-refresh'></i></a></td>
                                                     <td><a href='funciones/eliminar-madre.php?MatriculaDelete=".$registro3["matricula"]."'><button class='btn btn-danger btn-raised btn-xs' type='button' onclick='return confirmarEliminar()'><i class='zmdi zmdi-delete'></i></button></a></td>
@@ -677,26 +676,26 @@
                                                     echo "
                                                     <tr>
                                                     <td>Taller de lectura y redacción I</td>
-                                                    <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro4["falta1ro"]."></td>
-                                                    <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro4["falta2do"]."></td>
-                                                    <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro4["falta3ero"]."></td>
-                                                    <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =3></td>
+                                                    <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtFaltaTallerI_1' value =".$registro4["falta1ro"]."></td>
+                                                    <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtFaltaTallerI_2' value =".$registro4["falta2do"]."></td>
+                                                    <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtFaltaTallerI_3' value =".$registro4["falta3ero"]."></td>
+
                                                     <td></td>
                                                     <td></td>
-                                                    <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro4["calParcial1ro"]."></td>
-                                                    <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro4["calParcial2do"]."></td>
-                                                    <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro4["calParcial3ero"]."></td>
+                                                    <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtCalTallerI_1' value =".$registro4["calParcial1ro"]."></td>
+                                                    <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtCalTallerI_2' value =".$registro4["calParcial2do"]."></td>
+                                                    <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtCalTallerI_3' value =".$registro4["calParcial3ero"]."></td>
                                                     <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro4["calFinal"]."></td>
                                                     <td></td>
                                                     <td></td>
-                                                    <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro4["calExtra1"]."></td>
-                                                    <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro4["fechaCalExtra1"]."></td>
-                                                    <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro4["calExtra2"]."></td>
-                                                    <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro4["fechaCalExtra2"]."></td>
-                                                    <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro4["calExtra3"]."></td>
-                                                    <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro4["fechaCalExtra3"]."></td>
-                                                    <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro4["calExtra4"]."></td>
-                                                    <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro4["fechaCalExtra4"]."></td>
+                                                    <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtCalExtraTallerI_1' value =".$registro4["calExtra1"]."></td>
+                                                    <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtFechaCalExtraTallerI_1' value =".$registro4["fechaCalExtra1"]."></td>
+                                                    <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtCalExtraTallerI_2' value =".$registro4["calExtra2"]."></td>
+                                                    <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtFechaCalExtraTallerI_2' value =".$registro4["fechaCalExtra2"]."></td>
+                                                    <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtCalExtraTallerI_3' value =".$registro4["calExtra3"]."></td>
+                                                    <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtFechaCalExtraTallerI_3' value =".$registro4["fechaCalExtra3"]."></td>
+                                                    <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtCalExtraTallerI_4' value =".$registro4["calExtra4"]."></td>
+                                                    <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtFechaCalExtraTallerI_4' value =".$registro4["fechaCalExtra4"]."></td>
                                                     <td></td>
                                                     <td><a href='actualizar-alumno.php?MatriculaUpdate=".$registro4["matricula"]."' class='btn btn-success btn-raised btn-xs'><i class='zmdi zmdi-refresh'></i></a></td>
                                                     <td><a href='funciones/eliminar-madre.php?MatriculaDelete=".$registro4["matricula"]."'><button class='btn btn-danger btn-raised btn-xs' type='button' onclick='return confirmarEliminar()'><i class='zmdi zmdi-delete'></i></button></a></td>
@@ -707,26 +706,26 @@
                                                         echo "
                                                         <tr>
                                                         <td>Ingles I</td>
-                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro5["falta1ro"]."></td>
-                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro5["falta2do"]."></td>
-                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro5["falta3ero"]."></td>
-                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =3></td>
+                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtFaltaInglesI_1' value =".$registro5["falta1ro"]."></td>
+                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtFaltaInglesI_2' value =".$registro5["falta2do"]."></td>
+                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtFaltaInglesI_3' value =".$registro5["falta3ero"]."></td>
+                                                        
                                                         <td></td>
                                                         <td></td>
-                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro5["calParcial1ro"]."></td>
-                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro5["calParcial2do"]."></td>
-                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro5["calParcial3ero"]."></td>
+                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtCalInglesI_1' value =".$registro5["calParcial1ro"]."></td>
+                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtCalInglesI_2' value =".$registro5["calParcial2do"]."></td>
+                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtCalInglesI_3' value =".$registro5["calParcial3ero"]."></td>
                                                         <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro5["calFinal"]."></td>
                                                         <td></td>
                                                         <td></td>
-                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro5["calExtra1"]."></td>
-                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro5["fechaCalExtra1"]."></td>
-                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro5["calExtra2"]."></td>
-                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro5["fechaCalExtra2"]."></td>
-                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro5["calExtra3"]."></td>
-                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro5["fechaCalExtra3"]."></td>
-                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro5["calExtra4"]."></td>
-                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro5["fechaCalExtra4"]."></td>
+                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtCalExtraInglesI_1' value =".$registro5["calExtra1"]."></td>
+                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtFechaCalExtraInglesI_1' value =".$registro5["fechaCalExtra1"]."></td>
+                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtCalExtraInglesI_2' value =".$registro5["calExtra2"]."></td>
+                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtFechaCalExtraInglesI_2' value =".$registro5["fechaCalExtra2"]."></td>
+                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtCalExtraInglesI_3' value =".$registro5["calExtra3"]."></td>
+                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtFechaCalExtraInglesI_3' value =".$registro5["fechaCalExtra3"]."></td>
+                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtCalExtraInglesI_4' value =".$registro5["calExtra4"]."></td>
+                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtFechaCalExtraInglesI_4' value =".$registro5["fechaCalExtra4"]."></td>
                                                         <td></td>
                                                         <td><a href='actualizar-alumno.php?MatriculaUpdate=".$registro5["matricula"]."' class='btn btn-success btn-raised btn-xs'><i class='zmdi zmdi-refresh'></i></a></td>
                                                         <td><a href='funciones/eliminar-madre.php?MatriculaDelete=".$registro5["matricula"]."'><button class='btn btn-danger btn-raised btn-xs' type='button' onclick='return confirmarEliminar()'><i class='zmdi zmdi-delete'></i></button></a></td>
@@ -737,26 +736,26 @@
                                                         echo "
                                                         <tr>
                                                         <td>Informatica I</td>
-                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro6["falta1ro"]."></td>
-                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro6["falta2do"]."></td>
-                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro6["falta3ero"]."></td>
-                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =3></td>
+                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtFaltaInfoI_1' value =".$registro6["falta1ro"]."></td>
+                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtFaltaInfoI_2' value =".$registro6["falta2do"]."></td>
+                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtFaltaInfoI_3' value =".$registro6["falta3ero"]."></td>
+                                                        
                                                         <td></td>
                                                         <td></td>
-                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro6["calParcial1ro"]."></td>
-                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro6["calParcial2do"]."></td>
-                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro6["calParcial3ero"]."></td>
+                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtCalInfoI_1' value =".$registro6["calParcial1ro"]."></td>
+                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtCalInfoI_2' value =".$registro6["calParcial2do"]."></td>
+                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtCalInfoI_3' value =".$registro6["calParcial3ero"]."></td>
                                                         <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro6["calFinal"]."></td>
                                                         <td></td>
                                                         <td></td>
-                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro6["calExtra1"]."></td>
-                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro6["fechaCalExtra1"]."></td>
-                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro6["calExtra2"]."></td>
-                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro6["fechaCalExtra2"]."></td>
-                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro6["calExtra3"]."></td>
-                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro6["fechaCalExtra3"]."></td>
-                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro6["calExtra4"]."></td>
-                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro6["fechaCalExtra4"]."></td>
+                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtCalExtraInfoI_1' value =".$registro6["calExtra1"]."></td>
+                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtFechaCalExtraInfoI_1' value =".$registro6["fechaCalExtra1"]."></td>
+                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtCalExtraInfoI_2' value =".$registro6["calExtra2"]."></td>
+                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtFechaCalExtraInfoI_2' value =".$registro6["fechaCalExtra2"]."></td>
+                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtCalExtraInfoI_3' value =".$registro6["calExtra3"]."></td>
+                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtFechaCalExtraInfoI_3' value =".$registro6["fechaCalExtra3"]."></td>
+                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtCalExtraInfoI_4' value =".$registro6["calExtra4"]."></td>
+                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtFechaCalExtraInfoI_4' value =".$registro6["fechaCalExtra4"]."></td>
                                                         <td></td>
                                                         <td><a href='actualizar-alumno.php?MatriculaUpdate=".$registro6["matricula"]."' class='btn btn-success btn-raised btn-xs'><i class='zmdi zmdi-refresh'></i></a></td>
                                                         <td><a href='funciones/eliminar-madre.php?MatriculaDelete=".$registro6["matricula"]."'><button class='btn btn-danger btn-raised btn-xs' type='button' onclick='return confirmarEliminar()'><i class='zmdi zmdi-delete'></i></button></a></td>
@@ -767,26 +766,26 @@
                                                         echo "
                                                         <tr>
                                                         <td>Etica I</td>
-                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro7["falta1ro"]."></td>
-                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro7["falta2do"]."></td>
-                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro7["falta3ero"]."></td>
-                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =3></td>
+                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtFaltaEticaI_1' value =".$registro7["falta1ro"]."></td>
+                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtFaltaEticaI_2' value =".$registro7["falta2do"]."></td>
+                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtFaltaEticaI_3' value =".$registro7["falta3ero"]."></td>
+                                                        
                                                         <td></td>
                                                         <td></td>
-                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro7["calParcial1ro"]."></td>
-                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro7["calParcial2do"]."></td>
-                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro7["calParcial3ero"]."></td>
+                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtCalEticaI_1' value =".$registro7["calParcial1ro"]."></td>
+                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtCalEticaI_2' value =".$registro7["calParcial2do"]."></td>
+                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtCalEticaI_3' value =".$registro7["calParcial3ero"]."></td>
                                                         <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro7["calFinal"]."></td>
                                                         <td></td>
                                                         <td></td>
-                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro7["calExtra1"]."></td>
-                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro7["fechaCalExtra1"]."></td>
-                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro7["calExtra2"]."></td>
-                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro7["fechaCalExtra2"]."></td>
-                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro7["calExtra3"]."></td>
-                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro7["fechaCalExtra3"]."></td>
-                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro7["calExtra4"]."></td>
-                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro7["fechaCalExtra4"]."></td>
+                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtCalExtraEticaI_1' value =".$registro7["calExtra1"]."></td>
+                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtFechaCalExtraEticaI_1' value =".$registro7["fechaCalExtra1"]."></td>
+                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtCalExtraEticaI_2' value =".$registro7["calExtra2"]."></td>
+                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtFechaCalExtraEticaI_2' value =".$registro7["fechaCalExtra2"]."></td>
+                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtCalExtraEticaI_3' value =".$registro7["calExtra3"]."></td>
+                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtFechaCalExtraEticaI_3' value =".$registro7["fechaCalExtra3"]."></td>
+                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtCalExtraEticaI_4' value =".$registro7["calExtra4"]."></td>
+                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtFechaCalExtraEticaI_4' value =".$registro7["fechaCalExtra4"]."></td>
                                                         <td></td>
                                                         <td><a href='actualizar-alumno.php?MatriculaUpdate=".$registro7["matricula"]."' class='btn btn-success btn-raised btn-xs'><i class='zmdi zmdi-refresh'></i></a></td>
                                                         <td><a href='funciones/eliminar-madre.php?MatriculaDelete=".$registro7["matricula"]."'><button class='btn btn-danger btn-raised btn-xs' type='button' onclick='return confirmarEliminar()'><i class='zmdi zmdi-delete'></i></button></a></td>
@@ -796,27 +795,27 @@
                                                     if($registro8 = mysqli_fetch_assoc($resultado8)){
                                                         echo "
                                                         <tr>
-                                                        <td>Actividades Fisicas y Recreativas I</td>
-                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro8["falta1ro"]."></td>
-                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro8["falta2do"]."></td>
-                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro8["falta3ero"]."></td>
-                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =3></td>
+                                                        <td>Actividades Fisicas, Deportivas y Recreativas I</td>
+                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtFaltaAFDRI_1' value =".$registro8["falta1ro"]."></td>
+                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtFaltaAFDRI_2' value =".$registro8["falta2do"]."></td>
+                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtFaltaAFDRI_3' value =".$registro8["falta3ero"]."></td>
+                                                        
                                                         <td></td>
                                                         <td></td>
-                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro8["calParcial1ro"]."></td>
-                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro8["calParcial2do"]."></td>
-                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro8["calParcial3ero"]."></td>
+                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtCalAFDRI_1' value =".$registro8["calParcial1ro"]."></td>
+                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtCalAFDRI_2' value =".$registro8["calParcial2do"]."></td>
+                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtCalAFDRI_3' value =".$registro8["calParcial3ero"]."></td>
                                                         <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro8["calFinal"]."></td>
                                                         <td></td>
                                                         <td></td>
-                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro8["calExtra1"]."></td>
-                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro8["fechaCalExtra1"]."></td>
-                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro8["calExtra2"]."></td>
-                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro8["fechaCalExtra2"]."></td>
-                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro8["calExtra3"]."></td>
-                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro8["fechaCalExtra3"]."></td>
-                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro8["calExtra4"]."></td>
-                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro8["fechaCalExtra4"]."></td>
+                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtCalExtraAFDRI_1' value =".$registro8["calExtra1"]."></td>
+                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtFechaCalExtraAFDRI_1' value =".$registro8["fechaCalExtra1"]."></td>
+                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtCalExtraAFDRI_2' value =".$registro8["calExtra2"]."></td>
+                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtFechaCalExtraAFDRI_2' value =".$registro8["fechaCalExtra2"]."></td>
+                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtCalExtraAFDRI_3' value =".$registro8["calExtra3"]."></td>
+                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtFechaCalExtraAFDRI_3' value =".$registro8["fechaCalExtra3"]."></td>
+                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtCalExtraAFDRI_4' value =".$registro8["calExtra4"]."></td>
+                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtFechaCalExtraAFDRI_4' value =".$registro8["fechaCalExtra4"]."></td>
                                                         <td></td>
                                                         <td><a href='actualizar-alumno.php?MatriculaUpdate=".$registro8["matricula"]."' class='btn btn-success btn-raised btn-xs'><i class='zmdi zmdi-refresh'></i></a></td>
                                                         <td><a href='funciones/eliminar-madre.php?MatriculaDelete=".$registro8["matricula"]."'><button class='btn btn-danger btn-raised btn-xs' type='button' onclick='return confirmarEliminar()'><i class='zmdi zmdi-delete'></i></button></a></td>
@@ -827,26 +826,26 @@
                                                         echo "
                                                         <tr>
                                                         <td>Actividades Artisticas y Culturales I</td>
-                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro9["falta1ro"]."></td>
-                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro9["falta2do"]."></td>
-                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro9["falta3ero"]."></td>
-                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =3></td>
+                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtFaltaAACI_1' value =".$registro9["falta1ro"]."></td>
+                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtFaltaAACI_2' value =".$registro9["falta2do"]."></td>
+                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtFaltaAACI_3' value =".$registro9["falta3ero"]."></td>
+                                                        
                                                         <td></td>
                                                         <td></td>
-                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro9["calParcial1ro"]."></td>
-                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro9["calParcial2do"]."></td>
-                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro9["calParcial3ero"]."></td>
+                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtCalAACI_1' value =".$registro9["calParcial1ro"]."></td>
+                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtCalAACI_2' value =".$registro9["calParcial2do"]."></td>
+                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtCalAACI_3' value =".$registro9["calParcial3ero"]."></td>
                                                         <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro9["calFinal"]."></td>
                                                         <td></td>
                                                         <td></td>
-                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro9["calExtra1"]."></td>
-                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro9["fechaCalExtra1"]."></td>
-                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro9["calExtra2"]."></td>
-                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro9["fechaCalExtra2"]."></td>
-                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro9["calExtra3"]."></td>
-                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro9["fechaCalExtra3"]."></td>
-                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro9["calExtra4"]."></td>
-                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro9["fechaCalExtra4"]."></td>
+                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtCalExtraAACI_1' value =".$registro9["calExtra1"]."></td>
+                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtFechaCalExtraAACI_1' value =".$registro9["fechaCalExtra1"]."></td>
+                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtCalExtraAACI_2' value =".$registro9["calExtra2"]."></td>
+                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtFechaCalExtraAACI_2' value =".$registro9["fechaCalExtra2"]."></td>
+                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtCalExtraAACI_3' value =".$registro9["calExtra3"]."></td>
+                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtFechaCalExtraAACI_3' value =".$registro9["fechaCalExtra3"]."></td>
+                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtCalExtraAACI_4' value =".$registro9["calExtra4"]."></td>
+                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtFechaCalExtraAACI_4' value =".$registro9["fechaCalExtra4"]."></td>
                                                         <td></td>
                                                         <td><a href='actualizar-alumno.php?MatriculaUpdate=".$registro9["matricula"]."' class='btn btn-success btn-raised btn-xs'><i class='zmdi zmdi-refresh'></i></a></td>
                                                         <td><a href='funciones/eliminar-madre.php?MatriculaDelete=".$registro9["matricula"]."'><button class='btn btn-danger btn-raised btn-xs' type='button' onclick='return confirmarEliminar()'><i class='zmdi zmdi-delete'></i></button></a></td>
@@ -857,26 +856,26 @@
                                                         echo "
                                                         <tr>
                                                         <td>Salud Integral del Adolecente I</td>
-                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro10["falta1ro"]."></td>
-                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro10["falta2do"]."></td>
-                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro10["falta3ero"]."></td>
-                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =3></td>
+                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtFaltaSaludI_1' value =".$registro10["falta1ro"]."></td>
+                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtFaltaSaludI_2' value =".$registro10["falta2do"]."></td>
+                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtFaltaSaludI_3' value =".$registro10["falta3ero"]."></td>
+                                                        
                                                         <td></td>
                                                         <td></td>
-                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro10["calParcial1ro"]."></td>
-                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro10["calParcial2do"]."></td>
-                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro10["calParcial3ero"]."></td>
+                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtCalSaludI_1' value =".$registro10["calParcial1ro"]."></td>
+                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtCalSaludI_2' value =".$registro10["calParcial2do"]."></td>
+                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtCalSaludI_3' value =".$registro10["calParcial3ero"]."></td>
                                                         <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro10["calFinal"]."></td>
                                                         <td></td>
                                                         <td></td>
-                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro10["calExtra1"]."></td>
-                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro10["fechaCalExtra1"]."></td>
-                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro10["calExtra2"]."></td>
-                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro10["fechaCalExtra2"]."></td>
-                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro10["calExtra3"]."></td>
-                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro10["fechaCalExtra3"]."></td>
-                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro10["calExtra4"]."></td>
-                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro10["fechaCalExtra4"]."></td>
+                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtCalExtraSaudI_1' value =".$registro10["calExtra1"]."></td>
+                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtFechaCalExtraSaludI_1' value =".$registro10["fechaCalExtra1"]."></td>
+                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtCalExtraSaludI_2' value =".$registro10["calExtra2"]."></td>
+                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtFechaCalExtraSaludI_2' value =".$registro10["fechaCalExtra2"]."></td>
+                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtCalExtraSaludI_3' value =".$registro10["calExtra3"]."></td>
+                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtFechaCalExtraSaludI_3' value =".$registro10["fechaCalExtra3"]."></td>
+                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtCalExtraSaludI_4' value =".$registro10["calExtra4"]."></td>
+                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtFechaCalExtraSaludI_4' value =".$registro10["fechaCalExtra4"]."></td>
                                                         <td></td>
                                                         <td><a href='actualizar-alumno.php?MatriculaUpdate=".$registro10["matricula"]."' class='btn btn-success btn-raised btn-xs'><i class='zmdi zmdi-refresh'></i></a></td>
                                                         <td><a href='funciones/eliminar-madre.php?MatriculaDelete=".$registro10["matricula"]."'><button class='btn btn-danger btn-raised btn-xs' type='button' onclick='return confirmarEliminar()'><i class='zmdi zmdi-delete'></i></button></a></td>
@@ -1252,26 +1251,26 @@
                                             echo "
                                             <tr>
                                             <td>Matematicas II</td>
-                                            <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro21["falta1ro"]."> </td>
-                                            <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro21["falta2do"]."> </td>
-                                            <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro21["falta3ero"]."></td>
-                                            <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =3></td>
+                                            <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtFaltaMateII_1' value =".$registro21["falta1ro"]."> </td>
+                                            <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtFaltaMateII_2' value =".$registro21["falta2do"]."> </td>
+                                            <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtFaltaMateII_3' value =".$registro21["falta3ero"]."></td>
+                                            
                                             <td></td>
                                             <td></td>
-                                            <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro21["calParcial1ro"]."></td>
-                                            <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro21["calParcial2do"]."></td>
-                                            <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro21["calParcial3ero"]."></td>
+                                            <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtCalMateII_1' value =".$registro21["calParcial1ro"]."></td>
+                                            <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtCalMateII_2' value =".$registro21["calParcial2do"]."></td>
+                                            <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtCalMateII_3' value =".$registro21["calParcial3ero"]."></td>
                                             <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro21["calFinal"]."></td>
                                             <td></td>
                                             <td></td>
-                                            <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro21["calExtra1"]."></td>
-                                            <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro21["fechaCalExtra1"]."></td>
-                                            <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro21["calExtra2"]."></td>
-                                            <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro21["fechaCalExtra2"]."></td>
-                                            <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro21["calExtra3"]."></td>
-                                            <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro21["fechaCalExtra3"]."></td>
-                                            <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro21["calExtra4"]."></td>
-                                            <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro21["fechaCalExtra4"]."></td>
+                                            <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtCalExtraMateII_1' value =".$registro21["calExtra1"]."></td>
+                                            <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtFechaCalExtraMateII_1' value =".$registro21["fechaCalExtra1"]."></td>
+                                            <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtCalExtraMateII_2' value =".$registro21["calExtra2"]."></td>
+                                            <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtFechaCalExtraMateII_2' value =".$registro21["fechaCalExtra2"]."></td>
+                                            <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtCalExtraMateII_3' value =".$registro21["calExtra3"]."></td>
+                                            <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtFechaCalExtraMateII_3' value =".$registro21["fechaCalExtra3"]."></td>
+                                            <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtCalExtraMateII_4' value =".$registro21["calExtra4"]."></td>
+                                            <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtFechaCalExtraMateII_4' value =".$registro21["fechaCalExtra4"]."></td>
                                             <td></td>
                                             <td><a href='actualizar-alumno.php?MatriculaUpdate=".$registro21["matricula"]."' class='btn btn-success btn-raised btn-xs'><i class='zmdi zmdi-refresh'></i></a></td>
                                             <td><a href='funciones/eliminar-madre.php?MatriculaDelete=".$registro21["matricula"]."'><button class='btn btn-danger btn-raised btn-xs' type='button' onclick='return confirmarEliminar()'><i class='zmdi zmdi-delete'></i></button></a></td>
@@ -1280,26 +1279,26 @@
                                                 echo "
                                                 <tr>
                                                 <td>Quimica II</td>
-                                                <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro22["falta1ro"]."></td>
-                                                <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro22["falta2do"]."></td>
-                                                <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro22["falta3ero"]."></td>
-                                                <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =3></td>
+                                                <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtFaltaQuimicaII_1' value =".$registro22["falta1ro"]."></td>
+                                                <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtFaltaQuimicaII_2' value =".$registro22["falta2do"]."></td>
+                                                <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtFaltaQuimicaII_3' value =".$registro22["falta3ero"]."></td>
+                                                
                                                 <td></td>
                                                 <td></td>
-                                                <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro22["calParcial1ro"]."></td>
-                                                <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro22["calParcial2do"]."></td>
-                                                <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro22["calParcial3ero"]."></td>
+                                                <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtCalQuimicaII_1' value =".$registro22["calParcial1ro"]."></td>
+                                                <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtCalQuimicaII_2' value =".$registro22["calParcial2do"]."></td>
+                                                <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtCalQuimicaII_3' value =".$registro22["calParcial3ero"]."></td>
                                                 <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro22["calFinal"]."></td>
                                                 <td></td>
                                                 <td></td>
-                                                <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro22["calExtra1"]."></td>
-                                                <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro22["fechaCalExtra1"]."></td>
-                                                <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro22["calExtra2"]."></td>
-                                                <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro22["fechaCalExtra2"]."></td>
-                                                <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro22["calExtra3"]."></td>
-                                                <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro22["fechaCalExtra3"]."></td>
-                                                <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro22["calExtra4"]."></td>
-                                                <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro22["fechaCalExtra4"]."></td>
+                                                <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtCalExtraQuimicaII_1' value =".$registro22["calExtra1"]."></td>
+                                                <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtFechaCalExtraQuimicaII_1' value =".$registro22["fechaCalExtra1"]."></td>
+                                                <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtCalExtraQuimicaII_2' value =".$registro22["calExtra2"]."></td>
+                                                <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtFechaCalExtraQuimicaII_2' value =".$registro22["fechaCalExtra2"]."></td>
+                                                <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtCalExtraQuimicaII_3' value =".$registro22["calExtra3"]."></td>
+                                                <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtFechaCalExtraQuimicaII_3' value =".$registro22["fechaCalExtra3"]."></td>
+                                                <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtCalExtraQuimicaII_4' value =".$registro22["calExtra4"]."></td>
+                                                <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtFechaCalExtraQuimicaII_4' value =".$registro22["fechaCalExtra4"]."></td>
                                                 <td></td>
                                                 <td><a href='actualizar-alumno.php?MatriculaUpdate=".$registro22["matricula"]."' class='btn btn-success btn-raised btn-xs'><i class='zmdi zmdi-refresh'></i></a></td>
                                                 <td><a href='funciones/eliminar-madre.php?MatriculaDelete=".$registro22["matricula"]."'><button class='btn btn-danger btn-raised btn-xs' type='button' onclick='return confirmarEliminar()'><i class='zmdi zmdi-delete'></i></button></a></td>
@@ -1310,26 +1309,26 @@
                                                     echo "
                                                     <tr>
                                                     <td>Introducción a las Ciencias Sociales</td>
-                                                    <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro23["falta1ro"]."></td>
-                                                    <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro23["falta2do"]."></td>
-                                                    <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro23["falta3ero"]."></td>
-                                                    <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =3></td>
+                                                    <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtFaltaICS_1' value =".$registro23["falta1ro"]."></td>
+                                                    <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtFaltaICS_2' value =".$registro23["falta2do"]."></td>
+                                                    <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtFaltaICS_3' value =".$registro23["falta3ero"]."></td>
+                                                    
                                                     <td></td>
                                                     <td></td>
-                                                    <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro23["calParcial1ro"]."></td>
-                                                    <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro23["calParcial2do"]."></td>
-                                                    <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro23["calParcial3ero"]."></td>
+                                                    <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtCalICS_1' value =".$registro23["calParcial1ro"]."></td>
+                                                    <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtCalICS_2' value =".$registro23["calParcial2do"]."></td>
+                                                    <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtCalICS_3' value =".$registro23["calParcial3ero"]."></td>
                                                     <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro23["calFinal"]."></td>
                                                     <td></td>
                                                     <td></td>
-                                                    <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro23["calExtra1"]."></td>
-                                                    <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro23["fechaCalExtra1"]."></td>
-                                                    <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro23["calExtra2"]."></td>
-                                                    <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro23["fechaCalExtra2"]."></td>
-                                                    <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro23["calExtra3"]."></td>
-                                                    <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro23["fechaCalExtra3"]."></td>
-                                                    <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro23["calExtra4"]."></td>
-                                                    <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro23["fechaCalExtra4"]."></td>
+                                                    <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtCalExtraICS_1' value =".$registro23["calExtra1"]."></td>
+                                                    <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtFechaCalExtraICS_1' value =".$registro23["fechaCalExtra1"]."></td>
+                                                    <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtCalExtraICS_2' value =".$registro23["calExtra2"]."></td>
+                                                    <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtFechaCalExtraICS_2' value =".$registro23["fechaCalExtra2"]."></td>
+                                                    <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtCalExtraICS_3' value =".$registro23["calExtra3"]."></td>
+                                                    <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtFechaCalExtraICS_3' value =".$registro23["fechaCalExtra3"]."></td>
+                                                    <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtCalExtraICS_4' value =".$registro23["calExtra4"]."></td>
+                                                    <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtFechaCalExtraICS_4' value =".$registro23["fechaCalExtra4"]."></td>
                                                     <td></td>
                                                     <td><a href='actualizar-alumno.php?MatriculaUpdate=".$registro23["matricula"]."' class='btn btn-success btn-raised btn-xs'><i class='zmdi zmdi-refresh'></i></a></td>
                                                     <td><a href='funciones/eliminar-madre.php?MatriculaDelete=".$registro23["matricula"]."'><button class='btn btn-danger btn-raised btn-xs' type='button' onclick='return confirmarEliminar()'><i class='zmdi zmdi-delete'></i></button></a></td>
@@ -1340,26 +1339,26 @@
                                                     echo "
                                                     <tr>
                                                     <td>aller de Lectura y Redacción II</td>
-                                                    <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro24["falta1ro"]."></td>
-                                                    <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro24["falta2do"]."></td>
-                                                    <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro24["falta3ero"]."></td>
-                                                    <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =3></td>
+                                                    <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtFaltaTallerII_1' value =".$registro24["falta1ro"]."></td>
+                                                    <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtFaltaTallerII_2' value =".$registro24["falta2do"]."></td>
+                                                    <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtFaltaTallerII_3' value =".$registro24["falta3ero"]."></td>
+                                                    
                                                     <td></td>
                                                     <td></td>
-                                                    <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro24["calParcial1ro"]."></td>
-                                                    <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro24["calParcial2do"]."></td>
-                                                    <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro24["calParcial3ero"]."></td>
+                                                    <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtCalTallerII_1' value =".$registro24["calParcial1ro"]."></td>
+                                                    <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtCalTallerII_2' value =".$registro24["calParcial2do"]."></td>
+                                                    <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtCalTallerII_3' value =".$registro24["calParcial3ero"]."></td>
                                                     <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro24["calFinal"]."></td>
                                                     <td></td>
                                                     <td></td>
-                                                    <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro24["calExtra1"]."></td>
-                                                    <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro24["fechaCalExtra1"]."></td>
-                                                    <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro24["calExtra2"]."></td>
-                                                    <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro24["fechaCalExtra2"]."></td>
-                                                    <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro24["calExtra3"]."></td>
-                                                    <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro24["fechaCalExtra3"]."></td>
-                                                    <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro24["calExtra4"]."></td>
-                                                    <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro24["fechaCalExtra4"]."></td>
+                                                    <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtCalExtraTallerII_1' value =".$registro24["calExtra1"]."></td>
+                                                    <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtFechaCalExtraTallerII_1' value =".$registro24["fechaCalExtra1"]."></td>
+                                                    <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtCalExtraTallerII_2' value =".$registro24["calExtra2"]."></td>
+                                                    <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtFechaCalExtraTallerII_2' value =".$registro24["fechaCalExtra2"]."></td>
+                                                    <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtCalExtraTallerII_3' value =".$registro24["calExtra3"]."></td>
+                                                    <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtFechaCalExtraTallerII_3' value =".$registro24["fechaCalExtra3"]."></td>
+                                                    <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtCalExtraTallerII_4' value =".$registro24["calExtra4"]."></td>
+                                                    <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtFechaCalExtraTallerII_4' value =".$registro24["fechaCalExtra4"]."></td>
                                                     <td></td>
                                                     <td><a href='actualizar-alumno.php?MatriculaUpdate=".$registro24["matricula"]."' class='btn btn-success btn-raised btn-xs'><i class='zmdi zmdi-refresh'></i></a></td>
                                                     <td><a href='funciones/eliminar-madre.php?MatriculaDelete=".$registro24["matricula"]."'><button class='btn btn-danger btn-raised btn-xs' type='button' onclick='return confirmarEliminar()'><i class='zmdi zmdi-delete'></i></button></a></td>
@@ -1370,26 +1369,26 @@
                                                         echo "
                                                         <tr>
                                                         <td>Ingles II</td>
-                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro25["falta1ro"]."></td>
-                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro25["falta2do"]."></td>
-                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro25["falta3ero"]."></td>
-                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =3></td>
+                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtFaltaInglesII_1' value =".$registro25["falta1ro"]."></td>
+                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtFaltaInglesII_2' value =".$registro25["falta2do"]."></td>
+                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtFaltaInglesII_3' value =".$registro25["falta3ero"]."></td>
+                                                        
                                                         <td></td>
                                                         <td></td>
-                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro25["calParcial1ro"]."></td>
-                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro25["calParcial2do"]."></td>
-                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro25["calParcial3ero"]."></td>
+                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtCalInglesII_1' value =".$registro25["calParcial1ro"]."></td>
+                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtCalInglesII_2' value =".$registro25["calParcial2do"]."></td>
+                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtCalInglesII_3' value =".$registro25["calParcial3ero"]."></td>
                                                         <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro25["calFinal"]."></td>
                                                         <td></td>
                                                         <td></td>
-                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro25["calExtra1"]."></td>
-                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro25["fechaCalExtra1"]."></td>
-                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro25["calExtra2"]."></td>
-                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro25["fechaCalExtra2"]."></td>
-                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro25["calExtra3"]."></td>
-                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro25["fechaCalExtra3"]."></td>
-                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro25["calExtra4"]."></td>
-                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro25["fechaCalExtra4"]."></td>
+                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtCalExtraInglesII_1' value =".$registro25["calExtra1"]."></td>
+                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtFechaCalExtraInglesII_1' value =".$registro25["fechaCalExtra1"]."></td>
+                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtCalExtraInglesII_2' value =".$registro25["calExtra2"]."></td>
+                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtFechaCalExtraInglesII_2' value =".$registro25["fechaCalExtra2"]."></td>
+                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtCalExtraInglesII_3' value =".$registro25["calExtra3"]."></td>
+                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtFechaCalExtraInglesII_3' value =".$registro25["fechaCalExtra3"]."></td>
+                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtCalExtraInglesII_4' value =".$registro25["calExtra4"]."></td>
+                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtFechaCalExtraInglesII_4' value =".$registro25["fechaCalExtra4"]."></td>
                                                         <td></td>
                                                         <td><a href='actualizar-alumno.php?MatriculaUpdate=".$registro25["matricula"]."' class='btn btn-success btn-raised btn-xs'><i class='zmdi zmdi-refresh'></i></a></td>
                                                         <td><a href='funciones/eliminar-madre.php?MatriculaDelete=".$registro25["matricula"]."'><button class='btn btn-danger btn-raised btn-xs' type='button' onclick='return confirmarEliminar()'><i class='zmdi zmdi-delete'></i></button></a></td>
@@ -1400,26 +1399,26 @@
                                                         echo "
                                                         <tr>
                                                         <td>Informatica II</td>
-                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro26["falta1ro"]."></td>
-                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro26["falta2do"]."></td>
-                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro26["falta3ero"]."></td>
-                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =3></td>
+                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtFaltaInfoII_1' value =".$registro26["falta1ro"]."></td>
+                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtFaltaInfoII_2' value =".$registro26["falta2do"]."></td>
+                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtFaltaInfoII_3' value =".$registro26["falta3ero"]."></td>
+                                                        
                                                         <td></td>
                                                         <td></td>
-                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro26["calParcial1ro"]."></td>
-                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro26["calParcial2do"]."></td>
-                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro26["calParcial3ero"]."></td>
+                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtCalInfoII_1' value =".$registro26["calParcial1ro"]."></td>
+                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtCalInfoII_2' value =".$registro26["calParcial2do"]."></td>
+                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtCalInfoII_3' value =".$registro26["calParcial3ero"]."></td>
                                                         <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro26["calFinal"]."></td>
                                                         <td></td>
                                                         <td></td>
-                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro26["calExtra1"]."></td>
-                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro26["fechaCalExtra1"]."></td>
-                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro26["calExtra2"]."></td>
-                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro26["fechaCalExtra2"]."></td>
-                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro26["calExtra3"]."></td>
-                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro26["fechaCalExtra3"]."></td>
-                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro26["calExtra4"]."></td>
-                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro26["fechaCalExtra4"]."></td>
+                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtCalInfoII_1' value =".$registro26["calExtra1"]."></td>
+                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtFechaCalInfoII_1' value =".$registro26["fechaCalExtra1"]."></td>
+                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtCalInfoII_2' value =".$registro26["calExtra2"]."></td>
+                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtFechaCalInfoII_2' value =".$registro26["fechaCalExtra2"]."></td>
+                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtCalInfoII_3' value =".$registro26["calExtra3"]."></td>
+                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtFechaCalInfoII_3' value =".$registro26["fechaCalExtra3"]."></td>
+                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtCalInfoII_4' value =".$registro26["calExtra4"]."></td>
+                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtFechaCalInfoII_4' value =".$registro26["fechaCalExtra4"]."></td>
                                                         <td></td>
                                                         <td><a href='actualizar-alumno.php?MatriculaUpdate=".$registro26["matricula"]."' class='btn btn-success btn-raised btn-xs'><i class='zmdi zmdi-refresh'></i></a></td>
                                                         <td><a href='funciones/eliminar-madre.php?MatriculaDelete=".$registro26["matricula"]."'><button class='btn btn-danger btn-raised btn-xs' type='button' onclick='return confirmarEliminar()'><i class='zmdi zmdi-delete'></i></button></a></td>
@@ -1430,26 +1429,26 @@
                                                         echo "
                                                         <tr>
                                                         <td>Etica II</td>
-                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro27["falta1ro"]."></td>
-                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro27["falta2do"]."></td>
-                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro27["falta3ero"]."></td>
-                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =3></td>
+                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtFaltaEticaII_1' value =".$registro27["falta1ro"]."></td>
+                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtFaltaEticaII_2' value =".$registro27["falta2do"]."></td>
+                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtFaltaEticaII_3' value =".$registro27["falta3ero"]."></td>
+                                                        
                                                         <td></td>
                                                         <td></td>
-                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro27["calParcial1ro"]."></td>
-                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro27["calParcial2do"]."></td>
-                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro27["calParcial3ero"]."></td>
+                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtCalEticaII_1' value =".$registro27["calParcial1ro"]."></td>
+                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtCalEticaII_2' value =".$registro27["calParcial2do"]."></td>
+                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtCalEticaII_3' value =".$registro27["calParcial3ero"]."></td>
                                                         <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro27["calFinal"]."></td>
                                                         <td></td>
                                                         <td></td>
-                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro27["calExtra1"]."></td>
-                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro27["fechaCalExtra1"]."></td>
-                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro27["calExtra2"]."></td>
-                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro27["fechaCalExtra2"]."></td>
-                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro27["calExtra3"]."></td>
-                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro27["fechaCalExtra3"]."></td>
-                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro27["calExtra4"]."></td>
-                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro27["fechaCalExtra4"]."></td>
+                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtCalExtraEticaII_1' value =".$registro27["calExtra1"]."></td>
+                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtFechaCalExtraEticaII_1' value =".$registro27["fechaCalExtra1"]."></td>
+                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtCalExtraEticaII_2' value =".$registro27["calExtra2"]."></td>
+                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtFechaCalExtraEticaII_2' value =".$registro27["fechaCalExtra2"]."></td>
+                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtCalExtraEticaII_3' value =".$registro27["calExtra3"]."></td>
+                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtFechaCalExtraEticaII_3' value =".$registro27["fechaCalExtra3"]."></td>
+                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtCalExtraEticaII_4' value =".$registro27["calExtra4"]."></td>
+                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtFechaCalExtraEticaII_4' value =".$registro27["fechaCalExtra4"]."></td>
                                                         <td></td>
                                                         <td><a href='actualizar-alumno.php?MatriculaUpdate=".$registro27["matricula"]."' class='btn btn-success btn-raised btn-xs'><i class='zmdi zmdi-refresh'></i></a></td>
                                                         <td><a href='funciones/eliminar-madre.php?MatriculaDelete=".$registro27["matricula"]."'><button class='btn btn-danger btn-raised btn-xs' type='button' onclick='return confirmarEliminar()'><i class='zmdi zmdi-delete'></i></button></a></td>
@@ -1460,26 +1459,26 @@
                                                         echo "
                                                         <tr>
                                                         <td>Actividades Fisicas y Recreativas II</td>
-                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro28["falta1ro"]."></td>
-                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro28["falta2do"]."></td>
-                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro28["falta3ero"]."></td>
-                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =3></td>
+                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtFaltaAFDRII_1' value =".$registro28["falta1ro"]."></td>
+                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtFaltaAFDRII_2' value =".$registro28["falta2do"]."></td>
+                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtFaltaAFDRII_3' value =".$registro28["falta3ero"]."></td>
+                                                        
                                                         <td></td>
                                                         <td></td>
-                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro28["calParcial1ro"]."></td>
-                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro28["calParcial2do"]."></td>
-                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro28["calParcial3ero"]."></td>
+                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtCalAFDRII_1' value =".$registro28["calParcial1ro"]."></td>
+                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtCalAFDRII_2' value =".$registro28["calParcial2do"]."></td>
+                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtCalAFDRII_3' value =".$registro28["calParcial3ero"]."></td>
                                                         <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro28["calFinal"]."></td>
                                                         <td></td>
                                                         <td></td>
-                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro28["calExtra1"]."></td>
-                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro28["fechaCalExtra1"]."></td>
-                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro28["calExtra2"]."></td>
-                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro28["fechaCalExtra2"]."></td>
-                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro28["calExtra3"]."></td>
-                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro28["fechaCalExtra3"]."></td>
-                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro28["calExtra4"]."></td>
-                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro28["fechaCalExtra4"]."></td>
+                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtCalExtraAFDRII_1' value =".$registro28["calExtra1"]."></td>
+                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtFechaCalExtraAFDRII_1' value =".$registro28["fechaCalExtra1"]."></td>
+                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtCalExtraAFDRII_2' value =".$registro28["calExtra2"]."></td>
+                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtFechaCalExtraAFDRII_2' value =".$registro28["fechaCalExtra2"]."></td>
+                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtCalExtraAFDRII_3' value =".$registro28["calExtra3"]."></td>
+                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtFechaCalExtraAFDRII_3' value =".$registro28["fechaCalExtra3"]."></td>
+                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtCalExtraAFDRII_4' value =".$registro28["calExtra4"]."></td>
+                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtFechaCalExtraAFDRII_4' value =".$registro28["fechaCalExtra4"]."></td>
                                                         <td></td>
                                                         <td><a href='actualizar-alumno.php?MatriculaUpdate=".$registro28["matricula"]."' class='btn btn-success btn-raised btn-xs'><i class='zmdi zmdi-refresh'></i></a></td>
                                                         <td><a href='funciones/eliminar-madre.php?MatriculaDelete=".$registro28["matricula"]."'><button class='btn btn-danger btn-raised btn-xs' type='button' onclick='return confirmarEliminar()'><i class='zmdi zmdi-delete'></i></button></a></td>
@@ -1490,26 +1489,26 @@
                                                         echo "
                                                         <tr>
                                                         <td>Actividades Artisticas y Culturales II</td>
-                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro29["falta1ro"]."></td>
-                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro29["falta2do"]."></td>
-                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro29["falta3ero"]."></td>
-                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =3></td>
+                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtFaltaAACII_1' value =".$registro29["falta1ro"]."></td>
+                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtFaltaAACII_2' value =".$registro29["falta2do"]."></td>
+                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtFaltaAACII_3' value =".$registro29["falta3ero"]."></td>
+                                                        
                                                         <td></td>
                                                         <td></td>
-                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro29["calParcial1ro"]."></td>
-                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro29["calParcial2do"]."></td>
-                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro29["calParcial3ero"]."></td>
+                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtCalAACII_1' value =".$registro29["calParcial1ro"]."></td>
+                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtCalAACII_2' value =".$registro29["calParcial2do"]."></td>
+                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtCalAACII_3' value =".$registro29["calParcial3ero"]."></td>
                                                         <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro29["calFinal"]."></td>
                                                         <td></td>
                                                         <td></td>
-                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro29["calExtra1"]."></td>
-                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro29["fechaCalExtra1"]."></td>
-                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro29["calExtra2"]."></td>
-                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro29["fechaCalExtra2"]."></td>
-                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro29["calExtra3"]."></td>
-                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro29["fechaCalExtra3"]."></td>
-                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro29["calExtra4"]."></td>
-                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro29["fechaCalExtra4"]."></td>
+                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtCalExtraAACII_1' value =".$registro29["calExtra1"]."></td>
+                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtFechaCalExtraAACII_1' value =".$registro29["fechaCalExtra1"]."></td>
+                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtCalExtraAACII_2' value =".$registro29["calExtra2"]."></td>
+                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtFechaCalExtraAACII_2' value =".$registro29["fechaCalExtra2"]."></td>
+                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtCalExtraAACII_3 value =".$registro29["calExtra3"]."></td>
+                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtFechaCalExtraAACII_3' value =".$registro29["fechaCalExtra3"]."></td>
+                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtCalExtraAACII_4' value =".$registro29["calExtra4"]."></td>
+                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtFechaCalExtraAACII_4' value =".$registro29["fechaCalExtra4"]."></td>
                                                         <td></td>
                                                         <td><a href='actualizar-alumno.php?MatriculaUpdate=".$registro29["matricula"]."' class='btn btn-success btn-raised btn-xs'><i class='zmdi zmdi-refresh'></i></a></td>
                                                         <td><a href='funciones/eliminar-madre.php?MatriculaDelete=".$registro29["matricula"]."'><button class='btn btn-danger btn-raised btn-xs' type='button' onclick='return confirmarEliminar()'><i class='zmdi zmdi-delete'></i></button></a></td>
@@ -1520,26 +1519,26 @@
                                                         echo "
                                                         <tr>
                                                         <td>Salud Integral del Adolescente II</td>
-                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro210["falta1ro"]."></td>
-                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro210["falta2do"]."></td>
-                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro210["falta3ero"]."></td>
-                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =3></td>
+                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtFaltaSaludII_1' value =".$registro210["falta1ro"]."></td>
+                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtFaltaSaludII_2' value =".$registro210["falta2do"]."></td>
+                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtFaltaSaludII_3' value =".$registro210["falta3ero"]."></td>
+                                                        
                                                         <td></td>
                                                         <td></td>
-                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro210["calParcial1ro"]."></td>
-                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro210["calParcial2do"]."></td>
-                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro210["calParcial3ero"]."></td>
+                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtCalSaludII_1' value =".$registro210["calParcial1ro"]."></td>
+                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtCalSaludII_2' value =".$registro210["calParcial2do"]."></td>
+                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtCalSaludII_3' value =".$registro210["calParcial3ero"]."></td>
                                                         <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro210["calFinal"]."></td>
                                                         <td></td>
                                                         <td></td>
-                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro210["calExtra1"]."></td>
-                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro210["fechaCalExtra1"]."></td>
-                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro210["calExtra2"]."></td>
-                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro210["fechaCalExtra2"]."></td>
-                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro210["calExtra3"]."></td>
-                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro210["fechaCalExtra3"]."></td>
-                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro210["calExtra4"]."></td>
-                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro210["fechaCalExtra4"]."></td>
+                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtCalExtraSaludII_1' value =".$registro210["calExtra1"]."></td>
+                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtFechaCalExtraSaludII_1' value =".$registro210["fechaCalExtra1"]."></td>
+                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtCalExtraSaludII_2' value =".$registro210["calExtra2"]."></td>
+                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtFechaCalExtraSaludII_2' value =".$registro210["fechaCalExtra2"]."></td>
+                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtCalExtraSaludII_3' value =".$registro210["calExtra3"]."></td>
+                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtFechaCalExtraSaludII_3' value =".$registro210["fechaCalExtra3"]."></td>
+                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtCalExtraSaludII_4' value =".$registro210["calExtra4"]."></td>
+                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtFechaCalExtraSaludII_4' value =".$registro210["fechaCalExtra4"]."></td>
                                                         <td></td>
                                                         <td><a href='actualizar-alumno.php?MatriculaUpdate=".$registro210["matricula"]."' class='btn btn-success btn-raised btn-xs'><i class='zmdi zmdi-refresh'></i></a></td>
                                                         <td><a href='funciones/eliminar-madre.php?MatriculaDelete=".$registro210["matricula"]."'><button class='btn btn-danger btn-raised btn-xs' type='button' onclick='return confirmarEliminar()'><i class='zmdi zmdi-delete'></i></button></a></td>
@@ -1947,26 +1946,26 @@
                                             echo "
                                             <tr>
                                             <td>Matematicas III</td>
-                                            <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro31["falta1ro"]."> </td>
-                                            <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro31["falta2do"]."> </td>
-                                            <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro31["falta3ero"]."></td>
-                                            <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =3></td>
+                                            <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtFaltaMateIII_1' value =".$registro31["falta1ro"]."> </td>
+                                            <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtFaltaMateIII_2' value =".$registro31["falta2do"]."> </td>
+                                            <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtFaltaMateIII_3' value =".$registro31["falta3ero"]."></td>
+                                            
                                             <td></td>
                                             <td></td>
-                                            <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro31["calParcial1ro"]."></td>
-                                            <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro31["calParcial2do"]."></td>
-                                            <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro31["calParcial3ero"]."></td>
+                                            <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtCalMateIII_1' value =".$registro31["calParcial1ro"]."></td>
+                                            <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtCalMateIII_2' value =".$registro31["calParcial2do"]."></td>
+                                            <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtCalMateIII_3' value =".$registro31["calParcial3ero"]."></td>
                                             <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro31["calFinal"]."></td>
                                             <td></td>
                                             <td></td>
-                                            <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro31["calExtra1"]."></td>
-                                            <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro31["fechaCalExtra1"]."></td>
-                                            <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro31["calExtra2"]."></td>
-                                            <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro31["fechaCalExtra2"]."></td>
-                                            <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro31["calExtra3"]."></td>
-                                            <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro31["fechaCalExtra3"]."></td>
-                                            <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro31["calExtra4"]."></td>
-                                            <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro31["fechaCalExtra4"]."></td>
+                                            <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtCalExtraMateIII_1' value =".$registro31["calExtra1"]."></td>
+                                            <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtFechaCalExtraMateIII_1' value =".$registro31["fechaCalExtra1"]."></td>
+                                            <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtCalExtraMateIII_2' value =".$registro31["calExtra2"]."></td>
+                                            <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtFechaCalExtraMateIII_2' value =".$registro31["fechaCalExtra2"]."></td>
+                                            <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtCalExtraMateIII_3' value =".$registro31["calExtra3"]."></td>
+                                            <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtFechaCalExtraMateIII_3' value =".$registro31["fechaCalExtra3"]."></td>
+                                            <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtCalExtraMateIII_4' value =".$registro31["calExtra4"]."></td>
+                                            <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtFechaCalExtraMateIII_4' value =".$registro31["fechaCalExtra4"]."></td>
                                             <td></td>
                                             <td><a href='actualizar-alumno.php?MatriculaUpdate=".$registro31["matricula"]."' class='btn btn-success btn-raised btn-xs'><i class='zmdi zmdi-refresh'></i></a></td>
                                             <td><a href='funciones/eliminar-madre.php?MatriculaDelete=".$registro31["matricula"]."'><button class='btn btn-danger btn-raised btn-xs' type='button' onclick='return confirmarEliminar()'><i class='zmdi zmdi-delete'></i></button></a></td>
@@ -1975,26 +1974,26 @@
                                                 echo "
                                                 <tr>
                                                 <td>Biologia I</td>
-                                                <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro32["falta1ro"]."></td>
-                                                <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro32["falta2do"]."></td>
-                                                <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro32["falta3ero"]."></td>
-                                                <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =3></td>
+                                                <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtFaltaBiologiaI_1' value =".$registro32["falta1ro"]."></td>
+                                                <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtFaltaBiologiaI_2' value =".$registro32["falta2do"]."></td>
+                                                <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtFaltaBiologiaI_3' value =".$registro32["falta3ero"]."></td>
+                                                
                                                 <td></td>
                                                 <td></td>
-                                                <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro32["calParcial1ro"]."></td>
-                                                <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro32["calParcial2do"]."></td>
-                                                <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro32["calParcial3ero"]."></td>
+                                                <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtCalBiologiaI_1' value =".$registro32["calParcial1ro"]."></td>
+                                                <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtCalBiologiaI_2' value =".$registro32["calParcial2do"]."></td>
+                                                <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtCalBiologiaI_3' value =".$registro32["calParcial3ero"]."></td>
                                                 <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro32["calFinal"]."></td>
                                                 <td></td>
                                                 <td></td>
-                                                <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro32["calExtra1"]."></td>
-                                                <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro32["fechaCalExtra1"]."></td>
-                                                <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro32["calExtra2"]."></td>
-                                                <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro32["fechaCalExtra2"]."></td>
-                                                <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro32["calExtra3"]."></td>
-                                                <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro32["fechaCalExtra3"]."></td>
-                                                <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro32["calExtra4"]."></td>
-                                                <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro32["fechaCalExtra4"]."></td>
+                                                <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtCalExtraBiologiaI_1' value =".$registro32["calExtra1"]."></td>
+                                                <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtFechaCalExtraBiologiaI_1' value =".$registro32["fechaCalExtra1"]."></td>
+                                                <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtCalExtraBiologiaI_2' value =".$registro32["calExtra2"]."></td>
+                                                <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtFechaCalExtraBiologiaI_2' value =".$registro32["fechaCalExtra2"]."></td>
+                                                <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtCalExtraBiologiaI_3' value =".$registro32["calExtra3"]."></td>
+                                                <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtFechaCalExtraBiologiaI_3' value =".$registro32["fechaCalExtra3"]."></td>
+                                                <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtCalExtraBiologiaI_4' value =".$registro32["calExtra4"]."></td>
+                                                <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtFechaCalExtraBiologiaI_4' value =".$registro32["fechaCalExtra4"]."></td>
                                                 <td></td>
                                                 <td><a href='actualizar-alumno.php?MatriculaUpdate=".$registro32["matricula"]."' class='btn btn-success btn-raised btn-xs'><i class='zmdi zmdi-refresh'></i></a></td>
                                                 <td><a href='funciones/eliminar-madre.php?MatriculaDelete=".$registro32["matricula"]."'><button class='btn btn-danger btn-raised btn-xs' type='button' onclick='return confirmarEliminar()'><i class='zmdi zmdi-delete'></i></button></a></td>
@@ -2005,26 +2004,26 @@
                                                     echo "
                                                     <tr>
                                                     <td>Fisica I</td>
-                                                    <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro33["falta1ro"]."></td>
-                                                    <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro33["falta2do"]."></td>
-                                                    <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro33["falta3ero"]."></td>
-                                                    <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =3></td>
+                                                    <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtFaltaFisicaI_1' value =".$registro33["falta1ro"]."></td>
+                                                    <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtFaltaFisicaI_2' value =".$registro33["falta2do"]."></td>
+                                                    <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtFaltaFisicaI_3' value =".$registro33["falta3ero"]."></td>
+                                                    
                                                     <td></td>
                                                     <td></td>
-                                                    <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro33["calParcial1ro"]."></td>
-                                                    <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro33["calParcial2do"]."></td>
-                                                    <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro33["calParcial3ero"]."></td>
+                                                    <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtCalFisicaI_1' value =".$registro33["calParcial1ro"]."></td>
+                                                    <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtCalFisicaI_2' value =".$registro33["calParcial2do"]."></td>
+                                                    <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtCalFisicaI_3' value =".$registro33["calParcial3ero"]."></td>
                                                     <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro33["calFinal"]."></td>
                                                     <td></td>
                                                     <td></td>
-                                                    <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro33["calExtra1"]."></td>
-                                                    <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro33["fechaCalExtra1"]."></td>
-                                                    <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro33["calExtra2"]."></td>
-                                                    <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro33["fechaCalExtra2"]."></td>
-                                                    <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro33["calExtra3"]."></td>
-                                                    <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro33["fechaCalExtra3"]."></td>
-                                                    <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro33["calExtra4"]."></td>
-                                                    <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro33["fechaCalExtra4"]."></td>
+                                                    <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtCalExtraFisicaI_1' value =".$registro33["calExtra1"]."></td>
+                                                    <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtFechaCalExtraFisicaI_1' value =".$registro33["fechaCalExtra1"]."></td>
+                                                    <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtCalExtraFisicaI_2' value =".$registro33["calExtra2"]."></td>
+                                                    <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtFechaCalExtraFisicaI_2' value =".$registro33["fechaCalExtra2"]."></td>
+                                                    <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtCalExtraFisicaI_3' value =".$registro33["calExtra3"]."></td>
+                                                    <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtFechaCalExtraFisicaI_3' value =".$registro33["fechaCalExtra3"]."></td>
+                                                    <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtCalExtraFisicaI_4' value =".$registro33["calExtra4"]."></td>
+                                                    <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtFechaCalExtraFisicaI_4' value =".$registro33["fechaCalExtra4"]."></td>
                                                     <td></td>
                                                     <td><a href='actualizar-alumno.php?MatriculaUpdate=".$registro33["matricula"]."' class='btn btn-success btn-raised btn-xs'><i class='zmdi zmdi-refresh'></i></a></td>
                                                     <td><a href='funciones/eliminar-madre.php?MatriculaDelete=".$registro33["matricula"]."'><button class='btn btn-danger btn-raised btn-xs' type='button' onclick='return confirmarEliminar()'><i class='zmdi zmdi-delete'></i></button></a></td>
@@ -2035,26 +2034,26 @@
                                                     echo "
                                                     <tr>
                                                     <td>Historia de México I</td>
-                                                    <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro34["falta1ro"]."></td>
-                                                    <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro34["falta2do"]."></td>
-                                                    <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro34["falta3ero"]."></td>
-                                                    <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =3></td>
+                                                    <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtFaltaHMI_1' value =".$registro34["falta1ro"]."></td>
+                                                    <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtFaltaHMI_2' value =".$registro34["falta2do"]."></td>
+                                                    <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtFaltaHMI_3' value =".$registro34["falta3ero"]."></td>
+                                                    
                                                     <td></td>
                                                     <td></td>
-                                                    <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro34["calParcial1ro"]."></td>
-                                                    <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro34["calParcial2do"]."></td>
-                                                    <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro34["calParcial3ero"]."></td>
+                                                    <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtCalHMI_1' value =".$registro34["calParcial1ro"]."></td>
+                                                    <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtCalHMI_2' value =".$registro34["calParcial2do"]."></td>
+                                                    <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtCalHMI_3' value =".$registro34["calParcial3ero"]."></td>
                                                     <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro34["calFinal"]."></td>
                                                     <td></td>
                                                     <td></td>
-                                                    <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro34["calExtra1"]."></td>
-                                                    <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro34["fechaCalExtra1"]."></td>
-                                                    <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro34["calExtra2"]."></td>
-                                                    <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro34["fechaCalExtra2"]."></td>
-                                                    <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro34["calExtra3"]."></td>
-                                                    <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro34["fechaCalExtra3"]."></td>
-                                                    <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro34["calExtra4"]."></td>
-                                                    <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro34["fechaCalExtra4"]."></td>
+                                                    <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtCalExtraHMI_1' value =".$registro34["calExtra1"]."></td>
+                                                    <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtFechaCalExtraHMI_1' value =".$registro34["fechaCalExtra1"]."></td>
+                                                    <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtCalExtraHMI_2' value =".$registro34["calExtra2"]."></td>
+                                                    <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtFechaCalExtraHMI_2' value =".$registro34["fechaCalExtra2"]."></td>
+                                                    <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtCalExtraHMI_3' value =".$registro34["calExtra3"]."></td>
+                                                    <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtFechaCalExtraHMI_3' value =".$registro34["fechaCalExtra3"]."></td>
+                                                    <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtCalExtraHMI_4' value =".$registro34["calExtra4"]."></td>
+                                                    <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtFechaCalExtraHMI_4' value =".$registro34["fechaCalExtra4"]."></td>
                                                     <td></td>
                                                     <td><a href='actualizar-alumno.php?MatriculaUpdate=".$registro34["matricula"]."' class='btn btn-success btn-raised btn-xs'><i class='zmdi zmdi-refresh'></i></a></td>
                                                     <td><a href='funciones/eliminar-madre.php?MatriculaDelete=".$registro34["matricula"]."'><button class='btn btn-danger btn-raised btn-xs' type='button' onclick='return confirmarEliminar()'><i class='zmdi zmdi-delete'></i></button></a></td>
@@ -2065,26 +2064,26 @@
                                                         echo "
                                                         <tr>
                                                         <td>Ingles III</td>
-                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro35["falta1ro"]."></td>
-                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro35["falta2do"]."></td>
-                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro35["falta3ero"]."></td>
-                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =3></td>
+                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtFaltaInglesIII_1' value =".$registro35["falta1ro"]."></td>
+                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtFaltaInglesIII_2' value =".$registro35["falta2do"]."></td>
+                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtFaltaInglesIII_3' value =".$registro35["falta3ero"]."></td>
+                                                        
                                                         <td></td>
                                                         <td></td>
-                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro35["calParcial1ro"]."></td>
-                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro35["calParcial2do"]."></td>
-                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro35["calParcial3ero"]."></td>
+                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtCalInglesIII_1' value =".$registro35["calParcial1ro"]."></td>
+                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtCalInglesIII_2' value =".$registro35["calParcial2do"]."></td>
+                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtCalInglesIII_2' value =".$registro35["calParcial3ero"]."></td>
                                                         <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro35["calFinal"]."></td>
                                                         <td></td>
                                                         <td></td>
-                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro35["calExtra1"]."></td>
-                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro35["fechaCalExtra1"]."></td>
-                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro35["calExtra2"]."></td>
-                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro35["fechaCalExtra2"]."></td>
-                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro35["calExtra3"]."></td>
-                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro35["fechaCalExtra3"]."></td>
-                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro35["calExtra4"]."></td>
-                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro35["fechaCalExtra4"]."></td>
+                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtCalExtraInglesIII_1' value =".$registro35["calExtra1"]."></td>
+                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtFechaCalExtraInglesIII_1' value =".$registro35["fechaCalExtra1"]."></td>
+                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtCalExtraInglesIII_2' value =".$registro35["calExtra2"]."></td>
+                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtFechaCalExtraInglesIII_2' value =".$registro35["fechaCalExtra2"]."></td>
+                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtCalExtraInglesIII_3' value =".$registro35["calExtra3"]."></td>
+                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtFechaCalExtraInglesIII_3' value =".$registro35["fechaCalExtra3"]."></td>
+                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtCalExtraInglesIII_4' value =".$registro35["calExtra4"]."></td>
+                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtFechaCalExtraInglesIII_4' value =".$registro35["fechaCalExtra4"]."></td>
                                                         <td></td>
                                                         <td><a href='actualizar-alumno.php?MatriculaUpdate=".$registro35["matricula"]."' class='btn btn-success btn-raised btn-xs'><i class='zmdi zmdi-refresh'></i></a></td>
                                                         <td><a href='funciones/eliminar-madre.php?MatriculaDelete=".$registro35["matricula"]."'><button class='btn btn-danger btn-raised btn-xs' type='button' onclick='return confirmarEliminar()'><i class='zmdi zmdi-delete'></i></button></a></td>
@@ -2095,26 +2094,26 @@
                                                         echo "
                                                         <tr>
                                                         <td>Literatura I</td>
-                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro36["falta1ro"]."></td>
-                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro36["falta2do"]."></td>
-                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro36["falta3ero"]."></td>
-                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =3></td>
+                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtFaltaLiteraturaI_1' value =".$registro36["falta1ro"]."></td>
+                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtFaltaLiteraturaI_2' value =".$registro36["falta2do"]."></td>
+                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtFaltaLiteraturaI_3' value =".$registro36["falta3ero"]."></td>
+                                                        
                                                         <td></td>
                                                         <td></td>
-                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro36["calParcial1ro"]."></td>
-                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro36["calParcial2do"]."></td>
-                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro36["calParcial3ero"]."></td>
+                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtCalLiteraturaI_1' value =".$registro36["calParcial1ro"]."></td>
+                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtCalLiteraturaI_2' value =".$registro36["calParcial2do"]."></td>
+                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtCalLiteraturaI_3' value =".$registro36["calParcial3ero"]."></td>
                                                         <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro36["calFinal"]."></td>
                                                         <td></td>
                                                         <td></td>
-                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro36["calExtra1"]."></td>
-                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro36["fechaCalExtra1"]."></td>
-                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro36["calExtra2"]."></td>
-                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro36["fechaCalExtra2"]."></td>
-                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro36["calExtra3"]."></td>
-                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro36["fechaCalExtra3"]."></td>
-                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro36["calExtra4"]."></td>
-                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro36["fechaCalExtra4"]."></td>
+                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtCalExtraLiteraturaI_1' value =".$registro36["calExtra1"]."></td>
+                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtFechaCalExtraLiteraturaI_1' value =".$registro36["fechaCalExtra1"]."></td>
+                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtCalExtraLiteraturaI_2' value =".$registro36["calExtra2"]."></td>
+                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtFechaCalExtraLiteraturaI_2' value =".$registro36["fechaCalExtra2"]."></td>
+                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtCalExtraLiteraturaI_3' value =".$registro36["calExtra3"]."></td>
+                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtFechaCalExtraLiteraturaI_3' value =".$registro36["fechaCalExtra3"]."></td>
+                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtCalExtraLiteraturaI_4' value =".$registro36["calExtra4"]."></td>
+                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtFechaCalExtraLiteraturaI_4' value =".$registro36["fechaCalExtra4"]."></td>
                                                         <td></td>
                                                         <td><a href='actualizar-alumno.php?MatriculaUpdate=".$registro36["matricula"]."' class='btn btn-success btn-raised btn-xs'><i class='zmdi zmdi-refresh'></i></a></td>
                                                         <td><a href='funciones/eliminar-madre.php?MatriculaDelete=".$registro36["matricula"]."'><button class='btn btn-danger btn-raised btn-xs' type='button' onclick='return confirmarEliminar()'><i class='zmdi zmdi-delete'></i></button></a></td>
@@ -2125,26 +2124,26 @@
                                                         echo "
                                                         <tr>
                                                         <td>Gestión de Archivos de Texto</td>
-                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro37["falta1ro"]."></td>
-                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro37["falta2do"]."></td>
-                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro37["falta3ero"]."></td>
-                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =3></td>
+                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtFaltaGAT_1' value =".$registro37["falta1ro"]."></td>
+                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtFaltaGAT_2' value =".$registro37["falta2do"]."></td>
+                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtFaltaGAT_3' value =".$registro37["falta3ero"]."></td>
+                                                        
                                                         <td></td>
                                                         <td></td>
-                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro37["calParcial1ro"]."></td>
-                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro37["calParcial2do"]."></td>
-                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro37["calParcial3ero"]."></td>
+                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtCalGAT_1' value =".$registro37["calParcial1ro"]."></td>
+                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtCalGAT_2' value =".$registro37["calParcial2do"]."></td>
+                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtCalGAT_3' value =".$registro37["calParcial3ero"]."></td>
                                                         <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro37["calFinal"]."></td>
                                                         <td></td>
                                                         <td></td>
-                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro37["calExtra1"]."></td>
-                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro37["fechaCalExtra1"]."></td>
-                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro37["calExtra2"]."></td>
-                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro37["fechaCalExtra2"]."></td>
-                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro37["calExtra3"]."></td>
-                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro37["fechaCalExtra3"]."></td>
-                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro37["calExtra4"]."></td>
-                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro37["fechaCalExtra4"]."></td>
+                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtCalExtraGAT_1' value =".$registro37["calExtra1"]."></td>
+                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtFechaCalExtraGAT_1' value =".$registro37["fechaCalExtra1"]."></td>
+                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtCalExtraGAT_2' value =".$registro37["calExtra2"]."></td>
+                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtFechaCalExtraGAT_2' value =".$registro37["fechaCalExtra2"]."></td>
+                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtCalExtraGAT_3' value =".$registro37["calExtra3"]."></td>
+                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtFechaCalExtraGAT_3' value =".$registro37["fechaCalExtra3"]."></td>
+                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtCalExtraGAT_4' value =".$registro37["calExtra4"]."></td>
+                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtFechaCalExtraGAT_4' value =".$registro37["fechaCalExtra4"]."></td>
                                                         <td></td>
                                                         <td><a href='actualizar-alumno.php?MatriculaUpdate=".$registro37["matricula"]."' class='btn btn-success btn-raised btn-xs'><i class='zmdi zmdi-refresh'></i></a></td>
                                                         <td><a href='funciones/eliminar-madre.php?MatriculaDelete=".$registro37["matricula"]."'><button class='btn btn-danger btn-raised btn-xs' type='button' onclick='return confirmarEliminar()'><i class='zmdi zmdi-delete'></i></button></a></td>
@@ -2155,26 +2154,26 @@
                                                         echo "
                                                         <tr>
                                                         <td>Hoja de Calculo Aplicada</td>
-                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro38["falta1ro"]."></td>
-                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro38["falta2do"]."></td>
-                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro38["falta3ero"]."></td>
-                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =3></td>
+                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtFaltaHCA_1' value =".$registro38["falta1ro"]."></td>
+                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtFaltaHCA_2' value =".$registro38["falta2do"]."></td>
+                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtFaltaHCA_3' value =".$registro38["falta3ero"]."></td>
+                                                        
                                                         <td></td>
                                                         <td></td>
-                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro38["calParcial1ro"]."></td>
-                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro38["calParcial2do"]."></td>
-                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro38["calParcial3ero"]."></td>
+                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtCalHCA_1' value =".$registro38["calParcial1ro"]."></td>
+                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtCalHCA_2' value =".$registro38["calParcial2do"]."></td>
+                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtCalHCA_3' value =".$registro38["calParcial3ero"]."></td>
                                                         <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro38["calFinal"]."></td>
                                                         <td></td>
                                                         <td></td>
-                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro38["calExtra1"]."></td>
-                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro38["fechaCalExtra1"]."></td>
-                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro38["calExtra2"]."></td>
-                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro38["fechaCalExtra2"]."></td>
-                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro38["calExtra3"]."></td>
-                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro38["fechaCalExtra3"]."></td>
-                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro38["calExtra4"]."></td>
-                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro38["fechaCalExtra4"]."></td>
+                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtCalExtraHCA_1' value =".$registro38["calExtra1"]."></td>
+                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtFechaCalExtraHCA_1' value =".$registro38["fechaCalExtra1"]."></td>
+                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtCalExtraHCA_2' value =".$registro38["calExtra2"]."></td>
+                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtFechaCalExtraHCA_2' value =".$registro38["fechaCalExtra2"]."></td>
+                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtCalExtraHCA_3' value =".$registro38["calExtra3"]."></td>
+                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtFechaCalExtraHCA_3' value =".$registro38["fechaCalExtra3"]."></td>
+                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtCalExtraHCA_4' value =".$registro38["calExtra4"]."></td>
+                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtFechaCalExtraHCA_4' value =".$registro38["fechaCalExtra4"]."></td>
                                                         <td></td>
                                                         <td><a href='actualizar-alumno.php?MatriculaUpdate=".$registro38["matricula"]."' class='btn btn-success btn-raised btn-xs'><i class='zmdi zmdi-refresh'></i></a></td>
                                                         <td><a href='funciones/eliminar-madre.php?MatriculaDelete=".$registro38["matricula"]."'><button class='btn btn-danger btn-raised btn-xs' type='button' onclick='return confirmarEliminar()'><i class='zmdi zmdi-delete'></i></button></a></td>
@@ -2185,26 +2184,26 @@
                                                         echo "
                                                         <tr>
                                                         <td>Actividades Fisicas, Deportivas y Recreativas III</td>
-                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro39["falta1ro"]."></td>
-                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro39["falta2do"]."></td>
-                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro39["falta3ero"]."></td>
-                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =3></td>
+                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtFaltaAACIII_1' value =".$registro39["falta1ro"]."></td>
+                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtFaltaAACIII_2' value =".$registro39["falta2do"]."></td>
+                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtFaltaAACIII_3' value =".$registro39["falta3ero"]."></td>
+                                                        
                                                         <td></td>
                                                         <td></td>
-                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro39["calParcial1ro"]."></td>
-                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro39["calParcial2do"]."></td>
-                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro39["calParcial3ero"]."></td>
+                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtCalAACIII_1' value =".$registro39["calParcial1ro"]."></td>
+                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtCalAACIII_2' value =".$registro39["calParcial2do"]."></td>
+                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtCalAACIII_3' value =".$registro39["calParcial3ero"]."></td>
                                                         <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro39["calFinal"]."></td>
                                                         <td></td>
                                                         <td></td>
-                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro39["calExtra1"]."></td>
-                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro39["fechaCalExtra1"]."></td>
-                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro39["calExtra2"]."></td>
-                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro39["fechaCalExtra2"]."></td>
-                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro39["calExtra3"]."></td>
-                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro39["fechaCalExtra3"]."></td>
-                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro39["calExtra4"]."></td>
-                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro39["fechaCalExtra4"]."></td>
+                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtCalExtraAACIII_1' value =".$registro39["calExtra1"]."></td>
+                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtFechaCalExtraAACIII_1' value =".$registro39["fechaCalExtra1"]."></td>
+                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtCalExtraAACIII_2' value =".$registro39["calExtra2"]."></td>
+                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtFechaCalExtraAACIII_2' value =".$registro39["fechaCalExtra2"]."></td>
+                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtCalExtraAACIII_3' value =".$registro39["calExtra3"]."></td>
+                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtFechaCalExtraAACIII_3' value =".$registro39["fechaCalExtra3"]."></td>
+                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtCalExtraAACIII_4' value =".$registro39["calExtra4"]."></td>
+                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtFechaCalExtraAACIII_4' value =".$registro39["fechaCalExtra4"]."></td>
                                                         <td></td>
                                                         <td><a href='actualizar-alumno.php?MatriculaUpdate=".$registro39["matricula"]."' class='btn btn-success btn-raised btn-xs'><i class='zmdi zmdi-refresh'></i></a></td>
                                                         <td><a href='funciones/eliminar-madre.php?MatriculaDelete=".$registro39["matricula"]."'><button class='btn btn-danger btn-raised btn-xs' type='button' onclick='return confirmarEliminar()'><i class='zmdi zmdi-delete'></i></button></a></td>
@@ -2215,26 +2214,26 @@
                                                         echo "
                                                         <tr>
                                                         <td>Salud Integral del Adolecente III</td>
-                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro310["falta1ro"]."></td>
-                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro310["falta2do"]."></td>
-                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro310["falta3ero"]."></td>
-                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =3></td>
+                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtFaltaSaludIII_1' value =".$registro310["falta1ro"]."></td>
+                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtFaltaSaludIII_2' value =".$registro310["falta2do"]."></td>
+                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtFaltaSaludIII_3' value =".$registro310["falta3ero"]."></td>
+                                                        
                                                         <td></td>
                                                         <td></td>
-                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro310["calParcial1ro"]."></td>
-                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro310["calParcial2do"]."></td>
-                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro310["calParcial3ero"]."></td>
+                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtCalSaludIII_1' value =".$registro310["calParcial1ro"]."></td>
+                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtCalSaludIII_2' value =".$registro310["calParcial2do"]."></td>
+                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtCalSaludIII_3' value =".$registro310["calParcial3ero"]."></td>
                                                         <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro310["calFinal"]."></td>
                                                         <td></td>
                                                         <td></td>
-                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro310["calExtra1"]."></td>
-                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro310["fechaCalExtra1"]."></td>
-                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro310["calExtra2"]."></td>
-                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro310["fechaCalExtra2"]."></td>
-                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro310["calExtra3"]."></td>
-                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro310["fechaCalExtra3"]."></td>
-                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro310["calExtra4"]."></td>
-                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro310["fechaCalExtra4"]."></td>
+                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtCalExtraSaludIII_1' value =".$registro310["calExtra1"]."></td>
+                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtFechaCalExtraSaludIII_1' value =".$registro310["fechaCalExtra1"]."></td>
+                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtCalExtraSaludIII_2' value =".$registro310["calExtra2"]."></td>
+                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtFechaCalExtraSaludIII_2' value =".$registro310["fechaCalExtra2"]."></td>
+                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtCalExtraSaludIII_3' value =".$registro310["calExtra3"]."></td>
+                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtFechaCalExtraSaludIII_3' value =".$registro310["fechaCalExtra3"]."></td>
+                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtCalExtraSaludIII_4' value =".$registro310["calExtra4"]."></td>
+                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtFechaCalExtraSaludIII_4' value =".$registro310["fechaCalExtra4"]."></td>
                                                         <td></td>
                                                         <td><a href='actualizar-alumno.php?MatriculaUpdate=".$registro310["matricula"]."' class='btn btn-success btn-raised btn-xs'><i class='zmdi zmdi-refresh'></i></a></td>
                                                         <td><a href='funciones/eliminar-madre.php?MatriculaDelete=".$registro310["matricula"]."'><button class='btn btn-danger btn-raised btn-xs' type='button' onclick='return confirmarEliminar()'><i class='zmdi zmdi-delete'></i></button></a></td>
@@ -2245,26 +2244,26 @@
                                                         echo "
                                                         <tr>
                                                         <td>Habilidades de Razonamiento</td>
-                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro311["falta1ro"]."></td>
-                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro311["falta2do"]."></td>
-                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro311["falta3ero"]."></td>
-                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =3></td>
+                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtFaltaHR_1' value =".$registro311["falta1ro"]."></td>
+                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtFaltaHR_2' value =".$registro311["falta2do"]."></td>
+                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtFaltaHR_3' value =".$registro311["falta3ero"]."></td>
+                                                        
                                                         <td></td>
                                                         <td></td>
-                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro311["calParcial1ro"]."></td>
-                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro311["calParcial2do"]."></td>
-                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro311["calParcial3ero"]."></td>
+                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtCalHR_1' value =".$registro311["calParcial1ro"]."></td>
+                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtCalHR_2' value =".$registro311["calParcial2do"]."></td>
+                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtCalHR_3' value =".$registro311["calParcial3ero"]."></td>
                                                         <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro311["calFinal"]."></td>
                                                         <td></td>
                                                         <td></td>
-                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro311["calExtra1"]."></td>
-                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro311["fechaCalExtra1"]."></td>
-                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro311["calExtra2"]."></td>
-                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro311["fechaCalExtra2"]."></td>
-                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro311["calExtra3"]."></td>
-                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro311["fechaCalExtra3"]."></td>
-                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro311["calExtra4"]."></td>
-                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro31["fechaCalExtra4"]."></td>
+                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtCalExtraHR_1' value =".$registro311["calExtra1"]."></td>
+                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtFechaCalExtraHR_1' value =".$registro311["fechaCalExtra1"]."></td>
+                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtCalExtraHR_2' value =".$registro311["calExtra2"]."></td>
+                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtFechaCalExtraHR_2' value =".$registro311["fechaCalExtra2"]."></td>
+                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtCalExtraHR_3' value =".$registro311["calExtra3"]."></td>
+                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtFechaCalExtraHR_3' value =".$registro311["fechaCalExtra3"]."></td>
+                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtCalExtraHR_4' value =".$registro311["calExtra4"]."></td>
+                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtFechaCalExtraHR_4' value =".$registro31["fechaCalExtra4"]."></td>
                                                         <td></td>
                                                         <td><a href='actualizar-alumno.php?MatriculaUpdate=".$registro311["matricula"]."' class='btn btn-success btn-raised btn-xs'><i class='zmdi zmdi-refresh'></i></a></td>
                                                         <td><a href='funciones/eliminar-madre.php?MatriculaDelete=".$registro311["matricula"]."'><button class='btn btn-danger btn-raised btn-xs' type='button' onclick='return confirmarEliminar()'><i class='zmdi zmdi-delete'></i></button></a></td>
@@ -2640,26 +2639,26 @@
                                             echo "
                                             <tr>
                                             <td>Matematicas IV</td>
-                                            <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro41["falta1ro"]."> </td>
-                                            <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro41["falta2do"]."> </td>
-                                            <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro41["falta3ero"]."></td>
-                                            <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =3></td>
+                                            <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtFaltaMateIV_1' value =".$registro41["falta1ro"]."> </td>
+                                            <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtFaltaMateIV_2' value =".$registro41["falta2do"]."> </td>
+                                            <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtFaltaMateIV_3' value =".$registro41["falta3ero"]."></td>
+                                            
                                             <td></td>
                                             <td></td>
-                                            <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro41["calParcial1ro"]."></td>
-                                            <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro41["calParcial2do"]."></td>
-                                            <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro41["calParcial3ero"]."></td>
+                                            <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtCalMateIV_1' value =".$registro41["calParcial1ro"]."></td>
+                                            <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtCalMateIV_2' value =".$registro41["calParcial2do"]."></td>
+                                            <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtCalMateIV_3' value =".$registro41["calParcial3ero"]."></td>
                                             <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro41["calFinal"]."></td>
                                             <td></td>
                                             <td></td>
-                                            <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro41["calExtra1"]."></td>
-                                            <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro41["fechaCalExtra1"]."></td>
-                                            <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro41["calExtra2"]."></td>
-                                            <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro41["fechaCalExtra2"]."></td>
-                                            <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro41["calExtra3"]."></td>
-                                            <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro41["fechaCalExtra3"]."></td>
-                                            <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro41["calExtra4"]."></td>
-                                            <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro41["fechaCalExtra4"]."></td>
+                                            <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtCalExtraMateIV_1' value =".$registro41["calExtra1"]."></td>
+                                            <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtFechaCalExtraMateIV_1' value =".$registro41["fechaCalExtra1"]."></td>
+                                            <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtCalExtraMateIV_2' value =".$registro41["calExtra2"]."></td>
+                                            <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtFechaCalExtraMateIV_2' value =".$registro41["fechaCalExtra2"]."></td>
+                                            <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtCalExtraMateIV_3' value =".$registro41["calExtra3"]."></td>
+                                            <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtFechaCalExtraMateIV_3' value =".$registro41["fechaCalExtra3"]."></td>
+                                            <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtCalExtraMateIV_4' value =".$registro41["calExtra4"]."></td>
+                                            <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtFechaCalExtraMateIV_4' value =".$registro41["fechaCalExtra4"]."></td>
                                             <td></td>
                                             <td><a href='actualizar-alumno.php?MatriculaUpdate=".$registro41["matricula"]."' class='btn btn-success btn-raised btn-xs'><i class='zmdi zmdi-refresh'></i></a></td>
                                             <td><a href='funciones/eliminar-madre.php?MatriculaDelete=".$registro41["matricula"]."'><button class='btn btn-danger btn-raised btn-xs' type='button' onclick='return confirmarEliminar()'><i class='zmdi zmdi-delete'></i></button></a></td>
@@ -2668,26 +2667,26 @@
                                                 echo "
                                                 <tr>
                                                 <td>Biologia II</td>
-                                                <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro42["falta1ro"]."></td>
-                                                <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro42["falta2do"]."></td>
-                                                <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro42["falta3ero"]."></td>
-                                                <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =3></td>
+                                                <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtFaltaBiologiaII_1' value =".$registro42["falta1ro"]."></td>
+                                                <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtFaltaBiologiaII_2' value =".$registro42["falta2do"]."></td>
+                                                <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtFaltaBiologiaII_3' value =".$registro42["falta3ero"]."></td>
+                                                
                                                 <td></td>
                                                 <td></td>
-                                                <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro42["calParcial1ro"]."></td>
-                                                <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro42["calParcial2do"]."></td>
-                                                <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro42["calParcial3ero"]."></td>
+                                                <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtCalBiologiaII_1' value =".$registro42["calParcial1ro"]."></td>
+                                                <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtCalBiologiaII_2' value =".$registro42["calParcial2do"]."></td>
+                                                <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtCalBiologiaII_3' value =".$registro42["calParcial3ero"]."></td>
                                                 <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro42["calFinal"]."></td>
                                                 <td></td>
                                                 <td></td>
-                                                <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro42["calExtra1"]."></td>
-                                                <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro42["fechaCalExtra1"]."></td>
-                                                <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro42["calExtra2"]."></td>
-                                                <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro42["fechaCalExtra2"]."></td>
-                                                <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro42["calExtra3"]."></td>
-                                                <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro42["fechaCalExtra3"]."></td>
-                                                <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro42["calExtra4"]."></td>
-                                                <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro42["fechaCalExtra4"]."></td>
+                                                <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtCalExtraBiologiaII_1' value =".$registro42["calExtra1"]."></td>
+                                                <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtFechaCalExtraBiologiaII_1' value =".$registro42["fechaCalExtra1"]."></td>
+                                                <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtCalExtraBiologiaII_2' value =".$registro42["calExtra2"]."></td>
+                                                <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtFechaCalExtraBiologiaII_2' value =".$registro42["fechaCalExtra2"]."></td>
+                                                <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtCalExtraBiologiaII_3' value =".$registro42["calExtra3"]."></td>
+                                                <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtFechaCalExtraBiologiaII_3' value =".$registro42["fechaCalExtra3"]."></td>
+                                                <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtCalExtraBiologiaII_4' value =".$registro42["calExtra4"]."></td>
+                                                <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtFechaCalExtraBiologiaII_4' value =".$registro42["fechaCalExtra4"]."></td>
                                                 <td></td>
                                                 <td><a href='actualizar-alumno.php?MatriculaUpdate=".$registro42["matricula"]."' class='btn btn-success btn-raised btn-xs'><i class='zmdi zmdi-refresh'></i></a></td>
                                                 <td><a href='funciones/eliminar-madre.php?MatriculaDelete=".$registro42["matricula"]."'><button class='btn btn-danger btn-raised btn-xs' type='button' onclick='return confirmarEliminar()'><i class='zmdi zmdi-delete'></i></button></a></td>
@@ -2698,26 +2697,26 @@
                                                     echo "
                                                     <tr>
                                                     <td>Fisica II</td>
-                                                    <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro43["falta1ro"]."></td>
-                                                    <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro43["falta2do"]."></td>
-                                                    <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro43["falta3ero"]."></td>
-                                                    <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =3></td>
+                                                    <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtFaltaFisicaII_1' value =".$registro43["falta1ro"]."></td>
+                                                    <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtFaltaFisicaII_2' value =".$registro43["falta2do"]."></td>
+                                                    <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtFaltaFisicaII_3' value =".$registro43["falta3ero"]."></td>
+                                                    
                                                     <td></td>
                                                     <td></td>
-                                                    <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro43["calParcial1ro"]."></td>
-                                                    <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro43["calParcial2do"]."></td>
-                                                    <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro43["calParcial3ero"]."></td>
+                                                    <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtCalFisicaII_1' value =".$registro43["calParcial1ro"]."></td>
+                                                    <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtCalFisicaII_2' value =".$registro43["calParcial2do"]."></td>
+                                                    <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtCalFisicaII_3' value =".$registro43["calParcial3ero"]."></td>
                                                     <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro43["calFinal"]."></td>
                                                     <td></td>
                                                     <td></td>
-                                                    <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro43["calExtra1"]."></td>
-                                                    <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro43["fechaCalExtra1"]."></td>
-                                                    <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro43["calExtra2"]."></td>
-                                                    <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro43["fechaCalExtra2"]."></td>
-                                                    <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro43["calExtra3"]."></td>
-                                                    <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro43["fechaCalExtra3"]."></td>
-                                                    <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro43["calExtra4"]."></td>
-                                                    <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro43["fechaCalExtra4"]."></td>
+                                                    <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtCalExtraFisicaII_1' value =".$registro43["calExtra1"]."></td>
+                                                    <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtFechaCalExtraFisicaII_1' value =".$registro43["fechaCalExtra1"]."></td>
+                                                    <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtCalExtraFisicaII_2' value =".$registro43["calExtra2"]."></td>
+                                                    <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtFechaCalExtraFisicaII_2' value =".$registro43["fechaCalExtra2"]."></td>
+                                                    <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtCalExtraFisicaII_3' value =".$registro43["calExtra3"]."></td>
+                                                    <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtFechaCalExtraFisicaII_3' value =".$registro43["fechaCalExtra3"]."></td>
+                                                    <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtCalExtraFisicaII_4' value =".$registro43["calExtra4"]."></td>
+                                                    <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtFechaCalExtraFisicaII_4' value =".$registro43["fechaCalExtra4"]."></td>
                                                     <td></td>
                                                     <td><a href='actualizar-alumno.php?MatriculaUpdate=".$registro43["matricula"]."' class='btn btn-success btn-raised btn-xs'><i class='zmdi zmdi-refresh'></i></a></td>
                                                     <td><a href='funciones/eliminar-madre.php?MatriculaDelete=".$registro43["matricula"]."'><button class='btn btn-danger btn-raised btn-xs' type='button' onclick='return confirmarEliminar()'><i class='zmdi zmdi-delete'></i></button></a></td>
@@ -2728,26 +2727,26 @@
                                                     echo "
                                                     <tr>
                                                     <td>Historia de México II</td>
-                                                    <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro44["falta1ro"]."></td>
-                                                    <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro44["falta2do"]."></td>
-                                                    <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro44["falta3ero"]."></td>
-                                                    <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =3></td>
+                                                    <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtFaltaHMII_1' value =".$registro44["falta1ro"]."></td>
+                                                    <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtFaltaHMII_2' value =".$registro44["falta2do"]."></td>
+                                                    <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtFaltaHMII_3' value =".$registro44["falta3ero"]."></td>
+                                                    
                                                     <td></td>
                                                     <td></td>
-                                                    <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro44["calParcial1ro"]."></td>
-                                                    <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro44["calParcial2do"]."></td>
-                                                    <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro44["calParcial3ero"]."></td>
+                                                    <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtCalHMII_1' value =".$registro44["calParcial1ro"]."></td>
+                                                    <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtCalHMII_2' value =".$registro44["calParcial2do"]."></td>
+                                                    <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtCalHMII_3' value =".$registro44["calParcial3ero"]."></td>
                                                     <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro44["calFinal"]."></td>
                                                     <td></td>
                                                     <td></td>
-                                                    <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro44["calExtra1"]."></td>
-                                                    <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro44["fechaCalExtra1"]."></td>
-                                                    <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro44["calExtra2"]."></td>
-                                                    <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro44["fechaCalExtra2"]."></td>
-                                                    <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro44["calExtra3"]."></td>
-                                                    <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro44["fechaCalExtra3"]."></td>
-                                                    <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro44["calExtra4"]."></td>
-                                                    <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro44["fechaCalExtra4"]."></td>
+                                                    <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtCalExtraHMII_1' value =".$registro44["calExtra1"]."></td>
+                                                    <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtFechaCalExtraHMII_1' value =".$registro44["fechaCalExtra1"]."></td>
+                                                    <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtCalExtraHMII_2' value =".$registro44["calExtra2"]."></td>
+                                                    <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtFechaCalExtraHMII_2' value =".$registro44["fechaCalExtra2"]."></td>
+                                                    <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtCalExtraHMII_3' value =".$registro44["calExtra3"]."></td>
+                                                    <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtFechaCalExtraHMII_3' value =".$registro44["fechaCalExtra3"]."></td>
+                                                    <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtCalExtraHMII_4' value =".$registro44["calExtra4"]."></td>
+                                                    <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtFechaCalExtraHMII_4' value =".$registro44["fechaCalExtra4"]."></td>
                                                     <td></td>
                                                     <td><a href='actualizar-alumno.php?MatriculaUpdate=".$registro44["matricula"]."' class='btn btn-success btn-raised btn-xs'><i class='zmdi zmdi-refresh'></i></a></td>
                                                     <td><a href='funciones/eliminar-madre.php?MatriculaDelete=".$registro44["matricula"]."'><button class='btn btn-danger btn-raised btn-xs' type='button' onclick='return confirmarEliminar()'><i class='zmdi zmdi-delete'></i></button></a></td>
@@ -2758,26 +2757,26 @@
                                                         echo "
                                                         <tr>
                                                         <td>Ingles IV</td>
-                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro45["falta1ro"]."></td>
-                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro45["falta2do"]."></td>
-                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro45["falta3ero"]."></td>
-                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =3></td>
+                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtFaltaInglesIV_1' value =".$registro45["falta1ro"]."></td>
+                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtFaltaInglesIV_2' value =".$registro45["falta2do"]."></td>
+                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtFaltaInglesIV_3' value =".$registro45["falta3ero"]."></td>
+                                                        
                                                         <td></td>
                                                         <td></td>
-                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro45["calParcial1ro"]."></td>
-                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro45["calParcial2do"]."></td>
-                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro45["calParcial3ero"]."></td>
+                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtCalInglesIV_1' value =".$registro45["calParcial1ro"]."></td>
+                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtCalInglesIV_2' value =".$registro45["calParcial2do"]."></td>
+                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtCalInglesIV_3' value =".$registro45["calParcial3ero"]."></td>
                                                         <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro45["calFinal"]."></td>
                                                         <td></td>
                                                         <td></td>
-                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro45["calExtra1"]."></td>
-                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro45["fechaCalExtra1"]."></td>
-                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro45["calExtra2"]."></td>
-                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro45["fechaCalExtra2"]."></td>
-                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro45["calExtra3"]."></td>
-                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro45["fechaCalExtra3"]."></td>
-                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro45["calExtra4"]."></td>
-                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro45["fechaCalExtra4"]."></td>
+                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtCalExtraInglesIV_1' value =".$registro45["calExtra1"]."></td>
+                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtFechaCalExtraInglesIV_1' value =".$registro45["fechaCalExtra1"]."></td>
+                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtCalExtraInglesIV_2' value =".$registro45["calExtra2"]."></td>
+                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtFechaCalExtraInglesIV_2' value =".$registro45["fechaCalExtra2"]."></td>
+                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtCalExtraInglesIV_3' value =".$registro45["calExtra3"]."></td>
+                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtFechaCalExtraInglesIV_3' value =".$registro45["fechaCalExtra3"]."></td>
+                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtCalExtraInglesIV_4' value =".$registro45["calExtra4"]."></td>
+                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtFechaCalExtraInglesIV_4' value =".$registro45["fechaCalExtra4"]."></td>
                                                         <td></td>
                                                         <td><a href='actualizar-alumno.php?MatriculaUpdate=".$registro45["matricula"]."' class='btn btn-success btn-raised btn-xs'><i class='zmdi zmdi-refresh'></i></a></td>
                                                         <td><a href='funciones/eliminar-madre.php?MatriculaDelete=".$registro45["matricula"]."'><button class='btn btn-danger btn-raised btn-xs' type='button' onclick='return confirmarEliminar()'><i class='zmdi zmdi-delete'></i></button></a></td>
@@ -2788,26 +2787,26 @@
                                                         echo "
                                                         <tr>
                                                         <td>Literatura II</td>
-                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro46["falta1ro"]."></td>
-                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro46["falta2do"]."></td>
-                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro46["falta3ero"]."></td>
-                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =3></td>
+                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtFaltaLiteraturaII_1' value =".$registro46["falta1ro"]."></td>
+                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtFaltaLiteraturaII_2' value =".$registro46["falta2do"]."></td>
+                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtFaltaLiteraturaII_3' value =".$registro46["falta3ero"]."></td>
+                                                        
                                                         <td></td>
                                                         <td></td>
-                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro46["calParcial1ro"]."></td>
-                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro46["calParcial2do"]."></td>
-                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro46["calParcial3ero"]."></td>
+                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtCalLiteraturaII_1' value =".$registro46["calParcial1ro"]."></td>
+                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtCalLiteraturaII_2' value =".$registro46["calParcial2do"]."></td>
+                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtCalLiteraturaII_3' value =".$registro46["calParcial3ero"]."></td>
                                                         <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro46["calFinal"]."></td>
                                                         <td></td>
                                                         <td></td>
-                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro46["calExtra1"]."></td>
-                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro46["fechaCalExtra1"]."></td>
-                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro46["calExtra2"]."></td>
-                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro46["fechaCalExtra2"]."></td>
-                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro46["calExtra3"]."></td>
-                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro46["fechaCalExtra3"]."></td>
-                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro46["calExtra4"]."></td>
-                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro46["fechaCalExtra4"]."></td>
+                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtCalExtraLiteraturaII_1' value =".$registro46["calExtra1"]."></td>
+                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtFechaCalExtraLiteraturaII_1' value =".$registro46["fechaCalExtra1"]."></td>
+                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtCalExtraLiteraturaII_2' value =".$registro46["calExtra2"]."></td>
+                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtFechaCalExtraLiteraturaII_2' value =".$registro46["fechaCalExtra2"]."></td>
+                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtCalExtraLiteraturaII_3' value =".$registro46["calExtra3"]."></td>
+                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtFechaCalExtraLiteraturaII_3' value =".$registro46["fechaCalExtra3"]."></td>
+                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtCalExtraLiteraturaII_4' value =".$registro46["calExtra4"]."></td>
+                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtFechaCalExtraLiteraturaII_4' value =".$registro46["fechaCalExtra4"]."></td>
                                                         <td></td>
                                                         <td><a href='actualizar-alumno.php?MatriculaUpdate=".$registro46["matricula"]."' class='btn btn-success btn-raised btn-xs'><i class='zmdi zmdi-refresh'></i></a></td>
                                                         <td><a href='funciones/eliminar-madre.php?MatriculaDelete=".$registro46["matricula"]."'><button class='btn btn-danger btn-raised btn-xs' type='button' onclick='return confirmarEliminar()'><i class='zmdi zmdi-delete'></i></button></a></td>
@@ -2818,26 +2817,26 @@
                                                         echo "
                                                         <tr>
                                                         <td>Comunidades Virtules</td>
-                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro47["falta1ro"]."></td>
-                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro47["falta2do"]."></td>
-                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro47["falta3ero"]."></td>
-                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =3></td>
+                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtFaltaCV_1' value =".$registro47["falta1ro"]."></td>
+                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtFaltaCV_2' value =".$registro47["falta2do"]."></td>
+                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtFaltaCV_3' value =".$registro47["falta3ero"]."></td>
+                                                        
                                                         <td></td>
                                                         <td></td>
-                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro47["calParcial1ro"]."></td>
-                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro47["calParcial2do"]."></td>
-                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro47["calParcial3ero"]."></td>
+                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtCalCV_1' value =".$registro47["calParcial1ro"]."></td>
+                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtCalCV_2' value =".$registro47["calParcial2do"]."></td>
+                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtCalCV_3' value =".$registro47["calParcial3ero"]."></td>
                                                         <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro47["calFinal"]."></td>
                                                         <td></td>
                                                         <td></td>
-                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro47["calExtra1"]."></td>
-                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro47["fechaCalExtra1"]."></td>
-                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro47["calExtra2"]."></td>
-                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro47["fechaCalExtra2"]."></td>
-                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro47["calExtra3"]."></td>
-                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro47["fechaCalExtra3"]."></td>
-                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro47["calExtra4"]."></td>
-                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro47["fechaCalExtra4"]."></td>
+                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtCalExtraCV_1' value =".$registro47["calExtra1"]."></td>
+                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtFechaCalExtraCV_1' value =".$registro47["fechaCalExtra1"]."></td>
+                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtCalExtraCV_2' value =".$registro47["calExtra2"]."></td>
+                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtFechaCalExtraCV_2' value =".$registro47["fechaCalExtra2"]."></td>
+                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtCalExtraCV_3' value =".$registro47["calExtra3"]."></td>
+                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtFechaCalExtraCV_3' value =".$registro47["fechaCalExtra3"]."></td>
+                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtCalExtraCV_4' value =".$registro47["calExtra4"]."></td>
+                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtFechaCalExtraCV_4' value =".$registro47["fechaCalExtra4"]."></td>
                                                         <td></td>
                                                         <td><a href='actualizar-alumno.php?MatriculaUpdate=".$registro47["matricula"]."' class='btn btn-success btn-raised btn-xs'><i class='zmdi zmdi-refresh'></i></a></td>
                                                         <td><a href='funciones/eliminar-madre.php?MatriculaDelete=".$registro47["matricula"]."'><button class='btn btn-danger btn-raised btn-xs' type='button' onclick='return confirmarEliminar()'><i class='zmdi zmdi-delete'></i></button></a></td>
@@ -2848,26 +2847,26 @@
                                                         echo "
                                                         <tr>
                                                         <td>Mantenimiento y Redes de Computo</td>
-                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro48["falta1ro"]."></td>
-                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro48["falta2do"]."></td>
-                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro48["falta3ero"]."></td>
-                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =3></td>
+                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtFaltaMRC_1' value =".$registro48["falta1ro"]."></td>
+                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtFaltaMRC_2' value =".$registro48["falta2do"]."></td>
+                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtFaltaMRC_3' value =".$registro48["falta3ero"]."></td>
+                                                        
                                                         <td></td>
                                                         <td></td>
-                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro48["calParcial1ro"]."></td>
-                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro48["calParcial2do"]."></td>
-                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro48["calParcial3ero"]."></td>
+                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtCalMRC_1' value =".$registro48["calParcial1ro"]."></td>
+                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtCalMRC_2' value =".$registro48["calParcial2do"]."></td>
+                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtCalMRC_3' value =".$registro48["calParcial3ero"]."></td>
                                                         <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro48["calFinal"]."></td>
                                                         <td></td>
                                                         <td></td>
-                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro48["calExtra1"]."></td>
-                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro48["fechaCalExtra1"]."></td>
-                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro48["calExtra2"]."></td>
-                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro48["fechaCalExtra2"]."></td>
-                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro48["calExtra3"]."></td>
-                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro48["fechaCalExtra3"]."></td>
-                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro48["calExtra4"]."></td>
-                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro48["fechaCalExtra4"]."></td>
+                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtCalExtraMRC_1' value =".$registro48["calExtra1"]."></td>
+                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtFechaCalExtraMRC_1' value =".$registro48["fechaCalExtra1"]."></td>
+                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtCalExtraMRC_2' value =".$registro48["calExtra2"]."></td>
+                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtFechaCalExtraMRC_2' value =".$registro48["fechaCalExtra2"]."></td>
+                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtCalExtraMRC_3' value =".$registro48["calExtra3"]."></td>
+                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtFechaCalExtraMRC_3' value =".$registro48["fechaCalExtra3"]."></td>
+                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtCalExtraMRC_4' value =".$registro48["calExtra4"]."></td>
+                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtFechaCalExtraMRC_' value =".$registro48["fechaCalExtra4"]."></td>
                                                         <td></td>
                                                         <td><a href='actualizar-alumno.php?MatriculaUpdate=".$registro48["matricula"]."' class='btn btn-success btn-raised btn-xs'><i class='zmdi zmdi-refresh'></i></a></td>
                                                         <td><a href='funciones/eliminar-madre.php?MatriculaDelete=".$registro48["matricula"]."'><button class='btn btn-danger btn-raised btn-xs' type='button' onclick='return confirmarEliminar()'><i class='zmdi zmdi-delete'></i></button></a></td>
@@ -2878,26 +2877,26 @@
                                                         echo "
                                                         <tr>
                                                         <td>Actividades Fisicas, Deportivas y Recreativas IV</td>
-                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro49["falta1ro"]."></td>
-                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro49["falta2do"]."></td>
-                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro49["falta3ero"]."></td>
-                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =3></td>
+                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtFaltaAFDRIV_1' value =".$registro49["falta1ro"]."></td>
+                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtFaltaAFDRIV_2' value =".$registro49["falta2do"]."></td>
+                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtFaltaAFDRIV_3' value =".$registro49["falta3ero"]."></td>
+                                                        
                                                         <td></td>
                                                         <td></td>
-                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro49["calParcial1ro"]."></td>
-                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro49["calParcial2do"]."></td>
-                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro49["calParcial3ero"]."></td>
+                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtCalAFDRIV_1' value =".$registro49["calParcial1ro"]."></td>
+                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtCalAFDRIV_2' value =".$registro49["calParcial2do"]."></td>
+                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtCalAFDRIV_3' value =".$registro49["calParcial3ero"]."></td>
                                                         <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro49["calFinal"]."></td>
                                                         <td></td>
                                                         <td></td>
-                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro49["calExtra1"]."></td>
-                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro49["fechaCalExtra1"]."></td>
-                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro49["calExtra2"]."></td>
-                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro49["fechaCalExtra2"]."></td>
-                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro49["calExtra3"]."></td>
-                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro49["fechaCalExtra3"]."></td>
-                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro49["calExtra4"]."></td>
-                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro49["fechaCalExtra4"]."></td>
+                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtCalExtraAFDRIV_1' value =".$registro49["calExtra1"]."></td>
+                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtFechaCalExtraAFDRIV_1' value =".$registro49["fechaCalExtra1"]."></td>
+                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtCalExtraAFDRIV_2' value =".$registro49["calExtra2"]."></td>
+                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtFechaCalExtraAFDRIV_2' value =".$registro49["fechaCalExtra2"]."></td>
+                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtCalExtraAFDRIV_3' value =".$registro49["calExtra3"]."></td>
+                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtFechaCalExtraAFDRIV_3' value =".$registro49["fechaCalExtra3"]."></td>
+                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtCalExtraAFDRIV_4' value =".$registro49["calExtra4"]."></td>
+                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtFechaCalExtraAFDRIV_4' value =".$registro49["fechaCalExtra4"]."></td>
                                                         <td></td>
                                                         <td><a href='actualizar-alumno.php?MatriculaUpdate=".$registro49["matricula"]."' class='btn btn-success btn-raised btn-xs'><i class='zmdi zmdi-refresh'></i></a></td>
                                                         <td><a href='funciones/eliminar-madre.php?MatriculaDelete=".$registro49["matricula"]."'><button class='btn btn-danger btn-raised btn-xs' type='button' onclick='return confirmarEliminar()'><i class='zmdi zmdi-delete'></i></button></a></td>
@@ -2908,26 +2907,26 @@
                                                         echo "
                                                         <tr>
                                                         <td>Salud Integral del Adolecente IV</td>
-                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro410["falta1ro"]."></td>
-                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro410["falta2do"]."></td>
-                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro410["falta3ero"]."></td>
-                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =3></td>
+                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtFaltaSIAIV_1' value =".$registro410["falta1ro"]."></td>
+                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtFaltaSIAIV_2' value =".$registro410["falta2do"]."></td>
+                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtFaltaSIAIV_3' value =".$registro410["falta3ero"]."></td>
+                                                        
                                                         <td></td>
                                                         <td></td>
-                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro410["calParcial1ro"]."></td>
-                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro410["calParcial2do"]."></td>
-                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro410["calParcial3ero"]."></td>
+                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtCalSIAIV_1' value =".$registro410["calParcial1ro"]."></td>
+                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtCalSIAIV_2' value =".$registro410["calParcial2do"]."></td>
+                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtCalSIAIV_3' value =".$registro410["calParcial3ero"]."></td>
                                                         <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro410["calFinal"]."></td>
                                                         <td></td>
                                                         <td></td>
-                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro410["calExtra1"]."></td>
-                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro410["fechaCalExtra1"]."></td>
-                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro410["calExtra2"]."></td>
-                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro410["fechaCalExtra2"]."></td>
-                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro410["calExtra3"]."></td>
-                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro410["fechaCalExtra3"]."></td>
-                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro410["calExtra4"]."></td>
-                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro410["fechaCalExtra4"]."></td>
+                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtCalExtraSIAIV_1' value =".$registro410["calExtra1"]."></td>
+                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtFechaCalExtraSIAIV_1' value =".$registro410["fechaCalExtra1"]."></td>
+                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtCalExtraSIAIV_2' value =".$registro410["calExtra2"]."></td>
+                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtFechaCalExtraSIAIV_2' value =".$registro410["fechaCalExtra2"]."></td>
+                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtCalExtraSIAIV_3' value =".$registro410["calExtra3"]."></td>
+                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtFechaCalExtraSIAIV_3' value =".$registro410["fechaCalExtra3"]."></td>
+                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtCalExtraSIAIV_4' value =".$registro410["calExtra4"]."></td>
+                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtFechaCalExtraSIAIV_4' value =".$registro410["fechaCalExtra4"]."></td>
                                                         <td></td>
                                                         <td><a href='actualizar-alumno.php?MatriculaUpdate=".$registr410["matricula"]."' class='btn btn-success btn-raised btn-xs'><i class='zmdi zmdi-refresh'></i></a></td>
                                                         <td><a href='funciones/eliminar-madre.php?MatriculaDelete=".$registro410["matricula"]."'><button class='btn btn-danger btn-raised btn-xs' type='button' onclick='return confirmarEliminar()'><i class='zmdi zmdi-delete'></i></button></a></td>
@@ -3362,26 +3361,26 @@
                                                     echo "
                                                     <tr>
                                                     <td>Matematicas V</td>
-                                                    <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro51["falta1ro"]."> </td>
-                                                    <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro51["falta2do"]."> </td>
-                                                    <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro51["falta3ero"]."></td>
-                                                    <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =3></td>
+                                                    <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtFaltaMateV_1' value =".$registro51["falta1ro"]."> </td>
+                                                    <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtFaltaMateV_2' value =".$registro51["falta2do"]."> </td>
+                                                    <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtFaltaMateV_3' value =".$registro51["falta3ero"]."></td>
+                                                    
                                                     <td></td>
                                                     <td></td>
-                                                    <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro51["calParcial1ro"]."></td>
-                                                    <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro51["calParcial2do"]."></td>
-                                                    <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro51["calParcial3ero"]."></td>
+                                                    <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtCalMateV_1' value =".$registro51["calParcial1ro"]."></td>
+                                                    <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtCalMateV_2' value =".$registro51["calParcial2do"]."></td>
+                                                    <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtCalMateV_3' value =".$registro51["calParcial3ero"]."></td>
                                                     <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro51["calFinal"]."></td>
                                                     <td></td>
                                                     <td></td>
-                                                    <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro51["calExtra1"]."></td>
-                                                    <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro51["fechaCalExtra1"]."></td>
-                                                    <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro51["calExtra2"]."></td>
-                                                    <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro51["fechaCalExtra2"]."></td>
-                                                    <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro51["calExtra3"]."></td>
-                                                    <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro51["fechaCalExtra3"]."></td>
-                                                    <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro51["calExtra4"]."></td>
-                                                    <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro51["fechaCalExtra4"]."></td>
+                                                    <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtCalExtraMateV_1' value =".$registro51["calExtra1"]."></td>
+                                                    <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtFechaCalExtraMateV_1' value =".$registro51["fechaCalExtra1"]."></td>
+                                                    <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtCalExtraMateV_2' value =".$registro51["calExtra2"]."></td>
+                                                    <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtFechaCalExtraMateV_2' value =".$registro51["fechaCalExtra2"]."></td>
+                                                    <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtCalExtraMateV_3' value =".$registro51["calExtra3"]."></td>
+                                                    <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtFechaCalExtraMateV_3' value =".$registro51["fechaCalExtra3"]."></td>
+                                                    <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtCalExtraMateV_4' value =".$registro51["calExtra4"]."></td>
+                                                    <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtFechaCalExtraMateV_4' value =".$registro51["fechaCalExtra4"]."></td>
                                                     <td></td>
                                                     <td><a href='actualizar-alumno.php?MatriculaUpdate=".$registro51["matricula"]."' class='btn btn-success btn-raised btn-xs'><i class='zmdi zmdi-refresh'></i></a></td>
                                                     <td><a href='funciones/eliminar-madre.php?MatriculaDelete=".$registro51["matricula"]."'><button class='btn btn-danger btn-raised btn-xs' type='button' onclick='return confirmarEliminar()'><i class='zmdi zmdi-delete'></i></button></a></td>
@@ -3390,26 +3389,26 @@
                                                         echo "
                                                         <tr>
                                                         <td>Geografía</td>
-                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro52["falta1ro"]."></td>
-                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro52["falta2do"]."></td>
-                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro52["falta3ero"]."></td>
-                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =3></td>
+                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtFaltaGeografia_1' value =".$registro52["falta1ro"]."></td>
+                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtFaltaGeografia_2' value =".$registro52["falta2do"]."></td>
+                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtFaltaGeografia_3' value =".$registro52["falta3ero"]."></td>
+                                                        
                                                         <td></td>
                                                         <td></td>
-                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro52["calParcial1ro"]."></td>
-                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro52["calParcial2do"]."></td>
-                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro52["calParcial3ero"]."></td>
+                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtCalGeografia_1' value =".$registro52["calParcial1ro"]."></td>
+                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtCalGeografia_2' value =".$registro52["calParcial2do"]."></td>
+                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtCalGeografia_3' value =".$registro52["calParcial3ero"]."></td>
                                                         <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro52["calFinal"]."></td>
                                                         <td></td>
                                                         <td></td>
-                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro52["calExtra1"]."></td>
-                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro52["fechaCalExtra1"]."></td>
-                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro52["calExtra2"]."></td>
-                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro52["fechaCalExtra2"]."></td>
-                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro52["calExtra3"]."></td>
-                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro52["fechaCalExtra3"]."></td>
-                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro52["calExtra4"]."></td>
-                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro52["fechaCalExtra4"]."></td>
+                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtCalExtraGeografia_1' value =".$registro52["calExtra1"]."></td>
+                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtFechaCalExtraGeografia_1' value =".$registro52["fechaCalExtra1"]."></td>
+                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtCalExtraGeografia_2' value =".$registro52["calExtra2"]."></td>
+                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtFechaCalExtraGeografia_2' value =".$registro52["fechaCalExtra2"]."></td>
+                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtCalExtraGeografia_3' value =".$registro52["calExtra3"]."></td>
+                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtFechaCalExtraGeografia_3' value =".$registro52["fechaCalExtra3"]."></td>
+                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtCalExtraGeografia_4' value =".$registro52["calExtra4"]."></td>
+                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtFechaCalExtraGeografia_4' value =".$registro52["fechaCalExtra4"]."></td>
                                                         <td></t
                                                         <td><a href='actualizar-alumno.php?MatriculaUpdate=".$registro52["matricula"]."' class='btn btn-success btn-raised btn-xs'><i class='zmdi zmdi-refresh'></i></a></td>
                                                         <td><a href='funciones/eliminar-madre.php?MatriculaDelete=".$registro52["matricula"]."'><button class='btn btn-danger btn-raised btn-xs' type='button' onclick='return confirmarEliminar()'><i class='zmdi zmdi-delete'></i></button></a></td>
@@ -3420,26 +3419,26 @@
                                                             echo "
                                                             <tr>
                                                             <td>Estructura Socioeconómica de México</td>
-                                                            <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro53["falta1ro"]."></td>
-                                                            <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro53["falta2do"]."></td>
-                                                            <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro53["falta3ero"]."></td>
-                                                            <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =3></td>
+                                                            <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtFaltaESM_1' value =".$registro53["falta1ro"]."></td>
+                                                            <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtFaltaESM_2' value =".$registro53["falta2do"]."></td>
+                                                            <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtFaltaESM_3' value =".$registro53["falta3ero"]."></td>
+                                                            
                                                             <td></td>
                                                             <td></td>
-                                                            <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro53["calParcial1ro"]."></td>
-                                                            <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro53["calParcial2do"]."></td>
-                                                            <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro53["calParcial3ero"]."></td>
+                                                            <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtCalESM_1' value =".$registro53["calParcial1ro"]."></td>
+                                                            <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtCalESM_2' value =".$registro53["calParcial2do"]."></td>
+                                                            <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtCalESM_3' value =".$registro53["calParcial3ero"]."></td>
                                                             <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro53["calFinal"]."></td>
                                                             <td></td>
                                                             <td></td>
-                                                            <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro53["calExtra1"]."></td>
-                                                            <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro53["fechaCalExtra1"]."></td>
-                                                            <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro53["calExtra2"]."></td>
-                                                            <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro53["fechaCalExtra2"]."></td>
-                                                            <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro53["calExtra3"]."></td>
-                                                            <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro53["fechaCalExtra3"]."></td>
-                                                            <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro53["calExtra4"]."></td>
-                                                            <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro53["fechaCalExtra4"]."></td>
+                                                            <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtCalExtraESM_1' value =".$registro53["calExtra1"]."></td>
+                                                            <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtFechaCalExtraESM_1' value =".$registro53["fechaCalExtra1"]."></td>
+                                                            <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtCalExtraESM_2' value =".$registro53["calExtra2"]."></td>
+                                                            <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtFechaCalExtraESM_2' value =".$registro53["fechaCalExtra2"]."></td>
+                                                            <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtCalExtraESM_3' value =".$registro53["calExtra3"]."></td>
+                                                            <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtFechaCalExtraESM_3' value =".$registro53["fechaCalExtra3"]."></td>
+                                                            <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtCalExtraESM_4' value =".$registro53["calExtra4"]."></td>
+                                                            <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtFechaCalExtraESM_4' value =".$registro53["fechaCalExtra4"]."></td>
                                                             <td></td>
                                                             <td><a href='actualizar-alumno.php?MatriculaUpdate=".$registro53["matricula"]."' class='btn btn-success btn-raised btn-xs'><i class='zmdi zmdi-refresh'></i></a></td>
                                                             <td><a href='funciones/eliminar-madre.php?MatriculaDelete=".$registro53["matricula"]."'><button class='btn btn-danger btn-raised btn-xs' type='button' onclick='return confirmarEliminar()'><i class='zmdi zmdi-delete'></i></button></a></td>
@@ -3450,26 +3449,26 @@
                                                             echo "
                                                             <tr>
                                                             <td>Economía I</td>
-                                                            <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro54["falta1ro"]."></td>
-                                                            <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro54["falta2do"]."></td>
-                                                            <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro54["falta3ero"]."></td>
-                                                            <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =3></td>
+                                                            <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtFaltaEconomiaI_1' value =".$registro54["falta1ro"]."></td>
+                                                            <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtFaltaEconomiaI_2' value =".$registro54["falta2do"]."></td>
+                                                            <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtFaltaEconomiaI_3' value =".$registro54["falta3ero"]."></td>
+                                                            
                                                             <td></td>
                                                             <td></td>
-                                                            <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro54["calParcial1ro"]."></td>
-                                                            <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro54["calParcial2do"]."></td>
-                                                            <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro54["calParcial3ero"]."></td>
+                                                            <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtCalEconomiaI_1' value =".$registro54["calParcial1ro"]."></td>
+                                                            <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtCalEconomiaI_2' value =".$registro54["calParcial2do"]."></td>
+                                                            <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtCalEconomiaI_3' value =".$registro54["calParcial3ero"]."></td>
                                                             <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro54["calFinal"]."></td>
                                                             <td></td>
                                                             <td></td>
-                                                            <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro54["calExtra1"]."></td>
-                                                            <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro54["fechaCalExtra1"]."></td>
-                                                            <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro54["calExtra2"]."></td>
-                                                            <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro54["fechaCalExtra2"]."></td>
-                                                            <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro54["calExtra3"]."></td>
-                                                            <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro54["fechaCalExtra3"]."></td>
-                                                            <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro54["calExtra4"]."></td>
-                                                            <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro54["fechaCalExtra4"]."></td>
+                                                            <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtCalExtraEconomiaI_1' value =".$registro54["calExtra1"]."></td>
+                                                            <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtFechaCalExtraEconomiaI_1' value =".$registro54["fechaCalExtra1"]."></td>
+                                                            <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtCalExtraEconomiaI_2' value =".$registro54["calExtra2"]."></td>
+                                                            <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtFechaCalExtraEconomiaI_2' value =".$registro54["fechaCalExtra2"]."></td>
+                                                            <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtCalExtraEconomiaI_3' value =".$registro54["calExtra3"]."></td>
+                                                            <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtFechaCalExtraEconomiaI_3' value =".$registro54["fechaCalExtra3"]."></td>
+                                                            <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtCalExtraEconomiaI_4' value =".$registro54["calExtra4"]."></td>
+                                                            <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtFechaCalExtraEconomiaI_4' value =".$registro54["fechaCalExtra4"]."></td>
                                                             <td></td>
                                                             <td><a href='actualizar-alumno.php?MatriculaUpdate=".$registro54["matricula"]."' class='btn btn-success btn-raised btn-xs'><i class='zmdi zmdi-refresh'></i></a></td>
                                                             <td><a href='funciones/eliminar-madre.php?MatriculaDelete=".$registro54["matricula"]."'><button class='btn btn-danger btn-raised btn-xs' type='button' onclick='return confirmarEliminar()'><i class='zmdi zmdi-delete'></i></button></a></td>
@@ -3480,26 +3479,26 @@
                                                                 echo "
                                                                 <tr>
                                                                 <td>Psicología I</td>
-                                                                <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro55["falta1ro"]."></td>
-                                                                <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro55["falta2do"]."></td>
-                                                                <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro55["falta3ero"]."></td>
-                                                                <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =3></td>
+                                                                <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtFaltaPsicologiaI_1' value =".$registro55["falta1ro"]."></td>
+                                                                <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtFaltaPsicologiaI_2' value =".$registro55["falta2do"]."></td>
+                                                                <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtFaltaPsicologiaI_3' value =".$registro55["falta3ero"]."></td>
+                                                                
                                                                 <td></td>
                                                                 <td></td>
-                                                                <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro55["calParcial1ro"]."></td>
-                                                                <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro55["calParcial2do"]."></td>
-                                                                <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro55["calParcial3ero"]."></td>
+                                                                <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtCalPsicologiaI_1' value =".$registro55["calParcial1ro"]."></td>
+                                                                <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtCalPsicologiaI_2' value =".$registro55["calParcial2do"]."></td>
+                                                                <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtCalPsicologiaI_3' value =".$registro55["calParcial3ero"]."></td>
                                                                 <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro55["calFinal"]."></td>
                                                                 <td></td>
                                                                 <td></td>
-                                                                <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro55["calExtra1"]."></td>
-                                                                <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro55["fechaCalExtra1"]."></td>
-                                                                <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro55["calExtra2"]."></td>
-                                                                <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro55["fechaCalExtra2"]."></td>
-                                                                <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro55["calExtra3"]."></td>
-                                                                <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro55["fechaCalExtra3"]."></td>
-                                                                <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro55["calExtra4"]."></td>
-                                                                <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro55["fechaCalExtra4"]."></td>
+                                                                <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtCalExtraPsicologiaI_1' value =".$registro55["calExtra1"]."></td>
+                                                                <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtFechaCalExtraPsicologiaI_1' value =".$registro55["fechaCalExtra1"]."></td>
+                                                                <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtCalExtraPsicologiaI_2' value =".$registro55["calExtra2"]."></td>
+                                                                <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtFechaCalExtraPsicologiaI_2' value =".$registro55["fechaCalExtra2"]."></td>
+                                                                <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtCalExtraPsicologiaI_3' value =".$registro55["calExtra3"]."></td>
+                                                                <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtFechaCalExtraPsicologiaI_3' value =".$registro55["fechaCalExtra3"]."></td>
+                                                                <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtCalExtraPsicologiaI_4' value =".$registro55["calExtra4"]."></td>
+                                                                <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtFechaCalExtraPsicologiaI_4' value =".$registro55["fechaCalExtra4"]."></td>
                                                                 <td></td>
                                                                 <td><a href='actualizar-alumno.php?MatriculaUpdate=".$registro55["matricula"]."' class='btn btn-success btn-raised btn-xs'><i class='zmdi zmdi-refresh'></i></a></td>
                                                                 <td><a href='funciones/eliminar-madre.php?MatriculaDelete=".$registro55["matricula"]."'><button class='btn btn-danger btn-raised btn-xs' type='button' onclick='return confirmarEliminar()'><i class='zmdi zmdi-delete'></i></button></a></td>
@@ -3510,26 +3509,26 @@
                                                                 echo "
                                                                 <tr>
                                                                 <td>Derecho I</td>
-                                                                <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro56["falta1ro"]."></td>
-                                                                <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro56["falta2do"]."></td>
-                                                                <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro56["falta3ero"]."></td>
-                                                                <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =3></td>
+                                                                <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtFaltaDerechoI_1' value =".$registro56["falta1ro"]."></td>
+                                                                <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtFaltaDerechoI_2' value =".$registro56["falta2do"]."></td>
+                                                                <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtFaltaDerechoI_3' value =".$registro56["falta3ero"]."></td>
+                                                                
                                                                 <td></td>
                                                                 <td></td>
-                                                                <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro56["calParcial1ro"]."></td>
-                                                                <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro56["calParcial2do"]."></td>
-                                                                <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro56["calParcial3ero"]."></td>
+                                                                <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtCalDerechoI_1' value =".$registro56["calParcial1ro"]."></td>
+                                                                <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtCalDerechoI_2' value =".$registro56["calParcial2do"]."></td>
+                                                                <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtCalDerechoI_3' value =".$registro56["calParcial3ero"]."></td>
                                                                 <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro56["calFinal"]."></td>
                                                                 <td></td>
                                                                 <td></td>
-                                                                <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro56["calExtra1"]."></td>
-                                                                <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro56["fechaCalExtra1"]."></td>
-                                                                <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro56["calExtra2"]."></td>
-                                                                <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro56["fechaCalExtra2"]."></td>
-                                                                <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro56["calExtra3"]."></td>
-                                                                <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro56["fechaCalExtra3"]."></td>
-                                                                <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro56["calExtra4"]."></td>
-                                                                <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro56["fechaCalExtra4"]."></td>
+                                                                <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtCalExtraDerechoI_1' value =".$registro56["calExtra1"]."></td>
+                                                                <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtFechaCalExtraDerechoI_1' value =".$registro56["fechaCalExtra1"]."></td>
+                                                                <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtCalExtraDerechoI_2' value =".$registro56["calExtra2"]."></td>
+                                                                <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtFechaCalExtraDerechoI_2' value =".$registro56["fechaCalExtra2"]."></td>
+                                                                <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtCalExtraDerechoI_3' value =".$registro56["calExtra3"]."></td>
+                                                                <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtFechaCalExtraDerechoI_3' value =".$registro56["fechaCalExtra3"]."></td>
+                                                                <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtCalExtraDerechoI_4' value =".$registro56["calExtra4"]."></td>
+                                                                <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtFechaCalExtraDerechoI_4' value =".$registro56["fechaCalExtra4"]."></td>
                                                                 <td></td>
                                                                 <td><a href='actualizar-alumno.php?MatriculaUpdate=".$registro56["matricula"]."' class='btn btn-success btn-raised btn-xs'><i class='zmdi zmdi-refresh'></i></a></td>
                                                                 <td><a href='funciones/eliminar-madre.php?MatriculaDelete=".$registro56["matricula"]."'><button class='btn btn-danger btn-raised btn-xs' type='button' onclick='return confirmarEliminar()'><i class='zmdi zmdi-delete'></i></button></a></td>
@@ -3540,26 +3539,26 @@
                                                                 echo "
                                                                 <tr>
                                                                 <td>Inglés V</td>
-                                                                <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro57["falta1ro"]."></td>
-                                                                <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro57["falta2do"]."></td>
-                                                                <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro57["falta3ero"]."></td>
-                                                                <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =3></td>
+                                                                <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtFaltaInglesV_1' value =".$registro57["falta1ro"]."></td>
+                                                                <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtFaltaInglesV_2' value =".$registro57["falta2do"]."></td>
+                                                                <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtFaltaInglesV_3' value =".$registro57["falta3ero"]."></td>
+                                                                
                                                                 <td></td>
                                                                 <td></td>
-                                                                <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro57["calParcial1ro"]."></td>
-                                                                <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro57["calParcial2do"]."></td>
-                                                                <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro57["calParcial3ero"]."></td>
+                                                                <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtCalInglesV_1' value =".$registro57["calParcial1ro"]."></td>
+                                                                <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtCalInglesV_2' value =".$registro57["calParcial2do"]."></td>
+                                                                <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtCalInglesV_3' value =".$registro57["calParcial3ero"]."></td>
                                                                 <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro57["calFinal"]."></td>
                                                                 <td></td>
                                                                 <td></td>
-                                                                <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro57["calExtra1"]."></td>
-                                                                <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro57["fechaCalExtra1"]."></td>
-                                                                <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro57["calExtra2"]."></td>
-                                                                <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro57["fechaCalExtra2"]."></td>
-                                                                <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro57["calExtra3"]."></td>
-                                                                <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro57["fechaCalExtra3"]."></td>
-                                                                <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro57["calExtra4"]."></td>
-                                                                <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro57["fechaCalExtra4"]."></td>
+                                                                <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtCalExtraInglesV_1' value =".$registro57["calExtra1"]."></td>
+                                                                <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtFechaCalExtraInglesV_1' value =".$registro57["fechaCalExtra1"]."></td>
+                                                                <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtCalExtraInglesV_2' value =".$registro57["calExtra2"]."></td>
+                                                                <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtFechaCalExtraInglesV_2' value =".$registro57["fechaCalExtra2"]."></td>
+                                                                <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtCalExtraInglesV_3' value =".$registro57["calExtra3"]."></td>
+                                                                <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtFechaCalExtraInglesV_3' value =".$registro57["fechaCalExtra3"]."></td>
+                                                                <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtCalExtraInglesV_4' value =".$registro57["calExtra4"]."></td>
+                                                                <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtFechaCalExtraInglesV_4' value =".$registro57["fechaCalExtra4"]."></td>
                                                                 <td></td>
                                                                 <td><a href='actualizar-alumno.php?MatriculaUpdate=".$registro57["matricula"]."' class='btn btn-success btn-raised btn-xs'><i class='zmdi zmdi-refresh'></i></a></td>
                                                                 <td><a href='funciones/eliminar-madre.php?MatriculaDelete=".$registro57["matricula"]."'><button class='btn btn-danger btn-raised btn-xs' type='button' onclick='return confirmarEliminar()'><i class='zmdi zmdi-delete'></i></button></a></td>
@@ -3570,26 +3569,26 @@
                                                                 echo "
                                                                 <tr>
                                                                 <td>Introducción a la Filosofía</td>
-                                                                <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro58["falta1ro"]."></td>
-                                                                <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro58["falta2do"]."></td>
-                                                                <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro58["falta3ero"]."></td>
-                                                                <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =3></td>
+                                                                <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtFaltaIF_1' value =".$registro58["falta1ro"]."></td>
+                                                                <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtFaltaIF_2' value =".$registro58["falta2do"]."></td>
+                                                                <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtFaltaIF_3' value =".$registro58["falta3ero"]."></td>
+                                                                
                                                                 <td></td>
                                                                 <td></td>
-                                                                <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro58["calParcial1ro"]."></td>
-                                                                <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro58["calParcial2do"]."></td>
-                                                                <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro58["calParcial3ero"]."></td>
+                                                                <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtCalIF_1' value =".$registro58["calParcial1ro"]."></td>
+                                                                <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtCalIF_2' value =".$registro58["calParcial2do"]."></td>
+                                                                <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtCalIF_3' value =".$registro58["calParcial3ero"]."></td>
                                                                 <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro58["calFinal"]."></td>
                                                                 <td></td>
                                                                 <td></td>
-                                                                <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro58["calExtra1"]."></td>
-                                                                <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro58["fechaCalExtra1"]."></td>
-                                                                <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro58["calExtra2"]."></td>
-                                                                <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro58["fechaCalExtra2"]."></td>
-                                                                <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro58["calExtra3"]."></td>
-                                                                <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro58["fechaCalExtra3"]."></td>
-                                                                <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro58["calExtra4"]."></td>
-                                                                <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro58["fechaCalExtra4"]."></td>
+                                                                <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtCalExtraIF_1' value =".$registro58["calExtra1"]."></td>
+                                                                <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtFechaCalExtraIF_1' value =".$registro58["fechaCalExtra1"]."></td>
+                                                                <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtCalExtraIF_2' value =".$registro58["calExtra2"]."></td>
+                                                                <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtFechaCalExtraIF_2' value =".$registro58["fechaCalExtra2"]."></td>
+                                                                <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtCalExtraIF_3' value =".$registro58["calExtra3"]."></td>
+                                                                <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtFechaCalExtraIF_3' value =".$registro58["fechaCalExtra3"]."></td>
+                                                                <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtCalExtraIF_4' value =".$registro58["calExtra4"]."></td>
+                                                                <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtFechaCalExtraIF_4' value =".$registro58["fechaCalExtra4"]."></td>
                                                                 <td></td>
                                                                 <td><a href='actualizar-alumno.php?MatriculaUpdate=".$registro58["matricula"]."' class='btn btn-success btn-raised btn-xs'><i class='zmdi zmdi-refresh'></i></a></td>
                                                                 <td><a href='funciones/eliminar-madre.php?MatriculaDelete=".$registro58["matricula"]."'><button class='btn btn-danger btn-raised btn-xs' type='button' onclick='return confirmarEliminar()'><i class='zmdi zmdi-delete'></i></button></a></td>
@@ -3600,26 +3599,26 @@
                                                                 echo "
                                                                 <tr>
                                                                 <td>Sistemas de Información</td>
-                                                                <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro59["falta1ro"]."></td>
-                                                                <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro59["falta2do"]."></td>
-                                                                <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro59["falta3ero"]."></td>
-                                                                <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =3></td>
+                                                                <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtFaltaSI_1' value =".$registro59["falta1ro"]."></td>
+                                                                <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtFaltaSI_2' value =".$registro59["falta2do"]."></td>
+                                                                <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtFaltaSI_3' value =".$registro59["falta3ero"]."></td>
+                                                                
                                                                 <td></td>
                                                                 <td></td>
-                                                                <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro59["calParcial1ro"]."></td>
-                                                                <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro59["calParcial2do"]."></td>
-                                                                <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro59["calParcial3ero"]."></td>
+                                                                <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtCalSI_1' value =".$registro59["calParcial1ro"]."></td>
+                                                                <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtCalSI_2' value =".$registro59["calParcial2do"]."></td>
+                                                                <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtCalSI_3' value =".$registro59["calParcial3ero"]."></td>
                                                                 <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro59["calFinal"]."></td>
                                                                 <td></td>
                                                                 <td></td>
-                                                                <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro59["calExtra1"]."></td>
-                                                                <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro59["fechaCalExtra1"]."></td>
-                                                                <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro59["calExtra2"]."></td>
-                                                                <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro59["fechaCalExtra2"]."></td>
-                                                                <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro59["calExtra3"]."></td>
-                                                                <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro59["fechaCalExtra3"]."></td>
-                                                                <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro59["calExtra4"]."></td>
-                                                                <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro59["fechaCalExtra4"]."></td>
+                                                                <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtCalExtraSI_1' value =".$registro59["calExtra1"]."></td>
+                                                                <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtFechaCalExtraSI_1' value =".$registro59["fechaCalExtra1"]."></td>
+                                                                <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtCalExtraSI_2' value =".$registro59["calExtra2"]."></td>
+                                                                <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtFechaCalExtraSI_2' value =".$registro59["fechaCalExtra2"]."></td>
+                                                                <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtCalExtraSI_3' value =".$registro59["calExtra3"]."></td>
+                                                                <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtFechaCalExtraSI_3' value =".$registro59["fechaCalExtra3"]."></td>
+                                                                <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtCalExtraSI_4' value =".$registro59["calExtra4"]."></td>
+                                                                <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtFechaCalExtraSI_4' value =".$registro59["fechaCalExtra4"]."></td>
                                                                 <td></td>
                                                                 <td><a href='actualizar-alumno.php?MatriculaUpdate=".$registro59["matricula"]."' class='btn btn-success btn-raised btn-xs'><i class='zmdi zmdi-refresh'></i></a></td>
                                                                 <td><a href='funciones/eliminar-madre.php?MatriculaDelete=".$registro59["matricula"]."'><button class='btn btn-danger btn-raised btn-xs' type='button' onclick='return confirmarEliminar()'><i class='zmdi zmdi-delete'></i></button></a></td>
@@ -3630,26 +3629,26 @@
                                                                 echo "
                                                                 <tr>
                                                                 <td>Programación</td>
-                                                                <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro510["falta1ro"]."></td>
-                                                                <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro510["falta2do"]."></td>
-                                                                <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro510["falta3ero"]."></td>
-                                                                <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =3></td>
+                                                                <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtFaltaProgramacion_1' value =".$registro510["falta1ro"]."></td>
+                                                                <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtFaltaProgramacion_2' value =".$registro510["falta2do"]."></td>
+                                                                <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtFaltaProgramacion_3' value =".$registro510["falta3ero"]."></td>
+                                                                
                                                                 <td></td>
                                                                 <td></td>
-                                                                <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro510["calParcial1ro"]."></td>
-                                                                <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro510["calParcial2do"]."></td>
-                                                                <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro510["calParcial3ero"]."></td>
+                                                                <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtCalProgramacion_1' value =".$registro510["calParcial1ro"]."></td>
+                                                                <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtCalProgramacion_2' value =".$registro510["calParcial2do"]."></td>
+                                                                <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtCalProgramacion_3' value =".$registro510["calParcial3ero"]."></td>
                                                                 <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro510["calFinal"]."></td>
                                                                 <td></td>
                                                                 <td></td>
-                                                                <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro510["calExtra1"]."></td>
-                                                                <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro510["fechaCalExtra1"]."></td>
-                                                                <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro510["calExtra2"]."></td>
-                                                                <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro510["fechaCalExtra2"]."></td>
-                                                                <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro510["calExtra3"]."></td>
-                                                                <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro510["fechaCalExtra3"]."></td>
-                                                                <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro510["calExtra4"]."></td>
-                                                                <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro510["fechaCalExtra4"]."></td>
+                                                                <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtCalExtraProgramacion_1' value =".$registro510["calExtra1"]."></td>
+                                                                <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtFechaCalExtraProgramacion_1' value =".$registro510["fechaCalExtra1"]."></td>
+                                                                <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtCalExtraProgramacion_2' value =".$registro510["calExtra2"]."></td>
+                                                                <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtFechaCalExtraProgramacion_2' value =".$registro510["fechaCalExtra2"]."></td>
+                                                                <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtCalExtraProgramacion_3' value =".$registro510["calExtra3"]."></td>
+                                                                <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtFechaCalExtraProgramacion_3' value =".$registro510["fechaCalExtra3"]."></td>
+                                                                <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtCalExtraProgramacion_4' value =".$registro510["calExtra4"]."></td>
+                                                                <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtFechaCalExtraProgramacion_4' value =".$registro510["fechaCalExtra4"]."></td>
                                                                 <td></td>
                                                                 <td><a href='actualizar-alumno.php?MatriculaUpdate=".$registro510["matricula"]."' class='btn btn-success btn-raised btn-xs'><i class='zmdi zmdi-refresh'></i></a></td>
                                                                 <td><a href='funciones/eliminar-madre.php?MatriculaDelete=".$registro510["matricula"]."'><button class='btn btn-danger btn-raised btn-xs' type='button' onclick='return confirmarEliminar()'><i class='zmdi zmdi-delete'></i></button></a></td>
@@ -3660,26 +3659,26 @@
                                                                 echo "
                                                                 <tr>
                                                                 <td>Actividades Artistico Culturales III</td>
-                                                                <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro511["falta1ro"]."></td>
-                                                                <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro511["falta2do"]."></td>
-                                                                <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro511["falta3ero"]."></td>
-                                                                <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =3></td>
+                                                                <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtFaltaAACIII_1' value =".$registro511["falta1ro"]."></td>
+                                                                <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtFaltaAACIII_2' value =".$registro511["falta2do"]."></td>
+                                                                <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtFaltaAACIII_3' value =".$registro511["falta3ero"]."></td>
+                                                                
                                                                 <td></td>
                                                                 <td></td>
-                                                                <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro511["calParcial1ro"]."></td>
-                                                                <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro511["calParcial2do"]."></td>
-                                                                <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro511["calParcial3ero"]."></td>
+                                                                <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtCalAACIII_1' value =".$registro511["calParcial1ro"]."></td>
+                                                                <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtCalAACIII_2' value =".$registro511["calParcial2do"]."></td>
+                                                                <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtCalAACIII_3' value =".$registro511["calParcial3ero"]."></td>
                                                                 <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro511["calFinal"]."></td>
                                                                 <td></td>
                                                                 <td></td>
-                                                                <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro511["calExtra1"]."></td>
-                                                                <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro511["fechaCalExtra1"]."></td>
-                                                                <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro511["calExtra2"]."></td>
-                                                                <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro511["fechaCalExtra2"]."></td>
-                                                                <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro511["calExtra3"]."></td>
-                                                                <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro511["fechaCalExtra3"]."></td>
-                                                                <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro511["calExtra4"]."></td>
-                                                                <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro511["fechaCalExtra4"]."></td>
+                                                                <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtCalExtraAACIII_1' value =".$registro511["calExtra1"]."></td>
+                                                                <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtFechaCalExtraAACIII_1' value =".$registro511["fechaCalExtra1"]."></td>
+                                                                <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtCalExtraAACIII_2' value =".$registro511["calExtra2"]."></td>
+                                                                <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtFechaCalExtraAACIII_2' value =".$registro511["fechaCalExtra2"]."></td>
+                                                                <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtCalExtraAACIII_3' value =".$registro511["calExtra3"]."></td>
+                                                                <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtFechaCalExtraAACIII_3' value =".$registro511["fechaCalExtra3"]."></td>
+                                                                <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtCalExtraAACIII_4' value =".$registro511["calExtra4"]."></td>
+                                                                <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtFechaCalExtraAACIII_4' value =".$registro511["fechaCalExtra4"]."></td>
                                                                 <td></td>
                                                                 <td><a href='actualizar-alumno.php?MatriculaUpdate=".$registro51["matricula"]."' class='btn btn-success btn-raised btn-xs'><i class='zmdi zmdi-refresh'></i></a></td>
                                                                 <td><a href='funciones/eliminar-madre.php?MatriculaDelete=".$registro511["matricula"]."'><button class='btn btn-danger btn-raised btn-xs' type='button' onclick='return confirmarEliminar()'><i class='zmdi zmdi-delete'></i></button></a></td>
@@ -3690,26 +3689,26 @@
                                                                 echo "
                                                                 <tr>
                                                                 <td>Salud Integral del Adolecente V</td>
-                                                                <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro512["falta1ro"]."></td>
-                                                                <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro512["falta2do"]."></td>
-                                                                <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro512["falta3ero"]."></td>
-                                                                <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =3></td>
+                                                                <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtFaltaSIAV_1' value =".$registro512["falta1ro"]."></td>
+                                                                <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtFaltaSIAV_2' value =".$registro512["falta2do"]."></td>
+                                                                <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtFaltaSIAV_3' value =".$registro512["falta3ero"]."></td>
+                                                                
                                                                 <td></td>
                                                                 <td></td>
-                                                                <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro512["calParcial1ro"]."></td>
-                                                                <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro512["calParcial2do"]."></td>
-                                                                <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro512["calParcial3ero"]."></td>
+                                                                <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtCalSIAV_1' value =".$registro512["calParcial1ro"]."></td>
+                                                                <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtCalSIAV_2' value =".$registro512["calParcial2do"]."></td>
+                                                                <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtCalSIAV_3' value =".$registro512["calParcial3ero"]."></td>
                                                                 <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro512["calFinal"]."></td>
                                                                 <td></td>
                                                                 <td></td>
-                                                                <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro512["calExtra1"]."></td>
-                                                                <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro512["fechaCalExtra1"]."></td>
-                                                                <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro512["calExtra2"]."></td>
-                                                                <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro512["fechaCalExtra2"]."></td>
-                                                                <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro512["calExtra3"]."></td>
-                                                                <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro512["fechaCalExtra3"]."></td>
-                                                                <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro512["calExtra4"]."></td>
-                                                                <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro512["fechaCalExtra4"]."></td>
+                                                                <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtCalExtraSIAV_1' value =".$registro512["calExtra1"]."></td>
+                                                                <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtFechaCalExtraSIAV_1' value =".$registro512["fechaCalExtra1"]."></td>
+                                                                <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtCalExtraSIAV_2' value =".$registro512["calExtra2"]."></td>
+                                                                <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtFechaCalExtraSIAV_2' value =".$registro512["fechaCalExtra2"]."></td>
+                                                                <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtCalExtraSIAV_3' value =".$registro512["calExtra3"]."></td>
+                                                                <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtFechaCalExtraSIAV_3' value =".$registro512["fechaCalExtra3"]."></td>
+                                                                <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtCalExtraSIAV_4' value =".$registro512["calExtra4"]."></td>
+                                                                <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtFechaCalExtraSIAV_4' value =".$registro512["fechaCalExtra4"]."></td>
                                                                 <td></td>
                                                                 <td><a href='actualizar-alumno.php?MatriculaUpdate=".$registro512["matricula"]."' class='btn btn-success btn-raised btn-xs'><i class='zmdi zmdi-refresh'></i></a></td>
                                                                 <td><a href='funciones/eliminar-madre.php?MatriculaDelete=".$registro512["matricula"]."'><button class='btn btn-danger btn-raised btn-xs' type='button' onclick='return confirmarEliminar()'><i class='zmdi zmdi-delete'></i></button></a></td>
@@ -4143,26 +4142,26 @@
                                             echo "
                                             <tr>
                                             <td>Matematicas VI</td>
-                                            <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro61["falta1ro"]."> </td>
-                                            <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro61["falta2do"]."> </td>
-                                            <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro61["falta3ero"]."></td>
-                                            <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =3></td>
+                                            <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtFaltaMateVI_1' value =".$registro61["falta1ro"]."> </td>
+                                            <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtFaltaMateVI_2' value =".$registro61["falta2do"]."> </td>
+                                            <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtFaltaMateVI_3' value =".$registro61["falta3ero"]."></td>
+                                            
                                             <td></td>
                                             <td></td>
-                                            <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro61["calParcial1ro"]."></td>
-                                            <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro61["calParcial2do"]."></td>
-                                            <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro61["calParcial3ero"]."></td>
+                                            <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtCalMateVI_1' value =".$registro61["calParcial1ro"]."></td>
+                                            <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtCalMateVI_2' value =".$registro61["calParcial2do"]."></td>
+                                            <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtCalMateVI_3' value =".$registro61["calParcial3ero"]."></td>
                                             <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro61["calFinal"]."></td>
                                             <td></td>
                                             <td></td>
-                                            <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro61["calExtra1"]."></td>
-                                            <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro61["fechaCalExtra1"]."></td>
-                                            <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro61["calExtra2"]."></td>
-                                            <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro61["fechaCalExtra2"]."></td>
-                                            <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro61["calExtra3"]."></td>
-                                            <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro61["fechaCalExtra3"]."></td>
-                                            <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro61["calExtra4"]."></td>
-                                            <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro61["fechaCalExtra4"]."></td>
+                                            <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtCalExtraMateVI_1' value =".$registro61["calExtra1"]."></td>
+                                            <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtFechaCalExtraMateVI_1' value =".$registro61["fechaCalExtra1"]."></td>
+                                            <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtCalExtraMateVI_2' value =".$registro61["calExtra2"]."></td>
+                                            <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtFechaCalExtraMateVI_2' value =".$registro61["fechaCalExtra2"]."></td>
+                                            <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtCalExtraMateVI_3' value =".$registro61["calExtra3"]."></td>
+                                            <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtFechaCalExtraMateVI_3' value =".$registro61["fechaCalExtra3"]."></td>
+                                            <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtCalExtraMateVI_4' value =".$registro61["calExtra4"]."></td>
+                                            <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtFechaCalExtraMateVI_4' value =".$registro61["fechaCalExtra4"]."></td>
                                             <td></td>
                                             <td><a href='actualizar-alumno.php?MatriculaUpdate=".$registro61["matricula"]."' class='btn btn-success btn-raised btn-xs'><i class='zmdi zmdi-refresh'></i></a></td>
                                             <td><a href='funciones/eliminar-madre.php?MatriculaDelete=".$registro61["matricula"]."'><button class='btn btn-danger btn-raised btn-xs' type='button' onclick='return confirmarEliminar()'><i class='zmdi zmdi-delete'></i></button></a></td>
@@ -4171,26 +4170,26 @@
                                                 echo "
                                                 <tr>
                                                 <td>Ecología y Medio Ambiente</td>
-                                                <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro62["falta1ro"]."></td>
-                                                <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro62["falta2do"]."></td>
-                                                <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro62["falta3ero"]."></td>
-                                                <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =3></td>
+                                                <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtFaltaEMA_1' value =".$registro62["falta1ro"]."></td>
+                                                <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtFaltaEMA_2' value =".$registro62["falta2do"]."></td>
+                                                <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtFaltaEMA_3' value =".$registro62["falta3ero"]."></td>
+                                                
                                                 <td></td>
                                                 <td></td>
-                                                <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro62["calParcial1ro"]."></td>
-                                                <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro62["calParcial2do"]."></td>
-                                                <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro62["calParcial3ero"]."></td>
+                                                <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtCalEMA_1' value =".$registro62["calParcial1ro"]."></td>
+                                                <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtCalEMA_2' value =".$registro62["calParcial2do"]."></td>
+                                                <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtCalEMA_3' value =".$registro62["calParcial3ero"]."></td>
                                                 <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro62["calFinal"]."></td>
                                                 <td></td>
                                                 <td></td>
-                                                <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro62["calExtra1"]."></td>
-                                                <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro62["fechaCalExtra1"]."></td>
-                                                <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro62["calExtra2"]."></td>
-                                                <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro62["fechaCalExtra2"]."></td>
-                                                <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro62["calExtra3"]."></td>
-                                                <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro62["fechaCalExtra3"]."></td>
-                                                <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro62["calExtra4"]."></td>
-                                                <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro62["fechaCalExtra4"]."></td>
+                                                <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtCalExtraEMA_1' value =".$registro62["calExtra1"]."></td>
+                                                <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtFechaCalExtraEMA_1' value =".$registro62["fechaCalExtra1"]."></td>
+                                                <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtCalExtraEMA_2' value =".$registro62["calExtra2"]."></td>
+                                                <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtFechaCalExtraEMA_2' value =".$registro62["fechaCalExtra2"]."></td>
+                                                <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtCalExtraEMA_3' value =".$registro62["calExtra3"]."></td>
+                                                <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtFechaCalExtraEMA_3' value =".$registro62["fechaCalExtra3"]."></td>
+                                                <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtCalExtraEMA_4' value =".$registro62["calExtra4"]."></td>
+                                                <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtFechaCalExtraEMA_4' value =".$registro62["fechaCalExtra4"]."></td>
                                                 <td></t
                                                 <td><a href='actualizar-alumno.php?MatriculaUpdate=".$registro62["matricula"]."' class='btn btn-success btn-raised btn-xs'><i class='zmdi zmdi-refresh'></i></a></td>
                                                 <td><a href='funciones/eliminar-madre.php?MatriculaDelete=".$registro62["matricula"]."'><button class='btn btn-danger btn-raised btn-xs' type='button' onclick='return confirmarEliminar()'><i class='zmdi zmdi-delete'></i></button></a></td>
@@ -4201,26 +4200,26 @@
                                                     echo "
                                                     <tr>
                                                     <td>Historia Universal Contemporánea</td>
-                                                    <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro63["falta1ro"]."></td>
-                                                    <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro63["falta2do"]."></td>
-                                                    <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro63["falta3ero"]."></td>
-                                                    <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =3></td>
+                                                    <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtFaltaHUC_1' value =".$registro63["falta1ro"]."></td>
+                                                    <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtFaltaHUC_2' value =".$registro63["falta2do"]."></td>
+                                                    <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtFaltaHUC_3' value =".$registro63["falta3ero"]."></td>
+                                                    
                                                     <td></td>
                                                     <td></td>
-                                                    <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro63["calParcial1ro"]."></td>
-                                                    <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro63["calParcial2do"]."></td>
-                                                    <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro63["calParcial3ero"]."></td>
+                                                    <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtCalHUC_1' value =".$registro63["calParcial1ro"]."></td>
+                                                    <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtCalHUC_2' value =".$registro63["calParcial2do"]."></td>
+                                                    <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtCalHUC_3' value =".$registro63["calParcial3ero"]."></td>
                                                     <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro63["calFinal"]."></td>
                                                     <td></td>
                                                     <td></td>
-                                                    <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro63["calExtra1"]."></td>
-                                                    <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro63["fechaCalExtra1"]."></td>
-                                                    <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro63["calExtra2"]."></td>
-                                                    <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro63["fechaCalExtra2"]."></td>
-                                                    <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro63["calExtra3"]."></td>
-                                                    <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro63["fechaCalExtra3"]."></td>
-                                                    <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro63["calExtra4"]."></td>
-                                                    <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro63["fechaCalExtra4"]."></td>
+                                                    <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtCalExtraHUC_1' value =".$registro63["calExtra1"]."></td>
+                                                    <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtFechaCalExtraHUC_1' value =".$registro63["fechaCalExtra1"]."></td>
+                                                    <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtCalExtraHUC_2' value =".$registro63["calExtra2"]."></td>
+                                                    <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtFechaCalExtraHUC_2' value =".$registro63["fechaCalExtra2"]."></td>
+                                                    <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtCalExtraHUC_3' value =".$registro63["calExtra3"]."></td>
+                                                    <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtFechaCalExtraHUC_3' value =".$registro63["fechaCalExtra3"]."></td>
+                                                    <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtCalExtraHUC_4' value =".$registro63["calExtra4"]."></td>
+                                                    <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtFechaCalExtraHUC_4' value =".$registro63["fechaCalExtra4"]."></td>
                                                     <td></td>
                                                     <td><a href='actualizar-alumno.php?MatriculaUpdate=".$registro63["matricula"]."' class='btn btn-success btn-raised btn-xs'><i class='zmdi zmdi-refresh'></i></a></td>
                                                     <td><a href='funciones/eliminar-madre.php?MatriculaDelete=".$registro63["matricula"]."'><button class='btn btn-danger btn-raised btn-xs' type='button' onclick='return confirmarEliminar()'><i class='zmdi zmdi-delete'></i></button></a></td>
@@ -4231,26 +4230,26 @@
                                                     echo "
                                                     <tr>
                                                     <td>Economía II</td>
-                                                    <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro64["falta1ro"]."></td>
-                                                    <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro64["falta2do"]."></td>
-                                                    <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro64["falta3ero"]."></td>
-                                                    <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =3></td>
+                                                    <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtFaltaEconomiaII_1' value =".$registro64["falta1ro"]."></td>
+                                                    <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtFaltaEconomiaII_2' value =".$registro64["falta2do"]."></td>
+                                                    <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtFaltaEconomiaII_3' value =".$registro64["falta3ero"]."></td>
+                                                    
                                                     <td></td>
                                                     <td></td>
-                                                    <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro64["calParcial1ro"]."></td>
-                                                    <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro64["calParcial2do"]."></td>
-                                                    <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro64["calParcial3ero"]."></td>
+                                                    <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtCalEconomiaII_1' value =".$registro64["calParcial1ro"]."></td>
+                                                    <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtCalEconomiaII_2' value =".$registro64["calParcial2do"]."></td>
+                                                    <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtCalEconomiaII_3' value =".$registro64["calParcial3ero"]."></td>
                                                     <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro64["calFinal"]."></td>
                                                     <td></td>
                                                     <td></td>
-                                                    <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro64["calExtra1"]."></td>
-                                                    <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro64["fechaCalExtra1"]."></td>
-                                                    <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro64["calExtra2"]."></td>
-                                                    <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro64["fechaCalExtra2"]."></td>
-                                                    <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro64["calExtra3"]."></td>
-                                                    <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro64["fechaCalExtra3"]."></td>
-                                                    <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro64["calExtra4"]."></td>
-                                                    <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro64["fechaCalExtra4"]."></td>
+                                                    <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtCalExtraEconomiaII_1' value =".$registro64["calExtra1"]."></td>
+                                                    <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtFechaCalExtraEconomiaII_1' value =".$registro64["fechaCalExtra1"]."></td>
+                                                    <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtCalExtraEconomiaII_2' value =".$registro64["calExtra2"]."></td>
+                                                    <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtFechaCalExtraEconomiaII_2' value =".$registro64["fechaCalExtra2"]."></td>
+                                                    <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtCalExtraEconomiaII_3' value =".$registro64["calExtra3"]."></td>
+                                                    <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtFechaCalExtraEconomiaII_3' value =".$registro64["fechaCalExtra3"]."></td>
+                                                    <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtCalExtraEconomiaII_4' value =".$registro64["calExtra4"]."></td>
+                                                    <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtFechaCalExtraEconomiaII_4' value =".$registro64["fechaCalExtra4"]."></td>
                                                     <td></td>
                                                     <td><a href='actualizar-alumno.php?MatriculaUpdate=".$registro64["matricula"]."' class='btn btn-success btn-raised btn-xs'><i class='zmdi zmdi-refresh'></i></a></td>
                                                     <td><a href='funciones/eliminar-madre.php?MatriculaDelete=".$registro64["matricula"]."'><button class='btn btn-danger btn-raised btn-xs' type='button' onclick='return confirmarEliminar()'><i class='zmdi zmdi-delete'></i></button></a></td>
@@ -4261,26 +4260,26 @@
                                                         echo "
                                                         <tr>
                                                         <td>Psicología II</td>
-                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro65["falta1ro"]."></td>
-                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro65["falta2do"]."></td>
-                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro65["falta3ero"]."></td>
-                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =3></td>
+                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtFaltaPsicologiaII_1' value =".$registro65["falta1ro"]."></td>
+                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtFaltaPsicologiaII_2' value =".$registro65["falta2do"]."></td>
+                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtFaltaPsicologiaII_3' value =".$registro65["falta3ero"]."></td>
+                                                        
                                                         <td></td>
                                                         <td></td>
-                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro65["calParcial1ro"]."></td>
-                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro65["calParcial2do"]."></td>
-                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro65["calParcial3ero"]."></td>
+                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtCalPsicologiaII_1' value =".$registro65["calParcial1ro"]."></td>
+                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtCalPsicologiaII_2' value =".$registro65["calParcial2do"]."></td>
+                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtCalPsicologiaII_3' value =".$registro65["calParcial3ero"]."></td>
                                                         <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro65["calFinal"]."></td>
                                                         <td></td>
                                                         <td></td>
-                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro65["calExtra1"]."></td>
-                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro65["fechaCalExtra1"]."></td>
-                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro65["calExtra2"]."></td>
-                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro65["fechaCalExtra2"]."></td>
-                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro65["calExtra3"]."></td>
-                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro65["fechaCalExtra3"]."></td>
-                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro65["calExtra4"]."></td>
-                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro65["fechaCalExtra4"]."></td>
+                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtCalExtraPsicologiaII_1' value =".$registro65["calExtra1"]."></td>
+                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtFechaCalExtraPsicologiaII_1' value =".$registro65["fechaCalExtra1"]."></td>
+                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtCalExtraPsicologiaII_2' value =".$registro65["calExtra2"]."></td>
+                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtFechaCalExtraPsicologiaII_2' value =".$registro65["fechaCalExtra2"]."></td>
+                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtCalExtraPsicologiaII_3' value =".$registro65["calExtra3"]."></td>
+                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtFechaCalExtraPsicologiaII_3' value =".$registro65["fechaCalExtra3"]."></td>
+                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtCalExtraPsicologiaII_4' value =".$registro65["calExtra4"]."></td>
+                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtFechaCalExtraPsicologiaII_4' value =".$registro65["fechaCalExtra4"]."></td>
                                                         <td></td>
                                                         <td><a href='actualizar-alumno.php?MatriculaUpdate=".$registro65["matricula"]."' class='btn btn-success btn-raised btn-xs'><i class='zmdi zmdi-refresh'></i></a></td>
                                                         <td><a href='funciones/eliminar-madre.php?MatriculaDelete=".$registro65["matricula"]."'><button class='btn btn-danger btn-raised btn-xs' type='button' onclick='return confirmarEliminar()'><i class='zmdi zmdi-delete'></i></button></a></td>
@@ -4291,26 +4290,26 @@
                                                         echo "
                                                         <tr>
                                                         <td>Derecho II</td>
-                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro6["falta1ro"]."></td>
-                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro66["falta2do"]."></td>
-                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro66["falta3ero"]."></td>
-                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =3></td>
+                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtFaltaDerechoII_1' value =".$registro6["falta1ro"]."></td>
+                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtFaltaDerechoII_2' value =".$registro66["falta2do"]."></td>
+                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtFaltaDerechoII_3' value =".$registro66["falta3ero"]."></td>
+                                                        
                                                         <td></td>
                                                         <td></td>
-                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro66["calParcial1ro"]."></td>
-                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro66["calParcial2do"]."></td>
-                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro66["calParcial3ero"]."></td>
+                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtCalDerechoII_1' value =".$registro66["calParcial1ro"]."></td>
+                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtCalDerechoII_2' value =".$registro66["calParcial2do"]."></td>
+                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtCalDerechoII_3' value =".$registro66["calParcial3ero"]."></td>
                                                         <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro66["calFinal"]."></td>
                                                         <td></td>
                                                         <td></td>
-                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro66["calExtra1"]."></td>
-                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro66["fechaCalExtra1"]."></td>
-                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro66["calExtra2"]."></td>
-                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro66["fechaCalExtra2"]."></td>
-                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro66["calExtra3"]."></td>
-                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro66["fechaCalExtra3"]."></td>
-                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro66["calExtra4"]."></td>
-                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro66["fechaCalExtra4"]."></td>
+                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtCalExtraDerechoII_1' value =".$registro66["calExtra1"]."></td>
+                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtFechaCalExtraDerechoII_1' value =".$registro66["fechaCalExtra1"]."></td>
+                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtCalExtraDerechoII_2' value =".$registro66["calExtra2"]."></td>
+                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtFechaCalExtraDerechoII_2' value =".$registro66["fechaCalExtra2"]."></td>
+                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtCalExtraDerechoII_3' value =".$registro66["calExtra3"]."></td>
+                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtFechaCalExtraDerechoII_3' value =".$registro66["fechaCalExtra3"]."></td>
+                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtCalExtraDerechoII_4' value =".$registro66["calExtra4"]."></td>
+                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtFechaCalExtraDerechoII_4' value =".$registro66["fechaCalExtra4"]."></td>
                                                         <td></td>
                                                         <td><a href='actualizar-alumno.php?MatriculaUpdate=".$registro66["matricula"]."' class='btn btn-success btn-raised btn-xs'><i class='zmdi zmdi-refresh'></i></a></td>
                                                         <td><a href='funciones/eliminar-madre.php?MatriculaDelete=".$registro66["matricula"]."'><button class='btn btn-danger btn-raised btn-xs' type='button' onclick='return confirmarEliminar()'><i class='zmdi zmdi-delete'></i></button></a></td>
@@ -4321,26 +4320,26 @@
                                                         echo "
                                                         <tr>
                                                         <td>Inglés VI</td>
-                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro67["falta1ro"]."></td>
-                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro67["falta2do"]."></td>
-                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro67["falta3ero"]."></td>
-                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =3></td>
+                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtFaltaInglesVI_1' value =".$registro67["falta1ro"]."></td>
+                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtFaltaInglesVI_2' value =".$registro67["falta2do"]."></td>
+                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtFaltaInglesVI_3' value =".$registro67["falta3ero"]."></td>
+                                                        
                                                         <td></td>
                                                         <td></td>
-                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro67["calParcial1ro"]."></td>
-                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro67["calParcial2do"]."></td>
-                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro67["calParcial3ero"]."></td>
+                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtCalInglesVI_1' value =".$registro67["calParcial1ro"]."></td>
+                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtCalInglesVI_2' value =".$registro67["calParcial2do"]."></td>
+                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtCalInglesVI_3' value =".$registro67["calParcial3ero"]."></td>
                                                         <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro67["calFinal"]."></td>
                                                         <td></td>
                                                         <td></td>
-                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro67["calExtra1"]."></td>
-                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro67["fechaCalExtra1"]."></td>
-                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro67["calExtra2"]."></td>
-                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro67["fechaCalExtra2"]."></td>
-                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro67["calExtra3"]."></td>
-                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro67["fechaCalExtra3"]."></td>
-                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro67["calExtra4"]."></td>
-                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro67["fechaCalExtra4"]."></td>
+                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtCalExtraInglesVI_1' value =".$registro67["calExtra1"]."></td>
+                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtFechaCalExtraInglesVI_1' value =".$registro67["fechaCalExtra1"]."></td>
+                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtCalExtraInglesVI_2' value =".$registro67["calExtra2"]."></td>
+                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtFechaCalExtraInglesVI_2' value =".$registro67["fechaCalExtra2"]."></td>
+                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtCalExtraInglesVI_3' value =".$registro67["calExtra3"]."></td>
+                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtFechaCalExtraInglesVI_3' value =".$registro67["fechaCalExtra3"]."></td>
+                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtCalExtraInglesVI_4' value =".$registro67["calExtra4"]."></td>
+                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtFechaCalExtraInglesVI_4' value =".$registro67["fechaCalExtra4"]."></td>
                                                         <td></td>
                                                         <td><a href='actualizar-alumno.php?MatriculaUpdate=".$registro67["matricula"]."' class='btn btn-success btn-raised btn-xs'><i class='zmdi zmdi-refresh'></i></a></td>
                                                         <td><a href='funciones/eliminar-madre.php?MatriculaDelete=".$registro67["matricula"]."'><button class='btn btn-danger btn-raised btn-xs' type='button' onclick='return confirmarEliminar()'><i class='zmdi zmdi-delete'></i></button></a></td>
@@ -4351,26 +4350,26 @@
                                                         echo "
                                                         <tr>
                                                         <td>Filosofía</td>
-                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro68["falta1ro"]."></td>
-                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro68["falta2do"]."></td>
-                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro68["falta3ero"]."></td>
-                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =3></td>
+                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtFaltaFilosofia_1' value =".$registro68["falta1ro"]."></td>
+                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtFaltaFilosofia_2' value =".$registro68["falta2do"]."></td>
+                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtFaltaFilosofia_3' value =".$registro68["falta3ero"]."></td>
+                                                        
                                                         <td></td>
                                                         <td></td>
-                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro68["calParcial1ro"]."></td>
-                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro68["calParcial2do"]."></td>
-                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro68["calParcial3ero"]."></td>
+                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtCalFilosofia_1' value =".$registro68["calParcial1ro"]."></td>
+                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtCalFilosofia_2' value =".$registro68["calParcial2do"]."></td>
+                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtCalFilosofia_3' value =".$registro68["calParcial3ero"]."></td>
                                                         <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro68["calFinal"]."></td>
                                                         <td></td>
                                                         <td></td>
-                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro68["calExtra1"]."></td>
-                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro68["fechaCalExtra1"]."></td>
-                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro68["calExtra2"]."></td>
-                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro68["fechaCalExtra2"]."></td>
-                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro68["calExtra3"]."></td>
-                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro68["fechaCalExtra3"]."></td>
-                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro68["calExtra4"]."></td>
-                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro68["fechaCalExtra4"]."></td>
+                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtCalExtraFilosofia_1' value =".$registro68["calExtra1"]."></td>
+                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtFechaCalExtraFilosofia_1' value =".$registro68["fechaCalExtra1"]."></td>
+                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtCalExtraFilosofia_2' value =".$registro68["calExtra2"]."></td>
+                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtFechaCalExtraFilosofia_2' value =".$registro68["fechaCalExtra2"]."></td>
+                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtCalExtraFilosofia_3' value =".$registro68["calExtra3"]."></td>
+                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtFechaCalExtraFilosofia_3' value =".$registro68["fechaCalExtra3"]."></td>
+                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtCalExtraFilosofia_4' value =".$registro68["calExtra4"]."></td>
+                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtFechaCalExtraFilosofia_4' value =".$registro68["fechaCalExtra4"]."></td>
                                                         <td></td>
                                                         <td><a href='actualizar-alumno.php?MatriculaUpdate=".$registro68["matricula"]."' class='btn btn-success btn-raised btn-xs'><i class='zmdi zmdi-refresh'></i></a></td>
                                                         <td><a href='funciones/eliminar-madre.php?MatriculaDelete=".$registro68["matricula"]."'><button class='btn btn-danger btn-raised btn-xs' type='button' onclick='return confirmarEliminar()'><i class='zmdi zmdi-delete'></i></button></a></td>
@@ -4381,26 +4380,26 @@
                                                         echo "
                                                         <tr>
                                                         <td>Diseño Digital</td>
-                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro69["falta1ro"]."></td>
-                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro69["falta2do"]."></td>
-                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro69["falta3ero"]."></td>
-                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =3></td>
+                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtFaltaDD_1' value =".$registro69["falta1ro"]."></td>
+                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtFaltaDD_2' value =".$registro69["falta2do"]."></td>
+                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtFaltaDD_3' value =".$registro69["falta3ero"]."></td>
+                                                        
                                                         <td></td>
                                                         <td></td>
-                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro69["calParcial1ro"]."></td>
-                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro69["calParcial2do"]."></td>
-                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro69["calParcial3ero"]."></td>
+                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtCalDD_1' value =".$registro69["calParcial1ro"]."></td>
+                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtCalDD_2' value =".$registro69["calParcial2do"]."></td>
+                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtCalDD_3' value =".$registro69["calParcial3ero"]."></td>
                                                         <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro69["calFinal"]."></td>
                                                         <td></td>
                                                         <td></td>
-                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro69["calExtra1"]."></td>
-                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro69["fechaCalExtra1"]."></td>
-                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro69["calExtra2"]."></td>
-                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro69["fechaCalExtra2"]."></td>
-                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro69["calExtra3"]."></td>
-                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro69["fechaCalExtra3"]."></td>
-                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro69["calExtra4"]."></td>
-                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro69["fechaCalExtra4"]."></td>
+                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtCalExtraDD_1' value =".$registro69["calExtra1"]."></td>
+                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtFechaCalExtraDD_1' value =".$registro69["fechaCalExtra1"]."></td>
+                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtCalExtraDD_2' value =".$registro69["calExtra2"]."></td>
+                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtFechaCalExtraDD_2' value =".$registro69["fechaCalExtra2"]."></td>
+                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtCalExtraDD_3' value =".$registro69["calExtra3"]."></td>
+                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtFechaCalExtraDD_3' value =".$registro69["fechaCalExtra3"]."></td>
+                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtCalExtraDD_4' value =".$registro69["calExtra4"]."></td>
+                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtFechaCalExtraDD_4' value =".$registro69["fechaCalExtra4"]."></td>
                                                         <td></td>
                                                         <td><a href='actualizar-alumno.php?MatriculaUpdate=".$registro69["matricula"]."' class='btn btn-success btn-raised btn-xs'><i class='zmdi zmdi-refresh'></i></a></td>
                                                         <td><a href='funciones/eliminar-madre.php?MatriculaDelete=".$registro69["matricula"]."'><button class='btn btn-danger btn-raised btn-xs' type='button' onclick='return confirmarEliminar()'><i class='zmdi zmdi-delete'></i></button></a></td>
@@ -4411,26 +4410,26 @@
                                                         echo "
                                                         <tr>
                                                         <td>Actividades Artistico Culturales IV</td>
-                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro610["falta1ro"]."></td>
-                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro610["falta2do"]."></td>
-                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro610["falta3ero"]."></td>
-                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =3></td>
+                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtFaltaAACIV_1' value =".$registro610["falta1ro"]."></td>
+                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtFaltaAACIV_2' value =".$registro610["falta2do"]."></td>
+                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtFaltaAACIV_3' value =".$registro610["falta3ero"]."></td>
+                                                        
                                                         <td></td>
                                                         <td></td>
-                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro610["calParcial1ro"]."></td>
-                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro610["calParcial2do"]."></td>
-                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro610["calParcial3ero"]."></td>
+                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtCalAACIV_1' value =".$registro610["calParcial1ro"]."></td>
+                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtCalAACIV_2' value =".$registro610["calParcial2do"]."></td>
+                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtCalAACIV_3' value =".$registro610["calParcial3ero"]."></td>
                                                         <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro610["calFinal"]."></td>
                                                         <td></td>
                                                         <td></td>
-                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro610["calExtra1"]."></td>
-                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro610["fechaCalExtra1"]."></td>
-                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro610["calExtra2"]."></td>
-                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro610["fechaCalExtra2"]."></td>
-                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro610["calExtra3"]."></td>
-                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro610["fechaCalExtra3"]."></td>
-                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro610["calExtra4"]."></td>
-                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro610["fechaCalExtra4"]."></td>
+                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtCalExtraAACIV_1' value =".$registro610["calExtra1"]."></td>
+                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtFechaCalExtraAACIV_1' value =".$registro610["fechaCalExtra1"]."></td>
+                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtCalExtraAACIV_2' value =".$registro610["calExtra2"]."></td>
+                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtFechaCalExtraAACIV_2' value =".$registro610["fechaCalExtra2"]."></td>
+                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtCalExtraAACIV_3' value =".$registro610["calExtra3"]."></td>
+                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtFechaCalExtraAACIV_3' value =".$registro610["fechaCalExtra3"]."></td>
+                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtCalExtraAACIV_4' value =".$registro610["calExtra4"]."></td>
+                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtFechaCalExtraAACIV_4' value =".$registro610["fechaCalExtra4"]."></td>
                                                         <td></td>
                                                         <td><a href='actualizar-alumno.php?MatriculaUpdate=".$registro610["matricula"]."' class='btn btn-success btn-raised btn-xs'><i class='zmdi zmdi-refresh'></i></a></td>
                                                         <td><a href='funciones/eliminar-madre.php?MatriculaDelete=".$registro610["matricula"]."'><button class='btn btn-danger btn-raised btn-xs' type='button' onclick='return confirmarEliminar()'><i class='zmdi zmdi-delete'></i></button></a></td>
@@ -4471,26 +4470,26 @@
                                                         echo "
                                                         <tr>
                                                         <td>Salud Integral del Adolecente VI</td>
-                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro612["falta1ro"]."></td>
-                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro612["falta2do"]."></td>
-                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro612["falta3ero"]."></td>
-                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =3></td>
+                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtFaltaSIAVI_1' value =".$registro612["falta1ro"]."></td>
+                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtFaltaSIAVI_2' value =".$registro612["falta2do"]."></td>
+                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtFaltaSIAVI_3' value =".$registro612["falta3ero"]."></td>
+                                                        
                                                         <td></td>
                                                         <td></td>
-                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro612["calParcial1ro"]."></td>
-                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro612["calParcial2do"]."></td>
-                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro612["calParcial3ero"]."></td>
+                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtCalSIAVI_1' value =".$registro612["calParcial1ro"]."></td>
+                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtCalSIAVI_2' value =".$registro612["calParcial2do"]."></td>
+                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtCalSIAVI_3' value =".$registro612["calParcial3ero"]."></td>
                                                         <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro612["calFinal"]."></td>
                                                         <td></td>
                                                         <td></td>
-                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro612["calExtra1"]."></td>
-                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro612["fechaCalExtra1"]."></td>
-                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro612["calExtra2"]."></td>
-                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro612["fechaCalExtra2"]."></td>
-                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro612["calExtra3"]."></td>
-                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro612["fechaCalExtra3"]."></td>
-                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro5612["calExtra4"]."></td>
-                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='' maxlength='2' value =".$registro612["fechaCalExtra4"]."></td>
+                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtCalExtraSIAVI_1' value =".$registro612["calExtra1"]."></td>
+                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtFechaCalExtraSIAVI_1' value =".$registro612["fechaCalExtra1"]."></td>
+                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtCalExtraSIAVI_2' value =".$registro612["calExtra2"]."></td>
+                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtFechaCalExtraSIAVI_2' value =".$registro612["fechaCalExtra2"]."></td>
+                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtCalExtraSIAVI_3' value =".$registro612["calExtra3"]."></td>
+                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtFechaCalExtraSIAVI_3' value =".$registro612["fechaCalExtra3"]."></td>
+                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtCalExtraSIAVI_4' value =".$registro5612["calExtra4"]."></td>
+                                                        <td> <input class='form-control' style='color: rgb(0, 0, 0); font-size: 100%;'type='text' name='txtFechaCalExtraSIAVI_4' value =".$registro612["fechaCalExtra4"]."></td>
                                                         <td></td>
                                                         <td><a href='actualizar-alumno.php?MatriculaUpdate=".$registro612["matricula"]."' class='btn btn-success btn-raised btn-xs'><i class='zmdi zmdi-refresh'></i></a></td>
                                                         <td><a href='funciones/eliminar-madre.php?MatriculaDelete=".$registro612["matricula"]."'><button class='btn btn-danger btn-raised btn-xs' type='button' onclick='return confirmarEliminar()'><i class='zmdi zmdi-delete'></i></button></a></td>
